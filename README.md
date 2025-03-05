@@ -5,7 +5,7 @@ concentrations of antibiotics in terms of selection for resistance
 (PNECR). The latter are meant to be used for the purpose of
 environmental regulation.
 
-Consider the [web interface](https::/enviresist.github.io/pnecr) to explore
+Consider the [web interface](https://enviresist.github.io/pnecr) to explore
 the outcomes. For the standard user, this is way more convenient
 compared to cloning the repository and re-analyzing the data locally.
 
