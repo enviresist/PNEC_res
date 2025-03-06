@@ -1,0 +1,3593 @@
+drug	organism	mg_per_L	comment
+Amikacin	Acinetobacter baumannii	8	NA
+Amikacin	Acinetobacter pittii	NA	insufficient data
+Amikacin	Aeromonas caviae	NA	unspecified
+Amikacin	Aeromonas hydrophila	NA	unspecified
+Amikacin	Aeromonas veronii	NA	unspecified
+Amikacin	Alcaligenes faecalis	NA	insufficient data
+Amikacin	Chryseobacterium spp	NA	insufficient data
+Amikacin	Citrobacter amalonaticus	NA	insufficient data
+Amikacin	Citrobacter braakii	NA	insufficient data
+Amikacin	Citrobacter freundii	8	NA
+Amikacin	Citrobacter koseri	4	tentative
+Amikacin	Enterobacter amnigenus	NA	insufficient data
+Amikacin	Enterobacter asburiae	NA	insufficient data
+Amikacin	Enterobacter cloacae	8	NA
+Amikacin	Enterobacter sakazakii	NA	insufficient data
+Amikacin	Enterococcus faecalis	NA	insufficient data
+Amikacin	Enterococcus faecium	NA	insufficient data
+Amikacin	Escherichia coli	8	NA
+Amikacin	Escherichia coli ATCC 25922	8	tentative
+Amikacin	Escherichia coli NCTC 13846	8	tentative
+Amikacin	Haemophilus influenzae	NA	insufficient data
+Amikacin	Klebsiella aerogenes	8	NA
+Amikacin	Klebsiella oxytoca	8	NA
+Amikacin	Klebsiella ozaenae	NA	insufficient data
+Amikacin	Klebsiella pneumoniae	8	NA
+Amikacin	Lactobacillus reuteri	NA	insufficient data
+Amikacin	Morganella morganii	8	tentative
+Amikacin	Mycobacterium abscessus	64	NA
+Amikacin	Mycobacterium avium	64	NA
+Amikacin	Mycobacterium avium ATCC 700898	NA	unspecified
+Amikacin	Mycobacterium intracellulare	64	NA
+Amikacin	Mycobacterium tuberculosis	4	tentative
+Amikacin	Mycobacterium tuberculosis 7H9	4	tentative
+Amikacin	Nocardia abscessus	NA	insufficient data
+Amikacin	Nocardia cyriacigeorgica	NA	insufficient data
+Amikacin	Plesiomonas shigelloides	NA	insufficient data
+Amikacin	Proteus mirabilis	16	NA
+Amikacin	Proteus vulgaris	8	NA
+Amikacin	Pseudomonas aeruginosa	16	NA
+Amikacin	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Amikacin	Pseudomonas putida group	NA	insufficient data
+Amikacin	Pseudomonas stutzeri group	NA	insufficient data
+Amikacin	Salmonella enterica	4	tentative
+Amikacin	Serratia marcescens	8	NA
+Amikacin	Staphylococcus aureus	16	NA
+Amikacin	Staphylococcus capitis	NA	insufficient data
+Amikacin	Staphylococcus epidermidis	NA	insufficient data
+Amikacin	Staphylococcus haemolyticus	NA	insufficient data
+Amikacin	Staphylococcus hominis	NA	insufficient data
+Amikacin	Staphylococcus warneri	NA	insufficient data
+Amikacin	Yersinia enterocolitica	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Actinobacillus pleuropneumoniae	1	tentative
+Amoxicillin-Clavulanic acid (fixed)	Bacteroides fragilis group	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Burkholderia pseudomallei	8	NA
+Amoxicillin-Clavulanic acid (fixed)	Enterococcus faecalis	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Escherichia coli	8	tentative
+Amoxicillin-Clavulanic acid (fixed)	Escherichia coli ATCC 25922	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Haemophilus influenzae	2	tentative
+Amoxicillin-Clavulanic acid (fixed)	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Haemophilus influenzae ATCC 49766	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Klebsiella pneumoniae	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Mannheimia haemolytica	0.5	tentative
+Amoxicillin-Clavulanic acid (fixed)	Pasteurella multocida	0.5	NA
+Amoxicillin-Clavulanic acid (fixed)	Proteus mirabilis	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Proteus vulgaris	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Staphylococcus aureus	0.5	NA
+Amoxicillin-Clavulanic acid (fixed)	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Amoxicillin-Clavulanic acid (fixed)	Staphylococcus pseudintermedius	0.03	NA
+Amoxicillin-Clavulanic acid (fixed)	Streptococcus equi subspecies equi	0.06	NA
+Amoxicillin-Clavulanic acid (fixed)	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Amoxicillin	Actinobacillus pleuropneumoniae	1	NA
+Amoxicillin	Actinomyces israelii	NA	insufficient data
+Amoxicillin	Bacillus anthracis	0.125	NA
+Amoxicillin	Bacteroides fragilis	NA	insufficient data
+Amoxicillin	Bacteroides fragilis group	NA	insufficient data
+Amoxicillin	Bacteroides thetaiotaomicron	NA	insufficient data
+Amoxicillin	Bordetella bronchiseptica	NA	insufficient data
+Amoxicillin	Campylobacter coli	16	NA
+Amoxicillin	Campylobacter jejuni	16	NA
+Amoxicillin	Clostridioides difficile	NA	insufficient data
+Amoxicillin	Clostridium perfringens	NA	insufficient data
+Amoxicillin	Corynebacterium diphtheriae	NA	insufficient data
+Amoxicillin	Corynebacterium ulcerans	NA	insufficient data
+Amoxicillin	Cutibacterium acnes	NA	insufficient data
+Amoxicillin	Enterobacter agglomerans	NA	insufficient data
+Amoxicillin	Enterobacter cloacae	NA	insufficient data
+Amoxicillin	Enterobacter dissolvens	NA	insufficient data
+Amoxicillin	Enterococcus faecium	NA	insufficient data
+Amoxicillin	Escherichia coli	8	NA
+Amoxicillin	Escherichia coli ATCC 25922	NA	insufficient data
+Amoxicillin	Haemophilus influenzae	2	NA
+Amoxicillin	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Amoxicillin	Haemophilus influenzae ATCC 49766	NA	insufficient data
+Amoxicillin	Haemophilus parainfluenzae	NA	insufficient data
+Amoxicillin	Haemophilus parasuis	NA	insufficient data
+Amoxicillin	Helicobacter pylori	NA	insufficient data
+Amoxicillin	Kingella kingae	NA	insufficient data
+Amoxicillin	Legionella pneumophila	NA	insufficient data
+Amoxicillin	Mannheimia haemolytica	0.5	NA
+Amoxicillin	Moraxella catarrhalis	0.03	tentative
+Amoxicillin	Neisseria meningitidis	NA	insufficient data
+Amoxicillin	Pasteurella multocida	0.5	NA
+Amoxicillin	Proteus mirabilis	2	tentative
+Amoxicillin	Salmonella enterica	4	NA
+Amoxicillin	Staphylococcus aureus	0.5	NA
+Amoxicillin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Amoxicillin	Staphylococcus hyicus	0.5	tentative
+Amoxicillin	Staphylococcus pseudintermedius	NA	insufficient data
+Amoxicillin	Streptococcus agalactiae	0.125	NA
+Amoxicillin	Streptococcus anginosus	NA	insufficient data
+Amoxicillin	Streptococcus anginosus group	NA	unspecified
+Amoxicillin	Streptococcus bovis	NA	insufficient data
+Amoxicillin	Streptococcus bovis equinus group	NA	unspecified
+Amoxicillin	Streptococcus constellatus	NA	unspecified
+Amoxicillin	Streptococcus equi subspecies equi	NA	unspecified
+Amoxicillin	Streptococcus group G	0.03	tentative
+Amoxicillin	Streptococcus intermedius	NA	insufficient data
+Amoxicillin	Streptococcus mitis	NA	unspecified
+Amoxicillin	Streptococcus mitis group	NA	unspecified
+Amoxicillin	Streptococcus oralis	0.125	NA
+Amoxicillin	Streptococcus pneumoniae	0.06	NA
+Amoxicillin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Amoxicillin	Streptococcus pyogenes	0.06	tentative
+Amoxicillin	Streptococcus salivarius group	NA	unspecified
+Amoxicillin	Streptococcus sanguinis	NA	insufficient data
+Amoxicillin	Streptococcus sanguinis group	NA	unspecified
+Amoxicillin	Yersinia enterocolitica	NA	insufficient data
+Ampicillin-Sulbactam (fixed)	Escherichia coli	NA	insufficient data
+Ampicillin-Sulbactam (fixed)	Haemophilus influenzae	NA	insufficient data
+Ampicillin-Sulbactam (fixed)	Klebsiella pneumoniae	NA	insufficient data
+Ampicillin-Sulbactam (fixed)	Proteus mirabilis	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Citrobacter freundii	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Citrobacter koseri	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Enterobacter cloacae	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Enterococcus faecalis	4	tentative
+Ampicillin-Sulbactam (ratio)	Enterococcus faecium	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Escherichia coli	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Haemophilus influenzae	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Klebsiella aerogenes	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Klebsiella oxytoca	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Klebsiella pneumoniae	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Morganella morganii	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Proteus mirabilis	4	tentative
+Ampicillin-Sulbactam (ratio)	Proteus vulgaris	16	NA
+Ampicillin-Sulbactam (ratio)	Providencia rettgeri	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Providencia stuartii	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Enteritidis	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Group B	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Group C	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Group D	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Paratyphi	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Typhi	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Salmonella Typhimurium	NA	unspecified
+Ampicillin-Sulbactam (ratio)	Serratia liquefaciens	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Serratia marcescens	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Shigella flexneri	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Shigella sonnei	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Stenotrophomonas maltophilia	NA	insufficient data
+Ampicillin-Sulbactam (ratio)	Yersinia enterocolitica	NA	insufficient data
+Ampicillin	Acinetobacter baumannii	NA	insufficient data
+Ampicillin	Actinobacillus pleuropneumoniae	0.5	NA
+Ampicillin	Aerococcus sanguinicola	NA	insufficient data
+Ampicillin	Aerococcus urinae	NA	insufficient data
+Ampicillin	Bacteroides fragilis	NA	insufficient data
+Ampicillin	Bacteroides fragilis group	NA	insufficient data
+Ampicillin	Bacteroides ovatus	NA	insufficient data
+Ampicillin	Bacteroides thetaiotaomicron	NA	unspecified
+Ampicillin	Bacteroides vulgatus	NA	insufficient data
+Ampicillin	Bifidobacterium adolescentis	NA	insufficient data
+Ampicillin	Bifidobacterium animalis	NA	insufficient data
+Ampicillin	Bifidobacterium longum	NA	insufficient data
+Ampicillin	Bordetella bronchiseptica	NA	insufficient data
+Ampicillin	Campylobacter coli	16	NA
+Ampicillin	Campylobacter jejuni	16	NA
+Ampicillin	Corynebacterium striatum	NA	insufficient data
+Ampicillin	Enterobacter agglomerans	NA	insufficient data
+Ampicillin	Enterobacter cloacae	NA	insufficient data
+Ampicillin	Enterobacter dissolvens	NA	insufficient data
+Ampicillin	Enterococcus avium	NA	insufficient data
+Ampicillin	Enterococcus casseliflavus	NA	insufficient data
+Ampicillin	Enterococcus cecorum	NA	insufficient data
+Ampicillin	Enterococcus faecalis	4	NA
+Ampicillin	Enterococcus faecalis ATCC 29212	4	tentative
+Ampicillin	Enterococcus faecium	8	NA
+Ampicillin	Escherichia coli	8	NA
+Ampicillin	Escherichia coli ATCC 25922	8	tentative
+Ampicillin	Haemophilus influenzae	1	NA
+Ampicillin	Haemophilus influenzae ATCC 49247	1	tentative
+Ampicillin	Haemophilus parainfluenzae	NA	insufficient data
+Ampicillin	Hafnia alvei	NA	insufficient data
+Ampicillin	Kingella kingae	NA	insufficient data
+Ampicillin	Klebsiella aerogenes	NA	insufficient data
+Ampicillin	Klebsiella oxytoca	NA	insufficient data
+Ampicillin	Klebsiella pneumoniae	NA	insufficient data
+Ampicillin	Lactobacillus amylovorus	NA	insufficient data
+Ampicillin	Lactobacillus delbrueckii	NA	unspecified
+Ampicillin	Lactobacillus gasseri	NA	insufficient data
+Ampicillin	Lactobacillus johnsonii	NA	insufficient data
+Ampicillin	Lactobacillus paracasei	NA	insufficient data
+Ampicillin	Lactobacillus plantarum	NA	insufficient data
+Ampicillin	Lactobacillus reuteri	NA	insufficient data
+Ampicillin	Lactobacillus rhamnosus	4	tentative
+Ampicillin	Lactobacillus sakei	NA	insufficient data
+Ampicillin	Legionella pneumophila	NA	insufficient data
+Ampicillin	Listeria monocytogenes	1	tentative
+Ampicillin	Mannheimia haemolytica	0.5	NA
+Ampicillin	Moraxella catarrhalis	0.03	NA
+Ampicillin	Neisseria gonorrhoeae	NA	insufficient data
+Ampicillin	Neisseria meningitidis	NA	insufficient data
+Ampicillin	Nocardia abscessus	NA	insufficient data
+Ampicillin	Nocardia cyriacigeorgica	NA	insufficient data
+Ampicillin	Nocardia nova	NA	insufficient data
+Ampicillin	Pasteurella multocida	0.5	NA
+Ampicillin	Proteus mirabilis	8	NA
+Ampicillin	Proteus vulgaris	NA	insufficient data
+Ampicillin	Providencia rettgeri	NA	insufficient data
+Ampicillin	Providencia stuartii	NA	insufficient data
+Ampicillin	Salmonella enterica	4	NA
+Ampicillin	Salmonella Enteritidis	NA	insufficient data
+Ampicillin	Salmonella Paratyphi	NA	insufficient data
+Ampicillin	Salmonella Typhi	NA	insufficient data
+Ampicillin	Salmonella Typhimurium	NA	insufficient data
+Ampicillin	Serratia liquefaciens	NA	insufficient data
+Ampicillin	Serratia marcescens	NA	insufficient data
+Ampicillin	Shigella flexneri	NA	insufficient data
+Ampicillin	Shigella sonnei	NA	insufficient data
+Ampicillin	Staphylococcus aureus	0.5	NA
+Ampicillin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Ampicillin	Staphylococcus capitis	NA	insufficient data
+Ampicillin	Staphylococcus hominis	NA	insufficient data
+Ampicillin	Staphylococcus hyicus	0.25	tentative
+Ampicillin	Staphylococcus lugdunensis	NA	insufficient data
+Ampicillin	Staphylococcus pseudintermedius	NA	insufficient data
+Ampicillin	Staphylococcus saprophyticus	0.5	tentative
+Ampicillin	Stenotrophomonas maltophilia	NA	insufficient data
+Ampicillin	Streptococcus agalactiae	0.25	tentative
+Ampicillin	Streptococcus anginosus	NA	unspecified
+Ampicillin	Streptococcus anginosus group	NA	unspecified
+Ampicillin	Streptococcus bovis equinus group	NA	unspecified
+Ampicillin	Streptococcus constellatus	NA	unspecified
+Ampicillin	Streptococcus equi subspecies equi	NA	unspecified
+Ampicillin	Streptococcus mitis	NA	unspecified
+Ampicillin	Streptococcus mitis group	NA	unspecified
+Ampicillin	Streptococcus oralis	NA	unspecified
+Ampicillin	Streptococcus pneumoniae	0.06	NA
+Ampicillin	Streptococcus pneumoniae ATCC 49619	0.06	tentative
+Ampicillin	Streptococcus pyogenes	NA	unspecified
+Ampicillin	Streptococcus salivarius group	NA	unspecified
+Ampicillin	Streptococcus sanguinis	NA	unspecified
+Ampicillin	Streptococcus sanguinis group	NA	unspecified
+Ampicillin	Streptococcus uberis	NA	unspecified
+Apramycin	Salmonella enterica	NA	insufficient data
+Aspoxicillin	Pasteurella multocida	NA	insufficient data
+Avilamycin	Enterococcus faecalis	8	NA
+Avilamycin	Enterococcus faecium	16	NA
+Avilamycin	Enterococcus hirae	16	NA
+Avilamycin	Staphylococcus aureus	NA	insufficient data
+Avilamycin	Staphylococcus intermedius	NA	insufficient data
+Azithromycin	Campylobacter coli	0.5	NA
+Azithromycin	Campylobacter jejuni	0.25	NA
+Azithromycin	Campylobacter upsaliensis	NA	insufficient data
+Azithromycin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Azithromycin	Escherichia coli	16	tentative
+Azithromycin	Haemophilus influenzae	4	NA
+Azithromycin	Haemophilus parainfluenzae	NA	insufficient data
+Azithromycin	Legionella pneumophila	NA	insufficient data
+Azithromycin	Neisseria gonorrhoeae	1	NA
+Azithromycin	Neisseria meningitidis	NA	insufficient data
+Azithromycin	Salmonella anatum	NA	unspecified
+Azithromycin	Salmonella bareilly	NA	unspecified
+Azithromycin	Salmonella berta	NA	unspecified
+Azithromycin	Salmonella braenderup	NA	unspecified
+Azithromycin	Salmonella derby	NA	unspecified
+Azithromycin	Salmonella Dublin	NA	unspecified
+Azithromycin	Salmonella enterica	16	NA
+Azithromycin	Salmonella Enteritidis	NA	unspecified
+Azithromycin	Salmonella infantis	NA	unspecified
+Azithromycin	Salmonella javiana	NA	unspecified
+Azithromycin	Salmonella litchfield	NA	unspecified
+Azithromycin	Salmonella manhattan	NA	unspecified
+Azithromycin	Salmonella mississippi	NA	unspecified
+Azithromycin	Salmonella montevideo	NA	unspecified
+Azithromycin	Salmonella muenchen	NA	unspecified
+Azithromycin	Salmonella newport	NA	unspecified
+Azithromycin	Salmonella oranienburg	NA	unspecified
+Azithromycin	Salmonella panama	NA	unspecified
+Azithromycin	Salmonella Paratyphi	NA	unspecified
+Azithromycin	Salmonella poona	NA	unspecified
+Azithromycin	Salmonella rubislaw	NA	unspecified
+Azithromycin	Salmonella saintpaul	NA	unspecified
+Azithromycin	Salmonella schwarzengrund	NA	unspecified
+Azithromycin	Salmonella senftenberg	NA	unspecified
+Azithromycin	Salmonella stanley	NA	unspecified
+Azithromycin	Salmonella Typhi	32	NA
+Azithromycin	Salmonella Typhimurium	NA	unspecified
+Azithromycin	Shigella flexneri	NA	insufficient data
+Azithromycin	Shigella sonnei	NA	insufficient data
+Azithromycin	Staphylococcus aureus	2	tentative
+Azithromycin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Azithromycin	Streptococcus pneumoniae	0.125	NA
+Azithromycin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Azithromycin	Streptococcus pyogenes	0.25	NA
+Azithromycin	Vibrio alginolyticus	NA	unspecified
+Azithromycin	Vibrio cholerae	2	tentative
+Azithromycin	Vibrio fluvialis	NA	unspecified
+Azithromycin	Vibrio parahaemolyticus	NA	unspecified
+Azithromycin	Vibrio vulnificus	NA	unspecified
+Azithromycin	Yersinia enterocolitica	NA	insufficient data
+Aztreonam-Avibactam	Citrobacter freundii	0.25	NA
+Aztreonam-Avibactam	Citrobacter koseri	0.125	tentative
+Aztreonam-Avibactam	Enterobacter cloacae	0.25	NA
+Aztreonam-Avibactam	Escherichia coli	0.125	NA
+Aztreonam-Avibactam	Escherichia coli ATCC 25922	NA	insufficient data
+Aztreonam-Avibactam	Klebsiella aerogenes	0.25	NA
+Aztreonam-Avibactam	Klebsiella oxytoca	0.125	NA
+Aztreonam-Avibactam	Klebsiella pneumoniae	0.5	NA
+Aztreonam-Avibactam	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Aztreonam-Avibactam	Klebsiella variicola	NA	insufficient data
+Aztreonam-Avibactam	Pseudomonas aeruginosa	16	NA
+Aztreonam-Avibactam	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Aztreonam-Avibactam	Serratia marcescens	0.25	tentative
+Aztreonam-Avibactam	Stenotrophomonas maltophilia	8	tentative
+Aztreonam	Acinetobacter baumannii	NA	insufficient data
+Aztreonam	Acinetobacter pittii	NA	insufficient data
+Aztreonam	Citrobacter freundii	NA	insufficient data
+Aztreonam	Citrobacter koseri	NA	insufficient data
+Aztreonam	Enterobacter cloacae	NA	insufficient data
+Aztreonam	Escherichia coli	0.25	tentative
+Aztreonam	Haemophilus influenzae	NA	insufficient data
+Aztreonam	Klebsiella aerogenes	NA	insufficient data
+Aztreonam	Klebsiella oxytoca	NA	unspecified
+Aztreonam	Klebsiella pneumoniae	NA	insufficient data
+Aztreonam	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Aztreonam	Moraxella catarrhalis	NA	insufficient data
+Aztreonam	Proteus mirabilis	NA	insufficient data
+Aztreonam	Pseudomonas aeruginosa	16	NA
+Aztreonam	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Aztreonam	Salmonella enterica	NA	insufficient data
+Aztreonam	Serratia marcescens	0.5	tentative
+Aztreonam	Yersinia enterocolitica	NA	insufficient data
+Bacitracin	Enterococcus faecalis	NA	insufficient data
+Bacitracin	Enterococcus faecium	32	NA
+Bacitracin	Streptococcus pyogenes	NA	insufficient data
+Bedaquiline	Mycobacterium tuberculosis 7H10	NA	unspecified
+Bedaquiline	Mycobacterium tuberculosis 7H11	NA	unspecified
+Bedaquiline	Mycobacterium tuberculosis 7H9	NA	unspecified
+Bedaquiline	Mycobacterium tuberculosis MGIT 960	NA	unspecified
+Benzylpenicillin	Actinobacillus pleuropneumoniae	1	NA
+Benzylpenicillin	Actinomyces israelii	NA	insufficient data
+Benzylpenicillin	Aerococcus sanguinicola	NA	insufficient data
+Benzylpenicillin	Aerococcus urinae	NA	insufficient data
+Benzylpenicillin	Bacillus anthracis	0.5	NA
+Benzylpenicillin	Bacteroides fragilis	NA	insufficient data
+Benzylpenicillin	Bacteroides fragilis group	NA	insufficient data
+Benzylpenicillin	Bacteroides thetaiotaomicron	NA	insufficient data
+Benzylpenicillin	Clostridioides difficile	NA	insufficient data
+Benzylpenicillin	Clostridium perfringens	NA	insufficient data
+Benzylpenicillin	Corynebacterium diphtheriae	1	NA
+Benzylpenicillin	Corynebacterium jeikeium	NA	insufficient data
+Benzylpenicillin	Corynebacterium ulcerans	0.5	NA
+Benzylpenicillin	Cutibacterium acnes	NA	insufficient data
+Benzylpenicillin	Enterococcus avium	NA	insufficient data
+Benzylpenicillin	Enterococcus casseliflavus	NA	insufficient data
+Benzylpenicillin	Enterococcus cecorum	NA	insufficient data
+Benzylpenicillin	Enterococcus faecalis	8	NA
+Benzylpenicillin	Enterococcus faecium	8	tentative
+Benzylpenicillin	Enterococcus gallinarum	NA	insufficient data
+Benzylpenicillin	Haemophilus influenzae	1	tentative
+Benzylpenicillin	Haemophilus parasuis	NA	insufficient data
+Benzylpenicillin	Kingella kingae	NA	insufficient data
+Benzylpenicillin	Kocuria kristinae	NA	insufficient data
+Benzylpenicillin	Listeria monocytogenes	1	tentative
+Benzylpenicillin	Neisseria gonorrhoeae	NA	insufficient data
+Benzylpenicillin	Neisseria meningitidis	0.25	NA
+Benzylpenicillin	Pasteurella multocida	0.5	NA
+Benzylpenicillin	Staphylococcus aureus	0.125	NA
+Benzylpenicillin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Benzylpenicillin	Staphylococcus aureus MRSA	0.125	tentative
+Benzylpenicillin	Staphylococcus aureus MSSA	0.125	tentative
+Benzylpenicillin	Staphylococcus epidermidis	0.06	NA
+Benzylpenicillin	Staphylococcus epidermidis MSSE	NA	insufficient data
+Benzylpenicillin	Staphylococcus haemolyticus	NA	insufficient data
+Benzylpenicillin	Staphylococcus hyicus	0.06	tentative
+Benzylpenicillin	Staphylococcus lugdunensis	0.25	tentative
+Benzylpenicillin	Staphylococcus pseudintermedius	0.03	NA
+Benzylpenicillin	Staphylococcus saprophyticus	NA	insufficient data
+Benzylpenicillin	Staphylococcus simulans	NA	insufficient data
+Benzylpenicillin	Staphylococcus warneri	NA	insufficient data
+Benzylpenicillin	Staphylococcus xylosus	NA	insufficient data
+Benzylpenicillin	Streptococcus acidominimus	NA	insufficient data
+Benzylpenicillin	Streptococcus agalactiae	0.125	NA
+Benzylpenicillin	Streptococcus anginosus	0.125	NA
+Benzylpenicillin	Streptococcus anginosus group	NA	insufficient data
+Benzylpenicillin	Streptococcus bovis	NA	insufficient data
+Benzylpenicillin	Streptococcus bovis equinus group	NA	unspecified
+Benzylpenicillin	Streptococcus constellatus	NA	unspecified
+Benzylpenicillin	Streptococcus equi subspecies equi	NA	unspecified
+Benzylpenicillin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Benzylpenicillin	Streptococcus group G	0.03	tentative
+Benzylpenicillin	Streptococcus intermedius	NA	insufficient data
+Benzylpenicillin	Streptococcus mitis	NA	unspecified
+Benzylpenicillin	Streptococcus mitis group	NA	unspecified
+Benzylpenicillin	Streptococcus mutans	NA	insufficient data
+Benzylpenicillin	Streptococcus oralis	0.06	NA
+Benzylpenicillin	Streptococcus pneumoniae	0.06	NA
+Benzylpenicillin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Benzylpenicillin	Streptococcus pyogenes	0.03	NA
+Benzylpenicillin	Streptococcus salivarius	NA	insufficient data
+Benzylpenicillin	Streptococcus salivarius group	NA	unspecified
+Benzylpenicillin	Streptococcus sanguinis	NA	insufficient data
+Benzylpenicillin	Streptococcus sanguinis group	NA	unspecified
+Benzylpenicillin	Streptococcus uberis	NA	insufficient data
+Benzylpenicillin	Streptococcus vestibularis	NA	insufficient data
+Capreomycin	Mycobacterium tuberculosis	NA	insufficient data
+Capreomycin	Mycobacterium tuberculosis 7H9	NA	insufficient data
+Cefaclor	Escherichia coli	NA	insufficient data
+Cefaclor	Haemophilus influenzae	16	NA
+Cefaclor	Haemophilus parainfluenzae	NA	insufficient data
+Cefaclor	Moraxella catarrhalis	4	NA
+Cefaclor	Neisseria meningitidis	NA	insufficient data
+Cefaclor	Staphylococcus aureus	NA	insufficient data
+Cefaclor	Staphylococcus saprophyticus	NA	insufficient data
+Cefaclor	Streptococcus agalactiae	NA	insufficient data
+Cefaclor	Streptococcus pneumoniae	1	NA
+Cefaclor	Yersinia enterocolitica	NA	insufficient data
+Cefadroxil	Escherichia coli	NA	insufficient data
+Cefadroxil	Escherichia coli ATCC 25922	NA	insufficient data
+Cefadroxil	Haemophilus influenzae	NA	insufficient data
+Cefadroxil	Klebsiella pneumoniae	NA	insufficient data
+Cefadroxil	Moraxella catarrhalis	NA	insufficient data
+Cefadroxil	Proteus mirabilis	NA	insufficient data
+Cefadroxil	Staphylococcus saprophyticus	NA	insufficient data
+Cefalexin	Actinobacillus pleuropneumoniae	4	tentative
+Cefalexin	Escherichia coli	32	tentative
+Cefalexin	Escherichia coli ATCC 25922	NA	insufficient data
+Cefalexin	Escherichia coli NCTC 13846	NA	insufficient data
+Cefalexin	Haemophilus influenzae	NA	insufficient data
+Cefalexin	Haemophilus parasuis	NA	insufficient data
+Cefalexin	Klebsiella pneumoniae	NA	insufficient data
+Cefalexin	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Cefalexin	Mannheimia haemolytica	4	NA
+Cefalexin	Moraxella catarrhalis	NA	insufficient data
+Cefalexin	Morganella morganii	NA	insufficient data
+Cefalexin	Neisseria gonorrhoeae	NA	insufficient data
+Cefalexin	Pasteurella multocida	8	NA
+Cefalexin	Proteus mirabilis	NA	insufficient data
+Cefalexin	Staphylococcus aureus	NA	insufficient data
+Cefalexin	Staphylococcus hyicus	8	tentative
+Cefalexin	Staphylococcus pseudintermedius	4	NA
+Cefalexin	Staphylococcus saprophyticus	NA	insufficient data
+Cefalexin	Streptococcus agalactiae	NA	insufficient data
+Cefalexin	Streptococcus dysgalactiae	NA	insufficient data
+Cefalexin	Streptococcus pneumoniae	NA	insufficient data
+Cefalexin	Streptococcus uberis	NA	insufficient data
+Cefaloridine	Escherichia coli	NA	insufficient data
+Cefaloridine	Klebsiella pneumoniae	NA	insufficient data
+Cefaloridine	Proteus mirabilis	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Citrobacter freundii	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Citrobacter koseri	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Enterobacter agglomerans	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Enterobacter cloacae	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Enterococcus faecalis	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Escherichia coli	32	NA
+Cefalothin (a.k.a. Cefalotin)	Klebsiella oxytoca	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Klebsiella pneumoniae	16	tentative
+Cefalothin (a.k.a. Cefalotin)	Moraxella catarrhalis	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Proteus mirabilis	16	tentative
+Cefalothin (a.k.a. Cefalotin)	Salmonella enterica	16	tentative
+Cefalothin (a.k.a. Cefalotin)	Staphylococcus aureus	1	NA
+Cefalothin (a.k.a. Cefalotin)	Staphylococcus saprophyticus	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Streptococcus pneumoniae	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Streptococcus pyogenes	NA	insufficient data
+Cefalothin (a.k.a. Cefalotin)	Streptococcus uberis	NA	insufficient data
+Cefazolin	Enterobacter cloacae	NA	unspecified
+Cefazolin	Enterococcus faecalis	NA	insufficient data
+Cefazolin	Escherichia coli	4	NA
+Cefazolin	Klebsiella oxytoca	NA	insufficient data
+Cefazolin	Klebsiella pneumoniae	4	NA
+Cefazolin	Morganella morganii	NA	insufficient data
+Cefazolin	Pasteurella multocida	NA	insufficient data
+Cefazolin	Proteus mirabilis	8	tentative
+Cefazolin	Salmonella enterica	4	NA
+Cefazolin	Staphylococcus aureus	2	NA
+Cefazolin	Staphylococcus capitis	NA	insufficient data
+Cefazolin	Staphylococcus epidermidis	NA	insufficient data
+Cefazolin	Staphylococcus haemolyticus	NA	insufficient data
+Cefazolin	Staphylococcus warneri	NA	insufficient data
+Cefazolin	Streptococcus pneumoniae	NA	insufficient data
+Cefdinir	Haemophilus influenzae	NA	insufficient data
+Cefdinir	Haemophilus parainfluenzae	NA	insufficient data
+Cefdinir	Legionella pneumophila	NA	insufficient data
+Cefdinir	Moraxella catarrhalis	NA	insufficient data
+Cefdinir	Streptococcus pneumoniae	NA	insufficient data
+Cefdinir	Yersinia enterocolitica	NA	insufficient data
+Cefepime-Clavulanate	Acinetobacter baumannii	NA	insufficient data
+Cefepime-Clavulanate	Enterobacter cloacae	NA	insufficient data
+Cefepime-Clavulanate	Klebsiella pneumoniae	NA	insufficient data
+Cefepime-Enmetazobactam	Acinetobacter baumannii	NA	insufficient data
+Cefepime-Enmetazobactam	Citrobacter freundii	0.125	NA
+Cefepime-Enmetazobactam	Enterobacter cloacae	0.125	NA
+Cefepime-Enmetazobactam	Escherichia coli	0.125	NA
+Cefepime-Enmetazobactam	Klebsiella aerogenes	0.125	NA
+Cefepime-Enmetazobactam	Klebsiella oxytoca	0.125	NA
+Cefepime-Enmetazobactam	Klebsiella pneumoniae	0.125	NA
+Cefepime-Enmetazobactam	Proteus mirabilis	0.125	NA
+Cefepime-Enmetazobactam	Providencia rettgeri	0.06	NA
+Cefepime-Enmetazobactam	Providencia stuartii	0.125	NA
+Cefepime-Enmetazobactam	Pseudomonas aeruginosa	8	NA
+Cefepime-Enmetazobactam	Serratia marcescens	0.25	NA
+Cefepime-Tazobactam	Citrobacter freundii	0.125	tentative
+Cefepime-Tazobactam	Enterobacter cloacae	0.25	tentative
+Cefepime-Tazobactam	Escherichia coli	0.25	tentative
+Cefepime-Tazobactam	Klebsiella aerogenes	NA	insufficient data
+Cefepime-Tazobactam	Klebsiella oxytoca	NA	insufficient data
+Cefepime-Tazobactam	Klebsiella pneumoniae	0.125	tentative
+Cefepime-Tazobactam	Morganella morganii	NA	insufficient data
+Cefepime-Tazobactam	Proteus mirabilis	0.125	tentative
+Cefepime-Tazobactam	Pseudomonas aeruginosa	8	tentative
+Cefepime-Tazobactam	Serratia marcescens	0.25	NA
+Cefepime-Tazobactam	Stenotrophomonas maltophilia	NA	insufficient data
+Cefepime	Acinetobacter baumannii	NA	insufficient data
+Cefepime	Acinetobacter pittii	NA	insufficient data
+Cefepime	Alcaligenes faecalis	NA	insufficient data
+Cefepime	Citrobacter freundii	0.125	NA
+Cefepime	Citrobacter koseri	NA	insufficient data
+Cefepime	Enterobacter cloacae	0.125	NA
+Cefepime	Enterococcus faecalis	NA	insufficient data
+Cefepime	Escherichia coli	0.125	NA
+Cefepime	Escherichia coli NCTC 13846	NA	insufficient data
+Cefepime	Haemophilus influenzae	0.25	NA
+Cefepime	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Cefepime	Hafnia alvei	NA	insufficient data
+Cefepime	Klebsiella aerogenes	0.125	NA
+Cefepime	Klebsiella oxytoca	0.125	NA
+Cefepime	Klebsiella pneumoniae	0.125	NA
+Cefepime	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Cefepime	Moraxella catarrhalis	4	tentative
+Cefepime	Morganella morganii	0.125	tentative
+Cefepime	Neisseria meningitidis	NA	insufficient data
+Cefepime	Proteus mirabilis	0.125	NA
+Cefepime	Proteus vulgaris	NA	insufficient data
+Cefepime	Pseudomonas aeruginosa	8	NA
+Cefepime	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Cefepime	Pseudomonas fluorescens group	NA	insufficient data
+Cefepime	Pseudomonas stutzeri group	NA	insufficient data
+Cefepime	Salmonella enterica	0.25	tentative
+Cefepime	Serratia marcescens	0.25	NA
+Cefepime	Staphylococcus aureus	8	NA
+Cefepime	Staphylococcus capitis	NA	insufficient data
+Cefepime	Staphylococcus lugdunensis	NA	insufficient data
+Cefepime	Staphylococcus saprophyticus	NA	insufficient data
+Cefepime	Staphylococcus simulans	NA	insufficient data
+Cefepime	Staphylococcus warneri	NA	insufficient data
+Cefepime	Staphylococcus xylosus	NA	insufficient data
+Cefepime	Stenotrophomonas maltophilia	NA	insufficient data
+Cefepime	Streptococcus agalactiae	0.125	tentative
+Cefepime	Streptococcus anginosus	NA	insufficient data
+Cefepime	Streptococcus anginosus group	NA	insufficient data
+Cefepime	Streptococcus constellatus	NA	insufficient data
+Cefepime	Streptococcus group G	NA	unspecified
+Cefepime	Streptococcus intermedius	NA	insufficient data
+Cefepime	Streptococcus mitis	NA	insufficient data
+Cefepime	Streptococcus mutans	NA	insufficient data
+Cefepime	Streptococcus oralis	NA	insufficient data
+Cefepime	Streptococcus salivarius	NA	insufficient data
+Cefepime	Streptococcus sanguinis	NA	insufficient data
+Cefepime	Yersinia enterocolitica	NA	insufficient data
+Cefepime-Zidebactam	Acinetobacter baumannii	NA	insufficient data
+Cefepime-Zidebactam	Burkholderia cepacia complex	NA	insufficient data
+Cefepime-Zidebactam	Citrobacter freundii	0.125	tentative
+Cefepime-Zidebactam	Enterobacter cloacae	NA	insufficient data
+Cefepime-Zidebactam	Escherichia coli	0.125	tentative
+Cefepime-Zidebactam	Klebsiella aerogenes	0.125	tentative
+Cefepime-Zidebactam	Klebsiella oxytoca	0.125	tentative
+Cefepime-Zidebactam	Klebsiella pneumoniae	NA	insufficient data
+Cefepime-Zidebactam	Morganella morganii	NA	insufficient data
+Cefepime-Zidebactam	Proteus mirabilis	NA	insufficient data
+Cefepime-Zidebactam	Pseudomonas aeruginosa	8	tentative
+Cefepime-Zidebactam	Serratia marcescens	0.25	tentative
+Cefepime-Zidebactam	Stenotrophomonas maltophilia	32	tentative
+Cefiderocol	Escherichia coli ATCC 25922	NA	unspecified
+Cefiderocol	Pseudomonas aeruginosa ATCC 27853	NA	unspecified
+Cefixime	Enterobacter cloacae	NA	insufficient data
+Cefixime	Escherichia coli	1	tentative
+Cefixime	Escherichia coli ATCC 25922	NA	insufficient data
+Cefixime	Escherichia coli NCTC 13846	NA	insufficient data
+Cefixime	Haemophilus influenzae	0.125	NA
+Cefixime	Haemophilus parainfluenzae	NA	insufficient data
+Cefixime	Klebsiella aerogenes	NA	insufficient data
+Cefixime	Klebsiella oxytoca	NA	insufficient data
+Cefixime	Klebsiella pneumoniae	NA	insufficient data
+Cefixime	Moraxella catarrhalis	0.125	tentative
+Cefixime	Neisseria gonorrhoeae	NA	insufficient data
+Cefixime	Proteus mirabilis	NA	insufficient data
+Cefixime	Proteus vulgaris	NA	insufficient data
+Cefixime	Serratia marcescens	NA	insufficient data
+Cefixime	Staphylococcus aureus	NA	insufficient data
+Cefixime	Staphylococcus saprophyticus	NA	insufficient data
+Cefixime	Streptococcus agalactiae	NA	insufficient data
+Cefixime	Streptococcus pneumoniae	0.5	NA
+Cefixime	Streptococcus pyogenes	NA	insufficient data
+Cefixime	Yersinia enterocolitica	NA	insufficient data
+Cefoperazone-Sulbactam	Citrobacter braakii	NA	insufficient data
+Cefoperazone-Sulbactam	Haemophilus influenzae	NA	insufficient data
+Cefoperazone-Sulbactam	Hafnia alvei	NA	insufficient data
+Cefoperazone-Sulbactam	Morganella morganii	NA	insufficient data
+Cefoperazone-Sulbactam	Proteus penneri	NA	insufficient data
+Cefoperazone-Sulbactam	Providencia stuartii	NA	insufficient data
+Cefoperazone-Sulbactam	Serratia liquefaciens	NA	insufficient data
+Cefoperazone-Sulbactam	Staphylococcus aureus	NA	insufficient data
+Cefoperazone-Sulbactam	Stenotrophomonas maltophilia	NA	insufficient data
+Cefoperazone-Sulbactam	Streptococcus pneumoniae	NA	insufficient data
+Cefoperazone	Acinetobacter baumannii	NA	insufficient data
+Cefoperazone	Citrobacter braakii	NA	insufficient data
+Cefoperazone	Enterobacter cloacae	NA	insufficient data
+Cefoperazone	Escherichia coli	1	tentative
+Cefoperazone	Haemophilus influenzae	NA	insufficient data
+Cefoperazone	Hafnia alvei	NA	insufficient data
+Cefoperazone	Klebsiella oxytoca	NA	insufficient data
+Cefoperazone	Klebsiella pneumoniae	NA	insufficient data
+Cefoperazone	Moraxella catarrhalis	NA	insufficient data
+Cefoperazone	Morganella morganii	4	tentative
+Cefoperazone	Proteus mirabilis	4	tentative
+Cefoperazone	Proteus penneri	NA	insufficient data
+Cefoperazone	Proteus vulgaris	4	tentative
+Cefoperazone	Providencia stuartii	NA	insufficient data
+Cefoperazone	Salmonella enterica	NA	unspecified
+Cefoperazone	Salmonella Enteritidis	NA	unspecified
+Cefoperazone	Salmonella Typhi	NA	unspecified
+Cefoperazone	Serratia liquefaciens	NA	insufficient data
+Cefoperazone	Serratia marcescens	NA	insufficient data
+Cefoperazone	Staphylococcus aureus	NA	insufficient data
+Cefoperazone	Stenotrophomonas maltophilia	NA	insufficient data
+Cefoperazone	Streptococcus pneumoniae	NA	insufficient data
+Cefoperazone	Streptococcus uberis	NA	insufficient data
+Cefoperazone	Yersinia enterocolitica	NA	insufficient data
+Cefoselis	Enterobacter cloacae	0.25	NA
+Cefoselis	Escherichia coli	0.125	NA
+Cefoselis	Klebsiella pneumoniae	0.125	NA
+Cefoselis	Proteus mirabilis	0.25	NA
+Cefoselis	Pseudomonas aeruginosa	16	NA
+Cefotaxime-Clavulanate	Acinetobacter baumannii	NA	insufficient data
+Cefotaxime-Clavulanate	Enterobacter cloacae	0.25	tentative
+Cefotaxime-Clavulanate	Escherichia coli	0.25	NA
+Cefotaxime-Clavulanate	Klebsiella aerogenes	NA	insufficient data
+Cefotaxime-Clavulanate	Klebsiella oxytoca	0.25	tentative
+Cefotaxime-Clavulanate	Klebsiella pneumoniae	0.25	tentative
+Cefotaxime-Clavulanate	Staphylococcus aureus	4	NA
+Cefotaxime	Acinetobacter baumannii	64	NA
+Cefotaxime	Citrobacter freundii	0.5	tentative
+Cefotaxime	Citrobacter koseri	NA	insufficient data
+Cefotaxime	Clostridioides difficile	NA	insufficient data
+Cefotaxime	Corynebacterium diphtheriae	NA	insufficient data
+Cefotaxime	Corynebacterium ulcerans	NA	insufficient data
+Cefotaxime	Enterobacter agglomerans	NA	insufficient data
+Cefotaxime	Enterobacter cloacae	1	NA
+Cefotaxime	Escherichia coli	0.25	NA
+Cefotaxime	Escherichia coli ATCC 25922	NA	insufficient data
+Cefotaxime	Escherichia coli NCTC 13846	NA	insufficient data
+Cefotaxime	Haemophilus influenzae	0.06	NA
+Cefotaxime	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Cefotaxime	Kingella kingae	NA	insufficient data
+Cefotaxime	Klebsiella aerogenes	0.5	NA
+Cefotaxime	Klebsiella oxytoca	0.125	NA
+Cefotaxime	Klebsiella pneumoniae	0.25	NA
+Cefotaxime	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Cefotaxime	Legionella pneumophila	NA	insufficient data
+Cefotaxime	Moraxella catarrhalis	0.25	NA
+Cefotaxime	Morganella morganii	NA	insufficient data
+Cefotaxime	Neisseria gonorrhoeae	0.016	NA
+Cefotaxime	Neisseria meningitidis	0.016	NA
+Cefotaxime	Nocardia aboflava	NA	insufficient data
+Cefotaxime	Nocardia abscessus	NA	insufficient data
+Cefotaxime	Plesiomonas shigelloides	NA	insufficient data
+Cefotaxime	Prevotella spp beta lactamase neg	NA	unspecified
+Cefotaxime	Prevotella spp beta lactamase pos	NA	unspecified
+Cefotaxime	Proteus mirabilis	0.06	tentative
+Cefotaxime	Proteus vulgaris	NA	insufficient data
+Cefotaxime	Pseudomonas aeruginosa	64	NA
+Cefotaxime	Salmonella enterica	0.5	tentative
+Cefotaxime	Serratia liquefaciens	NA	insufficient data
+Cefotaxime	Serratia marcescens	NA	insufficient data
+Cefotaxime	Staphylococcus aureus	4	NA
+Cefotaxime	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Cefotaxime	Staphylococcus capitis	NA	insufficient data
+Cefotaxime	Staphylococcus coagulase negative	NA	insufficient data
+Cefotaxime	Staphylococcus epidermidis	NA	insufficient data
+Cefotaxime	Staphylococcus hominis	NA	insufficient data
+Cefotaxime	Staphylococcus saprophyticus	NA	insufficient data
+Cefotaxime	Staphylococcus warneri	NA	insufficient data
+Cefotaxime	Stenotrophomonas maltophilia	NA	insufficient data
+Cefotaxime	Streptococcus agalactiae	0.125	NA
+Cefotaxime	Streptococcus anginosus	NA	insufficient data
+Cefotaxime	Streptococcus anginosus group	NA	unspecified
+Cefotaxime	Streptococcus bovis equinus group	NA	unspecified
+Cefotaxime	Streptococcus constellatus	NA	unspecified
+Cefotaxime	Streptococcus group G	NA	unspecified
+Cefotaxime	Streptococcus mitis	NA	unspecified
+Cefotaxime	Streptococcus mitis group	NA	unspecified
+Cefotaxime	Streptococcus oralis	0.5	NA
+Cefotaxime	Streptococcus pneumoniae	0.06	NA
+Cefotaxime	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Cefotaxime	Streptococcus pyogenes	0.03	NA
+Cefotaxime	Streptococcus salivarius	NA	unspecified
+Cefotaxime	Streptococcus salivarius group	NA	unspecified
+Cefotaxime	Streptococcus sanguinis	NA	unspecified
+Cefotaxime	Streptococcus sanguinis group	NA	unspecified
+Cefotaxime	Streptococcus uberis	NA	unspecified
+Cefotaxime	Vibrio alginolyticus	NA	unspecified
+Cefotaxime	Vibrio cholerae	NA	unspecified
+Cefotaxime	Vibrio fluvialis	NA	unspecified
+Cefotaxime	Vibrio parahaemolyticus	NA	unspecified
+Cefotaxime	Vibrio vulnificus	NA	unspecified
+Cefotaxime	Yersinia enterocolitica	0.25	tentative
+Cefoxitin	Bacteroides fragilis	32	NA
+Cefoxitin	Bacteroides fragilis group	NA	insufficient data
+Cefoxitin	Bacteroides ovatus	NA	insufficient data
+Cefoxitin	Bacteroides thetaiotaomicron	NA	insufficient data
+Cefoxitin	Bacteroides vulgatus	NA	insufficient data
+Cefoxitin	Citrobacter koseri	NA	insufficient data
+Cefoxitin	Clostridium perfringens	NA	insufficient data
+Cefoxitin	Enterobacter cloacae	NA	unspecified
+Cefoxitin	Escherichia coli	16	NA
+Cefoxitin	Haemophilus influenzae	NA	insufficient data
+Cefoxitin	Haemophilus parainfluenzae	NA	insufficient data
+Cefoxitin	Klebsiella oxytoca	8	NA
+Cefoxitin	Klebsiella pneumoniae	8	NA
+Cefoxitin	Morganella morganii	16	NA
+Cefoxitin	Proteus mirabilis	8	NA
+Cefoxitin	Proteus vulgaris	NA	insufficient data
+Cefoxitin	Providencia rettgeri	NA	unspecified
+Cefoxitin	Providencia stuartii	NA	unspecified
+Cefoxitin	Salmonella agona	NA	unspecified
+Cefoxitin	Salmonella anatum	NA	unspecified
+Cefoxitin	Salmonella bareilly	NA	unspecified
+Cefoxitin	Salmonella braenderup	NA	unspecified
+Cefoxitin	Salmonella derby	NA	unspecified
+Cefoxitin	Salmonella Dublin	NA	unspecified
+Cefoxitin	Salmonella enterica	8	NA
+Cefoxitin	Salmonella Enteritidis	NA	unspecified
+Cefoxitin	Salmonella Group B	NA	unspecified
+Cefoxitin	Salmonella Group C	NA	unspecified
+Cefoxitin	Salmonella hadar	NA	unspecified
+Cefoxitin	Salmonella hartford	NA	unspecified
+Cefoxitin	Salmonella heidelberg	NA	unspecified
+Cefoxitin	Salmonella infantis	NA	unspecified
+Cefoxitin	Salmonella javiana	NA	unspecified
+Cefoxitin	Salmonella litchfield	NA	unspecified
+Cefoxitin	Salmonella manhattan	NA	unspecified
+Cefoxitin	Salmonella mbandaka	NA	unspecified
+Cefoxitin	Salmonella mississippi	NA	unspecified
+Cefoxitin	Salmonella montevideo	NA	unspecified
+Cefoxitin	Salmonella muenchen	NA	unspecified
+Cefoxitin	Salmonella newport	NA	unspecified
+Cefoxitin	Salmonella oranienburg	NA	unspecified
+Cefoxitin	Salmonella panama	NA	unspecified
+Cefoxitin	Salmonella Paratyphi	NA	unspecified
+Cefoxitin	Salmonella poona	NA	unspecified
+Cefoxitin	Salmonella rubislaw	NA	unspecified
+Cefoxitin	Salmonella saintpaul	NA	unspecified
+Cefoxitin	Salmonella sandiego	NA	unspecified
+Cefoxitin	Salmonella schwarzengrund	NA	unspecified
+Cefoxitin	Salmonella senftenberg	NA	unspecified
+Cefoxitin	Salmonella stanley	NA	unspecified
+Cefoxitin	Salmonella thompson	NA	unspecified
+Cefoxitin	Salmonella Typhi	2	NA
+Cefoxitin	Salmonella Typhimurium	NA	unspecified
+Cefoxitin	Salmonella virchow	NA	unspecified
+Cefoxitin	Serratia liquefaciens	NA	insufficient data
+Cefoxitin	Serratia marcescens	64	NA
+Cefoxitin	Shigella flexneri	NA	insufficient data
+Cefoxitin	Shigella sonnei	NA	insufficient data
+Cefoxitin	Staphylococcus aureus	4	NA
+Cefoxitin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Cefoxitin	Staphylococcus aureus MRSA	NA	insufficient data
+Cefoxitin	Staphylococcus aureus MSSA	4	tentative
+Cefoxitin	Staphylococcus capitis	8	NA
+Cefoxitin	Staphylococcus epidermidis	4	NA
+Cefoxitin	Staphylococcus haemolyticus	8	tentative
+Cefoxitin	Staphylococcus hominis	8	NA
+Cefoxitin	Staphylococcus lugdunensis	NA	insufficient data
+Cefoxitin	Staphylococcus saprophyticus	NA	insufficient data
+Cefoxitin	Staphylococcus warneri	4	tentative
+Cefoxitin	Streptococcus uberis	NA	unspecified
+Cefoxitin	Yersinia enterocolitica	NA	insufficient data
+Cefpirome	Citrobacter braakii	NA	unspecified
+Cefpirome	Citrobacter freundii	NA	insufficient data
+Cefpirome	Citrobacter koseri	NA	insufficient data
+Cefpirome	Enterobacter cloacae	NA	insufficient data
+Cefpirome	Escherichia coli	0.25	NA
+Cefpirome	Haemophilus influenzae	NA	insufficient data
+Cefpirome	Klebsiella aerogenes	NA	insufficient data
+Cefpirome	Klebsiella oxytoca	NA	insufficient data
+Cefpirome	Klebsiella pneumoniae	0.25	tentative
+Cefpirome	Moraxella catarrhalis	NA	insufficient data
+Cefpirome	Morganella morganii	NA	insufficient data
+Cefpirome	Neisseria gonorrhoeae	NA	insufficient data
+Cefpirome	Proteus mirabilis	NA	insufficient data
+Cefpirome	Proteus vulgaris	NA	insufficient data
+Cefpirome	Pseudomonas fluorescens group	NA	insufficient data
+Cefpirome	Pseudomonas stutzeri group	NA	insufficient data
+Cefpirome	Salmonella enterica	NA	insufficient data
+Cefpirome	Serratia liquefaciens	NA	insufficient data
+Cefpirome	Serratia marcescens	NA	insufficient data
+Cefpirome	Staphylococcus saprophyticus	NA	insufficient data
+Cefpirome	Streptococcus pneumoniae	NA	insufficient data
+Cefpodoxime-Clavulanic acid	Citrobacter freundii	NA	insufficient data
+Cefpodoxime-Clavulanic acid	Serratia liquefaciens	NA	insufficient data
+Cefpodoxime-Clavulanic acid	Serratia marcescens	NA	insufficient data
+Cefpodoxime	Citrobacter freundii	8	tentative
+Cefpodoxime	Citrobacter koseri	NA	insufficient data
+Cefpodoxime	Enterobacter cloacae	NA	insufficient data
+Cefpodoxime	Escherichia coli	2	tentative
+Cefpodoxime	Haemophilus influenzae	0.25	NA
+Cefpodoxime	Klebsiella aerogenes	NA	insufficient data
+Cefpodoxime	Klebsiella pneumoniae	NA	insufficient data
+Cefpodoxime	Legionella pneumophila	NA	insufficient data
+Cefpodoxime	Moraxella catarrhalis	2	tentative
+Cefpodoxime	Salmonella enterica	NA	insufficient data
+Cefpodoxime	Serratia liquefaciens	NA	insufficient data
+Cefpodoxime	Serratia marcescens	4	tentative
+Cefpodoxime	Staphylococcus aureus	NA	insufficient data
+Cefpodoxime	Staphylococcus saprophyticus	NA	insufficient data
+Cefpodoxime	Streptococcus agalactiae	NA	insufficient data
+Cefpodoxime	Streptococcus pneumoniae	0.125	NA
+Cefpodoxime	Streptococcus pyogenes	NA	insufficient data
+Cefpodoxime	Yersinia enterocolitica	NA	insufficient data
+Cefquinome	Actinobacillus pleuropneumoniae	0.06	tentative
+Cefquinome	Escherichia coli	NA	insufficient data
+Cefquinome	Klebsiella oxytoca	NA	insufficient data
+Cefquinome	Klebsiella pneumoniae	0.125	tentative
+Cefquinome	Klebsiella variicola	NA	insufficient data
+Cefquinome	Mannheimia haemolytica	0.06	NA
+Cefquinome	Pasteurella multocida	0.125	NA
+Cefradine	Escherichia coli	NA	insufficient data
+Cefradine	Klebsiella pneumoniae	NA	insufficient data
+Cefradine	Proteus mirabilis	NA	insufficient data
+Ceftaroline	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Ceftaroline	Escherichia coli	NA	insufficient data
+Ceftaroline	Haemophilus influenzae	NA	unspecified
+Ceftaroline	Klebsiella oxytoca	NA	insufficient data
+Ceftaroline	Klebsiella pneumoniae	NA	insufficient data
+Ceftaroline	Staphylococcus aureus	1	tentative
+Ceftaroline	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Ceftaroline	Staphylococcus aureus MRSA	1	tentative
+Ceftaroline	Staphylococcus aureus MSSA	1	tentative
+Ceftaroline	Staphylococcus epidermidis	NA	insufficient data
+Ceftaroline	Staphylococcus haemolyticus	NA	insufficient data
+Ceftaroline	Staphylococcus hominis	NA	insufficient data
+Ceftaroline	Staphylococcus lugdunensis	NA	insufficient data
+Ceftaroline	Staphylococcus saprophyticus	NA	insufficient data
+Ceftaroline	Staphylococcus warneri	NA	insufficient data
+Ceftaroline	Streptococcus agalactiae	NA	insufficient data
+Ceftaroline	Streptococcus pneumoniae	NA	unspecified
+Ceftazidime-Avibactam	Acinetobacter baumannii	NA	unspecified
+Ceftazidime-Avibactam	Escherichia coli	NA	insufficient data
+Ceftazidime-Avibactam	Escherichia coli ATCC 25922	NA	insufficient data
+Ceftazidime-Avibactam	Escherichia coli NCTC 13846	NA	insufficient data
+Ceftazidime-Avibactam	Klebsiella oxytoca	NA	insufficient data
+Ceftazidime-Avibactam	Klebsiella pneumoniae	NA	insufficient data
+Ceftazidime-Avibactam	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ceftazidime-Avibactam	Pseudomonas aeruginosa	8	NA
+Ceftazidime-Avibactam	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Ceftazidime-Clavulanate	Acinetobacter baumannii	16	NA
+Ceftazidime-Clavulanate	Enterobacter cloacae	0.25	NA
+Ceftazidime-Clavulanate	Escherichia coli	1	NA
+Ceftazidime-Clavulanate	Klebsiella aerogenes	1	NA
+Ceftazidime-Clavulanate	Klebsiella oxytoca	1	NA
+Ceftazidime-Clavulanate	Klebsiella pneumoniae	0.5	NA
+Ceftazidime-Clavulanate	Staphylococcus aureus	NA	insufficient data
+Ceftazidime	Achromobacter xylosoxidans	NA	insufficient data
+Ceftazidime	Acinetobacter baumannii	16	NA
+Ceftazidime	Acinetobacter pittii	NA	insufficient data
+Ceftazidime	Alcaligenes faecalis	NA	insufficient data
+Ceftazidime	Alcaligenes xylosoxidans	NA	insufficient data
+Ceftazidime	Bacteroides fragilis	NA	insufficient data
+Ceftazidime	Bacteroides fragilis group	NA	insufficient data
+Ceftazidime	Burkholderia cepacia complex	8	tentative
+Ceftazidime	Burkholderia pseudomallei	8	NA
+Ceftazidime	Citrobacter freundii	NA	insufficient data
+Ceftazidime	Citrobacter koseri	NA	insufficient data
+Ceftazidime	Enterobacter agglomerans	NA	insufficient data
+Ceftazidime	Enterobacter cloacae	1	NA
+Ceftazidime	Enterobacter dissolvens	NA	insufficient data
+Ceftazidime	Escherichia coli	1	NA
+Ceftazidime	Escherichia coli ATCC 25922	NA	insufficient data
+Ceftazidime	Escherichia coli NCTC 13846	NA	insufficient data
+Ceftazidime	Haemophilus influenzae	0.25	tentative
+Ceftazidime	Klebsiella aerogenes	1	NA
+Ceftazidime	Klebsiella oxytoca	0.5	NA
+Ceftazidime	Klebsiella pneumoniae	1	NA
+Ceftazidime	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ceftazidime	Moraxella catarrhalis	NA	insufficient data
+Ceftazidime	Morganella morganii	0.125	NA
+Ceftazidime	Neisseria gonorrhoeae	NA	insufficient data
+Ceftazidime	Plesiomonas shigelloides	NA	insufficient data
+Ceftazidime	Proteus mirabilis	0.125	NA
+Ceftazidime	Proteus vulgaris	0.125	tentative
+Ceftazidime	Providencia stuartii	NA	insufficient data
+Ceftazidime	Pseudomonas aeruginosa	8	NA
+Ceftazidime	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Ceftazidime	Pseudomonas fluorescens group	8	tentative
+Ceftazidime	Pseudomonas putida group	NA	insufficient data
+Ceftazidime	Salmonella enterica	2	NA
+Ceftazidime	Serratia marcescens	NA	insufficient data
+Ceftazidime	Staphylococcus aureus	32	NA
+Ceftazidime	Staphylococcus saprophyticus	NA	insufficient data
+Ceftazidime	Stenotrophomonas maltophilia	8	NA
+Ceftazidime	Streptococcus agalactiae	NA	insufficient data
+Ceftazidime	Streptococcus group G	NA	insufficient data
+Ceftazidime	Streptococcus pneumoniae	NA	insufficient data
+Ceftazidime	Streptococcus pyogenes	0.5	tentative
+Ceftazidime	Vibrio alginolyticus	NA	unspecified
+Ceftazidime	Vibrio cholerae	1	tentative
+Ceftazidime	Vibrio fluvialis	NA	unspecified
+Ceftazidime	Vibrio parahaemolyticus	NA	unspecified
+Ceftazidime	Vibrio vulnificus	NA	unspecified
+Ceftazidime	Yersinia enterocolitica	NA	insufficient data
+Ceftibuten	Acinetobacter baumannii	NA	insufficient data
+Ceftibuten	Burkholderia cepacia complex	NA	insufficient data
+Ceftibuten	Citrobacter freundii	NA	insufficient data
+Ceftibuten	Citrobacter koseri	NA	unspecified
+Ceftibuten	Enterobacter cloacae	NA	insufficient data
+Ceftibuten	Escherichia coli	1	NA
+Ceftibuten	Escherichia coli ATCC 25922	NA	insufficient data
+Ceftibuten	Escherichia coli NCTC 13846	NA	insufficient data
+Ceftibuten	Haemophilus influenzae	0.25	tentative
+Ceftibuten	Klebsiella aerogenes	NA	insufficient data
+Ceftibuten	Klebsiella oxytoca	NA	insufficient data
+Ceftibuten	Klebsiella pneumoniae	NA	insufficient data
+Ceftibuten	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ceftibuten	Moraxella catarrhalis	NA	insufficient data
+Ceftibuten	Morganella morganii	NA	insufficient data
+Ceftibuten	Proteus mirabilis	NA	insufficient data
+Ceftibuten	Serratia marcescens	NA	insufficient data
+Ceftibuten	Stenotrophomonas maltophilia	NA	insufficient data
+Ceftibuten	Streptococcus pneumoniae	NA	insufficient data
+Ceftibuten	Streptococcus pyogenes	NA	insufficient data
+Ceftibuten	Yersinia enterocolitica	NA	insufficient data
+Ceftiofur	Actinobacillus pleuropneumoniae	0.06	NA
+Ceftiofur	Escherichia coli	1	NA
+Ceftiofur	Klebsiella oxytoca	NA	insufficient data
+Ceftiofur	Klebsiella pneumoniae	1	tentative
+Ceftiofur	Klebsiella variicola	NA	insufficient data
+Ceftiofur	Mannheimia haemolytica	0.03	NA
+Ceftiofur	Pasteurella multocida	0.06	NA
+Ceftiofur	Salmonella agona	NA	unspecified
+Ceftiofur	Salmonella anatum	NA	unspecified
+Ceftiofur	Salmonella bareilly	NA	unspecified
+Ceftiofur	Salmonella berta	NA	unspecified
+Ceftiofur	Salmonella braenderup	NA	unspecified
+Ceftiofur	Salmonella derby	NA	unspecified
+Ceftiofur	Salmonella Dublin	NA	unspecified
+Ceftiofur	Salmonella enterica	2	NA
+Ceftiofur	Salmonella Enteritidis	NA	unspecified
+Ceftiofur	Salmonella Group B	NA	unspecified
+Ceftiofur	Salmonella Group C	NA	unspecified
+Ceftiofur	Salmonella hadar	NA	unspecified
+Ceftiofur	Salmonella hartford	NA	unspecified
+Ceftiofur	Salmonella heidelberg	NA	unspecified
+Ceftiofur	Salmonella infantis	NA	unspecified
+Ceftiofur	Salmonella javiana	NA	unspecified
+Ceftiofur	Salmonella litchfield	NA	unspecified
+Ceftiofur	Salmonella manhattan	NA	unspecified
+Ceftiofur	Salmonella mbandaka	NA	unspecified
+Ceftiofur	Salmonella mississippi	NA	unspecified
+Ceftiofur	Salmonella montevideo	NA	unspecified
+Ceftiofur	Salmonella muenchen	NA	unspecified
+Ceftiofur	Salmonella oranienburg	NA	unspecified
+Ceftiofur	Salmonella panama	NA	unspecified
+Ceftiofur	Salmonella Paratyphi	NA	unspecified
+Ceftiofur	Salmonella poona	NA	unspecified
+Ceftiofur	Salmonella rubislaw	NA	unspecified
+Ceftiofur	Salmonella saintpaul	NA	unspecified
+Ceftiofur	Salmonella sandiego	NA	unspecified
+Ceftiofur	Salmonella schwarzengrund	NA	unspecified
+Ceftiofur	Salmonella senftenberg	NA	unspecified
+Ceftiofur	Salmonella stanley	NA	unspecified
+Ceftiofur	Salmonella thompson	NA	unspecified
+Ceftiofur	Salmonella Typhi	NA	unspecified
+Ceftiofur	Salmonella Typhimurium	NA	unspecified
+Ceftiofur	Salmonella virchow	NA	unspecified
+Ceftiofur	Staphylococcus aureus	2	tentative
+Ceftiofur	Staphylococcus hyicus	NA	insufficient data
+Ceftiofur	Streptococcus uberis	NA	insufficient data
+Ceftobiprole	Acinetobacter baumannii	NA	insufficient data
+Ceftobiprole	Citrobacter freundii	NA	unspecified
+Ceftobiprole	Citrobacter koseri	NA	unspecified
+Ceftobiprole	Clostridioides difficile	NA	insufficient data
+Ceftobiprole	Enterobacter cloacae	0.25	NA
+Ceftobiprole	Enterobacter sakazakii	NA	insufficient data
+Ceftobiprole	Enterococcus avium	NA	insufficient data
+Ceftobiprole	Enterococcus faecalis	NA	insufficient data
+Ceftobiprole	Enterococcus faecium	NA	insufficient data
+Ceftobiprole	Enterococcus gallinarum	NA	insufficient data
+Ceftobiprole	Escherichia coli	0.125	NA
+Ceftobiprole	Haemophilus influenzae	NA	unspecified
+Ceftobiprole	Klebsiella aerogenes	NA	insufficient data
+Ceftobiprole	Klebsiella oxytoca	NA	insufficient data
+Ceftobiprole	Klebsiella pneumoniae	0.125	NA
+Ceftobiprole	Klebsiella terrigena	NA	insufficient data
+Ceftobiprole	Moraxella catarrhalis	NA	unspecified
+Ceftobiprole	Morganella morganii	0.125	tentative
+Ceftobiprole	Proteus mirabilis	0.125	NA
+Ceftobiprole	Pseudomonas aeruginosa	8	NA
+Ceftobiprole	Serratia marcescens	0.25	tentative
+Ceftobiprole	Staphylococcus aureus	1	NA
+Ceftobiprole	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Ceftobiprole	Staphylococcus aureus MRSA	1	NA
+Ceftobiprole	Staphylococcus aureus MSSA	1	NA
+Ceftobiprole	Staphylococcus capitis	0.25	tentative
+Ceftobiprole	Staphylococcus epidermidis	1	NA
+Ceftobiprole	Staphylococcus epidermidis MRSE	NA	insufficient data
+Ceftobiprole	Staphylococcus epidermidis MSSE	NA	unspecified
+Ceftobiprole	Staphylococcus haemolyticus	NA	insufficient data
+Ceftobiprole	Staphylococcus hominis	0.5	NA
+Ceftobiprole	Staphylococcus lugdunensis	2	NA
+Ceftobiprole	Staphylococcus saprophyticus	2	tentative
+Ceftobiprole	Staphylococcus warneri	1	NA
+Ceftobiprole	Staphylococcus xylosus	NA	insufficient data
+Ceftobiprole	Streptococcus agalactiae	0.06	tentative
+Ceftobiprole	Streptococcus anginosus	0.25	tentative
+Ceftobiprole	Streptococcus group G	0.06	tentative
+Ceftobiprole	Streptococcus oralis	0.06	tentative
+Ceftobiprole	Streptococcus pneumoniae	0.06	NA
+Ceftobiprole	Streptococcus pyogenes	NA	insufficient data
+Ceftobiprole	Streptococcus sanguinis	NA	insufficient data
+Ceftolozane-Tazobactam	Citrobacter freundii	1	tentative
+Ceftolozane-Tazobactam	Citrobacter koseri	NA	insufficient data
+Ceftolozane-Tazobactam	Enterobacter cloacae	1	NA
+Ceftolozane-Tazobactam	Escherichia coli	1	NA
+Ceftolozane-Tazobactam	Escherichia coli ATCC 25922	NA	insufficient data
+Ceftolozane-Tazobactam	Escherichia coli NCTC 13846	NA	insufficient data
+Ceftolozane-Tazobactam	Haemophilus influenzae	0.5	tentative
+Ceftolozane-Tazobactam	Klebsiella aerogenes	1	tentative
+Ceftolozane-Tazobactam	Klebsiella oxytoca	1	tentative
+Ceftolozane-Tazobactam	Klebsiella pneumoniae	1	NA
+Ceftolozane-Tazobactam	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ceftolozane-Tazobactam	Morganella morganii	1	tentative
+Ceftolozane-Tazobactam	Proteus mirabilis	1	tentative
+Ceftolozane-Tazobactam	Proteus vulgaris	NA	insufficient data
+Ceftolozane-Tazobactam	Pseudomonas aeruginosa	4	NA
+Ceftolozane-Tazobactam	Serratia liquefaciens	NA	insufficient data
+Ceftolozane-Tazobactam	Serratia marcescens	2	tentative
+Ceftolozane-Tazobactam	Streptococcus agalactiae	1	tentative
+Ceftolozane-Tazobactam	Streptococcus pneumoniae	0.5	NA
+Ceftolozane-Tazobactam	Streptococcus pyogenes	0.5	tentative
+Ceftolozane	Acinetobacter baumannii	NA	insufficient data
+Ceftolozane	Citrobacter freundii	NA	insufficient data
+Ceftolozane	Citrobacter koseri	NA	insufficient data
+Ceftolozane	Enterobacter cloacae	NA	insufficient data
+Ceftolozane	Escherichia coli	1	NA
+Ceftolozane	Haemophilus influenzae	NA	insufficient data
+Ceftolozane	Klebsiella aerogenes	NA	insufficient data
+Ceftolozane	Klebsiella oxytoca	NA	insufficient data
+Ceftolozane	Klebsiella pneumoniae	NA	insufficient data
+Ceftolozane	Morganella morganii	NA	insufficient data
+Ceftolozane	Proteus mirabilis	NA	insufficient data
+Ceftolozane	Proteus vulgaris	NA	insufficient data
+Ceftolozane	Pseudomonas aeruginosa	4	NA
+Ceftolozane	Serratia marcescens	NA	insufficient data
+Ceftolozane	Stenotrophomonas maltophilia	NA	insufficient data
+Ceftolozane	Streptococcus agalactiae	NA	insufficient data
+Ceftolozane	Streptococcus pneumoniae	0.5	tentative
+Ceftolozane	Streptococcus pyogenes	NA	insufficient data
+Ceftriaxone	Acinetobacter baumannii	NA	insufficient data
+Ceftriaxone	Actinomyces israelii	NA	insufficient data
+Ceftriaxone	Bacteroides fragilis	NA	insufficient data
+Ceftriaxone	Bacteroides fragilis group	NA	insufficient data
+Ceftriaxone	Brucella melitensis	2	NA
+Ceftriaxone	Citrobacter freundii	NA	insufficient data
+Ceftriaxone	Corynebacterium diphtheriae	NA	unspecified
+Ceftriaxone	Corynebacterium ulcerans	NA	unspecified
+Ceftriaxone	Cutibacterium acnes	NA	insufficient data
+Ceftriaxone	Enterobacter agglomerans	NA	insufficient data
+Ceftriaxone	Enterobacter cloacae	NA	insufficient data
+Ceftriaxone	Escherichia coli	0.125	tentative
+Ceftriaxone	Escherichia coli ATCC 25922	NA	insufficient data
+Ceftriaxone	Escherichia coli NCTC 13846	NA	insufficient data
+Ceftriaxone	Haemophilus influenzae	NA	insufficient data
+Ceftriaxone	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Ceftriaxone	Klebsiella pneumoniae	NA	insufficient data
+Ceftriaxone	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ceftriaxone	Kocuria kristinae	NA	unspecified
+Ceftriaxone	Moraxella catarrhalis	0.06	NA
+Ceftriaxone	Neisseria gonorrhoeae	NA	insufficient data
+Ceftriaxone	Neisseria meningitidis	NA	insufficient data
+Ceftriaxone	Proteus mirabilis	NA	insufficient data
+Ceftriaxone	Proteus vulgaris	NA	insufficient data
+Ceftriaxone	Pseudomonas aeruginosa	NA	insufficient data
+Ceftriaxone	Pseudomonas fluorescens group	NA	unspecified
+Ceftriaxone	Pseudomonas stutzeri group	NA	insufficient data
+Ceftriaxone	Rothia aeria	NA	unspecified
+Ceftriaxone	Rothia dentocariosa	NA	unspecified
+Ceftriaxone	Rothia mucilaginosa	NA	unspecified
+Ceftriaxone	Salmonella enterica	0.25	NA
+Ceftriaxone	Serratia marcescens	NA	insufficient data
+Ceftriaxone	Staphylococcus aureus	8	tentative
+Ceftriaxone	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Ceftriaxone	Staphylococcus capitis	NA	insufficient data
+Ceftriaxone	Staphylococcus epidermidis	NA	insufficient data
+Ceftriaxone	Staphylococcus haemolyticus	NA	insufficient data
+Ceftriaxone	Staphylococcus lugdunensis	NA	insufficient data
+Ceftriaxone	Staphylococcus saprophyticus	32	tentative
+Ceftriaxone	Staphylococcus simulans	NA	insufficient data
+Ceftriaxone	Staphylococcus warneri	NA	insufficient data
+Ceftriaxone	Streptococcus agalactiae	NA	insufficient data
+Ceftriaxone	Streptococcus anginosus	NA	unspecified
+Ceftriaxone	Streptococcus anginosus group	NA	unspecified
+Ceftriaxone	Streptococcus bovis equinus group	NA	unspecified
+Ceftriaxone	Streptococcus constellatus	NA	insufficient data
+Ceftriaxone	Streptococcus intermedius	NA	insufficient data
+Ceftriaxone	Streptococcus mitis	NA	unspecified
+Ceftriaxone	Streptococcus mitis group	NA	unspecified
+Ceftriaxone	Streptococcus oralis	NA	unspecified
+Ceftriaxone	Streptococcus pneumoniae	0.06	tentative
+Ceftriaxone	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Ceftriaxone	Streptococcus pyogenes	NA	insufficient data
+Ceftriaxone	Streptococcus salivarius	NA	insufficient data
+Ceftriaxone	Streptococcus salivarius group	NA	unspecified
+Ceftriaxone	Streptococcus sanguinis	NA	unspecified
+Ceftriaxone	Streptococcus sanguinis group	NA	unspecified
+Cefuroxime	Acinetobacter baumannii	NA	insufficient data
+Cefuroxime	Citrobacter freundii	8	NA
+Cefuroxime	Citrobacter koseri	NA	insufficient data
+Cefuroxime	Corynebacterium striatum	NA	insufficient data
+Cefuroxime	Enterobacter agglomerans	NA	insufficient data
+Cefuroxime	Enterobacter cloacae	32	NA
+Cefuroxime	Enterobacter dissolvens	NA	insufficient data
+Cefuroxime	Enterobacter sakazakii	NA	insufficient data
+Cefuroxime	Escherichia coli	8	NA
+Cefuroxime	Escherichia coli ATCC 25922	NA	insufficient data
+Cefuroxime	Haemophilus influenzae	2	NA
+Cefuroxime	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Cefuroxime	Haemophilus influenzae ATCC 49766	NA	insufficient data
+Cefuroxime	Haemophilus parainfluenzae	NA	insufficient data
+Cefuroxime	Hafnia alvei	NA	insufficient data
+Cefuroxime	Kingella kingae	NA	insufficient data
+Cefuroxime	Klebsiella aerogenes	16	NA
+Cefuroxime	Klebsiella oxytoca	16	NA
+Cefuroxime	Klebsiella pneumoniae	8	NA
+Cefuroxime	Legionella pneumophila	NA	insufficient data
+Cefuroxime	Moraxella catarrhalis	8	NA
+Cefuroxime	Morganella morganii	NA	insufficient data
+Cefuroxime	Neisseria gonorrhoeae	NA	insufficient data
+Cefuroxime	Neisseria meningitidis	0.25	tentative
+Cefuroxime	Proteus mirabilis	4	NA
+Cefuroxime	Proteus vulgaris	NA	unspecified
+Cefuroxime	Providencia rettgeri	NA	insufficient data
+Cefuroxime	Providencia stuartii	NA	unspecified
+Cefuroxime	Salmonella enterica	16	tentative
+Cefuroxime	Salmonella Enteritidis	NA	unspecified
+Cefuroxime	Salmonella Paratyphi	NA	unspecified
+Cefuroxime	Salmonella Typhi	NA	unspecified
+Cefuroxime	Salmonella Typhimurium	NA	unspecified
+Cefuroxime	Serratia liquefaciens	NA	insufficient data
+Cefuroxime	Shigella flexneri	NA	unspecified
+Cefuroxime	Shigella sonnei	NA	insufficient data
+Cefuroxime	Staphylococcus aureus	4	NA
+Cefuroxime	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Cefuroxime	Staphylococcus capitis	NA	insufficient data
+Cefuroxime	Staphylococcus hominis	NA	insufficient data
+Cefuroxime	Staphylococcus saprophyticus	NA	insufficient data
+Cefuroxime	Staphylococcus warneri	NA	insufficient data
+Cefuroxime	Streptococcus agalactiae	NA	unspecified
+Cefuroxime	Streptococcus pneumoniae	0.125	NA
+Cefuroxime	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Cefuroxime	Streptococcus pyogenes	NA	insufficient data
+Cefuroxime	Streptococcus sanguinis	NA	insufficient data
+Cefuroxime	Yersinia enterocolitica	NA	insufficient data
+Chloramphenicol	Burkholderia pseudomallei	8	NA
+Chloramphenicol	Campylobacter coli	16	NA
+Chloramphenicol	Campylobacter jejuni	16	NA
+Chloramphenicol	Clostridioides difficile	NA	insufficient data
+Chloramphenicol	Enterobacter cloacae	NA	insufficient data
+Chloramphenicol	Enterobacter dissolvens	NA	insufficient data
+Chloramphenicol	Enterococcus faecalis	32	NA
+Chloramphenicol	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Chloramphenicol	Enterococcus faecium	32	NA
+Chloramphenicol	Enterococcus hirae	NA	insufficient data
+Chloramphenicol	Escherichia coli	16	NA
+Chloramphenicol	Haemophilus influenzae	2	NA
+Chloramphenicol	Haemophilus parainfluenzae	NA	insufficient data
+Chloramphenicol	Hafnia alvei	NA	insufficient data
+Chloramphenicol	Klebsiella oxytoca	NA	insufficient data
+Chloramphenicol	Klebsiella pneumoniae	NA	insufficient data
+Chloramphenicol	Lactobacillus lactis	NA	insufficient data
+Chloramphenicol	Lactobacillus reuteri	NA	insufficient data
+Chloramphenicol	Lactococcus lactis	NA	insufficient data
+Chloramphenicol	Legionella pneumophila	NA	insufficient data
+Chloramphenicol	Listeria monocytogenes	32	tentative
+Chloramphenicol	Mannheimia haemolytica	2	tentative
+Chloramphenicol	Moraxella catarrhalis	NA	insufficient data
+Chloramphenicol	Neisseria gonorrhoeae	NA	insufficient data
+Chloramphenicol	Neisseria meningitidis	2	NA
+Chloramphenicol	Pasteurella multocida	1	NA
+Chloramphenicol	Salmonella enterica	16	NA
+Chloramphenicol	Serratia liquefaciens	NA	insufficient data
+Chloramphenicol	Staphylococcus aureus	16	NA
+Chloramphenicol	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Chloramphenicol	Staphylococcus epidermidis	NA	insufficient data
+Chloramphenicol	Staphylococcus intermedius	NA	insufficient data
+Chloramphenicol	Streptococcus agalactiae	NA	insufficient data
+Chloramphenicol	Streptococcus pneumoniae	8	NA
+Chloramphenicol	Streptococcus pyogenes	NA	insufficient data
+Chloramphenicol	Yersinia enterocolitica	NA	insufficient data
+Chlortetracycline	Actinobacillus pleuropneumoniae	1	tentative
+Chlortetracycline	Mannheimia haemolytica	2	tentative
+Chlortetracycline	Pasteurella multocida	1	tentative
+Chlortetracycline	Staphylococcus aureus	0.5	NA
+Chlortetracycline	Staphylococcus pseudintermedius	0.5	NA
+Chlortetracycline	Streptococcus equi subspecies equi	NA	unspecified
+Ciprofloxacin	Achromobacter xylosoxidans	NA	insufficient data
+Ciprofloxacin	Acinetobacter baumannii	1	NA
+Ciprofloxacin	Acinetobacter pittii	NA	insufficient data
+Ciprofloxacin	Actinomyces israelii	NA	insufficient data
+Ciprofloxacin	Aerococcus sanguinicola	NA	insufficient data
+Ciprofloxacin	Aerococcus urinae	NA	insufficient data
+Ciprofloxacin	Alcaligenes faecalis	NA	insufficient data
+Ciprofloxacin	Bacillus anthracis	0.25	NA
+Ciprofloxacin	Bacillus cereus	NA	insufficient data
+Ciprofloxacin	Brucella melitensis	1	NA
+Ciprofloxacin	Campylobacter coli	0.5	NA
+Ciprofloxacin	Campylobacter jejuni	0.5	NA
+Ciprofloxacin	Campylobacter upsaliensis	NA	insufficient data
+Ciprofloxacin	Citrobacter freundii	NA	insufficient data
+Ciprofloxacin	Citrobacter koseri	NA	insufficient data
+Ciprofloxacin	Clostridioides difficile	32	tentative
+Ciprofloxacin	Clostridium perfringens	NA	insufficient data
+Ciprofloxacin	Corynebacterium diphtheriae	0.125	tentative
+Ciprofloxacin	Corynebacterium glucuronolyticum	NA	insufficient data
+Ciprofloxacin	Corynebacterium striatum	NA	insufficient data
+Ciprofloxacin	Corynebacterium ulcerans	0.125	tentative
+Ciprofloxacin	Enterobacter agglomerans	NA	insufficient data
+Ciprofloxacin	Enterobacter cloacae	0.06	NA
+Ciprofloxacin	Enterobacter dissolvens	NA	insufficient data
+Ciprofloxacin	Enterococcus faecalis	4	NA
+Ciprofloxacin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Ciprofloxacin	Enterococcus faecium	8	NA
+Ciprofloxacin	Escherichia coli	0.06	NA
+Ciprofloxacin	Haemophilus influenzae	0.03	NA
+Ciprofloxacin	Haemophilus parainfluenzae	NA	insufficient data
+Ciprofloxacin	Hafnia alvei	NA	insufficient data
+Ciprofloxacin	Helicobacter pylori	NA	insufficient data
+Ciprofloxacin	Kingella kingae	NA	insufficient data
+Ciprofloxacin	Klebsiella aerogenes	0.125	NA
+Ciprofloxacin	Klebsiella oxytoca	0.06	NA
+Ciprofloxacin	Klebsiella pneumoniae	0.125	NA
+Ciprofloxacin	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ciprofloxacin	Legionella pneumophila	NA	insufficient data
+Ciprofloxacin	Listeria monocytogenes	NA	insufficient data
+Ciprofloxacin	Moraxella catarrhalis	0.125	NA
+Ciprofloxacin	Morganella morganii	0.06	NA
+Ciprofloxacin	Neisseria gonorrhoeae	0.016	NA
+Ciprofloxacin	Neisseria meningitidis	0.008	NA
+Ciprofloxacin	Pasteurella multocida	0.03	NA
+Ciprofloxacin	Proteus mirabilis	0.06	NA
+Ciprofloxacin	Proteus vulgaris	NA	insufficient data
+Ciprofloxacin	Providencia stuartii	NA	insufficient data
+Ciprofloxacin	Pseudomonas aeruginosa	0.5	NA
+Ciprofloxacin	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Ciprofloxacin	Pseudomonas fluorescens group	NA	insufficient data
+Ciprofloxacin	Salmonella enterica	0.125	tentative
+Ciprofloxacin	Serratia marcescens	0.5	NA
+Ciprofloxacin	Shigella flexneri	NA	insufficient data
+Ciprofloxacin	Shigella sonnei	NA	insufficient data
+Ciprofloxacin	Staphylococcus aureus	2	NA
+Ciprofloxacin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Ciprofloxacin	Staphylococcus aureus MRSA	2	tentative
+Ciprofloxacin	Staphylococcus aureus MSSA	2	tentative
+Ciprofloxacin	Staphylococcus capitis	1	tentative
+Ciprofloxacin	Staphylococcus coagulase negative	NA	insufficient data
+Ciprofloxacin	Staphylococcus cohnii	NA	insufficient data
+Ciprofloxacin	Staphylococcus epidermidis	1	NA
+Ciprofloxacin	Staphylococcus epidermidis MSSE	NA	insufficient data
+Ciprofloxacin	Staphylococcus haemolyticus	1	tentative
+Ciprofloxacin	Staphylococcus hominis	0.5	tentative
+Ciprofloxacin	Staphylococcus intermedius	NA	insufficient data
+Ciprofloxacin	Staphylococcus lugdunensis	NA	insufficient data
+Ciprofloxacin	Staphylococcus saprophyticus	1	tentative
+Ciprofloxacin	Staphylococcus simulans	NA	insufficient data
+Ciprofloxacin	Staphylococcus warneri	NA	insufficient data
+Ciprofloxacin	Stenotrophomonas maltophilia	16	NA
+Ciprofloxacin	Streptococcus agalactiae	2	NA
+Ciprofloxacin	Streptococcus anginosus	4	tentative
+Ciprofloxacin	Streptococcus anginosus group	NA	insufficient data
+Ciprofloxacin	Streptococcus bovis	NA	insufficient data
+Ciprofloxacin	Streptococcus constellatus	NA	insufficient data
+Ciprofloxacin	Streptococcus gordonii	NA	insufficient data
+Ciprofloxacin	Streptococcus group C	NA	insufficient data
+Ciprofloxacin	Streptococcus group G	2	NA
+Ciprofloxacin	Streptococcus intermedius	NA	insufficient data
+Ciprofloxacin	Streptococcus mitis	NA	insufficient data
+Ciprofloxacin	Streptococcus oralis	16	NA
+Ciprofloxacin	Streptococcus pneumoniae	4	NA
+Ciprofloxacin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Ciprofloxacin	Streptococcus pyogenes	2	NA
+Ciprofloxacin	Streptococcus salivarius	NA	insufficient data
+Ciprofloxacin	Streptococcus sanguinis	NA	insufficient data
+Ciprofloxacin	Streptococcus uberis	NA	insufficient data
+Ciprofloxacin	Vibrio alginolyticus	NA	unspecified
+Ciprofloxacin	Vibrio cholerae	0.008	tentative
+Ciprofloxacin	Vibrio fluvialis	NA	unspecified
+Ciprofloxacin	Vibrio parahaemolyticus	NA	unspecified
+Ciprofloxacin	Vibrio vulnificus	NA	unspecified
+Ciprofloxacin	Yersinia enterocolitica	0.125	tentative
+Clarithromycin	Actinomyces israelii	NA	insufficient data
+Clarithromycin	Bacteroides fragilis group	NA	insufficient data
+Clarithromycin	Enterococcus faecalis	NA	insufficient data
+Clarithromycin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Clarithromycin	Enterococcus faecium	NA	insufficient data
+Clarithromycin	Haemophilus influenzae	32	NA
+Clarithromycin	Haemophilus parainfluenzae	NA	insufficient data
+Clarithromycin	Helicobacter pylori	0.25	NA
+Clarithromycin	Kingella kingae	NA	insufficient data
+Clarithromycin	Legionella pneumophila	NA	insufficient data
+Clarithromycin	Moraxella catarrhalis	0.125	tentative
+Clarithromycin	Mycobacterium abscessus	1	tentative
+Clarithromycin	Mycobacterium avium	16	NA
+Clarithromycin	Mycobacterium avium ATCC 700898	NA	unspecified
+Clarithromycin	Mycobacterium intracellulare	8	tentative
+Clarithromycin	Nocardia abscessus	NA	insufficient data
+Clarithromycin	Staphylococcus aureus	NA	insufficient data
+Clarithromycin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Clarithromycin	Streptococcus pneumoniae	0.125	NA
+Clarithromycin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Clarithromycin	Streptococcus pyogenes	NA	insufficient data
+Clarithromycin	Yersinia enterocolitica	NA	insufficient data
+Clinafloxacin	Enterococcus faecalis	1	tentative
+Clinafloxacin	Enterococcus faecium	NA	insufficient data
+Clinafloxacin	Staphylococcus aureus	NA	insufficient data
+Clinafloxacin	Staphylococcus epidermidis	NA	insufficient data
+Clinafloxacin	Stenotrophomonas maltophilia	NA	insufficient data
+Clindamycin	Actinomyces israelii	NA	insufficient data
+Clindamycin	Actinomyces spp	NA	unspecified
+Clindamycin	Bacillus anthracis	1	NA
+Clindamycin	Bacillus cereus	NA	insufficient data
+Clindamycin	Bacteroides fragilis	4	NA
+Clindamycin	Bacteroides fragilis group	NA	insufficient data
+Clindamycin	Bacteroides ovatus	NA	unspecified
+Clindamycin	Bacteroides thetaiotaomicron	NA	insufficient data
+Clindamycin	Bacteroides vulgatus	NA	insufficient data
+Clindamycin	Bifidobacterium adolescentis	NA	insufficient data
+Clindamycin	Bifidobacterium animalis	NA	insufficient data
+Clindamycin	Bifidobacterium longum	NA	insufficient data
+Clindamycin	Bifidobacterium thermophilum	NA	insufficient data
+Clindamycin	Campylobacter coli	1	NA
+Clindamycin	Campylobacter jejuni	0.5	NA
+Clindamycin	Campylobacter upsaliensis	NA	unspecified
+Clindamycin	Clostridioides difficile	16	NA
+Clindamycin	Clostridium perfringens	0.125	tentative
+Clindamycin	Corynebacterium diphtheriae	0.5	NA
+Clindamycin	Corynebacterium ulcerans	4	NA
+Clindamycin	Enterococcus cecorum	NA	insufficient data
+Clindamycin	Enterococcus faecalis	NA	insufficient data
+Clindamycin	Haemophilus influenzae	NA	insufficient data
+Clindamycin	Lactobacillus acidophilus	NA	unspecified
+Clindamycin	Lactobacillus crispatus	NA	unspecified
+Clindamycin	Lactobacillus delbrueckii	NA	insufficient data
+Clindamycin	Lactobacillus gasseri	NA	insufficient data
+Clindamycin	Lactobacillus helveticus	NA	insufficient data
+Clindamycin	Lactobacillus johnsonii	NA	insufficient data
+Clindamycin	Lactobacillus lactis	NA	insufficient data
+Clindamycin	Lactobacillus plantarum	NA	insufficient data
+Clindamycin	Lactobacillus reuteri	NA	insufficient data
+Clindamycin	Lactococcus lactis	NA	insufficient data
+Clindamycin	Pasteurella multocida	NA	insufficient data
+Clindamycin	Rothia aeria	NA	unspecified
+Clindamycin	Rothia dentocariosa	NA	insufficient data
+Clindamycin	Rothia mucilaginosa	NA	insufficient data
+Clindamycin	Staphylococcus aureus	0.25	NA
+Clindamycin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Clindamycin	Staphylococcus aureus MRSA	0.25	tentative
+Clindamycin	Staphylococcus aureus MSSA	0.25	NA
+Clindamycin	Staphylococcus epidermidis	0.5	tentative
+Clindamycin	Staphylococcus epidermidis MSSE	NA	unspecified
+Clindamycin	Staphylococcus haemolyticus	0.5	tentative
+Clindamycin	Staphylococcus hyicus	NA	insufficient data
+Clindamycin	Staphylococcus lugdunensis	NA	insufficient data
+Clindamycin	Staphylococcus pseudintermedius	0.25	NA
+Clindamycin	Staphylococcus warneri	NA	insufficient data
+Clindamycin	Streptococcus acidominimus	NA	insufficient data
+Clindamycin	Streptococcus agalactiae	0.25	NA
+Clindamycin	Streptococcus anginosus	0.25	tentative
+Clindamycin	Streptococcus anginosus group	NA	unspecified
+Clindamycin	Streptococcus bovis equinus group	NA	unspecified
+Clindamycin	Streptococcus canis	NA	insufficient data
+Clindamycin	Streptococcus constellatus	NA	unspecified
+Clindamycin	Streptococcus dysgalactiae	0.5	NA
+Clindamycin	Streptococcus equi subspecies equi	NA	unspecified
+Clindamycin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Clindamycin	Streptococcus equinus	NA	insufficient data
+Clindamycin	Streptococcus equisimilis	NA	insufficient data
+Clindamycin	Streptococcus group G	0.5	tentative
+Clindamycin	Streptococcus mitis	NA	unspecified
+Clindamycin	Streptococcus mitis group	NA	unspecified
+Clindamycin	Streptococcus oralis	0.25	NA
+Clindamycin	Streptococcus pneumoniae	0.25	NA
+Clindamycin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Clindamycin	Streptococcus pyogenes	0.25	NA
+Clindamycin	Streptococcus salivarius group	NA	unspecified
+Clindamycin	Streptococcus sanguinis	NA	unspecified
+Clindamycin	Streptococcus sanguinis group	NA	unspecified
+Clindamycin	Streptococcus suis	0.5	NA
+Clindamycin	Streptococcus thermophilus	NA	insufficient data
+Clindamycin	Streptococcus uberis	0.25	NA
+Clindamycin	Yersinia enterocolitica	NA	insufficient data
+Clofazimine	Mycobacterium tuberculosis 7H9	NA	unspecified
+Cloxacillin	Staphylococcus aureus	NA	insufficient data
+Cloxacillin	Staphylococcus hyicus	NA	insufficient data
+Cloxacillin	Staphylococcus pseudintermedius	1	tentative
+Cloxacillin	Streptococcus agalactiae	NA	unspecified
+Cloxacillin	Streptococcus canis	0.5	tentative
+Cloxacillin	Streptococcus dysgalactiae	0.25	NA
+Cloxacillin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Cloxacillin	Streptococcus equisimilis	NA	insufficient data
+Cloxacillin	Streptococcus suis	NA	unspecified
+Cloxacillin	Streptococcus uberis	1	NA
+Colistin	Achromobacter xylosoxidans	NA	insufficient data
+Colistin	Acinetobacter baumannii	2	tentative
+Colistin	Acinetobacter pittii	NA	insufficient data
+Colistin	Aeromonas caviae	NA	unspecified
+Colistin	Aeromonas hydrophila	NA	unspecified
+Colistin	Aeromonas veronii	NA	unspecified
+Colistin	Citrobacter freundii	NA	insufficient data
+Colistin	Enterobacter cloacae	2	NA
+Colistin	Escherichia coli	2	NA
+Colistin	Escherichia coli ATCC 25922	NA	insufficient data
+Colistin	Escherichia coli NCTC 13846	NA	insufficient data
+Colistin	Klebsiella aerogenes	2	NA
+Colistin	Klebsiella oxytoca	2	NA
+Colistin	Klebsiella pneumoniae	2	NA
+Colistin	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Colistin	Pseudomonas aeruginosa	4	NA
+Colistin	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Colistin	Pseudomonas putida group	NA	insufficient data
+Colistin	Salmonella Dublin	16	tentative
+Cyclerosine	Mycobacterium tuberculosis 7H9	NA	unspecified
+Dalbavancin	Clostridium perfringens	NA	insufficient data
+Dalbavancin	Clostridium ramnosum	NA	insufficient data
+Dalbavancin	Enterococcus faecalis	NA	insufficient data
+Dalbavancin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Dalbavancin	Enterococcus faecium	NA	insufficient data
+Dalbavancin	Nocardia abscessus	NA	insufficient data
+Dalbavancin	Nocardia cyriacigeorgica	NA	insufficient data
+Dalbavancin	Nocardia nova	NA	insufficient data
+Dalbavancin	Staphylococcus aureus	0.25	NA
+Dalbavancin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Dalbavancin	Staphylococcus epidermidis	NA	insufficient data
+Dalbavancin	Staphylococcus haemolyticus	NA	insufficient data
+Dalbavancin	Staphylococcus hominis	NA	insufficient data
+Dalbavancin	Staphylococcus lugdunensis	NA	insufficient data
+Dalbavancin	Staphylococcus saprophyticus	NA	insufficient data
+Dalbavancin	Staphylococcus warneri	NA	insufficient data
+Dalbavancin	Staphylococcus xylosus	NA	insufficient data
+Dalbavancin	Streptococcus agalactiae	0.125	NA
+Dalbavancin	Streptococcus anginosus	NA	unspecified
+Dalbavancin	Streptococcus anginosus group	NA	unspecified
+Dalbavancin	Streptococcus bovis equinus group	NA	unspecified
+Dalbavancin	Streptococcus constellatus	NA	unspecified
+Dalbavancin	Streptococcus group G	NA	insufficient data
+Dalbavancin	Streptococcus mitis	NA	unspecified
+Dalbavancin	Streptococcus mitis group	NA	unspecified
+Dalbavancin	Streptococcus oralis	NA	unspecified
+Dalbavancin	Streptococcus pyogenes	0.03	NA
+Dalbavancin	Streptococcus salivarius	NA	unspecified
+Dalbavancin	Streptococcus salivarius group	NA	unspecified
+Dalbavancin	Streptococcus sanguinis	NA	unspecified
+Dalbavancin	Streptococcus sanguinis group	NA	unspecified
+Daptomycin	Clostridioides difficile	NA	insufficient data
+Daptomycin	Enterococcus faecalis	4	NA
+Daptomycin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Daptomycin	Enterococcus faecium	8	NA
+Daptomycin	Kocuria kristinae	NA	insufficient data
+Daptomycin	Listeria monocytogenes	8	tentative
+Daptomycin	Rothia aeria	NA	insufficient data
+Daptomycin	Rothia dentocariosa	NA	insufficient data
+Daptomycin	Staphylococcus aureus	1	NA
+Daptomycin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Daptomycin	Staphylococcus aureus MRSA	1	tentative
+Daptomycin	Staphylococcus aureus MSSA	1	tentative
+Daptomycin	Staphylococcus capitis	NA	insufficient data
+Daptomycin	Staphylococcus epidermidis	1	NA
+Daptomycin	Staphylococcus epidermidis MSSE	NA	unspecified
+Daptomycin	Staphylococcus haemolyticus	1	tentative
+Daptomycin	Staphylococcus hominis	1	tentative
+Daptomycin	Staphylococcus lugdunensis	NA	insufficient data
+Daptomycin	Staphylococcus saprophyticus	NA	insufficient data
+Daptomycin	Staphylococcus warneri	NA	insufficient data
+Daptomycin	Streptococcus agalactiae	0.5	NA
+Daptomycin	Streptococcus bovis	NA	insufficient data
+Daptomycin	Streptococcus group G	0.125	tentative
+Daptomycin	Streptococcus mitis	NA	insufficient data
+Daptomycin	Streptococcus oralis	2	tentative
+Daptomycin	Streptococcus pneumoniae	0.5	tentative
+Daptomycin	Streptococcus pyogenes	0.25	tentative
+Delafloxacin	Acinetobacter baumannii	1	NA
+Delafloxacin	Citrobacter freundii	0.25	tentative
+Delafloxacin	Citrobacter koseri	0.125	tentative
+Delafloxacin	Enterobacter cloacae	0.5	NA
+Delafloxacin	Enterococcus faecalis	0.5	NA
+Delafloxacin	Enterococcus faecium	NA	insufficient data
+Delafloxacin	Escherichia coli	0.125	NA
+Delafloxacin	Haemophilus influenzae	NA	insufficient data
+Delafloxacin	Haemophilus parainfluenzae	NA	insufficient data
+Delafloxacin	Klebsiella aerogenes	0.5	NA
+Delafloxacin	Klebsiella oxytoca	0.5	NA
+Delafloxacin	Klebsiella pneumoniae	0.25	NA
+Delafloxacin	Proteus mirabilis	0.25	NA
+Delafloxacin	Proteus vulgaris	NA	insufficient data
+Delafloxacin	Pseudomonas aeruginosa	2	NA
+Delafloxacin	Staphylococcus aureus	0.016	NA
+Delafloxacin	Staphylococcus aureus MRSA	0.016	NA
+Delafloxacin	Staphylococcus aureus MSSA	0.016	NA
+Delafloxacin	Staphylococcus epidermidis	0.03	tentative
+Delafloxacin	Staphylococcus haemolyticus	0.016	NA
+Delafloxacin	Staphylococcus hominis	0.016	NA
+Delafloxacin	Staphylococcus lugdunensis	0.06	NA
+Delafloxacin	Streptococcus agalactiae	0.06	NA
+Delafloxacin	Streptococcus anginosus	0.03	NA
+Delafloxacin	Streptococcus constellatus	NA	unspecified
+Delafloxacin	Streptococcus dysgalactiae	0.06	NA
+Delafloxacin	Streptococcus mitis	NA	insufficient data
+Delafloxacin	Streptococcus pneumoniae	0.06	NA
+Delafloxacin	Streptococcus pyogenes	0.03	NA
+Delamanid	Mycobacterium tuberculosis 7H11	0.03	NA
+Delamanid	Mycobacterium tuberculosis MGIT 960	NA	insufficient data
+Dihydrostreptomycin	Pasteurella multocida	NA	unspecified
+Doripenem	Acinetobacter baumannii	1	NA
+Doripenem	Acinetobacter pittii	NA	insufficient data
+Doripenem	Alcaligenes xylosoxidans	NA	insufficient data
+Doripenem	Bacteroides fragilis	NA	insufficient data
+Doripenem	Bacteroides fragilis group	NA	insufficient data
+Doripenem	Bacteroides thetaiotaomicron	NA	insufficient data
+Doripenem	Clostridioides difficile	NA	insufficient data
+Doripenem	Enterobacter cloacae	0.125	NA
+Doripenem	Enterococcus avium	NA	insufficient data
+Doripenem	Enterococcus faecalis	16	NA
+Doripenem	Enterococcus gallinarum	NA	insufficient data
+Doripenem	Escherichia coli	0.06	tentative
+Doripenem	Haemophilus influenzae	0.5	tentative
+Doripenem	Klebsiella aerogenes	0.25	tentative
+Doripenem	Klebsiella oxytoca	0.125	tentative
+Doripenem	Klebsiella pneumoniae	0.125	NA
+Doripenem	Moraxella catarrhalis	NA	insufficient data
+Doripenem	Morganella morganii	1	NA
+Doripenem	Proteus mirabilis	0.5	NA
+Doripenem	Proteus vulgaris	0.5	NA
+Doripenem	Pseudomonas aeruginosa	2	NA
+Doripenem	Serratia liquefaciens	NA	insufficient data
+Doripenem	Serratia marcescens	0.5	NA
+Doripenem	Staphylococcus aureus	NA	unspecified
+Doripenem	Staphylococcus aureus MRSA	0.125	NA
+Doripenem	Staphylococcus aureus MSSA	0.125	tentative
+Doripenem	Staphylococcus epidermidis	NA	insufficient data
+Doripenem	Staphylococcus epidermidis MSSE	NA	insufficient data
+Doripenem	Staphylococcus lugdunensis	NA	insufficient data
+Doripenem	Streptococcus agalactiae	NA	unspecified
+Doripenem	Streptococcus pyogenes	0.016	tentative
+Doripenem	Streptococcus sanguinis	NA	unspecified
+Doxycycline	Actinobacillus pleuropneumoniae	2	NA
+Doxycycline	Actinomyces israelii	NA	insufficient data
+Doxycycline	Bacillus anthracis	0.06	NA
+Doxycycline	Brucella melitensis	0.25	NA
+Doxycycline	Burkholderia pseudomallei	2	NA
+Doxycycline	Campylobacter coli	1	tentative
+Doxycycline	Campylobacter jejuni	0.5	tentative
+Doxycycline	Citrobacter freundii	8	tentative
+Doxycycline	Corynebacterium diphtheriae	0.25	tentative
+Doxycycline	Corynebacterium ulcerans	0.5	tentative
+Doxycycline	Enterobacter cloacae	8	tentative
+Doxycycline	Enterococcus faecalis	1	NA
+Doxycycline	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Doxycycline	Enterococcus faecium	0.5	NA
+Doxycycline	Escherichia coli	8	NA
+Doxycycline	Haemophilus influenzae	1	tentative
+Doxycycline	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Doxycycline	Haemophilus influenzae ATCC 49766	NA	insufficient data
+Doxycycline	Kingella kingae	NA	insufficient data
+Doxycycline	Klebsiella aerogenes	NA	insufficient data
+Doxycycline	Klebsiella oxytoca	4	tentative
+Doxycycline	Klebsiella pneumoniae	4	NA
+Doxycycline	Kocuria kristinae	NA	insufficient data
+Doxycycline	Legionella pneumophila	NA	insufficient data
+Doxycycline	Mannheimia haemolytica	2	NA
+Doxycycline	Moraxella catarrhalis	NA	insufficient data
+Doxycycline	Morganella morganii	NA	insufficient data
+Doxycycline	Mycobacterium marinum	NA	insufficient data
+Doxycycline	Pasteurella multocida	1	NA
+Doxycycline	Proteus vulgaris	NA	insufficient data
+Doxycycline	Pseudomonas aeruginosa	64	tentative
+Doxycycline	Rothia aeria	NA	insufficient data
+Doxycycline	Rothia dentocariosa	NA	insufficient data
+Doxycycline	Rothia mucilaginosa	NA	insufficient data
+Doxycycline	Salmonella enterica	8	NA
+Doxycycline	Serratia marcescens	NA	insufficient data
+Doxycycline	Staphylococcus aureus	0.5	NA
+Doxycycline	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Doxycycline	Staphylococcus haemolyticus	NA	insufficient data
+Doxycycline	Staphylococcus hyicus	NA	insufficient data
+Doxycycline	Staphylococcus pseudintermedius	0.125	NA
+Doxycycline	Staphylococcus saprophyticus	NA	insufficient data
+Doxycycline	Stenotrophomonas maltophilia	NA	insufficient data
+Doxycycline	Streptococcus agalactiae	0.5	NA
+Doxycycline	Streptococcus canis	0.5	tentative
+Doxycycline	Streptococcus dysgalactiae	NA	insufficient data
+Doxycycline	Streptococcus equi subspecies equi	NA	unspecified
+Doxycycline	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Doxycycline	Streptococcus equisimilis	NA	insufficient data
+Doxycycline	Streptococcus pneumoniae	0.5	NA
+Doxycycline	Streptococcus pyogenes	0.5	NA
+Doxycycline	Streptococcus suis	0.5	tentative
+Doxycycline	Streptococcus uberis	0.5	tentative
+Doxycycline	Vibrio alginolyticus	NA	insufficient data
+Doxycycline	Vibrio cholerae	0.5	tentative
+Doxycycline	Vibrio fluvialis	NA	insufficient data
+Doxycycline	Vibrio parahaemolyticus	NA	insufficient data
+Doxycycline	Vibrio vulnificus	NA	insufficient data
+Doxycycline	Yersinia enterocolitica	NA	insufficient data
+Enrofloxacin	Actinobacillus pleuropneumoniae	0.125	NA
+Enrofloxacin	Escherichia coli	0.125	NA
+Enrofloxacin	Listeria monocytogenes	NA	unspecified
+Enrofloxacin	Mannheimia haemolytica	0.125	NA
+Enrofloxacin	Pasteurella multocida	0.06	NA
+Enrofloxacin	Pseudomonas aeruginosa	NA	unspecified
+Enrofloxacin	Salmonella enterica	NA	unspecified
+Enrofloxacin	Staphylococcus hyicus	0.25	NA
+Enrofloxacin	Staphylococcus pseudintermedius	0.5	NA
+Enrofloxacin	Streptococcus canis	NA	unspecified
+Enrofloxacin	Streptococcus equi subspecies equi	NA	unspecified
+Enrofloxacin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Enrofloxacin	Streptococcus suis	NA	unspecified
+Enrofloxacin	Streptococcus uberis	NA	unspecified
+Eravacycline	Acinetobacter baumannii	NA	insufficient data
+Eravacycline	Bacteroides fragilis	2	tentative
+Eravacycline	Bacteroides ovatus	NA	insufficient data
+Eravacycline	Bacteroides thetaiotaomicron	NA	insufficient data
+Eravacycline	Bacteroides uniformis	NA	insufficient data
+Eravacycline	Bacteroides vulgatus	NA	insufficient data
+Eravacycline	Citrobacter freundii	NA	insufficient data
+Eravacycline	Citrobacter koseri	NA	insufficient data
+Eravacycline	Clostridioides difficile	NA	insufficient data
+Eravacycline	Clostridium innocuum	NA	insufficient data
+Eravacycline	Enterobacter cloacae	2	NA
+Eravacycline	Enterococcus faecalis	0.25	NA
+Eravacycline	Enterococcus faecium	0.25	tentative
+Eravacycline	Escherichia coli	0.5	NA
+Eravacycline	Haemophilus influenzae	NA	insufficient data
+Eravacycline	Klebsiella aerogenes	NA	insufficient data
+Eravacycline	Klebsiella oxytoca	0.25	tentative
+Eravacycline	Klebsiella pneumoniae	2	NA
+Eravacycline	Klebsiella variicola	NA	insufficient data
+Eravacycline	Morganella morganii	4	tentative
+Eravacycline	Prevotella bivia	NA	insufficient data
+Eravacycline	Proteus mirabilis	4	NA
+Eravacycline	Proteus vulgaris	2	NA
+Eravacycline	Providencia rettgeri	NA	insufficient data
+Eravacycline	Providencia stuartii	4	tentative
+Eravacycline	Pseudomonas aeruginosa	32	tentative
+Eravacycline	Salmonella enterica	NA	insufficient data
+Eravacycline	Serratia marcescens	2	NA
+Eravacycline	Staphylococcus aureus	0.25	NA
+Eravacycline	Staphylococcus epidermidis	0.25	tentative
+Eravacycline	Staphylococcus hominis	NA	insufficient data
+Eravacycline	Staphylococcus saprophyticus	NA	insufficient data
+Eravacycline	Stenotrophomonas maltophilia	4	NA
+Eravacycline	Streptococcus agalactiae	0.125	tentative
+Eravacycline	Streptococcus pneumoniae	NA	insufficient data
+Eravacycline	Streptococcus pyogenes	0.06	tentative
+Ertapenem	Acinetobacter baumannii	16	tentative
+Ertapenem	Bacteroides fragilis	NA	insufficient data
+Ertapenem	Campylobacter jejuni	0.125	tentative
+Ertapenem	Clostridioides difficile	NA	insufficient data
+Ertapenem	Enterobacter cloacae	0.06	tentative
+Ertapenem	Enterococcus faecalis	32	tentative
+Ertapenem	Escherichia coli	0.03	tentative
+Ertapenem	Escherichia coli NCTC 13846	NA	insufficient data
+Ertapenem	Haemophilus influenzae	0.25	NA
+Ertapenem	Haemophilus parainfluenzae	NA	insufficient data
+Ertapenem	Klebsiella aerogenes	NA	insufficient data
+Ertapenem	Klebsiella oxytoca	NA	insufficient data
+Ertapenem	Klebsiella pneumoniae	0.03	tentative
+Ertapenem	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Ertapenem	Moraxella catarrhalis	0.06	tentative
+Ertapenem	Morganella morganii	0.125	NA
+Ertapenem	Proteus mirabilis	0.03	NA
+Ertapenem	Proteus vulgaris	0.06	tentative
+Ertapenem	Providencia rettgeri	NA	insufficient data
+Ertapenem	Pseudomonas aeruginosa	NA	insufficient data
+Ertapenem	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Ertapenem	Serratia marcescens	NA	insufficient data
+Ertapenem	Staphylococcus aureus	0.5	NA
+Ertapenem	Staphylococcus saprophyticus	NA	insufficient data
+Ertapenem	Streptococcus agalactiae	0.125	NA
+Ertapenem	Streptococcus anginosus	NA	insufficient data
+Ertapenem	Streptococcus group G	NA	insufficient data
+Ertapenem	Streptococcus oralis	NA	insufficient data
+Ertapenem	Streptococcus pneumoniae	0.03	NA
+Ertapenem	Streptococcus pyogenes	NA	insufficient data
+Erythromycin	Actinobacillus pleuropneumoniae	8	tentative
+Erythromycin	Actinomyces israelii	NA	insufficient data
+Erythromycin	Bacillus cereus	NA	insufficient data
+Erythromycin	Bacteroides fragilis group	NA	insufficient data
+Erythromycin	Bifidobacterium adolescentis	NA	insufficient data
+Erythromycin	Bifidobacterium animalis	NA	insufficient data
+Erythromycin	Bifidobacterium bifidum	NA	insufficient data
+Erythromycin	Bifidobacterium longum	NA	insufficient data
+Erythromycin	Bordetella bronchiseptica	NA	insufficient data
+Erythromycin	Campylobacter coli	8	NA
+Erythromycin	Campylobacter jejuni	4	NA
+Erythromycin	Campylobacter upsaliensis	NA	insufficient data
+Erythromycin	Clostridioides difficile	4	NA
+Erythromycin	Corynebacterium diphtheriae	0.016	tentative
+Erythromycin	Corynebacterium ulcerans	0.03	tentative
+Erythromycin	Enterococcus faecalis	4	NA
+Erythromycin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Erythromycin	Enterococcus faecium	4	NA
+Erythromycin	Enterococcus hirae	1	NA
+Erythromycin	Haemophilus influenzae	16	NA
+Erythromycin	Haemophilus parainfluenzae	NA	insufficient data
+Erythromycin	Kingella kingae	NA	insufficient data
+Erythromycin	Kocuria kristinae	NA	unspecified
+Erythromycin	Lactobacillus delbrueckii	NA	unspecified
+Erythromycin	Lactobacillus fermentum	NA	insufficient data
+Erythromycin	Lactobacillus gasseri	NA	insufficient data
+Erythromycin	Lactobacillus johnsonii	NA	insufficient data
+Erythromycin	Lactobacillus lactis	NA	insufficient data
+Erythromycin	Lactobacillus paracasei	NA	insufficient data
+Erythromycin	Lactobacillus plantarum	NA	insufficient data
+Erythromycin	Lactobacillus reuteri	NA	insufficient data
+Erythromycin	Lactobacillus sakei	NA	insufficient data
+Erythromycin	Lactococcus lactis	NA	insufficient data
+Erythromycin	Legionella pneumophila	NA	insufficient data
+Erythromycin	Listeria monocytogenes	1	tentative
+Erythromycin	Mannheimia haemolytica	8	NA
+Erythromycin	Moraxella catarrhalis	0.25	NA
+Erythromycin	Neisseria gonorrhoeae	NA	insufficient data
+Erythromycin	Pasteurella multocida	16	NA
+Erythromycin	Rothia aeria	NA	unspecified
+Erythromycin	Rothia dentocariosa	NA	unspecified
+Erythromycin	Rothia mucilaginosa	NA	unspecified
+Erythromycin	Staphylococcus aureus	1	NA
+Erythromycin	Staphylococcus aureus ATCC 29213	NA	unspecified
+Erythromycin	Staphylococcus aureus MRSA	1	NA
+Erythromycin	Staphylococcus aureus MSSA	1	NA
+Erythromycin	Staphylococcus capitis	NA	insufficient data
+Erythromycin	Staphylococcus epidermidis	1	NA
+Erythromycin	Staphylococcus epidermidis MSSE	NA	unspecified
+Erythromycin	Staphylococcus haemolyticus	NA	insufficient data
+Erythromycin	Staphylococcus hyicus	1	NA
+Erythromycin	Staphylococcus intermedius	NA	insufficient data
+Erythromycin	Staphylococcus pseudintermedius	0.5	NA
+Erythromycin	Staphylococcus saprophyticus	NA	insufficient data
+Erythromycin	Staphylococcus warneri	NA	insufficient data
+Erythromycin	Streptococcus agalactiae	0.5	NA
+Erythromycin	Streptococcus anginosus	0.25	tentative
+Erythromycin	Streptococcus anginosus group	NA	insufficient data
+Erythromycin	Streptococcus canis	0.25	tentative
+Erythromycin	Streptococcus dysgalactiae	0.25	NA
+Erythromycin	Streptococcus equi subspecies equi	NA	unspecified
+Erythromycin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Erythromycin	Streptococcus equisimilis	NA	insufficient data
+Erythromycin	Streptococcus group G	NA	insufficient data
+Erythromycin	Streptococcus oralis	0.25	tentative
+Erythromycin	Streptococcus pneumoniae	0.25	NA
+Erythromycin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Erythromycin	Streptococcus pyogenes	0.25	NA
+Erythromycin	Streptococcus suis	0.25	tentative
+Erythromycin	Streptococcus thermophilus	NA	insufficient data
+Erythromycin	Streptococcus uberis	0.25	NA
+Erythromycin	Vibrio alginolyticus	NA	unspecified
+Erythromycin	Vibrio cholerae	16	tentative
+Erythromycin	Vibrio fluvialis	NA	unspecified
+Erythromycin	Vibrio parahaemolyticus	NA	unspecified
+Erythromycin	Vibrio vulnificus	NA	unspecified
+Erythromycin	Yersinia enterocolitica	NA	insufficient data
+Ethambutol	Mycobacterium avium	32	NA
+Ethambutol	Mycobacterium avium ATCC 700898	NA	unspecified
+Ethambutol	Mycobacterium intracellulare	16	NA
+Ethambutol	Mycobacterium tuberculosis 7H9	NA	unspecified
+Ethionamide	Mycobacterium tuberculosis 7H9	NA	unspecified
+Fidaxomicin	Clostridioides difficile	0.5	NA
+Florfenicol	Actinobacillus pleuropneumoniae	1	NA
+Florfenicol	Arcanobacterium pyogenes	NA	insufficient data
+Florfenicol	Bordetella bronchiseptica	8	NA
+Florfenicol	Campylobacter coli	4	NA
+Florfenicol	Campylobacter jejuni	4	NA
+Florfenicol	Campylobacter upsaliensis	NA	insufficient data
+Florfenicol	Enterococcus faecalis	8	NA
+Florfenicol	Enterococcus faecium	8	NA
+Florfenicol	Escherichia coli	16	NA
+Florfenicol	Haemophilus parasuis	NA	insufficient data
+Florfenicol	Histophilus somni	NA	insufficient data
+Florfenicol	Klebsiella oxytoca	NA	insufficient data
+Florfenicol	Klebsiella pneumoniae	8	tentative
+Florfenicol	Klebsiella variicola	NA	insufficient data
+Florfenicol	Mannheimia haemolytica	2	NA
+Florfenicol	Mycoplasma bovis	NA	insufficient data
+Florfenicol	Mycoplasma hyopneumoniae	NA	insufficient data
+Florfenicol	Pasteurella multocida	1	NA
+Florfenicol	Pseudomonas aeruginosa	256	NA
+Florfenicol	Salmonella enterica	16	NA
+Florfenicol	Staphylococcus aureus	8	tentative
+Florfenicol	Staphylococcus hyicus	4	NA
+Florfenicol	Staphylococcus pseudintermedius	8	NA
+Florfenicol	Streptococcus agalactiae	4	NA
+Florfenicol	Streptococcus canis	4	tentative
+Florfenicol	Streptococcus dysgalactiae	4	NA
+Florfenicol	Streptococcus equi subspecies equi	NA	unspecified
+Florfenicol	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Florfenicol	Streptococcus equisimilis	NA	insufficient data
+Florfenicol	Streptococcus suis	4	NA
+Florfenicol	Streptococcus uberis	4	NA
+Flucloxacillin	Staphylococcus aureus	1	tentative
+Flumequine	Bordetella bronchiseptica	NA	insufficient data
+Flumequine	Escherichia coli	2	NA
+Flumequine	Haemophilus parasuis	NA	insufficient data
+Flumequine	Mannheimia haemolytica	0.5	NA
+Flumequine	Pasteurella multocida	0.5	NA
+Flumequine	Pseudomonas aeruginosa	NA	insufficient data
+Flumequine	Salmonella enterica	2	NA
+Flumequine	Staphylococcus hyicus	4	tentative
+Flumequine	Staphylococcus pseudintermedius	8	tentative
+Flumequine	Streptococcus dysgalactiae	NA	insufficient data
+Fosfomycin	Acinetobacter baumannii	512	tentative
+Fosfomycin	Citrobacter freundii	NA	insufficient data
+Fosfomycin	Citrobacter koseri	NA	insufficient data
+Fosfomycin	Enterobacter cloacae	NA	insufficient data
+Fosfomycin	Enterococcus faecalis	128	NA
+Fosfomycin	Enterococcus faecium	128	tentative
+Fosfomycin	Escherichia coli	4	NA
+Fosfomycin	Klebsiella aerogenes	NA	insufficient data
+Fosfomycin	Klebsiella oxytoca	NA	insufficient data
+Fosfomycin	Klebsiella pneumoniae	128	NA
+Fosfomycin	Proteus mirabilis	8	tentative
+Fosfomycin	Pseudomonas aeruginosa	256	NA
+Fosfomycin	Serratia marcescens	32	tentative
+Fosfomycin	Staphylococcus aureus	32	NA
+Fosfomycin	Staphylococcus epidermidis	NA	insufficient data
+Fosfomycin	Streptococcus pneumoniae	NA	insufficient data
+Fusidic acid	Clostridioides difficile	2	tentative
+Fusidic acid	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Fusidic acid	Haemophilus influenzae	NA	insufficient data
+Fusidic acid	Staphylococcus aureus	0.5	NA
+Fusidic acid	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Fusidic acid	Staphylococcus aureus MRSA	0.5	NA
+Fusidic acid	Staphylococcus aureus MSSA	0.5	NA
+Fusidic acid	Staphylococcus epidermidis	NA	insufficient data
+Fusidic acid	Staphylococcus haemolyticus	NA	unspecified
+Fusidic acid	Staphylococcus lugdunensis	NA	insufficient data
+Fusidic acid	Streptococcus agalactiae	NA	insufficient data
+Fusidic acid	Streptococcus pneumoniae	NA	insufficient data
+Fusidic acid	Streptococcus pyogenes	16	tentative
+Fusidic acid	Streptococcus uberis	NA	insufficient data
+Fusidic acid	Yersinia enterocolitica	NA	insufficient data
+Gamithromycin	Actinobacillus pleuropneumoniae	NA	insufficient data
+Gamithromycin	Mannheimia haemolytica	2	NA
+Gamithromycin	Pasteurella multocida	4	NA
+Gamithromycin	Staphylococcus hyicus	NA	insufficient data
+Gamithromycin	Staphylococcus pseudintermedius	0.5	NA
+Gamithromycin	Streptococcus suis	NA	unspecified
+Gatifloxacin	Bacteroides fragilis	NA	insufficient data
+Gatifloxacin	Enterococcus faecalis	2	NA
+Gatifloxacin	Enterococcus faecium	NA	insufficient data
+Gatifloxacin	Escherichia coli	0.125	tentative
+Gatifloxacin	Francisella tularensis	NA	unspecified
+Gatifloxacin	Haemophilus influenzae	0.03	NA
+Gatifloxacin	Klebsiella oxytoca	NA	insufficient data
+Gatifloxacin	Klebsiella pneumoniae	0.25	tentative
+Gatifloxacin	Moraxella catarrhalis	0.125	tentative
+Gatifloxacin	Morganella morganii	0.5	tentative
+Gatifloxacin	Proteus mirabilis	0.5	NA
+Gatifloxacin	Proteus vulgaris	0.5	NA
+Gatifloxacin	Pseudomonas aeruginosa	2	NA
+Gatifloxacin	Pseudomonas fluorescens group	NA	insufficient data
+Gatifloxacin	Salmonella enterica	NA	insufficient data
+Gatifloxacin	Serratia marcescens	1	tentative
+Gatifloxacin	Staphylococcus aureus	0.25	tentative
+Gatifloxacin	Staphylococcus capitis	NA	insufficient data
+Gatifloxacin	Staphylococcus epidermidis	NA	insufficient data
+Gatifloxacin	Staphylococcus haemolyticus	NA	insufficient data
+Gatifloxacin	Staphylococcus saprophyticus	NA	insufficient data
+Gatifloxacin	Staphylococcus warneri	NA	insufficient data
+Gatifloxacin	Stenotrophomonas maltophilia	NA	insufficient data
+Gatifloxacin	Streptococcus agalactiae	1	tentative
+Gatifloxacin	Streptococcus pneumoniae	1	NA
+Gatifloxacin	Streptococcus pyogenes	1	NA
+Gemifloxacin	Bacteroides fragilis	NA	insufficient data
+Gemifloxacin	Enterococcus faecalis	0.25	tentative
+Gemifloxacin	Francisella tularensis	NA	unspecified
+Gemifloxacin	Haemophilus influenzae	NA	insufficient data
+Gemifloxacin	Moraxella catarrhalis	NA	insufficient data
+Gemifloxacin	Neisseria gonorrhoeae	NA	insufficient data
+Gemifloxacin	Neisseria meningitidis	NA	insufficient data
+Gemifloxacin	Proteus mirabilis	0.5	tentative
+Gemifloxacin	Proteus vulgaris	NA	insufficient data
+Gemifloxacin	Pseudomonas aeruginosa	1	NA
+Gemifloxacin	Serratia marcescens	NA	insufficient data
+Gemifloxacin	Staphylococcus aureus	NA	insufficient data
+Gemifloxacin	Staphylococcus saprophyticus	NA	insufficient data
+Gemifloxacin	Stenotrophomonas maltophilia	NA	insufficient data
+Gemifloxacin	Streptococcus agalactiae	NA	insufficient data
+Gemifloxacin	Streptococcus pneumoniae	0.125	tentative
+Gemifloxacin	Streptococcus pyogenes	NA	insufficient data
+Gentamicin	Acinetobacter baumannii	2	NA
+Gentamicin	Actinobacillus pleuropneumoniae	32	NA
+Gentamicin	Aeromonas caviae	NA	insufficient data
+Gentamicin	Aeromonas hydrophila	NA	insufficient data
+Gentamicin	Aeromonas veronii	NA	insufficient data
+Gentamicin	Alcaligenes faecalis	NA	insufficient data
+Gentamicin	Bacillus cereus	NA	insufficient data
+Gentamicin	Bifidobacterium longum	NA	insufficient data
+Gentamicin	Brucella melitensis	0.5	NA
+Gentamicin	Campylobacter coli	2	NA
+Gentamicin	Campylobacter jejuni	2	NA
+Gentamicin	Citrobacter freundii	2	NA
+Gentamicin	Citrobacter koseri	2	tentative
+Gentamicin	Corynebacterium diphtheriae	NA	insufficient data
+Gentamicin	Corynebacterium ulcerans	NA	insufficient data
+Gentamicin	Enterobacter agglomerans	NA	insufficient data
+Gentamicin	Enterobacter cloacae	2	NA
+Gentamicin	Enterococcus faecalis	64	NA
+Gentamicin	Enterococcus faecium	32	NA
+Gentamicin	Enterococcus hirae	32	NA
+Gentamicin	Escherichia coli	2	NA
+Gentamicin	Escherichia coli ATCC 25922	NA	insufficient data
+Gentamicin	Escherichia coli NCTC 13846	NA	insufficient data
+Gentamicin	Hafnia alvei	NA	unspecified
+Gentamicin	Klebsiella aerogenes	2	NA
+Gentamicin	Klebsiella oxytoca	2	NA
+Gentamicin	Klebsiella pneumoniae	2	NA
+Gentamicin	Kocuria kristinae	NA	unspecified
+Gentamicin	Lactobacillus delbrueckii	NA	insufficient data
+Gentamicin	Lactobacillus lactis	NA	unspecified
+Gentamicin	Lactobacillus plantarum	NA	insufficient data
+Gentamicin	Lactobacillus reuteri	NA	insufficient data
+Gentamicin	Lactobacillus rhamnosus	16	tentative
+Gentamicin	Listeria monocytogenes	2	tentative
+Gentamicin	Mannheimia haemolytica	4	NA
+Gentamicin	Moraxella catarrhalis	NA	insufficient data
+Gentamicin	Morganella morganii	2	NA
+Gentamicin	Neisseria gonorrhoeae	16	tentative
+Gentamicin	Pantoea agglomerans	NA	insufficient data
+Gentamicin	Pasteurella multocida	8	NA
+Gentamicin	Proteus mirabilis	4	NA
+Gentamicin	Proteus vulgaris	2	NA
+Gentamicin	Pseudomonas aeruginosa	8	NA
+Gentamicin	Rothia aeria	NA	unspecified
+Gentamicin	Rothia dentocariosa	NA	unspecified
+Gentamicin	Rothia mucilaginosa	NA	unspecified
+Gentamicin	Salmonella enterica	2	NA
+Gentamicin	Serratia liquefaciens	NA	insufficient data
+Gentamicin	Serratia marcescens	2	NA
+Gentamicin	Staphylococcus aureus	2	NA
+Gentamicin	Staphylococcus aureus MRSA	2	tentative
+Gentamicin	Staphylococcus aureus MSSA	2	tentative
+Gentamicin	Staphylococcus epidermidis	0.25	tentative
+Gentamicin	Staphylococcus epidermidis MSSE	NA	unspecified
+Gentamicin	Staphylococcus hominis	NA	insufficient data
+Gentamicin	Staphylococcus hyicus	0.5	NA
+Gentamicin	Staphylococcus intermedius	NA	insufficient data
+Gentamicin	Staphylococcus pseudintermedius	0.25	NA
+Gentamicin	Staphylococcus saprophyticus	NA	insufficient data
+Gentamicin	Streptococcus agalactiae	64	NA
+Gentamicin	Streptococcus anginosus	NA	insufficient data
+Gentamicin	Streptococcus canis	4	tentative
+Gentamicin	Streptococcus dysgalactiae	NA	insufficient data
+Gentamicin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Gentamicin	Streptococcus equisimilis	NA	unspecified
+Gentamicin	Streptococcus group G	16	NA
+Gentamicin	Streptococcus oralis	NA	insufficient data
+Gentamicin	Streptococcus pneumoniae	NA	insufficient data
+Gentamicin	Streptococcus pyogenes	32	NA
+Gentamicin	Streptococcus uberis	NA	unspecified
+Gentamicin	Yersinia enterocolitica	NA	insufficient data
+Imipenem-Relebactam	Acinetobacter baumannii	NA	insufficient data
+Imipenem-Relebactam	Bacteroides fragilis	NA	insufficient data
+Imipenem-Relebactam	Bacteroides ovatus	NA	insufficient data
+Imipenem-Relebactam	Bacteroides thetaiotaomicron	NA	insufficient data
+Imipenem-Relebactam	Citrobacter freundii	NA	insufficient data
+Imipenem-Relebactam	Enterobacter cloacae	NA	insufficient data
+Imipenem-Relebactam	Escherichia coli	NA	insufficient data
+Imipenem-Relebactam	Escherichia coli ATCC 25922	NA	unspecified
+Imipenem-Relebactam	Klebsiella aerogenes	NA	insufficient data
+Imipenem-Relebactam	Klebsiella oxytoca	NA	insufficient data
+Imipenem-Relebactam	Klebsiella pneumoniae	NA	insufficient data
+Imipenem-Relebactam	Pseudomonas aeruginosa	NA	insufficient data
+Imipenem-Relebactam	Pseudomonas aeruginosa ATCC 27853	NA	unspecified
+Imipenem-Relebactam	Staphylococcus aureus	NA	insufficient data
+Imipenem-Relebactam	Streptococcus anginosus	NA	insufficient data
+Imipenem-Relebactam	Streptococcus constellatus	NA	unspecified
+Imipenem	Achromobacter xylosoxidans	NA	insufficient data
+Imipenem	Acinetobacter baumannii	2	NA
+Imipenem	Acinetobacter pittii	NA	insufficient data
+Imipenem	Aeromonas hydrophila	NA	insufficient data
+Imipenem	Aeromonas veronii	NA	insufficient data
+Imipenem	Alcaligenes faecalis	NA	insufficient data
+Imipenem	Bacteroides capillosus	NA	insufficient data
+Imipenem	Bacteroides fragilis	1	NA
+Imipenem	Bacteroides fragilis group	NA	insufficient data
+Imipenem	Bacteroides ovatus	0.5	tentative
+Imipenem	Bacteroides thetaiotaomicron	2	NA
+Imipenem	Bacteroides vulgatus	0.5	tentative
+Imipenem	Burkholderia pseudomallei	2	NA
+Imipenem	Campylobacter jejuni	NA	insufficient data
+Imipenem	Citrobacter freundii	2	NA
+Imipenem	Citrobacter koseri	0.5	tentative
+Imipenem	Clostridioides difficile	16	tentative
+Imipenem	Clostridium perfringens	NA	insufficient data
+Imipenem	Enterobacter agglomerans	NA	insufficient data
+Imipenem	Enterobacter cloacae	2	NA
+Imipenem	Enterobacter dissolvens	NA	insufficient data
+Imipenem	Enterococcus avium	NA	insufficient data
+Imipenem	Enterococcus casseliflavus	NA	insufficient data
+Imipenem	Enterococcus faecalis	4	NA
+Imipenem	Enterococcus faecium	4	NA
+Imipenem	Enterococcus gallinarum	NA	insufficient data
+Imipenem	Escherichia coli	0.5	NA
+Imipenem	Escherichia coli ATCC 25922	NA	insufficient data
+Imipenem	Escherichia coli NCTC 13846	NA	insufficient data
+Imipenem	Haemophilus influenzae	4	NA
+Imipenem	Haemophilus influenzae ATCC 49766	NA	insufficient data
+Imipenem	Haemophilus parainfluenzae	2	tentative
+Imipenem	Klebsiella aerogenes	2	NA
+Imipenem	Klebsiella oxytoca	1	NA
+Imipenem	Klebsiella pneumoniae	1	NA
+Imipenem	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Imipenem	Moraxella catarrhalis	0.5	tentative
+Imipenem	Morganella morganii	8	NA
+Imipenem	Mycobacterium abscessus	64	NA
+Imipenem	Neisseria gonorrhoeae	NA	insufficient data
+Imipenem	Nocardia cyriacigeorgica	NA	unspecified
+Imipenem	Nocardia takedensis	NA	unspecified
+Imipenem	Parabacteroides distasonis	NA	insufficient data
+Imipenem	Pasteurella multocida	NA	insufficient data
+Imipenem	Plesiomonas shigelloides	NA	insufficient data
+Imipenem	Proteus mirabilis	8	NA
+Imipenem	Proteus vulgaris	8	NA
+Imipenem	Providencia rettgeri	NA	insufficient data
+Imipenem	Providencia stuartii	4	tentative
+Imipenem	Pseudomonas aeruginosa	4	NA
+Imipenem	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Imipenem	Salmonella enterica	1	NA
+Imipenem	Salmonella Enteritidis	NA	insufficient data
+Imipenem	Salmonella Paratyphi	NA	insufficient data
+Imipenem	Salmonella Typhi	NA	insufficient data
+Imipenem	Salmonella Typhimurium	NA	insufficient data
+Imipenem	Serratia liquefaciens	4	tentative
+Imipenem	Serratia marcescens	4	NA
+Imipenem	Shigella flexneri	NA	insufficient data
+Imipenem	Shigella sonnei	NA	insufficient data
+Imipenem	Staphylococcus aureus	0.125	NA
+Imipenem	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Imipenem	Staphylococcus hominis	NA	insufficient data
+Imipenem	Staphylococcus saprophyticus	NA	insufficient data
+Imipenem	Streptococcus agalactiae	0.125	NA
+Imipenem	Streptococcus anginosus	0.06	tentative
+Imipenem	Streptococcus group G	NA	unspecified
+Imipenem	Streptococcus intermedius	NA	insufficient data
+Imipenem	Streptococcus oralis	NA	insufficient data
+Imipenem	Streptococcus pneumoniae	NA	insufficient data
+Imipenem	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Imipenem	Streptococcus pyogenes	NA	insufficient data
+Imipenem	Yersinia enterocolitica	NA	insufficient data
+Kanamycin	Actinobacillus pleuropneumoniae	64	NA
+Kanamycin	Bordetella bronchiseptica	NA	insufficient data
+Kanamycin	Campylobacter jejuni	NA	insufficient data
+Kanamycin	Citrobacter freundii	NA	insufficient data
+Kanamycin	Citrobacter koseri	NA	insufficient data
+Kanamycin	Enterobacter cloacae	NA	insufficient data
+Kanamycin	Escherichia coli	16	tentative
+Kanamycin	Haemophilus parasuis	NA	insufficient data
+Kanamycin	Klebsiella aerogenes	NA	insufficient data
+Kanamycin	Klebsiella oxytoca	NA	insufficient data
+Kanamycin	Klebsiella pneumoniae	4	tentative
+Kanamycin	Klebsiella variicola	NA	insufficient data
+Kanamycin	Lactobacillus reuteri	NA	insufficient data
+Kanamycin	Listeria monocytogenes	NA	insufficient data
+Kanamycin	Mannheimia haemolytica	16	NA
+Kanamycin	Morganella morganii	NA	insufficient data
+Kanamycin	Mycobacterium tuberculosis 7H9	NA	insufficient data
+Kanamycin	Pasteurella multocida	32	NA
+Kanamycin	Proteus mirabilis	NA	insufficient data
+Kanamycin	Pseudomonas aeruginosa	256	NA
+Kanamycin	Salmonella enterica	NA	insufficient data
+Kanamycin	Serratia liquefaciens	NA	insufficient data
+Kanamycin	Serratia marcescens	NA	insufficient data
+Kanamycin	Staphylococcus aureus	8	tentative
+Kanamycin	Staphylococcus epidermidis	NA	insufficient data
+Kanamycin	Streptococcus uberis	NA	insufficient data
+Lefamulin	Clostridioides difficile	NA	insufficient data
+Lefamulin	Enterococcus faecalis	NA	insufficient data
+Lefamulin	Enterococcus faecium	0.5	NA
+Lefamulin	Haemophilus influenzae	4	NA
+Lefamulin	Haemophilus parainfluenzae	8	NA
+Lefamulin	Moraxella catarrhalis	0.25	NA
+Lefamulin	Neisseria gonorrhoeae	NA	insufficient data
+Lefamulin	Staphylococcus aureus	0.25	NA
+Lefamulin	Staphylococcus aureus MRSA	0.25	NA
+Lefamulin	Staphylococcus aureus MSSA	0.25	NA
+Lefamulin	Staphylococcus capitis	0.25	tentative
+Lefamulin	Staphylococcus cohnii	NA	insufficient data
+Lefamulin	Staphylococcus epidermidis	0.25	NA
+Lefamulin	Staphylococcus haemolyticus	0.25	NA
+Lefamulin	Staphylococcus hominis	0.25	NA
+Lefamulin	Staphylococcus lugdunensis	0.06	tentative
+Lefamulin	Staphylococcus warneri	NA	insufficient data
+Lefamulin	Streptococcus agalactiae	0.125	NA
+Lefamulin	Streptococcus anginosus	NA	insufficient data
+Lefamulin	Streptococcus bovis	NA	unspecified
+Lefamulin	Streptococcus dysgalactiae	0.125	tentative
+Lefamulin	Streptococcus group C	0.125	tentative
+Lefamulin	Streptococcus group G	0.125	tentative
+Lefamulin	Streptococcus mitis	NA	insufficient data
+Lefamulin	Streptococcus pneumoniae	0.5	NA
+Lefamulin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Lefamulin	Streptococcus pyogenes	0.125	NA
+Lefamulin	Streptococcus salivarius	NA	insufficient data
+Levofloxacin	Achromobacter xylosoxidans	NA	insufficient data
+Levofloxacin	Acinetobacter baumannii	0.5	tentative
+Levofloxacin	Aerococcus urinae	NA	insufficient data
+Levofloxacin	Aeromonas hydrophila	NA	insufficient data
+Levofloxacin	Alcaligenes faecalis	NA	insufficient data
+Levofloxacin	Bacillus anthracis	0.25	NA
+Levofloxacin	Bacteroides fragilis	4	tentative
+Levofloxacin	Bacteroides fragilis group	NA	insufficient data
+Levofloxacin	Bacteroides thetaiotaomicron	NA	insufficient data
+Levofloxacin	Brucella melitensis	1	NA
+Levofloxacin	Burkholderia cepacia complex	NA	unspecified
+Levofloxacin	Campylobacter jejuni	NA	insufficient data
+Levofloxacin	Citrobacter freundii	0.125	tentative
+Levofloxacin	Citrobacter koseri	NA	insufficient data
+Levofloxacin	Clostridioides difficile	NA	insufficient data
+Levofloxacin	Enterobacter cloacae	0.125	tentative
+Levofloxacin	Enterococcus faecalis	4	NA
+Levofloxacin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Levofloxacin	Enterococcus faecium	8	tentative
+Levofloxacin	Escherichia coli	0.125	NA
+Levofloxacin	Haemophilus influenzae	0.06	NA
+Levofloxacin	Haemophilus parainfluenzae	NA	insufficient data
+Levofloxacin	Helicobacter pylori	0.5	tentative
+Levofloxacin	Kingella kingae	NA	insufficient data
+Levofloxacin	Klebsiella aerogenes	0.25	tentative
+Levofloxacin	Klebsiella oxytoca	NA	insufficient data
+Levofloxacin	Klebsiella pneumoniae	0.25	NA
+Levofloxacin	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Levofloxacin	Moraxella catarrhalis	0.125	NA
+Levofloxacin	Morganella morganii	0.125	tentative
+Levofloxacin	Mycobacterium tuberculosis 7H9	NA	insufficient data
+Levofloxacin	Neisseria gonorrhoeae	NA	insufficient data
+Levofloxacin	Neisseria meningitidis	NA	insufficient data
+Levofloxacin	Proteus mirabilis	0.25	NA
+Levofloxacin	Proteus vulgaris	0.25	tentative
+Levofloxacin	Pseudomonas aeruginosa	2	NA
+Levofloxacin	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Levofloxacin	Pseudomonas fluorescens group	NA	insufficient data
+Levofloxacin	Rothia aeria	NA	insufficient data
+Levofloxacin	Rothia dentocariosa	NA	insufficient data
+Levofloxacin	Rothia mucilaginosa	NA	insufficient data
+Levofloxacin	Salmonella enterica	0.25	tentative
+Levofloxacin	Serratia marcescens	0.5	tentative
+Levofloxacin	Staphylococcus aureus	1	NA
+Levofloxacin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Levofloxacin	Staphylococcus auricularis	NA	insufficient data
+Levofloxacin	Staphylococcus capitis	0.5	tentative
+Levofloxacin	Staphylococcus epidermidis	0.5	NA
+Levofloxacin	Staphylococcus haemolyticus	NA	insufficient data
+Levofloxacin	Staphylococcus hominis	NA	insufficient data
+Levofloxacin	Staphylococcus intermedius	NA	insufficient data
+Levofloxacin	Staphylococcus saprophyticus	NA	insufficient data
+Levofloxacin	Staphylococcus simulans	NA	insufficient data
+Levofloxacin	Staphylococcus warneri	0.5	tentative
+Levofloxacin	Stenotrophomonas maltophilia	4	NA
+Levofloxacin	Streptococcus agalactiae	2	tentative
+Levofloxacin	Streptococcus anginosus	NA	insufficient data
+Levofloxacin	Streptococcus anginosus group	NA	insufficient data
+Levofloxacin	Streptococcus bovis	NA	insufficient data
+Levofloxacin	Streptococcus constellatus	NA	insufficient data
+Levofloxacin	Streptococcus group C	2	tentative
+Levofloxacin	Streptococcus group G	1	tentative
+Levofloxacin	Streptococcus intermedius	NA	insufficient data
+Levofloxacin	Streptococcus mitis	NA	insufficient data
+Levofloxacin	Streptococcus mutans	NA	insufficient data
+Levofloxacin	Streptococcus oralis	NA	insufficient data
+Levofloxacin	Streptococcus pneumoniae	2	NA
+Levofloxacin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Levofloxacin	Streptococcus pyogenes	2	NA
+Levofloxacin	Streptococcus salivarius	NA	insufficient data
+Levofloxacin	Streptococcus sanguinis	NA	insufficient data
+Levofloxacin	Vibrio alginolyticus	NA	unspecified
+Levofloxacin	Vibrio cholerae	0.016	tentative
+Levofloxacin	Vibrio fluvialis	NA	unspecified
+Levofloxacin	Vibrio parahaemolyticus	NA	unspecified
+Levofloxacin	Vibrio vulnificus	NA	unspecified
+Levofloxacin	Yersinia enterocolitica	NA	insufficient data
+Lincomycin	Listeria monocytogenes	NA	insufficient data
+Lincomycin	Pasteurella multocida	NA	insufficient data
+Lincomycin	Staphylococcus aureus	2	tentative
+Lincomycin	Staphylococcus hyicus	4	tentative
+Lincomycin	Staphylococcus pseudintermedius	2	NA
+Lincomycin	Streptococcus agalactiae	1	tentative
+Lincomycin	Streptococcus canis	1	tentative
+Lincomycin	Streptococcus dysgalactiae	1	NA
+Lincomycin	Streptococcus equi subspecies equi	NA	unspecified
+Lincomycin	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Lincomycin	Streptococcus equisimilis	NA	insufficient data
+Lincomycin	Streptococcus suis	NA	insufficient data
+Lincomycin	Streptococcus uberis	0.5	NA
+Linezolid	Bacillus anthracis	2	NA
+Linezolid	Bacillus cereus	NA	insufficient data
+Linezolid	Campylobacter jejuni	NA	insufficient data
+Linezolid	Clostridioides difficile	NA	insufficient data
+Linezolid	Corynebacterium diphtheriae	0.5	tentative
+Linezolid	Corynebacterium ulcerans	1	tentative
+Linezolid	Cutibacterium acnes	NA	insufficient data
+Linezolid	Enterococcus faecalis	4	NA
+Linezolid	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Linezolid	Enterococcus faecium	4	NA
+Linezolid	Haemophilus influenzae	NA	insufficient data
+Linezolid	Kocuria kristinae	NA	unspecified
+Linezolid	Lactobacillus reuteri	NA	insufficient data
+Linezolid	Listeria monocytogenes	NA	insufficient data
+Linezolid	Mycobacterium abscessus	64	NA
+Linezolid	Mycobacterium avium	64	NA
+Linezolid	Mycobacterium avium ATCC 700898	NA	unspecified
+Linezolid	Mycobacterium intracellulare	64	tentative
+Linezolid	Mycobacterium tuberculosis 7H9	NA	insufficient data
+Linezolid	Rothia aeria	NA	unspecified
+Linezolid	Rothia dentocariosa	NA	unspecified
+Linezolid	Rothia mucilaginosa	NA	unspecified
+Linezolid	Staphylococcus aureus	4	NA
+Linezolid	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Linezolid	Staphylococcus aureus MRSA	4	NA
+Linezolid	Staphylococcus aureus MSSA	4	NA
+Linezolid	Staphylococcus auricularis	NA	insufficient data
+Linezolid	Staphylococcus capitis	2	tentative
+Linezolid	Staphylococcus cohnii	NA	insufficient data
+Linezolid	Staphylococcus epidermidis	4	NA
+Linezolid	Staphylococcus epidermidis MSSE	NA	insufficient data
+Linezolid	Staphylococcus haemolyticus	2	NA
+Linezolid	Staphylococcus hominis	2	tentative
+Linezolid	Staphylococcus intermedius	NA	insufficient data
+Linezolid	Staphylococcus lugdunensis	NA	insufficient data
+Linezolid	Staphylococcus saprophyticus	2	tentative
+Linezolid	Staphylococcus simulans	NA	insufficient data
+Linezolid	Staphylococcus warneri	2	tentative
+Linezolid	Staphylococcus xylosus	NA	insufficient data
+Linezolid	Streptococcus agalactiae	2	NA
+Linezolid	Streptococcus anginosus	2	tentative
+Linezolid	Streptococcus anginosus group	NA	insufficient data
+Linezolid	Streptococcus bovis	NA	insufficient data
+Linezolid	Streptococcus constellatus	NA	insufficient data
+Linezolid	Streptococcus group C	NA	unspecified
+Linezolid	Streptococcus group G	2	tentative
+Linezolid	Streptococcus intermedius	NA	insufficient data
+Linezolid	Streptococcus mitis	NA	insufficient data
+Linezolid	Streptococcus oralis	2	tentative
+Linezolid	Streptococcus pneumoniae	4	NA
+Linezolid	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Linezolid	Streptococcus pyogenes	2	NA
+Linezolid	Streptococcus salivarius	NA	unspecified
+Linezolid	Streptococcus sanguinis	NA	insufficient data
+Linezolid	Streptococcus uberis	NA	insufficient data
+Loracarbef	Citrobacter freundii	NA	insufficient data
+Loracarbef	Enterobacter cloacae	NA	insufficient data
+Loracarbef	Enterococcus faecalis	NA	insufficient data
+Loracarbef	Escherichia coli	NA	insufficient data
+Loracarbef	Haemophilus influenzae	NA	insufficient data
+Loracarbef	Klebsiella aerogenes	NA	insufficient data
+Loracarbef	Klebsiella oxytoca	NA	insufficient data
+Loracarbef	Klebsiella pneumoniae	NA	insufficient data
+Loracarbef	Proteus mirabilis	8	tentative
+Loracarbef	Streptococcus pneumoniae	NA	insufficient data
+Loracarbef	Yersinia enterocolitica	NA	insufficient data
+Marbofloxacin	Streptococcus uberis	NA	unspecified
+Mecillinam	Citrobacter freundii	NA	insufficient data
+Mecillinam	Citrobacter koseri	NA	insufficient data
+Mecillinam	Enterobacter cloacae	NA	insufficient data
+Mecillinam	Escherichia coli	0.5	tentative
+Mecillinam	Klebsiella aerogenes	NA	insufficient data
+Mecillinam	Klebsiella oxytoca	NA	insufficient data
+Mecillinam	Klebsiella pneumoniae	NA	insufficient data
+Mecillinam	Staphylococcus saprophyticus	NA	insufficient data
+Meropenem-Vaborbactam	Acinetobacter baumannii	NA	insufficient data
+Meropenem-Vaborbactam	Escherichia coli	NA	insufficient data
+Meropenem-Vaborbactam	Escherichia coli ATCC 25922	NA	unspecified
+Meropenem-Vaborbactam	Klebsiella oxytoca	NA	insufficient data
+Meropenem-Vaborbactam	Klebsiella pneumoniae	NA	insufficient data
+Meropenem-Vaborbactam	Pseudomonas aeruginosa	NA	insufficient data
+Meropenem-Vaborbactam	Pseudomonas aeruginosa ATCC 27853	NA	unspecified
+Meropenem	Achromobacter xylosoxidans	NA	unspecified
+Meropenem	Acinetobacter baumannii	4	NA
+Meropenem	Acinetobacter pittii	NA	insufficient data
+Meropenem	Actinomyces israelii	NA	insufficient data
+Meropenem	Aerococcus sanguinicola	NA	insufficient data
+Meropenem	Aerococcus urinae	NA	insufficient data
+Meropenem	Bacillus cereus	NA	insufficient data
+Meropenem	Bacteroides caccae	NA	insufficient data
+Meropenem	Bacteroides fragilis	0.125	NA
+Meropenem	Bacteroides fragilis group	NA	insufficient data
+Meropenem	Bacteroides ovatus	0.25	tentative
+Meropenem	Bacteroides thetaiotaomicron	0.25	NA
+Meropenem	Bacteroides uniformis	0.25	tentative
+Meropenem	Bacteroides vulgatus	0.25	NA
+Meropenem	Burkholderia cepacia complex	NA	insufficient data
+Meropenem	Burkholderia pseudomallei	4	NA
+Meropenem	Citrobacter freundii	NA	insufficient data
+Meropenem	Citrobacter koseri	NA	insufficient data
+Meropenem	Clostridioides difficile	8	tentative
+Meropenem	Corynebacterium diphtheriae	0.25	tentative
+Meropenem	Corynebacterium ulcerans	0.25	tentative
+Meropenem	Cutibacterium acnes	NA	insufficient data
+Meropenem	Enterobacter cloacae	0.25	NA
+Meropenem	Enterobacter sakazakii	NA	insufficient data
+Meropenem	Enterococcus avium	NA	insufficient data
+Meropenem	Enterococcus faecalis	16	NA
+Meropenem	Escherichia coli	0.06	NA
+Meropenem	Escherichia coli ATCC 25922	NA	insufficient data
+Meropenem	Escherichia coli NCTC 13846	NA	insufficient data
+Meropenem	Haemophilus influenzae	0.125	NA
+Meropenem	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Meropenem	Haemophilus parainfluenzae	NA	insufficient data
+Meropenem	Hafnia alvei	NA	insufficient data
+Meropenem	Kingella kingae	NA	insufficient data
+Meropenem	Klebsiella aerogenes	0.25	NA
+Meropenem	Klebsiella oxytoca	0.125	NA
+Meropenem	Klebsiella pneumoniae	0.125	NA
+Meropenem	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Meropenem	Kocuria kristinae	NA	insufficient data
+Meropenem	Listeria monocytogenes	0.25	tentative
+Meropenem	Moraxella catarrhalis	NA	insufficient data
+Meropenem	Morganella morganii	0.25	NA
+Meropenem	Neisseria meningitidis	NA	insufficient data
+Meropenem	Parabacteroides distasonis	NA	insufficient data
+Meropenem	Plesiomonas shigelloides	NA	insufficient data
+Meropenem	Proteus mirabilis	0.125	NA
+Meropenem	Proteus vulgaris	0.25	NA
+Meropenem	Providencia rettgeri	NA	unspecified
+Meropenem	Providencia stuartii	NA	insufficient data
+Meropenem	Pseudomonas aeruginosa	2	NA
+Meropenem	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Meropenem	Salmonella enterica	NA	insufficient data
+Meropenem	Salmonella Enteritidis	NA	insufficient data
+Meropenem	Salmonella Typhi	NA	insufficient data
+Meropenem	Salmonella Typhimurium	NA	insufficient data
+Meropenem	Serratia liquefaciens	NA	insufficient data
+Meropenem	Serratia marcescens	NA	insufficient data
+Meropenem	Shigella flexneri	NA	insufficient data
+Meropenem	Shigella sonnei	NA	insufficient data
+Meropenem	Staphylococcus aureus	0.5	NA
+Meropenem	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Meropenem	Staphylococcus capitis	0.5	tentative
+Meropenem	Staphylococcus epidermidis	0.25	tentative
+Meropenem	Staphylococcus haemolyticus	NA	insufficient data
+Meropenem	Staphylococcus hominis	NA	insufficient data
+Meropenem	Staphylococcus lugdunensis	NA	insufficient data
+Meropenem	Staphylococcus saprophyticus	1	tentative
+Meropenem	Staphylococcus simulans	NA	insufficient data
+Meropenem	Staphylococcus warneri	NA	insufficient data
+Meropenem	Staphylococcus xylosus	NA	insufficient data
+Meropenem	Streptococcus agalactiae	0.125	NA
+Meropenem	Streptococcus anaerobic	NA	unspecified
+Meropenem	Streptococcus anginosus	0.25	tentative
+Meropenem	Streptococcus anginosus group	NA	insufficient data
+Meropenem	Streptococcus constellatus	NA	insufficient data
+Meropenem	Streptococcus group G	NA	insufficient data
+Meropenem	Streptococcus mitis	NA	insufficient data
+Meropenem	Streptococcus oralis	0.125	tentative
+Meropenem	Streptococcus pneumoniae	0.016	NA
+Meropenem	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Meropenem	Streptococcus pyogenes	0.008	tentative
+Meropenem	Streptococcus salivarius	NA	insufficient data
+Meropenem	Streptococcus sanguinis	NA	insufficient data
+Meropenem	Vibrio alginolyticus	NA	unspecified
+Meropenem	Vibrio cholerae	0.5	tentative
+Meropenem	Vibrio fluvialis	NA	unspecified
+Meropenem	Vibrio parahaemolyticus	NA	unspecified
+Meropenem	Vibrio vulnificus	NA	unspecified
+Metronidazole	Bacteroides capillosus	NA	insufficient data
+Metronidazole	Bacteroides fragilis	4	NA
+Metronidazole	Bacteroides fragilis group	8	NA
+Metronidazole	Bacteroides ovatus	NA	insufficient data
+Metronidazole	Bacteroides thetaiotaomicron	NA	insufficient data
+Metronidazole	Bacteroides vulgatus	NA	insufficient data
+Metronidazole	Clostridioides difficile	2	NA
+Metronidazole	Cutibacterium acnes	NA	unspecified
+Metronidazole	Helicobacter pylori	8	NA
+Metronidazole	Rothia dentocariosa	NA	insufficient data
+Minocycline	Enterobacter agglomerans	NA	insufficient data
+Minocycline	Enterobacter cloacae	16	NA
+Minocycline	Enterobacter dissolvens	NA	insufficient data
+Minocycline	Enterococcus faecalis	0.5	tentative
+Minocycline	Enterococcus faecium	0.5	tentative
+Minocycline	Escherichia coli	4	NA
+Minocycline	Haemophilus influenzae	1	NA
+Minocycline	Klebsiella aerogenes	8	tentative
+Minocycline	Klebsiella oxytoca	8	NA
+Minocycline	Klebsiella pneumoniae	8	NA
+Minocycline	Moraxella catarrhalis	0.25	tentative
+Minocycline	Morganella morganii	NA	insufficient data
+Minocycline	Neisseria meningitidis	NA	insufficient data
+Minocycline	Proteus mirabilis	128	NA
+Minocycline	Serratia liquefaciens	NA	insufficient data
+Minocycline	Staphylococcus aureus	0.5	tentative
+Minocycline	Staphylococcus aureus MRSA	0.5	tentative
+Minocycline	Staphylococcus aureus MSSA	0.5	tentative
+Minocycline	Staphylococcus epidermidis	NA	insufficient data
+Minocycline	Staphylococcus epidermidis MSSE	NA	insufficient data
+Minocycline	Staphylococcus haemolyticus	NA	insufficient data
+Minocycline	Stenotrophomonas maltophilia	1	NA
+Minocycline	Streptococcus agalactiae	0.5	NA
+Minocycline	Streptococcus anginosus	0.5	tentative
+Minocycline	Streptococcus group G	0.5	tentative
+Minocycline	Streptococcus oralis	1	tentative
+Minocycline	Streptococcus pneumoniae	0.25	NA
+Minocycline	Streptococcus pyogenes	0.5	NA
+Minocycline	Yersinia enterocolitica	NA	insufficient data
+Moxifloxacin	Aerococcus urinae	NA	insufficient data
+Moxifloxacin	Bacillus cereus	NA	insufficient data
+Moxifloxacin	Bacteroides caccae	NA	insufficient data
+Moxifloxacin	Bacteroides eggerthii	NA	insufficient data
+Moxifloxacin	Bacteroides fragilis	2	NA
+Moxifloxacin	Bacteroides fragilis group	NA	insufficient data
+Moxifloxacin	Bacteroides ovatus	NA	insufficient data
+Moxifloxacin	Bacteroides thetaiotaomicron	4	tentative
+Moxifloxacin	Bacteroides uniformis	NA	insufficient data
+Moxifloxacin	Bacteroides vulgatus	NA	insufficient data
+Moxifloxacin	Bilophila wadsworthia	NA	insufficient data
+Moxifloxacin	Burkholderia cepacia complex	NA	insufficient data
+Moxifloxacin	Citrobacter freundii	0.25	tentative
+Moxifloxacin	Clostridioides difficile	4	NA
+Moxifloxacin	Clostridium innocuum	NA	insufficient data
+Moxifloxacin	Clostridium perfringens	NA	insufficient data
+Moxifloxacin	Clostridium ramnosum	NA	insufficient data
+Moxifloxacin	Corynebacterium striatum	NA	insufficient data
+Moxifloxacin	Enterobacter cloacae	0.25	tentative
+Moxifloxacin	Enterococcus faecalis	1	NA
+Moxifloxacin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Moxifloxacin	Enterococcus faecium	NA	insufficient data
+Moxifloxacin	Escherichia coli	0.25	NA
+Moxifloxacin	Escherichia coli ATCC 25922	NA	insufficient data
+Moxifloxacin	Eubacterium lentum	NA	insufficient data
+Moxifloxacin	Finegoldia magna	NA	insufficient data
+Moxifloxacin	Fusobacterium mortiferum	NA	insufficient data
+Moxifloxacin	Fusobacterium necrophorum	NA	insufficient data
+Moxifloxacin	Fusobacterium nucleatum	NA	insufficient data
+Moxifloxacin	Haemophilus influenzae	0.125	NA
+Moxifloxacin	Haemophilus parainfluenzae	NA	insufficient data
+Moxifloxacin	Klebsiella aerogenes	0.25	tentative
+Moxifloxacin	Klebsiella oxytoca	0.25	tentative
+Moxifloxacin	Klebsiella pneumoniae	0.25	NA
+Moxifloxacin	Legionella pneumophila	NA	insufficient data
+Moxifloxacin	Listeria monocytogenes	1	tentative
+Moxifloxacin	Moraxella catarrhalis	0.25	NA
+Moxifloxacin	Morganella morganii	0.5	NA
+Moxifloxacin	Mycobacterium abscessus	NA	insufficient data
+Moxifloxacin	Mycobacterium avium	16	NA
+Moxifloxacin	Mycobacterium avium ATCC 700898	NA	unspecified
+Moxifloxacin	Mycobacterium intracellulare	16	tentative
+Moxifloxacin	Mycobacterium tuberculosis 7H9	NA	insufficient data
+Moxifloxacin	Neisseria gonorrhoeae	0.06	NA
+Moxifloxacin	Parabacteroides distasonis	NA	insufficient data
+Moxifloxacin	Peptostreptococcus anaerobius	NA	insufficient data
+Moxifloxacin	Peptostreptococcus asacchoralyticus	NA	insufficient data
+Moxifloxacin	Peptostreptococcus micros	NA	insufficient data
+Moxifloxacin	Peptostreptococcus prevotii	NA	insufficient data
+Moxifloxacin	Porphyromonas asaccharolytica	NA	insufficient data
+Moxifloxacin	Prevotella bivia	NA	insufficient data
+Moxifloxacin	Prevotella buccae	NA	insufficient data
+Moxifloxacin	Prevotella intermedia	NA	insufficient data
+Moxifloxacin	Prevotella melaninogenica	NA	insufficient data
+Moxifloxacin	Proteus mirabilis	1	NA
+Moxifloxacin	Proteus vulgaris	1	NA
+Moxifloxacin	Pseudomonas aeruginosa	4	NA
+Moxifloxacin	Salmonella enterica	NA	insufficient data
+Moxifloxacin	Serratia marcescens	1	tentative
+Moxifloxacin	Staphylococcus aureus	0.25	NA
+Moxifloxacin	Staphylococcus capitis	0.25	tentative
+Moxifloxacin	Staphylococcus epidermidis	0.25	NA
+Moxifloxacin	Staphylococcus hominis	NA	insufficient data
+Moxifloxacin	Staphylococcus lugdunensis	NA	insufficient data
+Moxifloxacin	Staphylococcus saprophyticus	NA	insufficient data
+Moxifloxacin	Staphylococcus warneri	NA	insufficient data
+Moxifloxacin	Stenotrophomonas maltophilia	NA	insufficient data
+Moxifloxacin	Streptococcus agalactiae	0.5	NA
+Moxifloxacin	Streptococcus anginosus	0.5	tentative
+Moxifloxacin	Streptococcus anginosus group	NA	insufficient data
+Moxifloxacin	Streptococcus bovis	NA	insufficient data
+Moxifloxacin	Streptococcus bovis equinus group	NA	unspecified
+Moxifloxacin	Streptococcus constellatus	0.5	NA
+Moxifloxacin	Streptococcus dysgalactiae	NA	insufficient data
+Moxifloxacin	Streptococcus equinus	NA	insufficient data
+Moxifloxacin	Streptococcus group C	NA	insufficient data
+Moxifloxacin	Streptococcus group G	NA	insufficient data
+Moxifloxacin	Streptococcus mitis	0.5	tentative
+Moxifloxacin	Streptococcus mitis group	NA	unspecified
+Moxifloxacin	Streptococcus mutans	NA	insufficient data
+Moxifloxacin	Streptococcus oralis	NA	insufficient data
+Moxifloxacin	Streptococcus pneumoniae	0.5	NA
+Moxifloxacin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Moxifloxacin	Streptococcus pyogenes	0.5	NA
+Moxifloxacin	Streptococcus salivarius	NA	insufficient data
+Moxifloxacin	Streptococcus salivarius group	NA	unspecified
+Moxifloxacin	Streptococcus sanguinis	NA	insufficient data
+Moxifloxacin	Streptococcus sanguinis group	NA	unspecified
+Mupirocin	Staphylococcus aureus	1	NA
+Mupirocin	Staphylococcus aureus MRSA	1	tentative
+Mupirocin	Staphylococcus aureus MSSA	NA	unspecified
+Mupirocin	Staphylococcus capitis	NA	insufficient data
+Mupirocin	Staphylococcus lugdunensis	NA	insufficient data
+Mupirocin	Streptococcus agalactiae	NA	insufficient data
+Mupirocin	Streptococcus pyogenes	0.5	tentative
+Nalidixic acid	Acinetobacter baumannii	NA	insufficient data
+Nalidixic acid	Campylobacter coli	32	NA
+Nalidixic acid	Campylobacter jejuni	16	NA
+Nalidixic acid	Citrobacter freundii	NA	insufficient data
+Nalidixic acid	Enterobacter agglomerans	NA	insufficient data
+Nalidixic acid	Enterobacter cloacae	NA	insufficient data
+Nalidixic acid	Enterobacter dissolvens	NA	insufficient data
+Nalidixic acid	Escherichia coli	8	NA
+Nalidixic acid	Hafnia alvei	NA	insufficient data
+Nalidixic acid	Klebsiella aerogenes	NA	insufficient data
+Nalidixic acid	Klebsiella oxytoca	NA	insufficient data
+Nalidixic acid	Klebsiella pneumoniae	NA	insufficient data
+Nalidixic acid	Moraxella catarrhalis	NA	insufficient data
+Nalidixic acid	Morganella morganii	NA	insufficient data
+Nalidixic acid	Proteus mirabilis	NA	insufficient data
+Nalidixic acid	Proteus vulgaris	NA	insufficient data
+Nalidixic acid	Salmonella agona	NA	unspecified
+Nalidixic acid	Salmonella anatum	NA	unspecified
+Nalidixic acid	Salmonella bareilly	NA	unspecified
+Nalidixic acid	Salmonella berta	NA	unspecified
+Nalidixic acid	Salmonella braenderup	NA	unspecified
+Nalidixic acid	Salmonella derby	NA	unspecified
+Nalidixic acid	Salmonella Dublin	NA	unspecified
+Nalidixic acid	Salmonella enterica	8	NA
+Nalidixic acid	Salmonella Enteritidis	NA	unspecified
+Nalidixic acid	Salmonella Group B	NA	unspecified
+Nalidixic acid	Salmonella Group C	NA	unspecified
+Nalidixic acid	Salmonella hadar	NA	unspecified
+Nalidixic acid	Salmonella hartford	NA	unspecified
+Nalidixic acid	Salmonella heidelberg	NA	unspecified
+Nalidixic acid	Salmonella infantis	NA	unspecified
+Nalidixic acid	Salmonella javiana	NA	unspecified
+Nalidixic acid	Salmonella litchfield	NA	unspecified
+Nalidixic acid	Salmonella manhattan	NA	unspecified
+Nalidixic acid	Salmonella mbandaka	NA	unspecified
+Nalidixic acid	Salmonella montevideo	NA	unspecified
+Nalidixic acid	Salmonella muenchen	NA	unspecified
+Nalidixic acid	Salmonella newport	NA	unspecified
+Nalidixic acid	Salmonella oranienburg	NA	unspecified
+Nalidixic acid	Salmonella panama	NA	unspecified
+Nalidixic acid	Salmonella Paratyphi	NA	unspecified
+Nalidixic acid	Salmonella saintpaul	NA	unspecified
+Nalidixic acid	Salmonella sandiego	NA	unspecified
+Nalidixic acid	Salmonella schwarzengrund	NA	unspecified
+Nalidixic acid	Salmonella senftenberg	NA	unspecified
+Nalidixic acid	Salmonella stanley	NA	unspecified
+Nalidixic acid	Salmonella thompson	NA	unspecified
+Nalidixic acid	Salmonella Typhi	NA	unspecified
+Nalidixic acid	Salmonella Typhimurium	NA	unspecified
+Nalidixic acid	Salmonella virchow	NA	unspecified
+Nalidixic acid	Stenotrophomonas maltophilia	NA	insufficient data
+Narasin	Enterococcus faecalis	2	NA
+Narasin	Enterococcus faecium	2	NA
+Narasin	Enterococcus hirae	2	NA
+Neomycin	Actinobacillus pleuropneumoniae	64	NA
+Neomycin	Bordetella bronchiseptica	NA	insufficient data
+Neomycin	Campylobacter coli	4	NA
+Neomycin	Enterococcus faecalis	256	NA
+Neomycin	Enterococcus faecium	64	NA
+Neomycin	Enterococcus hirae	128	NA
+Neomycin	Escherichia coli	8	NA
+Neomycin	Haemophilus parasuis	NA	insufficient data
+Neomycin	Klebsiella oxytoca	NA	insufficient data
+Neomycin	Klebsiella pneumoniae	2	tentative
+Neomycin	Klebsiella variicola	NA	insufficient data
+Neomycin	Mannheimia haemolytica	16	NA
+Neomycin	Pasteurella multocida	16	NA
+Neomycin	Pseudomonas aeruginosa	64	tentative
+Neomycin	Salmonella enterica	NA	insufficient data
+Neomycin	Staphylococcus aureus	1	tentative
+Neomycin	Staphylococcus hyicus	1	NA
+Neomycin	Staphylococcus pseudintermedius	1	NA
+Neomycin	Yersinia enterocolitica	NA	insufficient data
+Netilmicin	Acinetobacter baumannii	NA	insufficient data
+Netilmicin	Citrobacter freundii	NA	insufficient data
+Netilmicin	Enterobacter cloacae	NA	insufficient data
+Netilmicin	Enterococcus faecium	NA	insufficient data
+Netilmicin	Escherichia coli	2	tentative
+Netilmicin	Klebsiella aerogenes	NA	insufficient data
+Netilmicin	Klebsiella oxytoca	NA	insufficient data
+Netilmicin	Klebsiella pneumoniae	NA	insufficient data
+Netilmicin	Lactobacillus reuteri	NA	insufficient data
+Netilmicin	Morganella morganii	NA	insufficient data
+Netilmicin	Proteus mirabilis	4	tentative
+Netilmicin	Proteus vulgaris	NA	insufficient data
+Netilmicin	Pseudomonas aeruginosa	8	NA
+Netilmicin	Pseudomonas fluorescens group	NA	insufficient data
+Netilmicin	Pseudomonas stutzeri group	NA	insufficient data
+Netilmicin	Salmonella enterica	NA	insufficient data
+Netilmicin	Serratia liquefaciens	NA	insufficient data
+Netilmicin	Serratia marcescens	NA	insufficient data
+Netilmicin	Staphylococcus aureus	NA	insufficient data
+Netilmicin	Staphylococcus coagulase negative	NA	unspecified
+Netilmicin	Staphylococcus epidermidis	NA	insufficient data
+Netilmicin	Staphylococcus haemolyticus	NA	insufficient data
+Netilmicin	Staphylococcus saprophyticus	NA	insufficient data
+Netilmicin	Staphylococcus warneri	NA	insufficient data
+Netilmicin	Streptococcus agalactiae	NA	insufficient data
+Netilmicin	Streptococcus pneumoniae	NA	insufficient data
+Netilmicin	Yersinia enterocolitica	NA	insufficient data
+Nitrofurantoin	Aerococcus urinae	NA	insufficient data
+Nitrofurantoin	Enterococcus faecalis	32	NA
+Nitrofurantoin	Enterococcus faecium	256	NA
+Nitrofurantoin	Escherichia coli	64	NA
+Nitrofurantoin	Escherichia coli NCTC 13846	NA	insufficient data
+Nitrofurantoin	Proteus mirabilis	NA	unspecified
+Nitrofurantoin	Staphylococcus aureus	32	tentative
+Nitrofurantoin	Staphylococcus coagulase negative	NA	insufficient data
+Nitrofurantoin	Staphylococcus epidermidis	NA	insufficient data
+Nitrofurantoin	Staphylococcus saprophyticus	NA	insufficient data
+Nitrofurantoin	Streptococcus agalactiae	NA	insufficient data
+Norfloxacin	Enterococcus faecalis	8	tentative
+Norfloxacin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Norfloxacin	Escherichia coli	NA	insufficient data
+Norfloxacin	Hafnia alvei	NA	insufficient data
+Norfloxacin	Klebsiella oxytoca	NA	insufficient data
+Norfloxacin	Klebsiella pneumoniae	NA	insufficient data
+Norfloxacin	Listeria monocytogenes	NA	insufficient data
+Norfloxacin	Pseudomonas aeruginosa	NA	insufficient data
+Norfloxacin	Serratia liquefaciens	NA	insufficient data
+Norfloxacin	Staphylococcus aureus	4	tentative
+Norfloxacin	Staphylococcus saprophyticus	NA	insufficient data
+Norfloxacin	Stenotrophomonas maltophilia	NA	insufficient data
+Norfloxacin	Streptococcus pneumoniae	NA	insufficient data
+Norfloxacin	Streptococcus pyogenes	NA	insufficient data
+Norfloxacin	Yersinia enterocolitica	NA	insufficient data
+Norvancomycin	Staphylococcus aureus	1	NA
+Norvancomycin	Staphylococcus epidermidis	2	NA
+Norvancomycin	Staphylococcus haemolyticus	2	NA
+Norvancomycin	Staphylococcus hominis	1	NA
+Ofloxacin	Acinetobacter baumannii	NA	insufficient data
+Ofloxacin	Aeromonas hydrophila	NA	insufficient data
+Ofloxacin	Campylobacter jejuni	NA	insufficient data
+Ofloxacin	Citrobacter braakii	NA	insufficient data
+Ofloxacin	Citrobacter freundii	NA	insufficient data
+Ofloxacin	Enterobacter cloacae	NA	insufficient data
+Ofloxacin	Enterococcus faecalis	4	tentative
+Ofloxacin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Ofloxacin	Escherichia coli	0.25	NA
+Ofloxacin	Haemophilus influenzae	0.06	NA
+Ofloxacin	Helicobacter pylori	NA	insufficient data
+Ofloxacin	Klebsiella aerogenes	NA	insufficient data
+Ofloxacin	Klebsiella oxytoca	NA	insufficient data
+Ofloxacin	Klebsiella pneumoniae	NA	insufficient data
+Ofloxacin	Listeria monocytogenes	NA	insufficient data
+Ofloxacin	Moraxella catarrhalis	0.25	tentative
+Ofloxacin	Morganella morganii	0.5	tentative
+Ofloxacin	Neisseria gonorrhoeae	NA	insufficient data
+Ofloxacin	Proteus mirabilis	0.5	NA
+Ofloxacin	Proteus vulgaris	0.25	tentative
+Ofloxacin	Pseudomonas aeruginosa	4	NA
+Ofloxacin	Salmonella enterica	NA	insufficient data
+Ofloxacin	Serratia marcescens	NA	insufficient data
+Ofloxacin	Staphylococcus aureus	1	NA
+Ofloxacin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Ofloxacin	Staphylococcus epidermidis	NA	insufficient data
+Ofloxacin	Staphylococcus hominis	NA	insufficient data
+Ofloxacin	Stenotrophomonas maltophilia	NA	insufficient data
+Ofloxacin	Streptococcus agalactiae	4	tentative
+Ofloxacin	Streptococcus group G	NA	insufficient data
+Ofloxacin	Streptococcus pneumoniae	4	NA
+Ofloxacin	Streptococcus pyogenes	4	tentative
+Ofloxacin	Yersinia enterocolitica	NA	insufficient data
+Omadacycline	Bacteroides fragilis	NA	insufficient data
+Omadacycline	Bacteroides thetaiotaomicron	NA	insufficient data
+Omadacycline	Bacteroides vulgatus	NA	insufficient data
+Omadacycline	Enterobacter cloacae	8	tentative
+Omadacycline	Enterococcus faecalis	0.5	NA
+Omadacycline	Enterococcus faecium	0.25	NA
+Omadacycline	Escherichia coli	4	NA
+Omadacycline	Haemophilus influenzae	4	tentative
+Omadacycline	Klebsiella oxytoca	NA	insufficient data
+Omadacycline	Klebsiella pneumoniae	8	NA
+Omadacycline	Moraxella catarrhalis	NA	unspecified
+Omadacycline	Staphylococcus aureus	0.5	NA
+Omadacycline	Streptococcus agalactiae	0.5	NA
+Omadacycline	Streptococcus pneumoniae	0.25	NA
+Omadacycline	Streptococcus pyogenes	0.25	tentative
+Oritavancin (with polysorbate 80)	Enterococcus faecalis	0.06	tentative
+Oritavancin (with polysorbate 80)	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Oritavancin (with polysorbate 80)	Enterococcus faecium	NA	insufficient data
+Oritavancin (with polysorbate 80)	Staphylococcus aureus	0.125	NA
+Oritavancin (with polysorbate 80)	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Oritavancin (with polysorbate 80)	Streptococcus agalactiae	0.25	tentative
+Oritavancin (with polysorbate 80)	Streptococcus group G	NA	insufficient data
+Oritavancin (with polysorbate 80)	Streptococcus pyogenes	0.25	tentative
+Oxacillin	Listeria monocytogenes	NA	insufficient data
+Oxacillin	Staphylococcus aureus	2	NA
+Oxacillin	Staphylococcus aureus ATCC 29213	NA	unspecified
+Oxacillin	Staphylococcus aureus MRSA	2	tentative
+Oxacillin	Staphylococcus aureus MSSA	2	NA
+Oxacillin	Staphylococcus auricularis	NA	insufficient data
+Oxacillin	Staphylococcus capitis	1	tentative
+Oxacillin	Staphylococcus coagulase negative	NA	unspecified
+Oxacillin	Staphylococcus epidermidis	0.5	NA
+Oxacillin	Staphylococcus haemolyticus	1	NA
+Oxacillin	Staphylococcus hominis	0.5	NA
+Oxacillin	Staphylococcus lugdunensis	2	tentative
+Oxacillin	Staphylococcus saprophyticus	NA	insufficient data
+Oxacillin	Staphylococcus simulans	NA	insufficient data
+Oxacillin	Staphylococcus warneri	1	tentative
+Oxacillin	Staphylococcus xylosus	NA	insufficient data
+Oxacillin	Streptococcus agalactiae	1	NA
+Oxacillin	Streptococcus anginosus	NA	insufficient data
+Oxacillin	Streptococcus bovis	NA	insufficient data
+Oxacillin	Streptococcus group G	NA	insufficient data
+Oxacillin	Streptococcus pneumoniae	NA	insufficient data
+Oxacillin	Streptococcus pyogenes	NA	insufficient data
+Oxacillin	Streptococcus uberis	NA	insufficient data
+Oxacillin	Yersinia enterocolitica	NA	insufficient data
+Oxytetracycline	Actinobacillus pleuropneumoniae	1	tentative
+Oxytetracycline	Listeria monocytogenes	NA	unspecified
+Oxytetracycline	Mannheimia haemolytica	2	tentative
+Oxytetracycline	Pasteurella multocida	2	NA
+Oxytetracycline	Staphylococcus aureus	0.5	NA
+Oxytetracycline	Staphylococcus pseudintermedius	0.5	NA
+Oxytetracycline	Streptococcus equi subspecies equi	NA	unspecified
+Paraaminosalicylic acid	Mycobacterium tuberculosis 7H9	NA	unspecified
+Pefloxacin	Enterococcus faecalis	NA	unspecified
+Phenoxymethylpenicillin	Clostridioides difficile	NA	insufficient data
+Phenoxymethylpenicillin	Enterococcus faecalis	NA	insufficient data
+Phenoxymethylpenicillin	Enterococcus faecium	NA	insufficient data
+Phenoxymethylpenicillin	Haemophilus influenzae	NA	insufficient data
+Phenoxymethylpenicillin	Neisseria meningitidis	1	NA
+Phenoxymethylpenicillin	Pasteurella multocida	NA	insufficient data
+Phenoxymethylpenicillin	Staphylococcus aureus	0.06	tentative
+Phenoxymethylpenicillin	Staphylococcus saprophyticus	NA	insufficient data
+Phenoxymethylpenicillin	Streptococcus agalactiae	NA	insufficient data
+Phenoxymethylpenicillin	Streptococcus pneumoniae	0.06	tentative
+Phenoxymethylpenicillin	Streptococcus pyogenes	NA	insufficient data
+Piperacillin-Tazobactam	Acinetobacter baumannii	NA	insufficient data
+Piperacillin-Tazobactam	Aeromonas caviae	NA	insufficient data
+Piperacillin-Tazobactam	Aeromonas hydrophila	NA	insufficient data
+Piperacillin-Tazobactam	Aeromonas veronii	NA	insufficient data
+Piperacillin-Tazobactam	Anaerobic cocci Gram positive	NA	unspecified
+Piperacillin-Tazobactam	Bacteroides fragilis	0.5	NA
+Piperacillin-Tazobactam	Bacteroides fragilis group	0.5	tentative
+Piperacillin-Tazobactam	Bacteroides thetaiotaomicron	NA	insufficient data
+Piperacillin-Tazobactam	Burkholderia cepacia complex	2	tentative
+Piperacillin-Tazobactam	Citrobacter freundii	8	NA
+Piperacillin-Tazobactam	Citrobacter koseri	8	tentative
+Piperacillin-Tazobactam	Clostridioides difficile	32	NA
+Piperacillin-Tazobactam	Clostridium perfringens	0.25	tentative
+Piperacillin-Tazobactam	Enterobacter agglomerans	NA	insufficient data
+Piperacillin-Tazobactam	Enterobacter cloacae	8	NA
+Piperacillin-Tazobactam	Enterobacter dissolvens	NA	insufficient data
+Piperacillin-Tazobactam	Enterobacter sakazakii	NA	insufficient data
+Piperacillin-Tazobactam	Enterococcus avium	NA	insufficient data
+Piperacillin-Tazobactam	Enterococcus casseliflavus	NA	insufficient data
+Piperacillin-Tazobactam	Enterococcus faecalis	16	NA
+Piperacillin-Tazobactam	Enterococcus faecium	NA	insufficient data
+Piperacillin-Tazobactam	Enterococcus gallinarum	NA	insufficient data
+Piperacillin-Tazobactam	Escherichia coli	8	NA
+Piperacillin-Tazobactam	Escherichia coli ATCC 25922	4	tentative
+Piperacillin-Tazobactam	Escherichia coli NCTC 13846	NA	insufficient data
+Piperacillin-Tazobactam	Haemophilus influenzae	0.125	tentative
+Piperacillin-Tazobactam	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Piperacillin-Tazobactam	Hafnia alvei	NA	insufficient data
+Piperacillin-Tazobactam	Klebsiella aerogenes	8	NA
+Piperacillin-Tazobactam	Klebsiella oxytoca	8	NA
+Piperacillin-Tazobactam	Klebsiella pneumoniae	8	NA
+Piperacillin-Tazobactam	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Piperacillin-Tazobactam	Listeria monocytogenes	8	tentative
+Piperacillin-Tazobactam	Morganella morganii	2	NA
+Piperacillin-Tazobactam	Proteus mirabilis	2	NA
+Piperacillin-Tazobactam	Proteus vulgaris	2	tentative
+Piperacillin-Tazobactam	Providencia rettgeri	NA	insufficient data
+Piperacillin-Tazobactam	Providencia stuartii	NA	insufficient data
+Piperacillin-Tazobactam	Pseudomonas aeruginosa	16	NA
+Piperacillin-Tazobactam	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Piperacillin-Tazobactam	Pseudomonas fluorescens group	16	NA
+Piperacillin-Tazobactam	Pseudomonas stutzeri group	4	tentative
+Piperacillin-Tazobactam	Salmonella enterica	8	tentative
+Piperacillin-Tazobactam	Salmonella Enteritidis	NA	unspecified
+Piperacillin-Tazobactam	Salmonella Paratyphi	NA	unspecified
+Piperacillin-Tazobactam	Salmonella Typhi	NA	unspecified
+Piperacillin-Tazobactam	Salmonella Typhimurium	NA	unspecified
+Piperacillin-Tazobactam	Serratia liquefaciens	8	tentative
+Piperacillin-Tazobactam	Serratia marcescens	8	NA
+Piperacillin-Tazobactam	Shigella sonnei	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus aureus	4	NA
+Piperacillin-Tazobactam	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus aureus MRSA	4	tentative
+Piperacillin-Tazobactam	Staphylococcus aureus MSSA	4	tentative
+Piperacillin-Tazobactam	Staphylococcus auricularis	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus capitis	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus epidermidis	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus haemolyticus	2	tentative
+Piperacillin-Tazobactam	Staphylococcus hominis	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus lugdunensis	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus saprophyticus	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus simulans	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus warneri	NA	insufficient data
+Piperacillin-Tazobactam	Staphylococcus xylosus	NA	insufficient data
+Piperacillin-Tazobactam	Stenotrophomonas maltophilia	64	NA
+Piperacillin-Tazobactam	Streptococcus agalactiae	0.5	NA
+Piperacillin-Tazobactam	Streptococcus anginosus	1	tentative
+Piperacillin-Tazobactam	Streptococcus anginosus group	NA	insufficient data
+Piperacillin-Tazobactam	Streptococcus constellatus	NA	insufficient data
+Piperacillin-Tazobactam	Streptococcus group G	0.25	NA
+Piperacillin-Tazobactam	Streptococcus oralis	0.06	tentative
+Piperacillin-Tazobactam	Streptococcus pneumoniae	0.06	NA
+Piperacillin-Tazobactam	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Piperacillin-Tazobactam	Streptococcus pyogenes	0.25	NA
+Piperacillin-Tazobactam	Streptococcus salivarius	NA	insufficient data
+Piperacillin-Tazobactam	Streptococcus sanguinis	NA	insufficient data
+Piperacillin-Tazobactam	Vibrio alginolyticus	NA	insufficient data
+Piperacillin-Tazobactam	Vibrio cholerae	1	tentative
+Piperacillin-Tazobactam	Vibrio fluvialis	NA	insufficient data
+Piperacillin-Tazobactam	Vibrio parahaemolyticus	NA	insufficient data
+Piperacillin-Tazobactam	Vibrio vulnificus	NA	insufficient data
+Piperacillin-Tazobactam	Yersinia enterocolitica	1	tentative
+Piperacillin	Acinetobacter baumannii	64	tentative
+Piperacillin	Citrobacter freundii	8	NA
+Piperacillin	Clostridioides difficile	NA	insufficient data
+Piperacillin	Clostridium perfringens	NA	insufficient data
+Piperacillin	Enterobacter cloacae	8	NA
+Piperacillin	Enterococcus faecalis	8	NA
+Piperacillin	Enterococcus faecium	NA	insufficient data
+Piperacillin	Enterococcus gallinarum	NA	insufficient data
+Piperacillin	Escherichia coli	8	NA
+Piperacillin	Klebsiella aerogenes	8	NA
+Piperacillin	Proteus mirabilis	2	NA
+Piperacillin	Providencia rettgeri	NA	insufficient data
+Piperacillin	Providencia stuartii	NA	insufficient data
+Piperacillin	Pseudomonas aeruginosa	16	NA
+Piperacillin	Pseudomonas fluorescens group	16	tentative
+Piperacillin	Pseudomonas putida group	NA	insufficient data
+Piperacillin	Pseudomonas stutzeri group	NA	insufficient data
+Piperacillin	Salmonella enterica	NA	insufficient data
+Piperacillin	Serratia liquefaciens	NA	insufficient data
+Piperacillin	Serratia marcescens	8	NA
+Piperacillin	Stenotrophomonas maltophilia	64	tentative
+Piperacillin	Streptococcus agalactiae	0.5	tentative
+Piperacillin	Streptococcus anginosus group	NA	insufficient data
+Piperacillin	Streptococcus group G	NA	insufficient data
+Piperacillin	Streptococcus pneumoniae	0.06	tentative
+Piperacillin	Streptococcus pyogenes	NA	insufficient data
+Piperacillin	Yersinia enterocolitica	NA	insufficient data
+Pyrazinamide	Mycobacterium tuberculosis	NA	unspecified
+Quinupristin-Dalfopristin	Bacteroides fragilis group	NA	insufficient data
+Quinupristin-Dalfopristin	Corynebacterium diphtheriae	NA	insufficient data
+Quinupristin-Dalfopristin	Corynebacterium ulcerans	NA	insufficient data
+Quinupristin-Dalfopristin	Enterococcus faecalis	32	NA
+Quinupristin-Dalfopristin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Quinupristin-Dalfopristin	Enterococcus faecium	2	NA
+Quinupristin-Dalfopristin	Haemophilus influenzae	NA	insufficient data
+Quinupristin-Dalfopristin	Lactobacillus reuteri	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus aureus	1	NA
+Quinupristin-Dalfopristin	Staphylococcus capitis	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus epidermidis	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus haemolyticus	1	tentative
+Quinupristin-Dalfopristin	Staphylococcus hominis	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus lugdunensis	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus saprophyticus	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus simulans	NA	insufficient data
+Quinupristin-Dalfopristin	Staphylococcus warneri	NA	insufficient data
+Quinupristin-Dalfopristin	Streptococcus agalactiae	NA	insufficient data
+Quinupristin-Dalfopristin	Streptococcus mitis	NA	insufficient data
+Quinupristin-Dalfopristin	Streptococcus oralis	NA	insufficient data
+Quinupristin-Dalfopristin	Streptococcus pneumoniae	2	NA
+Quinupristin-Dalfopristin	Streptococcus pyogenes	NA	insufficient data
+Quinupristin-Dalfopristin	Streptococcus uberis	NA	insufficient data
+Quinupristin-Dalfopristin	Yersinia enterocolitica	NA	insufficient data
+Retapamulin	Haemophilus influenzae	NA	insufficient data
+Retapamulin	Moraxella catarrhalis	NA	insufficient data
+Retapamulin	Staphylococcus aureus	0.25	NA
+Retapamulin	Staphylococcus aureus MRSA	NA	unspecified
+Retapamulin	Staphylococcus aureus MSSA	NA	unspecified
+Retapamulin	Staphylococcus capitis	NA	insufficient data
+Retapamulin	Staphylococcus epidermidis	NA	insufficient data
+Retapamulin	Staphylococcus haemolyticus	NA	insufficient data
+Retapamulin	Staphylococcus hominis	NA	insufficient data
+Retapamulin	Staphylococcus lugdunensis	NA	insufficient data
+Retapamulin	Staphylococcus warneri	NA	insufficient data
+Retapamulin	Streptococcus agalactiae	0.125	tentative
+Retapamulin	Streptococcus group C	NA	insufficient data
+Retapamulin	Streptococcus group G	NA	insufficient data
+Retapamulin	Streptococcus mitis	NA	insufficient data
+Retapamulin	Streptococcus oralis	NA	insufficient data
+Retapamulin	Streptococcus pneumoniae	NA	insufficient data
+Retapamulin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Retapamulin	Streptococcus pyogenes	0.125	tentative
+Rifabutin	Mycobacterium avium ATCC 700898	NA	unspecified
+Rifabutin	Mycobacterium intracellulare	NA	insufficient data
+Rifampicin	Acinetobacter baumannii	NA	insufficient data
+Rifampicin	Aerococcus sanguinicola	NA	insufficient data
+Rifampicin	Bacillus anthracis	1	NA
+Rifampicin	Brucella melitensis	2	NA
+Rifampicin	Clostridioides difficile	0.004	NA
+Rifampicin	Corynebacterium diphtheriae	NA	insufficient data
+Rifampicin	Corynebacterium ulcerans	NA	unspecified
+Rifampicin	Enterococcus faecalis	8	NA
+Rifampicin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Rifampicin	Enterococcus faecium	NA	insufficient data
+Rifampicin	Haemophilus influenzae	1	tentative
+Rifampicin	Helicobacter pylori	NA	insufficient data
+Rifampicin	Kingella kingae	NA	insufficient data
+Rifampicin	Kocuria kristinae	NA	unspecified
+Rifampicin	Legionella pneumophila	NA	insufficient data
+Rifampicin	Mycobacterium avium	NA	insufficient data
+Rifampicin	Mycobacterium avium ATCC 700898	NA	unspecified
+Rifampicin	Mycobacterium intracellulare	16	NA
+Rifampicin	Neisseria meningitidis	0.125	NA
+Rifampicin	Rothia aeria	NA	unspecified
+Rifampicin	Rothia dentocariosa	NA	unspecified
+Rifampicin	Rothia mucilaginosa	NA	unspecified
+Rifampicin	Staphylococcus aureus	0.03	NA
+Rifampicin	Staphylococcus aureus MRSA	0.03	tentative
+Rifampicin	Staphylococcus aureus MSSA	0.03	tentative
+Rifampicin	Staphylococcus capitis	NA	unspecified
+Rifampicin	Staphylococcus epidermidis	NA	unspecified
+Rifampicin	Staphylococcus epidermidis MSSE	NA	unspecified
+Rifampicin	Staphylococcus haemolyticus	0.06	tentative
+Rifampicin	Streptococcus agalactiae	NA	insufficient data
+Rifampicin	Streptococcus anginosus	NA	insufficient data
+Rifampicin	Streptococcus anginosus group	NA	unspecified
+Rifampicin	Streptococcus bovis equinus group	NA	unspecified
+Rifampicin	Streptococcus constellatus	NA	unspecified
+Rifampicin	Streptococcus mitis	NA	unspecified
+Rifampicin	Streptococcus mitis group	NA	unspecified
+Rifampicin	Streptococcus oralis	NA	unspecified
+Rifampicin	Streptococcus parasanguinis	NA	unspecified
+Rifampicin	Streptococcus pneumoniae	0.125	tentative
+Rifampicin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Rifampicin	Streptococcus pyogenes	NA	insufficient data
+Rifampicin	Streptococcus salivarius	NA	unspecified
+Rifampicin	Streptococcus salivarius group	NA	unspecified
+Rifampicin	Streptococcus sanguinis	NA	unspecified
+Rifampicin	Streptococcus sanguinis group	NA	unspecified
+Rifampicin	Yersinia enterocolitica	NA	insufficient data
+Roxithromycin	Bacteroides fragilis group	NA	insufficient data
+Roxithromycin	Enterococcus faecium	NA	insufficient data
+Roxithromycin	Haemophilus influenzae	32	tentative
+Roxithromycin	Moraxella catarrhalis	NA	insufficient data
+Roxithromycin	Neisseria gonorrhoeae	NA	insufficient data
+Roxithromycin	Staphylococcus aureus	1	tentative
+Roxithromycin	Staphylococcus aureus MRSA	1	tentative
+Roxithromycin	Staphylococcus aureus MSSA	1	tentative
+Roxithromycin	Staphylococcus capitis	NA	insufficient data
+Roxithromycin	Staphylococcus epidermidis	NA	insufficient data
+Roxithromycin	Streptococcus anginosus group	NA	insufficient data
+Roxithromycin	Streptococcus pneumoniae	NA	insufficient data
+Roxithromycin	Streptococcus pyogenes	NA	insufficient data
+Roxithromycin	Yersinia enterocolitica	NA	insufficient data
+Secnidazole	Bacteroides fragilis	NA	unspecified
+Secnidazole	Bacteroides fragilis group	NA	unspecified
+Sitafloxacin	Acinetobacter baumannii	0.06	NA
+Sitafloxacin	Enterococcus faecalis	0.5	NA
+Sitafloxacin	Enterococcus faecium	0.25	NA
+Sitafloxacin	Escherichia coli	0.03	NA
+Sitafloxacin	Klebsiella pneumoniae	0.06	NA
+Sitafloxacin	Proteus mirabilis	0.125	tentative
+Sitafloxacin	Pseudomonas aeruginosa	0.5	NA
+Sitafloxacin	Staphylococcus aureus	0.125	NA
+Sitafloxacin	Streptococcus pneumoniae	0.125	NA
+Sparfloxacin	Aeromonas hydrophila	NA	insufficient data
+Sparfloxacin	Bacteroides fragilis	NA	insufficient data
+Sparfloxacin	Clostridium perfringens	NA	insufficient data
+Sparfloxacin	Enterococcus faecalis	NA	insufficient data
+Sparfloxacin	Enterococcus faecium	NA	insufficient data
+Sparfloxacin	Escherichia coli	NA	insufficient data
+Sparfloxacin	Haemophilus influenzae	0.06	tentative
+Sparfloxacin	Haemophilus parainfluenzae	NA	insufficient data
+Sparfloxacin	Klebsiella pneumoniae	NA	insufficient data
+Sparfloxacin	Listeria monocytogenes	NA	insufficient data
+Sparfloxacin	Moraxella catarrhalis	NA	insufficient data
+Sparfloxacin	Morganella morganii	NA	insufficient data
+Sparfloxacin	Neisseria gonorrhoeae	NA	insufficient data
+Sparfloxacin	Neisseria meningitidis	NA	insufficient data
+Sparfloxacin	Plesiomonas shigelloides	NA	insufficient data
+Sparfloxacin	Proteus mirabilis	NA	insufficient data
+Sparfloxacin	Proteus vulgaris	NA	insufficient data
+Sparfloxacin	Pseudomonas aeruginosa	NA	insufficient data
+Sparfloxacin	Salmonella enterica	NA	insufficient data
+Sparfloxacin	Salmonella Typhi	NA	insufficient data
+Sparfloxacin	Shigella spp	NA	unspecified
+Sparfloxacin	Staphylococcus aureus	NA	insufficient data
+Sparfloxacin	Staphylococcus coagulase negative	NA	unspecified
+Sparfloxacin	Streptococcus agalactiae	NA	insufficient data
+Sparfloxacin	Streptococcus group C	NA	insufficient data
+Sparfloxacin	Streptococcus group G	NA	insufficient data
+Sparfloxacin	Streptococcus pneumoniae	1	tentative
+Sparfloxacin	Streptococcus pyogenes	NA	insufficient data
+Spectinomycin	Escherichia coli	64	NA
+Spectinomycin	Mannheimia haemolytica	32	NA
+Spectinomycin	Neisseria gonorrhoeae	32	NA
+Spectinomycin	Pasteurella multocida	64	tentative
+Spectinomycin	Salmonella enterica	64	NA
+Spectinomycin	Staphylococcus aureus	128	tentative
+Spectinomycin	Staphylococcus hominis	NA	insufficient data
+Spectinomycin	Staphylococcus hyicus	NA	insufficient data
+Spectinomycin	Yersinia enterocolitica	NA	insufficient data
+Spiramycin	Streptococcus pneumoniae	NA	insufficient data
+Spiramycin	Streptococcus pyogenes	NA	insufficient data
+Streptomycin	Bifidobacterium longum	NA	unspecified
+Streptomycin	Bifidobacterium pseudolongum	NA	unspecified
+Streptomycin	Bifidobacterium thermophilum	NA	unspecified
+Streptomycin	Brucella melitensis	1	NA
+Streptomycin	Campylobacter coli	4	NA
+Streptomycin	Campylobacter jejuni	4	NA
+Streptomycin	Enterobacter agglomerans	NA	unspecified
+Streptomycin	Enterobacter cloacae	NA	unspecified
+Streptomycin	Enterobacter dissolvens	NA	unspecified
+Streptomycin	Enterococcus faecalis	512	NA
+Streptomycin	Enterococcus faecium	128	NA
+Streptomycin	Enterococcus hirae	128	NA
+Streptomycin	Escherichia coli	16	NA
+Streptomycin	Hafnia alvei	NA	unspecified
+Streptomycin	Klebsiella oxytoca	NA	unspecified
+Streptomycin	Klebsiella pneumoniae	NA	unspecified
+Streptomycin	Lactobacillus amylovorus	NA	unspecified
+Streptomycin	Lactobacillus delbrueckii	NA	unspecified
+Streptomycin	Lactobacillus fermentum	NA	unspecified
+Streptomycin	Lactobacillus gasseri	NA	unspecified
+Streptomycin	Lactobacillus helveticus	NA	unspecified
+Streptomycin	Lactobacillus johnsonii	NA	unspecified
+Streptomycin	Lactobacillus lactis	NA	unspecified
+Streptomycin	Lactobacillus plantarum	NA	unspecified
+Streptomycin	Lactobacillus reuteri	NA	unspecified
+Streptomycin	Lactobacillus rhamnosus	NA	unspecified
+Streptomycin	Lactococcus lactis	NA	unspecified
+Streptomycin	Listeria monocytogenes	NA	unspecified
+Streptomycin	Salmonella enterica	16	NA
+Streptomycin	Serratia liquefaciens	NA	unspecified
+Streptomycin	Staphylococcus aureus	16	NA
+Streptomycin	Staphylococcus hyicus	NA	insufficient data
+Streptomycin	Staphylococcus intermedius	NA	unspecified
+Streptomycin	Streptococcus thermophilus	NA	unspecified
+Streptomycin	Yersinia enterocolitica	NA	unspecified
+Sulbactam	Acinetobacter baumannii	NA	unspecified
+Sulbactam	Citrobacter freundii	NA	unspecified
+Sulbactam	Enterobacter cloacae	NA	unspecified
+Sulbactam	Enterococcus faecalis	NA	unspecified
+Sulbactam	Escherichia coli	NA	unspecified
+Sulbactam	Klebsiella oxytoca	NA	unspecified
+Sulbactam	Klebsiella pneumoniae	NA	unspecified
+Sulbactam	Proteus mirabilis	NA	unspecified
+Sulbactam	Proteus vulgaris	NA	unspecified
+Sulbactam	Pseudomonas aeruginosa	NA	unspecified
+Sulbactam	Serratia marcescens	NA	unspecified
+Sulbactam	Staphylococcus aureus	NA	unspecified
+Sulbactam	Staphylococcus coagulase negative	NA	unspecified
+Sulbactam	Stenotrophomonas maltophilia	NA	unspecified
+Sulfamethoxazole	Enterobacter agglomerans	NA	insufficient data
+Sulfamethoxazole	Enterobacter cloacae	NA	insufficient data
+Sulfamethoxazole	Enterobacter dissolvens	NA	insufficient data
+Sulfamethoxazole	Escherichia coli	NA	insufficient data
+Sulfamethoxazole	Klebsiella oxytoca	NA	insufficient data
+Sulfamethoxazole	Klebsiella pneumoniae	NA	insufficient data
+Sulfamethoxazole	Listeria monocytogenes	NA	insufficient data
+Sulfamethoxazole	Salmonella enterica	NA	unspecified
+Sulfamethoxazole	Serratia liquefaciens	NA	insufficient data
+Sulfamethoxazole	Staphylococcus aureus	NA	insufficient data
+Sulfamethoxazole	Staphylococcus hyicus	NA	insufficient data
+Sulfamethoxazole	Streptococcus agalactiae	NA	insufficient data
+Tedizolid	Enterococcus faecalis	1	NA
+Tedizolid	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Tedizolid	Enterococcus faecium	1	NA
+Tedizolid	Moraxella catarrhalis	NA	insufficient data
+Tedizolid	Staphylococcus aureus	1	NA
+Tedizolid	Staphylococcus aureus ATCC 29213	NA	unspecified
+Tedizolid	Staphylococcus aureus MRSA	1	NA
+Tedizolid	Staphylococcus aureus MSSA	1	NA
+Tedizolid	Staphylococcus haemolyticus	NA	insufficient data
+Tedizolid	Staphylococcus lugdunensis	NA	insufficient data
+Tedizolid	Streptococcus agalactiae	0.5	NA
+Tedizolid	Streptococcus anginosus	NA	insufficient data
+Tedizolid	Streptococcus pneumoniae	0.5	tentative
+Tedizolid	Streptococcus pyogenes	0.5	NA
+Teicoplanin	Clostridioides difficile	NA	insufficient data
+Teicoplanin	Enterococcus faecalis	2	NA
+Teicoplanin	Enterococcus faecium	2	NA
+Teicoplanin	Staphylococcus aureus	2	NA
+Teicoplanin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Teicoplanin	Staphylococcus aureus MRSA	2	NA
+Teicoplanin	Staphylococcus aureus MSSA	2	tentative
+Teicoplanin	Staphylococcus capitis	NA	insufficient data
+Teicoplanin	Staphylococcus epidermidis	16	NA
+Teicoplanin	Staphylococcus epidermidis MSSE	NA	unspecified
+Teicoplanin	Staphylococcus haemolyticus	32	NA
+Teicoplanin	Staphylococcus hominis	NA	insufficient data
+Teicoplanin	Staphylococcus lugdunensis	NA	insufficient data
+Teicoplanin	Staphylococcus saprophyticus	8	tentative
+Teicoplanin	Staphylococcus simulans	NA	insufficient data
+Teicoplanin	Staphylococcus warneri	NA	insufficient data
+Teicoplanin	Streptococcus agalactiae	0.5	NA
+Teicoplanin	Streptococcus anginosus	NA	insufficient data
+Teicoplanin	Streptococcus group G	0.25	tentative
+Teicoplanin	Streptococcus oralis	0.5	tentative
+Teicoplanin	Streptococcus pneumoniae	0.25	NA
+Teicoplanin	Streptococcus pyogenes	NA	insufficient data
+Telavancin (with polysorbate P80)	Enterococcus faecalis	0.25	tentative
+Telavancin (with polysorbate P80)	Staphylococcus aureus	0.125	tentative
+Telavancin (with polysorbate P80)	Staphylococcus aureus MRSA	0.125	tentative
+Telavancin (with polysorbate P80)	Staphylococcus aureus MSSA	0.125	tentative
+Telavancin (with polysorbate P80)	Staphylococcus epidermidis	0.125	tentative
+Telavancin (with polysorbate P80)	Staphylococcus epidermidis MRSE	0.125	tentative
+Telavancin (with polysorbate P80)	Staphylococcus haemolyticus	NA	insufficient data
+Telavancin (with polysorbate P80)	Streptococcus agalactiae	0.125	tentative
+Telavancin (with polysorbate P80)	Streptococcus anginosus	NA	insufficient data
+Telavancin (with polysorbate P80)	Streptococcus constellatus	0.03	tentative
+Telavancin (with polysorbate P80)	Streptococcus dysgalactiae	0.125	tentative
+Telavancin (with polysorbate P80)	Streptococcus group G	NA	insufficient data
+Telavancin (with polysorbate P80)	Streptococcus mitis	NA	insufficient data
+Telavancin (with polysorbate P80)	Streptococcus oralis	NA	insufficient data
+Telavancin (with polysorbate P80)	Streptococcus pneumoniae	0.03	tentative
+Telavancin (with polysorbate P80)	Streptococcus pyogenes	NA	insufficient data
+Telavancin	Enterococcus faecalis	2	NA
+Telavancin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Telavancin	Enterococcus faecium	0.5	NA
+Telavancin	Staphylococcus aureus	1	NA
+Telavancin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Telavancin	Staphylococcus aureus MRSA	1	NA
+Telavancin	Staphylococcus aureus MSSA	1	NA
+Telavancin	Staphylococcus epidermidis	1	NA
+Telavancin	Staphylococcus epidermidis MSSE	NA	unspecified
+Telavancin	Staphylococcus haemolyticus	1	tentative
+Telavancin	Streptococcus agalactiae	0.125	NA
+Telavancin	Streptococcus group G	0.125	tentative
+Telavancin	Streptococcus intermedius	NA	unspecified
+Telavancin	Streptococcus oralis	NA	insufficient data
+Telavancin	Streptococcus pneumoniae	NA	insufficient data
+Telavancin	Streptococcus pyogenes	0.125	NA
+Telithromycin	Campylobacter coli	NA	insufficient data
+Telithromycin	Campylobacter jejuni	4	NA
+Telithromycin	Campylobacter upsaliensis	NA	insufficient data
+Telithromycin	Enterococcus faecalis	NA	insufficient data
+Telithromycin	Haemophilus influenzae	8	NA
+Telithromycin	Listeria monocytogenes	NA	insufficient data
+Telithromycin	Moraxella catarrhalis	NA	insufficient data
+Telithromycin	Neisseria gonorrhoeae	NA	insufficient data
+Telithromycin	Neisseria meningitidis	NA	insufficient data
+Telithromycin	Staphylococcus aureus MRSA	NA	insufficient data
+Telithromycin	Staphylococcus aureus MSSA	NA	insufficient data
+Telithromycin	Staphylococcus saprophyticus	NA	insufficient data
+Telithromycin	Streptococcus agalactiae	NA	unspecified
+Telithromycin	Streptococcus anginosus group	NA	insufficient data
+Telithromycin	Streptococcus pneumoniae	0.06	NA
+Telithromycin	Streptococcus pyogenes	0.03	NA
+Temocillin	Burkholderia cepacia complex	64	tentative
+Temocillin	Citrobacter freundii	NA	insufficient data
+Temocillin	Enterobacter cloacae	NA	insufficient data
+Temocillin	Escherichia coli	16	NA
+Temocillin	Escherichia coli ATCC 25922	NA	insufficient data
+Temocillin	Escherichia coli ATCC 35218	NA	insufficient data
+Temocillin	Escherichia coli NCTC 13846	NA	insufficient data
+Temocillin	Haemophilus influenzae	1	tentative
+Temocillin	Klebsiella aerogenes	64	tentative
+Temocillin	Klebsiella oxytoca	NA	insufficient data
+Temocillin	Klebsiella pneumoniae	8	NA
+Temocillin	Klebsiella pneumoniae ATCC 700603	NA	unspecified
+Temocillin	Morganella morganii	8	NA
+Temocillin	Proteus mirabilis	8	NA
+Temocillin	Proteus vulgaris	NA	insufficient data
+Temocillin	Salmonella enterica	16	NA
+Temocillin	Serratia marcescens	64	NA
+Temocillin	Yersinia enterocolitica	NA	insufficient data
+Tetracycline	Actinobacillus pleuropneumoniae	2	NA
+Tetracycline	Actinomyces israelii	NA	insufficient data
+Tetracycline	Arcanobacterium pyogenes	NA	insufficient data
+Tetracycline	Bacillus anthracis	0.125	NA
+Tetracycline	Bacillus cereus	NA	insufficient data
+Tetracycline	Bifidobacterium longum	NA	insufficient data
+Tetracycline	Bifidobacterium pseudolongum	NA	insufficient data
+Tetracycline	Bifidobacterium thermophilum	NA	insufficient data
+Tetracycline	Bordetella bronchiseptica	1	NA
+Tetracycline	Brucella melitensis	0.5	NA
+Tetracycline	Burkholderia pseudomallei	8	NA
+Tetracycline	Campylobacter coli	2	NA
+Tetracycline	Campylobacter jejuni	1	NA
+Tetracycline	Campylobacter upsaliensis	NA	insufficient data
+Tetracycline	Citrobacter freundii	NA	insufficient data
+Tetracycline	Citrobacter koseri	NA	insufficient data
+Tetracycline	Clostridioides difficile	0.25	tentative
+Tetracycline	Corynebacterium amycolatum	NA	insufficient data
+Tetracycline	Corynebacterium diphtheriae	NA	insufficient data
+Tetracycline	Corynebacterium jeikeium	NA	insufficient data
+Tetracycline	Corynebacterium pseudodiphtheriticum	NA	insufficient data
+Tetracycline	Corynebacterium ulcerans	NA	insufficient data
+Tetracycline	Cutibacterium acnes	NA	insufficient data
+Tetracycline	Enterobacter agglomerans	NA	insufficient data
+Tetracycline	Enterobacter cloacae	8	NA
+Tetracycline	Enterobacter dissolvens	NA	insufficient data
+Tetracycline	Enterococcus cecorum	NA	insufficient data
+Tetracycline	Enterococcus faecalis	4	NA
+Tetracycline	Enterococcus faecium	4	NA
+Tetracycline	Enterococcus hirae	4	NA
+Tetracycline	Escherichia coli	8	NA
+Tetracycline	Escherichia coli ATCC 25922	NA	insufficient data
+Tetracycline	Haemophilus influenzae	1	NA
+Tetracycline	Haemophilus influenzae ATCC 49247	NA	insufficient data
+Tetracycline	Haemophilus influenzae ATCC 49766	NA	insufficient data
+Tetracycline	Haemophilus parainfluenzae	NA	insufficient data
+Tetracycline	Hafnia alvei	NA	insufficient data
+Tetracycline	Helicobacter pylori	0.25	tentative
+Tetracycline	Kingella kingae	NA	insufficient data
+Tetracycline	Klebsiella aerogenes	NA	insufficient data
+Tetracycline	Klebsiella oxytoca	4	NA
+Tetracycline	Klebsiella pneumoniae	8	NA
+Tetracycline	Lactobacillus acidophilus	NA	insufficient data
+Tetracycline	Lactobacillus amylovorus	NA	insufficient data
+Tetracycline	Lactobacillus crispatus	NA	insufficient data
+Tetracycline	Lactobacillus delbrueckii	NA	insufficient data
+Tetracycline	Lactobacillus fermentum	NA	insufficient data
+Tetracycline	Lactobacillus gallinarum	NA	insufficient data
+Tetracycline	Lactobacillus gasseri	NA	insufficient data
+Tetracycline	Lactobacillus helveticus	NA	insufficient data
+Tetracycline	Lactobacillus johnsonii	NA	insufficient data
+Tetracycline	Lactobacillus lactis	NA	insufficient data
+Tetracycline	Lactobacillus paracasei	NA	insufficient data
+Tetracycline	Lactobacillus plantarum	NA	insufficient data
+Tetracycline	Lactobacillus reuteri	NA	insufficient data
+Tetracycline	Lactobacillus rhamnosus	4	tentative
+Tetracycline	Lactobacillus sakei	NA	insufficient data
+Tetracycline	Lactococcus lactis	NA	insufficient data
+Tetracycline	Listeria monocytogenes	NA	insufficient data
+Tetracycline	Mannheimia haemolytica	2	NA
+Tetracycline	Moraxella catarrhalis	2	NA
+Tetracycline	Morganella morganii	8	NA
+Tetracycline	Neisseria gonorrhoeae	NA	insufficient data
+Tetracycline	Neisseria meningitidis	NA	insufficient data
+Tetracycline	Pasteurella multocida	2	NA
+Tetracycline	Proteus mirabilis	128	NA
+Tetracycline	Pseudomonas aeruginosa	64	NA
+Tetracycline	Salmonella enterica	8	NA
+Tetracycline	Serratia liquefaciens	NA	insufficient data
+Tetracycline	Serratia marcescens	NA	insufficient data
+Tetracycline	Staphylococcus aureus	1	NA
+Tetracycline	Staphylococcus aureus MRSA	1	NA
+Tetracycline	Staphylococcus aureus MSSA	1	NA
+Tetracycline	Staphylococcus coagulase negative	1	NA
+Tetracycline	Staphylococcus epidermidis	1	tentative
+Tetracycline	Staphylococcus epidermidis MSSE	NA	unspecified
+Tetracycline	Staphylococcus haemolyticus	NA	insufficient data
+Tetracycline	Staphylococcus hyicus	1	NA
+Tetracycline	Staphylococcus pseudintermedius	1	NA
+Tetracycline	Staphylococcus saprophyticus	NA	insufficient data
+Tetracycline	Stenotrophomonas maltophilia	64	NA
+Tetracycline	Streptococcus agalactiae	1	NA
+Tetracycline	Streptococcus anginosus	1	tentative
+Tetracycline	Streptococcus canis	NA	insufficient data
+Tetracycline	Streptococcus dysgalactiae	NA	insufficient data
+Tetracycline	Streptococcus equi subspecies equi	0.25	NA
+Tetracycline	Streptococcus equisimilis	8	tentative
+Tetracycline	Streptococcus group G	2	tentative
+Tetracycline	Streptococcus oralis	2	tentative
+Tetracycline	Streptococcus pneumoniae	1	NA
+Tetracycline	Streptococcus pyogenes	2	NA
+Tetracycline	Streptococcus suis	4	NA
+Tetracycline	Streptococcus thermophilus	NA	insufficient data
+Tetracycline	Streptococcus uberis	2	NA
+Tetracycline	Vibrio alginolyticus	NA	insufficient data
+Tetracycline	Vibrio cholerae	0.5	tentative
+Tetracycline	Vibrio fluvialis	NA	insufficient data
+Tetracycline	Vibrio parahaemolyticus	NA	insufficient data
+Tetracycline	Vibrio vulnificus	NA	insufficient data
+Tetracycline	Yersinia enterocolitica	4	NA
+Tiamulin	Actinobacillus pleuropneumoniae	32	tentative
+Tiamulin	Mannheimia haemolytica	32	NA
+Tiamulin	Pasteurella multocida	64	NA
+Tiamulin	Staphylococcus aureus	2	tentative
+Tiamulin	Staphylococcus hyicus	2	NA
+Tiamulin	Streptococcus suis	NA	unspecified
+Ticarcillin-Clavulanic acid	Acinetobacter baumannii	NA	insufficient data
+Ticarcillin-Clavulanic acid	Bacteroides fragilis	NA	insufficient data
+Ticarcillin-Clavulanic acid	Bacteroides fragilis group	NA	insufficient data
+Ticarcillin-Clavulanic acid	Bacteroides thetaiotaomicron	NA	insufficient data
+Ticarcillin-Clavulanic acid	Citrobacter freundii	NA	insufficient data
+Ticarcillin-Clavulanic acid	Citrobacter koseri	NA	insufficient data
+Ticarcillin-Clavulanic acid	Clostridioides difficile	NA	insufficient data
+Ticarcillin-Clavulanic acid	Clostridium perfringens	NA	insufficient data
+Ticarcillin-Clavulanic acid	Enterobacter cloacae	NA	insufficient data
+Ticarcillin-Clavulanic acid	Escherichia coli	NA	insufficient data
+Ticarcillin-Clavulanic acid	Klebsiella aerogenes	NA	insufficient data
+Ticarcillin-Clavulanic acid	Klebsiella oxytoca	NA	insufficient data
+Ticarcillin-Clavulanic acid	Klebsiella pneumoniae	NA	insufficient data
+Ticarcillin-Clavulanic acid	Proteus mirabilis	NA	insufficient data
+Ticarcillin-Clavulanic acid	Salmonella enterica	8	tentative
+Ticarcillin-Clavulanic acid	Salmonella Paratyphi	8	tentative
+Ticarcillin-Clavulanic acid	Salmonella Typhimurium	8	tentative
+Ticarcillin-Clavulanic acid	Serratia liquefaciens	NA	insufficient data
+Ticarcillin-Clavulanic acid	Serratia marcescens	NA	insufficient data
+Ticarcillin-Clavulanic acid	Stenotrophomonas maltophilia	NA	insufficient data
+Ticarcillin	Acinetobacter baumannii	NA	insufficient data
+Ticarcillin	Citrobacter koseri	NA	insufficient data
+Ticarcillin	Clostridioides difficile	NA	insufficient data
+Ticarcillin	Clostridium perfringens	NA	insufficient data
+Ticarcillin	Pseudomonas aeruginosa	NA	insufficient data
+Ticarcillin	Pseudomonas fluorescens group	NA	insufficient data
+Ticarcillin	Salmonella enterica	NA	insufficient data
+Ticarcillin	Salmonella Paratyphi	NA	insufficient data
+Ticarcillin	Salmonella Typhimurium	NA	insufficient data
+Ticarcillin	Serratia liquefaciens	NA	insufficient data
+Ticarcillin	Serratia marcescens	NA	insufficient data
+Ticarcillin	Shigella flexneri	NA	insufficient data
+Ticarcillin	Shigella sonnei	NA	insufficient data
+Tigecycline	Acinetobacter baumannii	NA	insufficient data
+Tigecycline	Acinetobacter pittii	0.5	tentative
+Tigecycline	Bacillus anthracis	0.25	tentative
+Tigecycline	Bacteroides fragilis	4	NA
+Tigecycline	Citrobacter freundii	1	NA
+Tigecycline	Citrobacter koseri	0.5	NA
+Tigecycline	Enterobacter asburiae	2	NA
+Tigecycline	Enterobacter cloacae	1	NA
+Tigecycline	Enterococcus faecalis	0.25	NA
+Tigecycline	Enterococcus faecium	0.25	NA
+Tigecycline	Escherichia coli	0.5	NA
+Tigecycline	Escherichia coli NCTC 13846	NA	insufficient data
+Tigecycline	Haemophilus influenzae	1	tentative
+Tigecycline	Hafnia alvei	NA	insufficient data
+Tigecycline	Klebsiella aerogenes	1	NA
+Tigecycline	Klebsiella oxytoca	1	NA
+Tigecycline	Klebsiella pneumoniae	2	NA
+Tigecycline	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Tigecycline	Listeria monocytogenes	NA	insufficient data
+Tigecycline	Moraxella catarrhalis	0.25	NA
+Tigecycline	Morganella morganii	4	NA
+Tigecycline	Mycobacterium abscessus	2	NA
+Tigecycline	Pantoea agglomerans	NA	insufficient data
+Tigecycline	Proteus mirabilis	8	NA
+Tigecycline	Proteus vulgaris	4	NA
+Tigecycline	Providencia rettgeri	4	tentative
+Tigecycline	Providencia stuartii	4	NA
+Tigecycline	Pseudomonas aeruginosa	64	NA
+Tigecycline	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Tigecycline	Serratia liquefaciens	1	NA
+Tigecycline	Serratia marcescens	4	NA
+Tigecycline	Shigella sonnei	NA	insufficient data
+Tigecycline	Staphylococcus aureus	0.5	NA
+Tigecycline	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Tigecycline	Staphylococcus aureus MRSA	0.5	tentative
+Tigecycline	Staphylococcus aureus MSSA	0.5	tentative
+Tigecycline	Staphylococcus epidermidis	1	NA
+Tigecycline	Staphylococcus epidermidis MSSE	NA	unspecified
+Tigecycline	Staphylococcus haemolyticus	1	tentative
+Tigecycline	Stenotrophomonas maltophilia	4	tentative
+Tigecycline	Streptococcus pneumoniae	0.125	tentative
+Tigecycline	Streptococcus pyogenes	NA	insufficient data
+Tildipirosin	Actinobacillus pleuropneumoniae	16	tentative
+Tildipirosin	Mannheimia haemolytica	2	NA
+Tildipirosin	Pasteurella multocida	4	NA
+Tildipirosin	Staphylococcus hyicus	NA	insufficient data
+Tildipirosin	Staphylococcus pseudintermedius	4	NA
+Tildipirosin	Streptococcus uberis	NA	unspecified
+Tilmicosin	Actinobacillus pleuropneumoniae	32	tentative
+Tilmicosin	Pasteurella multocida	32	NA
+Tilmicosin	Staphylococcus hyicus	4	tentative
+Tilmicosin	Staphylococcus pseudintermedius	2	NA
+Tilmicosin	Streptococcus suis	NA	unspecified
+Tilmicosin	Streptococcus uberis	NA	unspecified
+Tobramycin	Acinetobacter baumannii	4	NA
+Tobramycin	Aeromonas caviae	NA	unspecified
+Tobramycin	Aeromonas hydrophila	NA	unspecified
+Tobramycin	Aeromonas veronii	NA	unspecified
+Tobramycin	Alcaligenes faecalis	NA	insufficient data
+Tobramycin	Bacillus cereus	NA	insufficient data
+Tobramycin	Burkholderia cepacia complex	NA	insufficient data
+Tobramycin	Campylobacter jejuni	NA	unspecified
+Tobramycin	Citrobacter braakii	NA	insufficient data
+Tobramycin	Citrobacter freundii	2	NA
+Tobramycin	Citrobacter koseri	2	tentative
+Tobramycin	Enterobacter amnigenus	NA	insufficient data
+Tobramycin	Enterobacter cloacae	2	NA
+Tobramycin	Enterobacter sakazakii	NA	insufficient data
+Tobramycin	Enterococcus faecalis	NA	insufficient data
+Tobramycin	Enterococcus faecium	NA	insufficient data
+Tobramycin	Escherichia coli	4	NA
+Tobramycin	Escherichia coli ATCC 25922	NA	unspecified
+Tobramycin	Haemophilus influenzae	NA	insufficient data
+Tobramycin	Klebsiella aerogenes	2	NA
+Tobramycin	Klebsiella oxytoca	2	NA
+Tobramycin	Klebsiella pneumoniae	2	NA
+Tobramycin	Morganella morganii	4	NA
+Tobramycin	Plesiomonas shigelloides	NA	insufficient data
+Tobramycin	Proteus mirabilis	4	NA
+Tobramycin	Proteus vulgaris	4	NA
+Tobramycin	Pseudomonas aeruginosa	2	NA
+Tobramycin	Pseudomonas putida group	NA	insufficient data
+Tobramycin	Serratia liquefaciens	NA	insufficient data
+Tobramycin	Serratia marcescens	8	NA
+Tobramycin	Staphylococcus aureus	2	NA
+Tobramycin	Streptococcus agalactiae	128	tentative
+Tobramycin	Yersinia enterocolitica	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Acinetobacter baumannii	0.5	NA
+Trimethoprim-Sulfamethoxazole	Acinetobacter pittii	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Actinobacillus pleuropneumoniae	0.25	NA
+Trimethoprim-Sulfamethoxazole	Aeromonas caviae	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Bordetella bronchiseptica	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Brucella melitensis	0.125	NA
+Trimethoprim-Sulfamethoxazole	Burkholderia cepacia complex	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Burkholderia pseudomallei	4	NA
+Trimethoprim-Sulfamethoxazole	Campylobacter coli	4	NA
+Trimethoprim-Sulfamethoxazole	Campylobacter jejuni	16	NA
+Trimethoprim-Sulfamethoxazole	Citrobacter freundii	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Citrobacter koseri	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Corynebacterium diphtheriae	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Corynebacterium glucuronolyticum	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Corynebacterium striatum	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Corynebacterium ulcerans	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Enterobacter cloacae	0.5	tentative
+Trimethoprim-Sulfamethoxazole	Enterococcus cecorum	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Enterococcus faecium	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Escherichia coli	0.5	NA
+Trimethoprim-Sulfamethoxazole	Haemophilus influenzae	0.5	NA
+Trimethoprim-Sulfamethoxazole	Klebsiella aerogenes	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Klebsiella oxytoca	0.5	tentative
+Trimethoprim-Sulfamethoxazole	Klebsiella pneumoniae	0.5	NA
+Trimethoprim-Sulfamethoxazole	Klebsiella pneumoniae ATCC 700603	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Klebsiella variicola	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Kocuria kristinae	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Legionella pneumophila	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Listeria monocytogenes	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Mannheimia haemolytica	0.06	NA
+Trimethoprim-Sulfamethoxazole	Moraxella catarrhalis	1	tentative
+Trimethoprim-Sulfamethoxazole	Morganella morganii	0.5	NA
+Trimethoprim-Sulfamethoxazole	Mycobacterium avium	4	tentative
+Trimethoprim-Sulfamethoxazole	Mycobacterium avium ATCC 700898	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Mycobacterium intracellulare	8	tentative
+Trimethoprim-Sulfamethoxazole	Neisseria gonorrhoeae	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Neisseria meningitidis	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Nocardia abscessus	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Pasteurella multocida	0.125	NA
+Trimethoprim-Sulfamethoxazole	Proteus mirabilis	0.5	NA
+Trimethoprim-Sulfamethoxazole	Proteus vulgaris	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Pseudomonas aeruginosa	32	tentative
+Trimethoprim-Sulfamethoxazole	Pseudomonas aeruginosa ATCC 27853	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Pseudomonas fluorescens group	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Rothia aeria	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Rothia dentocariosa	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Rothia mucilaginosa	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Salmonella enterica	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Serratia liquefaciens	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Serratia marcescens	2	NA
+Trimethoprim-Sulfamethoxazole	Staphylococcus aureus	0.25	tentative
+Trimethoprim-Sulfamethoxazole	Staphylococcus epidermidis	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Staphylococcus hyicus	0.25	tentative
+Trimethoprim-Sulfamethoxazole	Stenotrophomonas maltophilia	2	NA
+Trimethoprim-Sulfamethoxazole	Streptococcus agalactiae	0.5	NA
+Trimethoprim-Sulfamethoxazole	Streptococcus canis	0.125	tentative
+Trimethoprim-Sulfamethoxazole	Streptococcus dysgalactiae	0.25	NA
+Trimethoprim-Sulfamethoxazole	Streptococcus equi subspecies zooepidemicus	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Streptococcus equisimilis	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Streptococcus pneumoniae	1	NA
+Trimethoprim-Sulfamethoxazole	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Trimethoprim-Sulfamethoxazole	Streptococcus pyogenes	0.5	tentative
+Trimethoprim-Sulfamethoxazole	Streptococcus suis	0.25	tentative
+Trimethoprim-Sulfamethoxazole	Streptococcus uberis	1	NA
+Trimethoprim-Sulfamethoxazole	Vibrio alginolyticus	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Vibrio cholerae	0.125	tentative
+Trimethoprim-Sulfamethoxazole	Vibrio fluvialis	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Vibrio parahaemolyticus	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Vibrio vulnificus	NA	unspecified
+Trimethoprim-Sulfamethoxazole	Yersinia enterocolitica	NA	insufficient data
+Trimethoprim	Acinetobacter baumannii	NA	insufficient data
+Trimethoprim	Citrobacter freundii	NA	insufficient data
+Trimethoprim	Enterobacter agglomerans	NA	insufficient data
+Trimethoprim	Enterobacter cloacae	2	tentative
+Trimethoprim	Enterobacter dissolvens	NA	insufficient data
+Trimethoprim	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Trimethoprim	Escherichia coli	2	NA
+Trimethoprim	Haemophilus influenzae	0.5	NA
+Trimethoprim	Hafnia alvei	NA	insufficient data
+Trimethoprim	Klebsiella aerogenes	NA	insufficient data
+Trimethoprim	Klebsiella oxytoca	NA	insufficient data
+Trimethoprim	Klebsiella pneumoniae	2	tentative
+Trimethoprim	Listeria monocytogenes	NA	insufficient data
+Trimethoprim	Moraxella catarrhalis	64	NA
+Trimethoprim	Morganella morganii	NA	insufficient data
+Trimethoprim	Pasteurella multocida	NA	insufficient data
+Trimethoprim	Proteus mirabilis	8	tentative
+Trimethoprim	Proteus vulgaris	8	tentative
+Trimethoprim	Salmonella enterica	2	tentative
+Trimethoprim	Serratia marcescens	NA	insufficient data
+Trimethoprim	Staphylococcus aureus	2	NA
+Trimethoprim	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Trimethoprim	Staphylococcus aureus MRSA	2	tentative
+Trimethoprim	Staphylococcus aureus MSSA	2	tentative
+Trimethoprim	Staphylococcus capitis	NA	insufficient data
+Trimethoprim	Staphylococcus epidermidis	2	tentative
+Trimethoprim	Staphylococcus epidermidis MSSE	NA	unspecified
+Trimethoprim	Staphylococcus hyicus	NA	insufficient data
+Trimethoprim	Staphylococcus lugdunensis	NA	insufficient data
+Trimethoprim	Streptococcus agalactiae	NA	insufficient data
+Trimethoprim	Streptococcus anginosus	NA	insufficient data
+Trimethoprim	Streptococcus pneumoniae	16	NA
+Trimethoprim	Streptococcus pyogenes	NA	insufficient data
+Trimethoprim	Yersinia enterocolitica	NA	insufficient data
+Tulathromycin	Actinobacillus pleuropneumoniae	64	tentative
+Tulathromycin	Bordetella bronchiseptica	NA	insufficient data
+Tulathromycin	Haemophilus parasuis	NA	insufficient data
+Tulathromycin	Mannheimia haemolytica	16	NA
+Tulathromycin	Pasteurella multocida	8	NA
+Tulathromycin	Staphylococcus hyicus	8	tentative
+Tulathromycin	Staphylococcus pseudintermedius	8	NA
+Tulathromycin	Streptococcus dysgalactiae	NA	insufficient data
+Tulathromycin	Streptococcus suis	NA	insufficient data
+Tulathromycin	Streptococcus uberis	NA	insufficient data
+Tylosin	Actinobacillus pleuropneumoniae	64	tentative
+Tylosin	Enterococcus faecium	NA	unspecified
+Tylosin	Mannheimia haemolytica	NA	insufficient data
+Tylosin	Pasteurella multocida	NA	insufficient data
+Tylosin	Staphylococcus hyicus	4	tentative
+Tylosin	Staphylococcus pseudintermedius	2	NA
+Tylosin	Streptococcus suis	NA	unspecified
+Tylosin	Streptococcus uberis	NA	unspecified
+Vancomycin	Aerococcus urinae	NA	insufficient data
+Vancomycin	Bacillus anthracis	4	NA
+Vancomycin	Bacillus cereus	NA	insufficient data
+Vancomycin	Bifidobacterium adolescentis	NA	insufficient data
+Vancomycin	Bifidobacterium animalis	NA	insufficient data
+Vancomycin	Bifidobacterium bifidum	NA	insufficient data
+Vancomycin	Bifidobacterium longum	NA	insufficient data
+Vancomycin	Bifidobacterium pseudolongum	NA	insufficient data
+Vancomycin	Bifidobacterium thermophilum	NA	insufficient data
+Vancomycin	Clostridioides difficile	2	NA
+Vancomycin	Corynebacterium diphtheriae	NA	insufficient data
+Vancomycin	Corynebacterium ulcerans	NA	insufficient data
+Vancomycin	Cutibacterium acnes	NA	insufficient data
+Vancomycin	Enterococcus faecalis	4	NA
+Vancomycin	Enterococcus faecalis ATCC 29212	NA	insufficient data
+Vancomycin	Enterococcus faecium	4	NA
+Vancomycin	Kocuria kristinae	NA	unspecified
+Vancomycin	Lactobacillus amylovorus	NA	insufficient data
+Vancomycin	Lactobacillus delbrueckii	NA	insufficient data
+Vancomycin	Lactobacillus helveticus	NA	insufficient data
+Vancomycin	Lactobacillus johnsonii	NA	insufficient data
+Vancomycin	Lactobacillus lactis	NA	insufficient data
+Vancomycin	Lactococcus lactis	NA	unspecified
+Vancomycin	Listeria monocytogenes	2	tentative
+Vancomycin	Nocardia abscessus	NA	insufficient data
+Vancomycin	Nocardia cyriacigeorgica	NA	insufficient data
+Vancomycin	Nocardia nova	NA	insufficient data
+Vancomycin	Rothia aeria	NA	unspecified
+Vancomycin	Rothia dentocariosa	NA	unspecified
+Vancomycin	Rothia mucilaginosa	NA	unspecified
+Vancomycin	Staphylococcus aureus	2	NA
+Vancomycin	Staphylococcus aureus ATCC 29213	NA	insufficient data
+Vancomycin	Staphylococcus aureus MRSA	2	NA
+Vancomycin	Staphylococcus aureus MSSA	NA	insufficient data
+Vancomycin	Staphylococcus auricularis	NA	insufficient data
+Vancomycin	Staphylococcus capitis	4	NA
+Vancomycin	Staphylococcus epidermidis	4	NA
+Vancomycin	Staphylococcus epidermidis MSSE	NA	unspecified
+Vancomycin	Staphylococcus haemolyticus	4	NA
+Vancomycin	Staphylococcus hominis	4	NA
+Vancomycin	Staphylococcus hyicus	NA	insufficient data
+Vancomycin	Staphylococcus intermedius	NA	insufficient data
+Vancomycin	Staphylococcus lugdunensis	NA	insufficient data
+Vancomycin	Staphylococcus saprophyticus	4	NA
+Vancomycin	Staphylococcus simulans	NA	insufficient data
+Vancomycin	Staphylococcus warneri	4	tentative
+Vancomycin	Staphylococcus xylosus	NA	insufficient data
+Vancomycin	Streptococcus agalactiae	1	NA
+Vancomycin	Streptococcus anginosus	NA	insufficient data
+Vancomycin	Streptococcus anginosus group	NA	insufficient data
+Vancomycin	Streptococcus bovis	NA	insufficient data
+Vancomycin	Streptococcus bovis equinus group	NA	unspecified
+Vancomycin	Streptococcus constellatus	NA	insufficient data
+Vancomycin	Streptococcus group G	NA	insufficient data
+Vancomycin	Streptococcus intermedius	NA	insufficient data
+Vancomycin	Streptococcus mitis	NA	insufficient data
+Vancomycin	Streptococcus mitis group	NA	unspecified
+Vancomycin	Streptococcus mutans	NA	insufficient data
+Vancomycin	Streptococcus oralis	NA	insufficient data
+Vancomycin	Streptococcus parasanguinis	NA	unspecified
+Vancomycin	Streptococcus pneumoniae	1	NA
+Vancomycin	Streptococcus pneumoniae ATCC 49619	NA	insufficient data
+Vancomycin	Streptococcus pyogenes	1	NA
+Vancomycin	Streptococcus salivarius	NA	insufficient data
+Vancomycin	Streptococcus salivarius group	NA	unspecified
+Vancomycin	Streptococcus sanguinis	NA	insufficient data
+Vancomycin	Streptococcus sanguinis group	NA	unspecified
+Vancomycin	Streptococcus uberis	NA	insufficient data
+Virginiamycin	Enterococcus faecalis	NA	insufficient data
+Virginiamycin	Enterococcus faecium	8	NA
+Virginiamycin	Enterococcus hirae	4	tentative
+Virginiamycin	Listeria monocytogenes	NA	insufficient data
+Virginiamycin	Staphylococcus intermedius	NA	insufficient data

@@ -1,0 +1,154 @@
+# Data from Table 1 of Bengtsson-Palme & Larsson (2016), https://doi.org/10.1016/j.envint.2015.10.015
+# NOTE 1: Only drugs also present in the 2024 EUCAST data set are listed !
+# NOTE 2: Units are in mg/L (unit in original publication was µg/L)
+drug	valid.species	lowest.MIC.quantile	lowest.MIC.quantile.extrapol	lowest.MIC.quantile.extrapol.scaled.rounded	PNECR
+Amikacin	28	0.25		0.125	0.016
+Amoxicillin	29	0.004		0.002	0.00025
+Amoxicillin-Clavulanic Acid (fixed)	4	1		0.064	0.008
+Ampicillin	64	0.004		0.004	0.00025
+Ampicillin-Sulbactam (fixed)	3	0.5		0.032	0.002
+Ampicillin-Sulbactam (ratio)	23	0.125		0.064	0.004
+Apramycin					
+Aspoxicillin					
+Avilamycin	6	1		0.125	0.008
+Azithromycin	12	0.016		0.004	0.00025
+Aztreonam	11	0.032		0.008	0.0005
+Aztreonam-Avibactam					
+Bacitracin	2	2		0.064	0.008
+Bedaquiline					
+Benzylpenicillin	47	0.004		0.004	0.00025
+Capreomycin	1	1		0.016	0.002
+Cefaclor	11	0.032		0.008	0.0005
+Cefadroxil	7	0.125		0.016	0.002
+Cefalexin	10	0.25		0.032	0.004
+Cefaloridine	1	2		0.032	0.004
+Cefalothin (a.k.a. Cefalotin)	13	0.064		0.016	0.002
+Cefazolin	18	0.032		0.008	0.001
+Cefdinir	5	0.032		0.002	0.00025
+Cefepime	41	0.008		0.008	0.0005
+Cefepime-Clavulanate	1	1		0.016	0.002
+Cefepime-Enmetazobactam					
+Cefepime-Tazobactam					
+Cefepime-Zidebactam					
+Cefiderocol					
+Cefixime	11	0.004		0.001	6.4E-06
+Cefoperazone	13	0.016		0.004	0.0005
+Cefoperazone-Sulbactam					
+Cefoselis					
+Cefotaxime	33	0.002	0.0018	0.001	0.000125
+Cefotaxime-Clavulanate	2	0.008		0.00025	3.2E-05
+Cefoxitin	26	0.25		0.125	0.008
+Cefpirome	9	0.004		0.0005	6.4E-05
+Cefpodoxime	15	0.008		0.002	0.00025
+Cefpodoxime-Clavulanic Acid	3	0.25		0.016	0.001
+Cefquinome					
+Cefradine					
+Ceftaroline	8	0.004		0.0005	6.4E-05
+Ceftazidime	23	0.016		0.008	0.0005
+Ceftazidime-Avibactam					
+Ceftazidime-Clavulanate	1	0.008		0.000125	1.6E-05
+Ceftibuten	16	0.008		0.002	0.00025
+Ceftiofur	4	0.008		0.0005	6.4E-05
+Ceftobiprole	39	0.004		0.002	0.00025
+Ceftolozane					
+Ceftolozane-Tazobactam					
+Ceftriaxone	29	0.002	0.00069	0.00025	3.2E-05
+Cefuroxime	29	0.008		0.004	0.0005
+Chloramphenicol	29	0.125		0.064	0.008
+Chlortetracycline					
+Ciprofloxacin	70	0.002	0.0012	0.001	6.4E-05
+Clarithromycin	15	0.008		0.002	0.00025
+Clinafloxacin	7	0.032		0.004	0.0005
+Clindamycin	37	0.016		0.008	0.001
+Clofazimine					
+Cloxacillin	1	0.064		0.001	0.000125
+Colistin	16	0.064		0.016	0.002
+Cyclerosine					
+Dalbavancin					
+Daptomycin	16	0.032		0.008	0.001
+Delafloxacin					
+Delamanid					
+Dihydrostreptomycin					
+Doripenem	39	0.002	0.002	0.001	0.000125
+Doxycycline	29	0.032		0.016	0.002
+Enrofloxacin	4	0.008		0.0005	6.4E-05
+Eravacycline					
+Ertapenem	36	0.002	0.002	0.001	0.000125
+Erythromycin	39	0.016		0.008	0.001
+Ethambutol	1	1		0.016	0.002
+Ethionamide					
+Fidaxomicin	1	0.008		0.000125	1.6E-05
+Florfenicol	9	0.125		0.016	0.002
+Flucloxacillin					
+Flumequine	3	0.064		0.004	0.00025
+Fosfomycin	13	0.125		0.032	0.002
+Fusidic-Acid	9	0.032		0.004	0.0005
+Gamithromycin					
+Gentamicin	68	0.016		0.016	0.001
+Imipenem	53	0.002	0.002	0.002	0.000125
+Imipenem-Relebactam					
+Kanamycin	13	0.125		0.032	0.002
+Lefamulin					
+Levofloxacin	43	0.004		0.004	0.00025
+Lincomycin	2	0.5		0.016	0.002
+Linezolid	29	0.125		0.064	0.008
+Loracarbef	10	0.125		0.016	0.002
+Marbofloxacin					
+Mecillinam					
+Meropenem	50	0.002	0.00088	0.0005	6.4E-05
+Meropenem-Vaborbactam					
+Metronidazole	6	0.016		0.002	0.000125
+Minocycline	24	0.032		0.016	0.001
+Moxifloxacin	53	0.002	0.002	0.002	0.000125
+Mupirocin	4	0.032		0.002	0.00025
+Nalidixic-Acid	17	0.5		0.125	0.016
+Narasin	2	0.125		0.004	0.0005
+Neomycin	8	0.125		0.016	0.002
+Netilmicin	14	0.016		0.004	0.0005
+Nitrofurantoin	8	4		0.5	0.064
+Norfloxacin	15	0.016		0.004	0.0005
+Norvancomycin					
+Ofloxacin	26	0.008		0.004	0.0005
+Omadacycline					
+Oritavancin (with polysorbate 80)					
+Oxacillin	24	0.032		0.016	0.001
+Oxytetracycline	2	0.125		0.004	0.0005
+Paraaminosalicylic Acid					
+Pefloxacin	1	4		0.064	0.008
+Phenoxymethylpenicillin	8	0.004		0.0005	6.4E-05
+Piperacillin	30	0.008		0.004	0.0005
+Piperacillin-Tazobactam	43	0.004		0.004	0.00025
+Pyrazinamide					
+Quinupristin-Dalfopristin	17	0.064		0.016	0.002
+Retapamulin	4	0.008		0.0005	6.4E-05
+Rifabutin					
+Rifampicin	19	0.002	0.0017	0.0005	6.4E-05
+Roxithromycin	14	0.032		0.008	0.001
+Secnidazole	1	0.5		0.008	0.001
+Sitafloxacin					
+Sparfloxacin	23	0.002	0.0018	0.001	6.4E-05
+Spectinomycin	8	2		0.25	0.032
+Spiramycin	2	0.125		0.004	0.0005
+Streptomycin	32	0.25		0.125	0.016
+Sulbactam	12	1		0.25	0.016
+Sulfamethoxazole	8	1		0.125	0.016
+Tedizolid					
+Teicoplanin	19	0.016		0.004	0.0005
+Telavancin					
+Telavancin (with polysorbate P80)					
+Telithromycin	11	0.004		0.001	6.4E-05
+Temocillin					
+Tetracycline	66	0.016		0.016	0.001
+Tiamulin	1	0.5		0.008	0.001
+Ticarcillin	16	0.25		0.064	0.008
+Ticarcillin-Clavulanic Acid	14	0.064		0.016	0.002
+Tigecycline	54	0.016		0.016	0.001
+Tildipirosin					
+Tilmicosin	2	0.25		0.008	0.001
+Tobramycin	31	0.016		0.008	0.001
+Trimethoprim	22	0.016		0.008	0.0005
+Trimethoprim-Sulfamethoxazole	36	0.008		0.004	0.0005
+Tulathromycin					
+Tylosin	1	2		0.032	0.004
+Vancomycin	42	0.125		0.125	0.008
+Virginiamycin	5	0.25		0.016	0.002

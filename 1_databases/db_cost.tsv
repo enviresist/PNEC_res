@@ -1,0 +1,221 @@
+source_secondary	source_primary	source_details	species	mobile	resistance_type	resistance_details	drugclass	drugfamily	drug	drug_unassigned	method	cost
+DOI:10.5061/dryad.p745m	DOI:10.1016/j.ijfoodmicro.2011.08.002	NA	Campylobacter jejuni	FALSE	chromosomal mutation	target	Macrolide	NA	NA	NA	NA	0.2
+DOI:10.5061/dryad.p745m	DOI:10.1128/JB.00748-09	NA	Pseudomonas aeruginosa	FALSE	chromosomal mutation	influx	Fosfomycin	NA	Fosfomycin	NA	NA	-0.02
+DOI:10.5061/dryad.p745m	DOI:10.1093/genetics/156.4.1471	NA	Escherichia coli	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.07
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.48.4.1289-1294.2004	NA	Mycobacterium tuberculosis	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.23
+DOI:10.5061/dryad.p745m	DOI:10.1128/aac.43.8.1866	NA	Mycobacterium tuberculosis	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.32
+DOI:10.5061/dryad.p745m	DOI:10.1098/rsbl.2006.0478	NA	Escherichia coli	TRUE	plasmid	NA	Aminoglycoside	Other aminoglycoside	Apramycin	NA	NA	-0.17
+DOI:10.5061/dryad.p745m	DOI:10.1098/rsbl.2006.0478	NA	Escherichia coli	TRUE	plasmid	NA	Aminoglycoside	Other aminoglycoside	Apramycin	NA	NA	-0.28
+DOI:10.5061/dryad.p745m	DOI:10.1098/rsbl.2006.0478	NA	Escherichia coli	TRUE	plasmid	NA	Aminoglycoside	Other aminoglycoside	Apramycin	NA	NA	0.15
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.01016-08	NA	Salmonella enterica	FALSE	chromosomal mutation	charge	Polymyxin	NA	Colistin	NA	NA	0.0649999999999999
+DOI:10.5061/dryad.p745m	DOI:10.1128/jb.154.2.787-792.1983	NA	Escherichia coli	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.27
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.49.11.4455-4464.2005	NA	Chlamydia psittaci	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.19
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.50.2.445-452.2006	NA	Borrelia burydorferi	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.05
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkg331	NA	Staphyloccus epidermidis	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.026
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkg331	NA	Staphyloccus epidermidis	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	-0.014
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkg331	NA	Staphyloccus epidermidis	FALSE	chromosomal mutation	target	Fusidic acid	NA	Fusidic acid	NA	NA	0.3135
+DOI:10.5061/dryad.p745m	DOI:10.1128/jb.171.9.5229-5231.1989	NA	Escherichia coli	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.33
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1558-5646.1994.tb01296.x	NA	Bacillus subtilis	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.29
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.50.1.298-309.2006	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.25
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.01489-09	NA	Haemophilus influenzae	TRUE	plasmid	NA	Beta-lactam	Penicillin	Ampicillin	NA	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.48.6.2295-2297.2004	NA	Staphyloccus aureus	TRUE	other mobile element	NA	NA	NA	NA	Methicillin	NA	0.02
+DOI:10.5061/dryad.p745m	DOI:10.1089/107662902760326869	NA	Enterococcus faecium	TRUE	plasmid	NA	NA	NA	NA	Avoparcin	NA	0.0585
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkh044	NA	Enterococcus faecium	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.085
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr209	NA	Mycobacterium abscessus	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.05
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkh217	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	-0.0409999999999999
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkh217	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkh217	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.047
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr560	NA	Pseudomonas aeruginosa	FALSE	chromosomal mutation	efflux	NA	NA	NA	Not specified	NA	0.121
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr560	NA	Acinetobacter baumannii	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.5015
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00848-12	NA	Escherichia coli	TRUE	plasmid	NA	Beta-lactam	NA	NA	NA	NA	0.0315
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00615-06	NA	Salmonella enterica	FALSE	chromosomal mutation	bypass	NA	NA	NA	Actinonin	NA	0.6
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00615-06	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.23
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00615-06	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.155
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00615-06	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.08
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00615-06	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Fusidic acid	NA	Fusidic acid	NA	NA	0.59
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00615-06	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Other antibiotic	NA	Mupirocin	NA	NA	0.54
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1365-2958.2007.05713.x	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Other antibiotic	NA	Mupirocin	NA	NA	0.46
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.01098-07	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Other antibiotic	NA	Linezolid	NA	NA	0.46
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00962-07	NA	Chlamydia psittaci	FALSE	chromosomal mutation	target	Macrolide	NA	NA	NA	NA	0.87
+DOI:10.5061/dryad.p745m	DOI:10.1073/pnas.1006855107	NA	Enterococcus faecium	TRUE	other mobile element	NA	Glycopeptide	NA	Vancomycin	NA	NA	0.02
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dki255	NA	Escherichia coli	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.153333333333333
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dki255	NA	Escherichia coli	FALSE	chromosomal mutation	target	Aminoglycoside	Streptomycin	Streptomycin	NA	NA	0.022
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dki255	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.033
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dki255	NA	Escherichia coli	TRUE	other mobile element	NA	NA	NA	NA	Multiple drugs	NA	-0.0600000000000001
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dki255	NA	Escherichia coli	TRUE	other mobile element	NA	NA	NA	NA	Multiple drugs	NA	-0.012
+DOI:10.5061/dryad.p745m	DOI:10.1126/science.1124410	NA	Mycobacterium tuberculosis	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.17
+DOI:10.5061/dryad.p745m	DOI:10.1128/JCM.01022-09	NA	Staphyloccus aureus	TRUE	plasmid	NA	Other antibiotic	NA	Mupirocin	NA	NA	0.005
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.ppat.1000541	NA	Escherichia coli	FALSE	chromosomal mutation	efflux	Quinolone	Fluoroquinolone	NA	NA	NA	0.146666666666666
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.ppat.1000541	NA	Escherichia coli	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.004285714285714
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00172-08	NA	Pseudomonas aeruginosa	FALSE	chromosomal mutation	enzyme	Beta-lactam	NA	NA	NA	NA	0.193333333333333
+DOI:10.5061/dryad.p745m	DOI:10.1186/1471-2180-12-53	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.0397999999999999
+DOI:10.5061/dryad.p745m	DOI:10.1186/1471-2180-12-53	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.019
+DOI:10.5061/dryad.p745m	DOI:10.1186/1471-2180-12-53	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.091
+DOI:10.5061/dryad.p745m	DOI:10.1186/1471-2180-12-53	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.028
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00786-06	NA	Staphyloccus aureus	FALSE	chromosomal mutation	cell wall modication	NA	NA	NA	Lysostaphin	NA	0.245
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.49.6.2343-2351.2005	NA	Escherichia coli	FALSE	chromosomal mutation	efflux	Quinolone	Fluoroquinolone	NA	NA	NA	0
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.49.6.2343-2351.2005	NA	Escherichia coli	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	-0.0069999999999999
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr105	NA	Pseudomonas aeruginosa	FALSE	chromosomal mutation	efflux	NA	NA	NA	Multiple drugs	NA	0.164277045352924
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr105	NA	Pseudomonas aeruginosa	FALSE	chromosomal mutation	porin	NA	NA	NA	Multiple drugs	NA	0.04598566926085
+DOI:10.5061/dryad.p745m	DOI:10.1534/genetics.109.106104	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	-0.17
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1574-6968.2009.01734.x	NA	Escherichia coli	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.07
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1574-6968.2009.01734.x	NA	Escherichia coli	TRUE	plasmid	NA	Trimethoprim	NA	Trimethoprim	NA	NA	0.012
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.ppat.1002000	NA	Streptococcus pneumoniae	FALSE	chromosomal mutation	target	Beta-lactam	NA	NA	NA	NA	0.175
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00783-10	NA	Streptococcus pneumoniae	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.11
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.01161-06	NA	Streptococcus pneumoniae	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.07
+DOI:10.5061/dryad.p745m	DOI:10.1089/mdr.2009.0008	NA	Campylobacter jejuni	FALSE	chromosomal mutation	target	Macrolide	NA	NA	NA	NA	0.02
+DOI:10.5061/dryad.p745m	DOI:10.1016/j.ijantimicag.2009.06.019	NA	Campylobacter jejuni	FALSE	chromosomal mutation	target	Macrolide	NA	NA	NA	NA	0.15
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00939-07	NA	Streptococcus gordonii	FALSE	chromosomal mutation	unknown	Beta-lactam	NA	NA	NA	NA	0.2
+DOI:10.5061/dryad.p745m	DOI:10.1099/jmm.0.05178-0	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.17
+DOI:10.5061/dryad.p745m	DOI:10.1098/rsbl.2004.0275	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.478
+DOI:10.5061/dryad.p745m	DOI:10.1093/genetics/165.4.1641	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.208
+DOI:10.5061/dryad.p745m	DOI:10.1093/genetics/165.4.1641	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.0580000000000001
+DOI:10.5061/dryad.p745m	DOI:10.1099/mic.0.2006/001784-0	NA	Pseudomonas putida	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.1556
+DOI:10.5061/dryad.p745m	DOI:10.1128/AEM.02788-10	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.25
+DOI:10.5061/dryad.p745m	DOI:10.1128/AEM.02788-10	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.19
+DOI:10.5061/dryad.p745m	DOI:10.1128/AEM.02788-10	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1128/AEM.02788-10	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	-0.56
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.pone.0024552	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.187140221402214
+DOI:10.5061/dryad.p745m	DOI:10.1534/genetics.106.069443	NA	Escherichia coli	FALSE	chromosomal mutation	enzyme	Beta-lactam	NA	NA	NA	NA	0.11
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkl450	NA	Staphyloccus aureus	FALSE	chromosomal mutation	small colony variant	NA	NA	NA	Triclosan	NA	0.86
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.46.5.1204-1211.2002	NA	Mycobacterium smegmatis	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	-0.0344827586206899
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.285714285714286
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.189189189189189
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.210526315789474
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.230769230769231
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.166666666666667
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.189189189189189
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.0909090909090911
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.032258064516129
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.25
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.333333333333333
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.032258064516129
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	-0.0344827586206899
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.032258064516129
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.230769230769231
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	-0.0344827586206899
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.482758620689655
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.0625
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.166666666666667
+DOI:10.5061/dryad.p745m	DOI:10.1016/S0147-619X(80)90034-7	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.318181818181818
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.46.11.3381-3385.2002	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.11
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dks168	NA	Staphyloccus aureus	FALSE	chromosomal mutation	bypass	NA	NA	NA	Actinonin	NA	0.4
+DOI:10.5061/dryad.p745m	DOI:10.1098/rspb.1997.0178	NA	Escherichia coli	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.11
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkn222	NA	Escherichia coli	FALSE	chromosomal mutation	reductase inactivation	Other antibiotic	Nitrofuran derivate	Nitrofurantoin	NA	NA	0.01
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.pgen.1000578	NA	Escherichia coli	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.03
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.pgen.1000578	NA	Escherichia coli	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.pgen.1000578	NA	Escherichia coli	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.13
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00205-08	NA	Salmonella enterica	FALSE	chromosomal mutation	influx	Beta-lactam	Penicillin	Ampicillin	NA	NA	-0.03
+DOI:10.5061/dryad.p745m	DOI:10.1073/pnas.0501598102	NA	Mycobacterium smegmatis	FALSE	chromosomal mutation	target	Macrolide	NA	NA	NA	NA	0.12
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.ppat.1003043	NA	Acinetobacter baylyi	TRUE	other mobile element	NA	NA	NA	NA	Multiple drugs	NA	0.07
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.ppat.1003043	NA	Acinetobacter baylyi	TRUE	other mobile element	NA	NA	NA	NA	Multiple drugs	NA	0.08
+DOI:10.5061/dryad.p745m	DOI:10.1371/journal.ppat.1003043	NA	Acinetobacter baylyi	TRUE	other mobile element	NA	NA	NA	NA	Multiple drugs	NA	0.11
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1462-2920.2012.02727.x	NA	Pseudomonas aeruginosa	FALSE	chromosomal mutation	efflux	NA	NA	NA	Multiple drugs	NA	0.182216584136606
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.01060-12	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	NA	NA	NA	Myxopyronin	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr405	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.04
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr405	NA	Klebsiella pneumoniae	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.04
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr405	NA	Klebsiella pneumoniae	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.03
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkr405	NA	Escherichia coli	TRUE	plasmid	NA	NA	NA	NA	Multiple drugs	NA	0.01
+DOI:10.5061/dryad.p745m	DOI:10.1093/jac/dkm191	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.09
+DOI:10.5061/dryad.p745m	DOI:10.1046/j.1365-2958.2001.02389.x	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Fusidic acid	NA	Fusidic acid	NA	NA	0.256315789473684
+DOI:10.5061/dryad.p745m	DOI:10.1093/molbev/msq024	NA	Escherichia coli	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.16
+DOI:10.5061/dryad.p745m	DOI:10.1073/pnas.95.7.3949	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.117535508340106
+DOI:10.5061/dryad.p745m	DOI:10.1073/pnas.95.7.3949	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Antimycobacterial	Drug for treatment of tuberculosis	Rifampicin	NA	NA	0.480407523510972
+DOI:10.5061/dryad.p745m	DOI:10.1073/pnas.95.7.3949	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.060645161290322
+DOI:10.5061/dryad.p745m	DOI:10.1093/infdis/jis277	NA	Neisseria gonorrhoeae	FALSE	chromosomal mutation	efflux	Aminoglycoside	NA	NA	NA	NA	0.170731707317073
+DOI:10.5061/dryad.p745m	DOI:10.1093/infdis/jis277	NA	Neisseria gonorrhoeae	FALSE	chromosomal mutation	target	Quinolone	Fluoroquinolone	NA	NA	NA	0.141265778269846
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1365-2958.2010.07458.x	NA	Salmonella enterica	FALSE	chromosomal mutation	small colony variant	Beta-lactam	Penicillin	Ampicillin	NA	NA	0.6
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1365-2958.2010.07218.x	NA	Mycobacterium tuberculosis	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.285
+DOI:10.5061/dryad.p745m	DOI:10.1111/j.1365-2958.1993.tb01118.x	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.26
+DOI:10.5061/dryad.p745m	DOI:10.1046/j.1365-2958.2000.01967.x	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Fusidic acid	NA	Fusidic acid	NA	NA	0.48
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00328-07	NA	Staphyloccus aureus	FALSE	chromosomal mutation	small colony variant	Fusidic acid	NA	Fusidic acid	NA	NA	0.638342978156534
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.00328-07	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Fusidic acid	NA	Fusidic acid	NA	NA	0.250727696248381
+DOI:10.5061/dryad.p745m	DOI:10.1128/AAC.48.11.4366-4376.2004	NA	Staphyloccus aureus	FALSE	chromosomal mutation	target	Other antibiotic	NA	Mupirocin	NA	NA	0.255
+DOI:10.5061/dryad.p745m	DOI:10.1126/science.287.5457.1479	NA	Salmonella enterica	FALSE	chromosomal mutation	target	Aminoglycoside	NA	NA	NA	NA	0.26
+1	MSC-OK project	unpublished	Bacillus subtilis	FALSE	chromosomal	NA	Macrolide	NA	Clarithromycin	NA	competition	0.379352703040398
+2	MSC-OK project	unpublished	Bacillus subtilis	FALSE	chromosomal	NA	Aminoglycoside	Other aminoglycoside	Kanamycin	NA	competition	0.070882397741496
+3	MSC-OK project	unpublished	Bacillus subtilis	FALSE	chromosomal	NA	Macrolide	NA	Tylosin	NA	competition	0.340395407613144
+4	MSC-OK project	unpublished	Escherichia coli	FALSE	chromosomal	NA	Amphenicol	NA	Chloramphenicol	NA	competition	0.167200219782738
+5	MSC-OK project	unpublished	Escherichia coli	FALSE	chromosomal	NA	Aminoglycoside	Other aminoglycoside	Gentamicin	NA	competition	0.125875157565806
+6	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.08353180148588
+7	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.152816977473484
+8	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.095095832796983
+9	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.128470488129253
+10	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.141106086524702
+11	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.11023590706866
+12	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	RP4	NA	NA	NA	Multiple drugs	competition	0.091846287876264
+13	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	RP4	NA	NA	NA	Multiple drugs	competition	0.01982702281282
+14	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	RP4	NA	NA	NA	Multiple drugs	competition	0.012712876839194
+15	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	uncharacterized plasmid	NA	NA	NA	Multiple drugs	competition	0.018381276071947
+16	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	uncharacterized plasmid	NA	NA	NA	Multiple drugs	competition	0.051573096027537
+17	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	uncharacterized plasmid	NA	NA	NA	Multiple drugs	competition	0.071823114980659
+18	MSC-OK project	unpublished	Escherichia coli	TRUE	plasmid	uncharacterized plasmid	NA	NA	NA	Multiple drugs	competition	0.032783176360096
+19	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.057859522402067
+20	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.046719847382249
+21	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.016106703320351
+22	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.039120174506635
+23	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.0217641711050059
+24	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	pB10	NA	NA	NA	Multiple drugs	competition	0.012401047726271
+25	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	RP4	NA	NA	NA	Multiple drugs	competition	0.157014291451446
+26	MSC-OK project	unpublished	Pseudomonas putida	TRUE	plasmid	RP4	NA	NA	NA	Multiple drugs	competition	0.190484414259298
+NA	DOI:10.1038/s41467-021-22849-y	data from figure 2b available through supplement	Escherichia coli	TRUE	plasmid	pOXA-48_K8	Beta-lactam	NA	NA	NA	competition	0.029
+NA	DOI:10.1038/s41467-021-22849-y	data from figure 2b available through supplement	Escherichia coli	TRUE	plasmid	pOXA-48_K8	Beta-lactam	NA	NA	NA	competition	0.03
+NA	DOI:10.1038/s41396-018-0224-8	values extracted from Fig. 1	Pseudomonas aeruginosa	TRUE	plasmid	pAMBL1	NA	NA	NA	Multiple drugs	competition	-0.0600000000000001
+NA	DOI:10.1038/s41396-018-0224-8	values extracted from Fig. 1	Pseudomonas aeruginosa	TRUE	plasmid	pAKD1	NA	NA	NA	Multiple drugs	competition	-0.0249999999999999
+NA	DOI:10.1038/s41396-018-0224-8	values extracted from Fig. 1	Pseudomonas aeruginosa	TRUE	plasmid	pAMBL2	NA	NA	NA	Multiple drugs	competition	0.03
+NA	DOI:10.1038/s41396-018-0224-8	values extracted from Fig. 1	Pseudomonas aeruginosa	TRUE	plasmid	pBS228	NA	NA	NA	Multiple drugs	competition	0.0600000000000001
+NA	DOI:10.1038/s41396-018-0224-8	values extracted from Fig. 1	Pseudomonas aeruginosa	TRUE	plasmid	Rms149	NA	NA	NA	Multiple drugs	competition	0.08
+NA	DOI:10.1038/s41396-018-0224-8	values extracted from Fig. 1	Pseudomonas aeruginosa	TRUE	plasmid	pNUK73	NA	NA	NA	Multiple drugs	competition	0.22
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP029578	NA	NA	NA	Multiple drugs	growth rate assays	-0.04
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP076059	NA	NA	NA	Multiple drugs	growth rate assays	-0.04
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP023821	NA	NA	NA	Multiple drugs	growth rate assays	-0.01
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP076054	NA	NA	NA	Multiple drugs	growth rate assays	-0.00499999999999989
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP076055	NA	NA	NA	Multiple drugs	growth rate assays	0
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP023850	NA	NA	NA	Multiple drugs	growth rate assays	0.01
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP029580	NA	NA	NA	Multiple drugs	growth rate assays	0.01
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP076059 or CP076058	NA	NA	NA	Multiple drugs	growth rate assays	0.01
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP023845	NA	NA	NA	Multiple drugs	growth rate assays	0.02
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP076057	NA	NA	NA	Multiple drugs	growth rate assays	0.02
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP076056	NA	NA	NA	Multiple drugs	growth rate assays	0.025
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: NC_016966	NA	NA	NA	Multiple drugs	growth rate assays	0.025
+NA	DOI:10.1128/mbio.03552-21	data extracted from Fig. 1	Escherichia coli	TRUE	plasmid	genbank id: CP029577	NA	NA	NA	Multiple drugs	growth rate assays	0.03
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_N46	Beta-lactam	NA	NA	NA	competition	0.37
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_C310	Beta-lactam	NA	NA	NA	competition	0.105
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_C728	Beta-lactam	NA	NA	NA	competition	0.105
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Citrobacter freundii	TRUE	plasmid	plasmid pOXA-48, strain CF12	Beta-lactam	NA	NA	NA	competition	0.105
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain K163	Beta-lactam	NA	NA	NA	competition	0.075
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_Nh27	Beta-lactam	NA	NA	NA	competition	0.075
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Kluyvera ascorbata	TRUE	plasmid	plasmid pOXA-48, strain R10	Beta-lactam	NA	NA	NA	competition	0.07
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_C527	Beta-lactam	NA	NA	NA	competition	0.07
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_N23	Beta-lactam	NA	NA	NA	competition	0.0649999999999999
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K219	Beta-lactam	NA	NA	NA	competition	0.0600000000000001
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K198	Beta-lactam	NA	NA	NA	competition	0.0600000000000001
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_L38	Beta-lactam	NA	NA	NA	competition	0.05
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain C642	Beta-lactam	NA	NA	NA	competition	0.045
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_S8	Beta-lactam	NA	NA	NA	competition	0.035
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain C325	Beta-lactam	NA	NA	NA	competition	0.03
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain C609	Beta-lactam	NA	NA	NA	competition	0.03
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K25	Beta-lactam	NA	NA	NA	competition	0.03
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain K147	Beta-lactam	NA	NA	NA	competition	0.025
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain C662	Beta-lactam	NA	NA	NA	competition	0.025
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Citrobacter freundii	TRUE	plasmid	plasmid pOXA-48, strain CF13	Beta-lactam	NA	NA	NA	competition	0.025
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain H53	Beta-lactam	NA	NA	NA	competition	0.025
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K88	Beta-lactam	NA	NA	NA	competition	0.02
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_Z29	Beta-lactam	NA	NA	NA	competition	0.02
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K127	Beta-lactam	NA	NA	NA	competition	0.01
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K293	Beta-lactam	NA	NA	NA	competition	0
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K308	Beta-lactam	NA	NA	NA	competition	-0.01
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K244	Beta-lactam	NA	NA	NA	competition	-0.0149999999999999
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_K318	Beta-lactam	NA	NA	NA	competition	-0.0149999999999999
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_C646	Beta-lactam	NA	NA	NA	competition	-0.02
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain K153	Beta-lactam	NA	NA	NA	competition	-0.02
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella variicola	TRUE	plasmid	plasmid pOXA-48, strain J57	Beta-lactam	NA	NA	NA	competition	-0.02
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Klebsiella pneumoniae	TRUE	plasmid	plasmid pOXA-48, strain AJ_J61	Beta-lactam	NA	NA	NA	competition	-0.0249999999999999
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_C163	Beta-lactam	NA	NA	NA	competition	-0.0349999999999999
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain AJ_C164	Beta-lactam	NA	NA	NA	competition	-0.0600000000000001
+NA	DOI:10.1099/mic.0.001369	data extracted from Fig. 3a	Escherichia coli	TRUE	plasmid	plasmid pOXA-48, strain C288	Beta-lactam	NA	NA	NA	competition	-0.135

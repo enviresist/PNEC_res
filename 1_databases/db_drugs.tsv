@@ -1,0 +1,153 @@
+id_UNUSED	drug	drugfamily	drugclass	classification_extra	ATC_code	why_no_ATC_code
+ami	Amikacin	Other aminoglycoside	Aminoglycoside	NA	J01GB06 	NA
+amo-cla	Amoxicillin-Clavulanic acid (fixed)	Penicillin	Beta-lactam	Combined with beta-lactamase inhibitor at fixed concentration	J01CR02 	NA
+amo	Amoxicillin	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA04 	NA
+amp-sul-fix	Ampicillin-Sulbactam (fixed)	Penicillin	Beta-lactam	Combined with beta-lactamase inhibitor at fixed concentration	J01CR01 	NA
+amp-sul-rat	Ampicillin-Sulbactam (ratio)	Penicillin	Beta-lactam	Combined with beta-lactamase inhibitor at specific ratio	J01CR01 	NA
+amp	Ampicillin	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA01 	NA
+apr	Apramycin	Other aminoglycoside	Aminoglycoside	NA	NA	veterinary use
+asp	Aspoxicillin	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA19 	NA
+avi	Avilamycin	Orthosomycin	Other antibiotic	NA	NA	veterinary use
+azi	Azithromycin	NA	Macrolide	NA	J01FA10 	NA
+azt-avi	Aztreonam-Avibactam	Monobactam	Beta-lactam	Combined with beta-lactamase inhibitor	J01DF51	NA
+azt	Aztreonam	Monobactam	Beta-lactam	NA	J01DF01 	NA
+bac	Bacitracin	NA	Other antibiotic	NA	J01XX10 	NA
+bed	Bedaquiline	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AK05	NA
+ben	Benzylpenicillin	Penicillin	Beta-lactam	Beta-lactamase sensitive penicillin	J01CE01 	NA
+cap	Capreomycin	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AB30 	NA
+cefac	Cefaclor	2. generation cephalosporin	Beta-lactam	NA	J01DC04 	NA
+cefad	Cefadroxil	1. generation cephalosporin	Beta-lactam	NA	J01DB05 	NA
+cefale	Cefalexin	1. generation cephalosporin	Beta-lactam	NA	J01DB01 	NA
+cefalor	Cefaloridine	1. generation cephalosporin	Beta-lactam	NA	J01DB02 	NA
+cefalot	Cefalothin (a.k.a. Cefalotin)	1. generation cephalosporin	Beta-lactam	NA	J01DB03 	NA
+cefaz	Cefazolin	1. generation cephalosporin	Beta-lactam	NA	J01DB04 	NA
+cefd	Cefdinir	3. generation cephalosporin	Beta-lactam	NA	J01DD15 	NA
+cefe-cla	Cefepime-Clavulanate	4. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DE51 	NA
+cefe-enm	Cefepime-Enmetazobactam	4. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DE51 	NA
+cefe-taz	Cefepime-Tazobactam	4. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DE51 	NA
+cefe	Cefepime	4. generation cephalosporin	Beta-lactam	NA	J01DE01 	NA
+cefe-zid	Cefepime-Zidebactam	4. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DE51 	NA
+cefid	Cefiderocol	Other cephalosporin or penem	Beta-lactam	NA	J01DI04 	NA
+cefix	Cefixime	3. generation cephalosporin	Beta-lactam	NA	J01DD08 	NA
+cefop-sul	Cefoperazone-Sulbactam	3. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DD62 	NA
+cefop	Cefoperazone	3. generation cephalosporin	Beta-lactam	NA	J01DD12 	NA
+cefos	Cefoselis	4. generation cephalosporin	Beta-lactam	NA	NA	used in Asia only
+cefot-cla	Cefotaxime-Clavulanate	3. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DD51 	NA
+cefot	Cefotaxime	3. generation cephalosporin	Beta-lactam	NA	J01DD01 	NA
+cefox	Cefoxitin	2. generation cephalosporin	Beta-lactam	NA	J01DC01 	NA
+cefpi	Cefpirome	4. generation cephalosporin	Beta-lactam	NA	J01DE02 	NA
+cefpo-cla	Cefpodoxime-Clavulanic acid	3. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DD64 	NA
+cefpo	Cefpodoxime	3. generation cephalosporin	Beta-lactam	NA	J01DD13 	NA
+cefq	Cefquinome	4. generation cephalosporin	Beta-lactam	NA	NA	veterinary use
+cefr	Cefradine	1. generation cephalosporin	Beta-lactam	NA	J01DB09 	NA
+ceftar	Ceftaroline	Other cephalosporin or penem	Beta-lactam	NA	J01DI02 	NA
+ceftaz-avi	Ceftazidime-Avibactam	3. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DD52 	NA
+ceftaz-cla	Ceftazidime-Clavulanate	3. generation cephalosporin	Beta-lactam	Combined with beta-lactamase inhibitor	J01DD52 	NA
+ceftaz	Ceftazidime	3. generation cephalosporin	Beta-lactam	NA	J01DD02 	NA
+ceftib	Ceftibuten	3. generation cephalosporin	Beta-lactam	NA	J01DD14 	NA
+ceftio	Ceftiofur	3. generation cephalosporin	Beta-lactam	NA	NA	veterinary use
+ceftob	Ceftobiprole	Other cephalosporin or penem	Beta-lactam	NA	J01DI01 	NA
+ceftol-taz	Ceftolozane-Tazobactam	Other cephalosporin or penem	Beta-lactam	Combined with beta-lactamase inhibitor	J01DI54 	NA
+ceftol	Ceftolozane	Other cephalosporin or penem	Beta-lactam	NA	NA	solely used with tazobactam
+ceftr	Ceftriaxone	3. generation cephalosporin	Beta-lactam	NA	J01DD04 	NA
+cefu	Cefuroxime	2. generation cephalosporin	Beta-lactam	NA	J01DC02 	NA
+chlora	Chloramphenicol	NA	Amphenicol	NA	J01BA01 	NA
+chlort	Chlortetracycline	NA	Tetracycline	NA	J01AA03 	NA
+cip	Ciprofloxacin	Fluoroquinolone	Quinolone	NA	J01MA02 	NA
+cla	Clarithromycin	NA	Macrolide	NA	J01FA09 	NA
+clina	Clinafloxacin	Fluoroquinolone	Quinolone	NA	NA	not approved for use
+clind	Clindamycin	NA	Lincosamide	NA	J01FF01 	NA
+clof	Clofazimine	Drug for treatment of lepra	Antimycobacterial	NA	J04BA01	NA
+clox	Cloxacillin	Penicillin	Beta-lactam	Beta-lactamase resistant penicillin	J01CF02 	NA
+col	Colistin	NA	Polymyxin	NA	J01XB01 	NA
+cyc	Cyclerosine	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AB01 	NA
+dal	Dalbavancin	NA	Glycopeptide	NA	J01XA04 	NA
+dap	Daptomycin	NA	Other antibiotic	NA	J01XX09 	NA
+delaf	Delafloxacin	Fluoroquinolone	Quinolone	NA	J01MA23 	NA
+delam	Delamanid	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AK06	NA
+dih	Dihydrostreptomycin	Streptomycin	Aminoglycoside	NA	S01AA15	NA
+dor	Doripenem	Carbapenem	Beta-lactam	NA	J01DH04 	NA
+dox	Doxycycline	NA	Tetracycline	NA	J01AA02 	NA
+enr	Enrofloxacin	Fluoroquinolone	Quinolone	NA	NA	veterinary use
+era	Eravacycline	NA	Tetracycline	NA	J01AA13 	NA
+ert	Ertapenem	Carbapenem	Beta-lactam	NA	J01DH03 	NA
+ery	Erythromycin	NA	Macrolide	NA	J01FA01 	NA
+etha	Ethambutol	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AK02	NA
+ethi	Ethionamide	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AD03	NA
+fid	Fidaxomicin	NA	Macrolide	NA	A07AA12	NA
+flo	Florfenicol	NA	Amphenicol	NA	NA	veterinary use
+fluc	Flucloxacillin	Penicillin	Beta-lactam	Beta-lactamase resistant penicillin	J01CF05 	NA
+flum	Flumequine	Other quinolone	Quinolone	NA	J01MB07 	NA
+fos	Fosfomycin	NA	Fosfomycin	NA	J01XX01 	NA
+fus	Fusidic acid	NA	Fusidic acid	NA	J01XC01 	NA
+gam	Gamithromycin	NA	Macrolide	NA	NA	veterinary use
+gat	Gatifloxacin	Fluoroquinolone	Quinolone	NA	J01MA16	NA
+gem	Gemifloxacin	Fluoroquinolone	Quinolone	NA	J01MA15	NA
+gen	Gentamicin	Other aminoglycoside	Aminoglycoside	NA	J01GB03 	NA
+imi-rel	Imipenem-Relebactam	Carbapenem	Beta-lactam	Combined with beta-lactamase inhibitor	J01DH56 	NA
+imi	Imipenem	Carbapenem	Beta-lactam	NA	J01DH51 	NA
+kan	Kanamycin	Other aminoglycoside	Aminoglycoside	NA	J01GB04 	NA
+lef	Lefamulin	NA	Other antibiotic	NA	J01XX12 	NA
+lev	Levofloxacin	Fluoroquinolone	Quinolone	NA	J01MA12 	NA
+linc	Lincomycin	NA	Lincosamide	NA	J01FF02 	NA
+line	Linezolid	NA	Other antibiotic	NA	J01XX08 	NA
+lora	Loracarbef	2. generation cephalosporin	Beta-lactam	NA	J01DC08 	NA
+mar	Marbofloxacin	Fluoroquinolone	Quinolone	NA	NA	veterinary use
+mec	Mecillinam	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA11 	NA
+mer-var	Meropenem-Vaborbactam	Carbapenem	Beta-lactam	Combined with beta-lactamase inhibitor	J01DH52 	NA
+mer	Meropenem	Carbapenem	Beta-lactam	NA	J01DH02 	NA
+met	Metronidazole	NA	Nitroimidazole	NA	J01XD01 	NA
+min	Minocycline	NA	Tetracycline	NA	J01AA08 	NA
+mox	Moxifloxacin	Fluoroquinolone	Quinolone	NA	J01MA14 	NA
+mup	Mupirocin	NA	Other antibiotic	NA	D06AX09, R01AX06	NA
+nal	Nalidixic acid	NA	Other antibiotic	NA	J01MB02 	NA
+nar	Narasin	NA	Other antibiotic	NA	NA	veterinary use
+neo	Neomycin	Other aminoglycoside	Aminoglycoside	NA	J01GB05 	NA
+net	Netilmicin	Other aminoglycoside	Aminoglycoside	NA	J01GB07 	NA
+nit	Nitrofurantoin	Nitrofuran derivate	Other antibiotic	NA	J01XE01 	NA
+norf	Norfloxacin	Fluoroquinolone	Quinolone	NA	J01MA06 	NA
+norv	Norvancomycin	NA	Glycopeptide	NA	NA	used in Asia only
+ofl	Ofloxacin	Fluoroquinolone	Quinolone	NA	J01MA01 	NA
+oma	Omadacycline	NA	Tetracycline	NA	J01AA15 	NA
+ori	Oritavancin (with polysorbate 80)	NA	Glycopeptide	NA	J01XA05 	NA
+oxa	Oxacillin	Penicillin	Beta-lactam	Beta-lactamase resistant penicillin	J01CF04 	NA
+oxy	Oxytetracycline	NA	Tetracycline	NA	J01AA06 	NA
+par	Paraaminosalicylic acid	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AA01	NA
+pef	Pefloxacin	Fluoroquinolone	Quinolone	NA	J01MA03 	NA
+phe	Phenoxymethylpenicillin	Penicillin	Beta-lactam	Beta-lactamase sensitive penicillin	J01CE02 	NA
+pip-taz	Piperacillin-Tazobactam	Penicillin	Beta-lactam	Combined with beta-lactamase inhibitor	J01CR05 	NA
+pip	Piperacillin	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA12 	NA
+pyr	Pyrazinamide	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AK01	NA
+qui	Quinupristin-Dalfopristin	NA	Streptogramin	NA	J01FG02 	NA
+ret	Retapamulin	NA	Pleuromutilin	NA	D06AX13	NA
+rifab	Rifabutin	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AB04 	NA
+rifam	Rifampicin	Drug for treatment of tuberculosis	Antimycobacterial	NA	J04AB02 	NA
+rox	Roxithromycin	NA	Macrolide	NA	J01FA06 	NA
+sec	Secnidazole	NA	Nitroimidazole	NA	P01AB07	NA
+sit	Sitafloxacin	Fluoroquinolone	Quinolone	NA	J01MA21 	NA
+spa	Sparfloxacin	Fluoroquinolone	Quinolone	NA	J01MA09 	NA
+spe	Spectinomycin	NA	Other antibiotic	NA	J01XX04 	NA
+spi	Spiramycin	NA	Macrolide	NA	J01FA02 	NA
+str	Streptomycin	Streptomycin	Aminoglycoside	NA	J01GA01 	NA
+sulb	Sulbactam	Beta-lactamase inhibitor	Antibiotics-related agents	NA	J01CG01 	NA
+sulf	Sulfamethoxazole	NA	Sulfonamide	NA	J01EC01 	NA
+ted	Tedizolid	NA	Other antibiotic	NA	J01XX11 	NA
+tei	Teicoplanin	NA	Glycopeptide	NA	J01XA02 	NA
+tela-p80	Telavancin (with polysorbate P80)	NA	Glycopeptide	NA	J01XA03 	NA
+tela	Telavancin	NA	Glycopeptide	NA	J01XA03 	NA
+teli	Telithromycin	NA	Macrolide	NA	J01FA15 	NA
+temo	Temocillin	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA17 	NA
+tet	Tetracycline	NA	Tetracycline	NA	J01AA07 	NA
+tia	Tiamulin	NA	Pleuromutilin	NA	NA	veterinary use
+tic-cla	Ticarcillin-Clavulanic acid	Penicillin	Beta-lactam	Combined with beta-lactamase inhibitor	J01CR03 	NA
+tic	Ticarcillin	Penicillin	Beta-lactam	Penicillin with extended spectrum	J01CA13 	NA
+tig	Tigecycline	NA	Tetracycline	NA	J01AA12 	NA
+tild	Tildipirosin	NA	Macrolide	NA	NA	veterinary use
+tilm	Tilmicosin	NA	Macrolide	NA	NA	veterinary use
+tob	Tobramycin	Other aminoglycoside	Aminoglycoside	NA	J01GB01 	NA
+tri-sul	Trimethoprim-Sulfamethoxazole	NA	Sulfonamide and trimethoprim	NA	J01EE01 	NA
+tri	Trimethoprim	NA	Trimethoprim	NA	J01EA01 	NA
+tul	Tulathromycin	NA	Macrolide	NA	NA	veterinary use
+tyl	Tylosin	NA	Macrolide	NA	NA	veterinary use
+van	Vancomycin	NA	Glycopeptide	NA	J01XA01 	NA
+vir	Virginiamycin	NA	Streptogramin	NA	D06AX10	NA
