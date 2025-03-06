@@ -163,7 +163,7 @@ for (d in rownames(x)) {
   cost_quantile <- costs[costs[,"Probability"] == 0.05, "Cost"]
   info <- rbind(info, list("MSC / MIC<sub>lowest</sub> conversion factor <sup>4</sup> (-)",
     cost_quantile, 1/10))
-  info <- rbind(info, list("PNEC<sub>R</sub> <sup>b</sup> (mg/L)",
+  info <- rbind(info, list("PNEC<sub>R</sub> (mg/L)",
     cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
 
   info <- as.data.frame(apply(info,2,unlist))
