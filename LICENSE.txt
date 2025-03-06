@@ -1,0 +1,15 @@
+# Source code
+
+All R source code in this repository is made available under the GNU General Public License v3.0. The licence text is available at
+
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+# Original data
+
+Original data on minimum inhibiting concentrations of antibiotics and related information (e.g. Ecoffs) were obtained from the official EUCAST website (https://mic.eucast.org/search/). Please contact EUCAST (https://www.eucast.org/) for questions about the (re)-use of this data.
+
+Data on the cost of antibiotic resistances were extracted from scientific publications. The respective original source is always indicated using the digital object identifier (DOI).
+
+# Other data
+
+Other data (e.g. basic information on drug and bacterial species) and any derived data produced with the published source code (see above) are made available under the GNU General Public License v3.0.
