@@ -6,6 +6,11 @@ odir <- "generatedHTML"
 
 headline <- "Predicted no-effect concentrations of antibiotics regarding resistance selection (PNEC<sub>R</sub>)"
 
+links <- c(
+  accessibility="https://enviresist.github.io/#accessibility",
+  legalnotice="https://enviresist.github.io/#legal_notice"
+)
+
 rd <- function(f, ...) { read.table(file=f, sep="\t", header=TRUE, ...=...) }
 drugs <- rd("../1_databases/db_drugs.tsv")
 bpl16 <- rd("../1_databases/BengtssonPalmeAndLarsson2016.tsv")
@@ -45,7 +50,6 @@ embedSVG <- function(file, caption) {
 
 navi <- data.frame(
   menulabel = character(0),
-  menusep = integer(0),
   pagetitle = character(0),
   htmlcontents = character(0),
   targetfile = character(0)
@@ -57,7 +61,6 @@ navi <- data.frame(
 
 navi <- rbind(navi, data.frame(
   menulabel="About",
-  menusep= 0,
   pagetitle="About",
   htmlcontents= paste(readLines("input_static/about.html"), collapse="\n"),
   targetfile="index.html"
@@ -81,7 +84,6 @@ html <- paste0(
 
 navi <- rbind(navi, data.frame(
   menulabel="Select drug",
-  menusep= 0,
   pagetitle="Select drug",
   htmlcontents= html,
   targetfile="select.html"
@@ -93,33 +95,16 @@ navi <- rbind(navi, data.frame(
 
 navi <- rbind(navi, data.frame(
   menulabel="Contact",
-  menusep= 15,
   pagetitle="Contact",
   htmlcontents= paste(readLines("input_static/contact.html"), collapse="\n"),
   targetfile="contact.html"
-))
-
-navi <- rbind(navi, data.frame(
-  menulabel="Accessibility",
-  menusep= 0,
-  pagetitle="Accessibility",
-  htmlcontents= paste(readLines("input_static/accessibility.html"), collapse="\n"),
-  targetfile="accessibility.html"
-))
-
-navi <- rbind(navi, data.frame(
-  menulabel="Legal notice",
-  menusep= 0,
-  pagetitle="Legal notice",
-  htmlcontents= paste(readLines("input_static/legal_notice.html"), collapse="\n"),
-  targetfile="legal_notice.html"
 ))
 
 ########################################################################
 # create all pages accessible from main menu
 ########################################################################
 
-pages.create(headline=headline, navi=navi, odir=odir)
+pages.create(headline=headline, navi=navi, links=links, odir=odir)
 
 ########################################################################
 # per drug summary data sheets - they are not linked to the main menu
@@ -188,7 +173,7 @@ for (d in rownames(x)) {
 
   html <- paste0(
 
-    page.head(headline=headline, title=d, navi=cbind(navi, menusep=NA, active=FALSE)),
+    page.head(headline=headline, title=d, navi=cbind(navi, active=FALSE), links=links),
     
     "<h1>Drug meta data</h1>","\n",
     table.static(as.df(meta), colnames=FALSE),"\n\n",

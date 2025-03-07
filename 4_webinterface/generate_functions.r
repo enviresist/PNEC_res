@@ -15,7 +15,7 @@ styles <- function() {"
     background-color: #E2EDF0;
     padding: 4px 4px 4px 15px;
   }
-  .topnavopened {
+  .topnavActive {
     background-color: #42548B; color: #FFFFFF;
     font-size: 1em; line-height: 2em;
     padding: 4px; margin-right: 4px;
@@ -27,7 +27,7 @@ styles <- function() {"
     text-decoration: none;
     white-space: nowrap;
   }
-  .topnavclosed {
+  .topnavInactive {
     color: #42548B; background-color: #FFFFFF;
     font-size: 1em; line-height: 2em;
     padding: 4px; margin-right: 4px;
@@ -37,6 +37,13 @@ styles <- function() {"
     border-bottom: 2px solid #7F7F7F;
     border-right: 2px solid #7F7F7F;
     text-decoration: none;
+    white-space: nowrap;
+  }
+  .topnavLink {
+    color: #42548B
+    font-size: 1em; line-height: 2em;
+    padding: 4px; margin-right: 4px;
+    text-decoration: underline;
     white-space: nowrap;
   }
 
@@ -111,7 +118,7 @@ styles <- function() {"
   }
 "}
   
-page.head <- function(headline, title, navi) {
+page.head <- function(headline, title, navi, links) {
   paste0('
   <!DOCTYPE html>
   <html lang="en">
@@ -131,10 +138,12 @@ page.head <- function(headline, title, navi) {
       <div class="topnav">
         <nav>',
           paste(paste0(
-          sapply(navi[,"menusep"], function(n) {paste(rep("&nbsp;", n), collapse="")}),
           "<a href='", navi[,"targetfile"],
-          "' class='",ifelse(navi[,"active"], "topnavopened", "topnavclosed"),"'>",
+          "' class='",ifelse(navi[,"active"],"topnavActive","topnavInactive"),"'>",
           navi[,"menulabel"], "</a>"), collapse=" \n"),
+          paste(rep("&nbsp;", 10), collapse=""),
+          "<a href='",links["accessibility"],"' target='_blank' class='topnavLink'>Accessibility</a>",
+          "<a href='",links["legalnotice"],"' target='_blank' class='topnavLink'>Legal notice</a>",
         '</nav>
       </div>
     </div> <!-- end of pagetop div -->
@@ -156,13 +165,14 @@ page.foot <- function() {
 # - label: used for menu label and page title
 # - href:  generated html file
 
-pages.create <- function(headline, navi, odir) {
+pages.create <- function(headline, navi, links, odir) {
   for (i in 1:nrow(navi)) {
     html <- paste0(
       page.head(
         headline=headline,
         title=navi[i,"pagetitle"],
-        navi=cbind(navi[,c("menulabel","menusep","targetfile")], active=(1:nrow(navi))==i)
+        navi=cbind(navi[,c("menulabel","targetfile")], active=(1:nrow(navi))==i),
+        links=links
       ),
       navi[i,"htmlcontents"],
       page.foot()
