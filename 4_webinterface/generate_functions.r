@@ -43,6 +43,12 @@ styles <- function() {"
   a { color: #415EB5; } 
 
    table {border-collapse: collapse;}
+   th, td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;  
+   }
   
   .stripedTable {
     thead {font-weight: bold; background-color: #f2f2f2;}
@@ -57,6 +63,11 @@ styles <- function() {"
   }  
   figcaption {
     font-style: italic;
+  }
+  caption {
+    font-style: italic;
+    text-align: justify;
+    padding-bottom: 8px;
   }
 
   /* source: https://dev.to/rouilj/how-to-change-details-label-when-open-closed-without-javascript-1n3c */
@@ -160,13 +171,14 @@ pages.create <- function(headline, navi, odir) {
   }
 }
 
-table.static <- function(df, colnames=TRUE, id=NULL, class=NULL) {
+table.static <- function(df, colnames=TRUE, id=NULL, class=NULL, caption="") {
   fn <- function(i, x) {
     paste0("<tr><td>", paste0(x[i,], collapse="</td><td>"), "</td></tr>")
   }
   paste0(
     "<table ",if (!is.null(id)) paste0("id='",id,"'"),
       if (!is.null(class)) paste0(" class='",class,"'"),">\n",
+    "<caption>",caption,"</caption>","\n",
     if (colnames) {
       paste0("  <thead>\n",
         paste0("    <tr><td>", paste0(colnames(df), collapse="</td><td>"), "</td></tr>\n"),
@@ -180,7 +192,7 @@ table.static <- function(df, colnames=TRUE, id=NULL, class=NULL) {
   )
 }
 
-table.interactive <- function(df, id="myTable") {
+table.interactive <- function(df, id="myTable", caption="") {
   # NOTE: We do not use the "scrollX" and "scrollY" options of
   #       data table because of a known issue (table header shifted
   #       relative to contents). We wrap the datatable in a "div" with
@@ -198,7 +210,7 @@ table.interactive <- function(df, id="myTable") {
       } );
     </script>",
     "\n",
-    table.static(df, id=id, class="display compact"),
+    table.static(df, id=id, class="display compact", caption=caption),
     "\n"
   )
 }

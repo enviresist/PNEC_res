@@ -6,11 +6,13 @@ odir <- "generatedHTML"
 
 headline <- "Predicted no-effect concentrations of antibiotics regarding resistance selection (PNEC<sub>R</sub>)"
 
-rd <- function(f) { read.table(file=f, sep="\t", header=TRUE) }
+rd <- function(f, ...) { read.table(file=f, sep="\t", header=TRUE, ...=...) }
 drugs <- rd("../1_databases/db_drugs.tsv")
 bpl16 <- rd("../1_databases/BengtssonPalmeAndLarsson2016.tsv")
 lmics <- rd("../2_analysis_MIC/output/MIC_lowest.tsv")
-costs <- rd("../3_analysis_cost/output/cost_quantiles.tsv")
+costs <- rd("../3_analysis_cost/output/cost_quantiles.tsv", check.names=F)
+names(costs)[grepl(names(costs), pattern="profile")] <- "95% CI <sup>x</sup>"
+names(costs)[grepl(names(costs), pattern="bootstrap")] <- "95% CI <sup>y</sup>"
 
 if (!identical(sort(drugs$drug), sort(lmics$drug))) {
   stop("mismatch in listed drugs") 
@@ -161,7 +163,7 @@ for (d in rownames(x)) {
   info <- rbind(info, list("MIC<sub>lowest</sub> <sup>*,3</sup> (mg/L)",
     x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"],x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.reference"]))
   cost_quantile <- costs[costs[,"Probability"] == 0.05, "Cost"]
-  info <- rbind(info, list("MSC / MIC<sub>lowest</sub> conversion factor <sup>4</sup> (-)",
+  info <- rbind(info, list("Conversion factor (<i>PNEC<sub>R</sub> = f * MIC<sub>lowest</sub></i>) <sup>4</sup>",
     cost_quantile, 1/10))
   info <- rbind(info, list("PNEC<sub>R</sub> (mg/L)",
     cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
@@ -198,20 +200,32 @@ for (d in rownames(x)) {
       labelIfClosed="[Show footnotes]", labelIfOpen="[Hide footnotes]"
     ),"\n\n",
 
-    "<h1>Graphics</h1>","\n",
+    "<h1>Details</h1>","\n",
+    "<h2>Estimation of MIC<sub>lowest</sub></h2>","\n",
     expandableSection(
-      paste0(
-        embedSVG(file=paste0("../2_analysis_MIC/output/visual_rawMinMIC_",d,".svg"),
-          caption="Distribution of original MIC quantiles of the tested organisms
-            in comparison to MIC<sub>lowest</sub>."),
-        embedSVG(file=paste0("../3_analysis_cost/output/cost_fitted.svg"),
-          caption="Distribution of the cost associated with plasmid-borne
-            resistance. The mixture distribution model is a weighted sum of a
-            Gaussian and an exponential component. The proposed MSC /
-            MIC<sub>lowest</sub> conversion factor represents the 5% quantile
-            of the exponential component.")
-      ),
-      labelIfClosed="[Show figure]", labelIfOpen="[Hide figure]"
+      embedSVG(file=paste0("../2_analysis_MIC/output/visual_rawMinMIC_",d,".svg"),
+        caption="Distribution of original MIC quantiles of the tested organisms
+          in comparison to MIC<sub>lowest</sub>."),
+      labelIfClosed="[Show details]", labelIfOpen="[Hide details]"
+    ),"\n\n",
+    "<h2>Cost-based MSC to MIC conversion factor</h2>","\n",
+    expandableSection(
+        table.static(costs, colnames=TRUE, class="stripedTable",
+          caption="Quantiles of the fitness cost attributable to plasmid-borne
+          antibiotic resistance. The cost is a dimensionless number in range
+          [0,1] expressing the loss of fitness upon acquisition of resistance
+          in comparison to a susceptible bacterial isolate. The cost corresponding
+          to 5% probability is currently employed to convert MIC into MSC and
+          thus to translate MIC<sub>lowest</sub> into PNEC<sub>R</sub>.
+          Superscripts x and y denote parametric and bootstrap confidence
+          intervals, respectively."),
+#        embedSVG(file=paste0("../3_analysis_cost/output/cost_fitted.svg"),
+#          caption="Distribution of the cost associated with plasmid-borne
+#            resistance. The mixture distribution model is a weighted sum of a
+#            Gaussian and an exponential component. The proposed MSC /
+#            MIC<sub>lowest</sub> conversion factor represents the 5% quantile
+#            of the exponential component.")
+      labelIfClosed="[Show details]", labelIfOpen="[Hide details]"
     ),"\n\n",
     
     page.foot()
