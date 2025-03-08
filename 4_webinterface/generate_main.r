@@ -4,6 +4,8 @@ source("generate_functions.r")
 
 odir <- "generatedHTML"
 
+cssfile <- "input_static/styles.css"
+
 headline <- "Predicted no-effect concentrations of antibiotics regarding resistance selection (PNEC<sub>R</sub>)"
 
 links <- c(
@@ -23,26 +25,9 @@ if (!identical(sort(drugs$drug), sort(lmics$drug))) {
   stop("mismatch in listed drugs") 
 }
 
-expandableSection <- function(content, labelIfOpen="Collapse", labelIfClosed="Open") {
-  paste0(
-   "<details>","\n",
-   "  <summary>","\n",
-   "     <span class='clickToHide'>",labelIfOpen,"</span>",
-   "     <span class='clickToShow'>",labelIfClosed,"</span>",
-   "  </summary>","\n",
-   "    ",content,"\n",
-    "</details>","\n\n"
-  )
-}
+stopifnot(file.copy(cssfile, odir, overwrite=TRUE))
+cssfile <- basename(cssfile)
 
-embedSVG <- function(file, caption) {
-  paste0(   
-    "<figure>","\n",
-    paste(readLines(file), collapse="\n"),"\n",
-    "<figcaption>",caption,"</figcaption>",
-    "</figure>"
-  )
-}
 
 ########################################################################
 # start registry of pages accessible from main menu
@@ -104,7 +89,8 @@ navi <- rbind(navi, data.frame(
 # create all pages accessible from main menu
 ########################################################################
 
-pages.create(headline=headline, navi=navi, links=links, odir=odir)
+pages.create(headline=headline, navi=navi, links=links,
+  cssfile=cssfile, odir=odir)
 
 ########################################################################
 # per drug summary data sheets - they are not linked to the main menu
@@ -173,7 +159,8 @@ for (d in rownames(x)) {
 
   html <- paste0(
 
-    page.head(headline=headline, title=d, navi=cbind(navi, active=FALSE), links=links),
+    page.head(headline=headline, title=d, navi=cbind(navi, active=FALSE),
+      links=links, cssfile=cssfile),
     
     "<h1>Drug meta data</h1>","\n",
     table.static(as.df(meta), colnames=FALSE),"\n\n",

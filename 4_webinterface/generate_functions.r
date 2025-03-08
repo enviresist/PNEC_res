@@ -1,124 +1,5 @@
-
-styles <- function() {"
-  html body {font-family: sans-serif;}
-  h1 {font-size: 1.5em;}
-  h2 {font-size: 1.2em;}
-  h3 {font-size: 1.0em;}
-  p {max-width: 40em; text-align: justify;}
-/*  .headline { padding: 4px 8px 4px 15px; background-color: #CEDFE4; display:block;} */
-  .headline { padding: 4px 8px 4px 15px; background-color: #E2EDF0; display:block;}
-  .topnav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: space-around;
-    background-color: #E2EDF0;
-    padding: 4px 4px 4px 15px;
-  }
-  .topnavActive {
-    background-color: #42548B; color: #FFFFFF;
-    font-size: 1em; line-height: 2em;
-    padding: 4px; margin-right: 4px;
-    border-radius: 5px;
-    border-top: 2px solid #E5E5E5;
-    border-left: 2px solid #E5E5E5;
-    border-bottom: 2px solid #7F7F7F;
-    border-right: 2px solid #7F7F7F;
-    text-decoration: none;
-    white-space: nowrap;
-  }
-  .topnavInactive {
-    color: #42548B; background-color: #FFFFFF;
-    font-size: 1em; line-height: 2em;
-    padding: 4px; margin-right: 4px;
-    border-radius: 5px;
-    border-top: 2px solid #E5E5E5;
-    border-left: 2px solid #E5E5E5;
-    border-bottom: 2px solid #7F7F7F;
-    border-right: 2px solid #7F7F7F;
-    text-decoration: none;
-    white-space: nowrap;
-  }
-  .topnavLink {
-    color: #42548B
-    font-size: 1em; line-height: 2em;
-    padding: 4px; margin-right: 4px;
-    text-decoration: underline;
-    white-space: nowrap;
-  }
-
-  a { color: #415EB5; } 
-
-   table {border-collapse: collapse;}
-   th, td {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 5px;
-    padding-right: 5px;  
-   }
   
-  .stripedTable {
-    thead {font-weight: bold; background-color: #f2f2f2;}
-    tr:nth-child(even) {background-color: #f2f2f2;}  
-  }
-  
-  div.text { max-width: 600px; }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }  
-  figcaption {
-    font-style: italic;
-  }
-  caption {
-    font-style: italic;
-    text-align: justify;
-    padding-bottom: 8px;
-  }
-
-  /* source: https://dev.to/rouilj/how-to-change-details-label-when-open-closed-without-javascript-1n3c */
-  /* https://www.sitepoint.com/style-html-details-element/#creatingacustommarkerforthesummaryelement */
-  /* details summary { padding: 0px 0px 0px 0px } */
-  details { padding: 4px 4px 4px 4px; }
-  /* if details are hidden */
-  details summary span.clickToHide {display:none; color:#415EB5}
-  details summary span.clickToShow {color:#415EB5}
-  /* if details are shown (open) */
-  details[open] summary span.clickToHide {display:inline}
-  details[open] summary span.clickToShow {display:none}
-  details summary::marker {
-    display: none;
-    content: '';
-  }
-  
-  .pagecontainer {
-    display: flex;
-    flex-flow: column;  
-    width: 100%;
-    height: 100%;
-  }
-  .pagetop {
-    display: flex;
-    flex-flow: column;
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  .pagemain {
-    display: flex;
-    flex-flow: column;
-    width: 95wv;
-    margin-left: 10px;
-    margin-top: 5px;
-    padding: 10px 10px;
-    overflow: auto;
-  }
-"}
-  
-page.head <- function(headline, title, navi, links) {
+page.head <- function(headline, title, navi, links, cssfile) {
   paste0('
   <!DOCTYPE html>
   <html lang="en">
@@ -126,9 +7,7 @@ page.head <- function(headline, title, navi, links) {
     <title>',title,'</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>',
-    styles(),
-    '</style>
+    <link rel="stylesheet" type="text/css" href="',cssfile,'">
   </head>
   <body>
   <div class="pagecontainer">  
@@ -165,14 +44,15 @@ page.foot <- function() {
 # - label: used for menu label and page title
 # - href:  generated html file
 
-pages.create <- function(headline, navi, links, odir) {
+pages.create <- function(headline, navi, links, cssfile, odir) {
   for (i in 1:nrow(navi)) {
     html <- paste0(
       page.head(
         headline=headline,
         title=navi[i,"pagetitle"],
         navi=cbind(navi[,c("menulabel","targetfile")], active=(1:nrow(navi))==i),
-        links=links
+        links=links,
+        cssfile=cssfile
       ),
       navi[i,"htmlcontents"],
       page.foot()
@@ -222,5 +102,26 @@ table.interactive <- function(df, id="myTable", caption="") {
     "\n",
     table.static(df, id=id, class="display compact", caption=caption),
     "\n"
+  )
+}
+
+expandableSection <- function(content, labelIfOpen="Collapse", labelIfClosed="Open") {
+  paste0(
+   "<details>","\n",
+   "  <summary>","\n",
+   "     <span class='clickToHide'>",labelIfOpen,"</span>",
+   "     <span class='clickToShow'>",labelIfClosed,"</span>",
+   "  </summary>","\n",
+   "    ",content,"\n",
+    "</details>","\n\n"
+  )
+}
+
+embedSVG <- function(file, caption) {
+  paste0(   
+    "<figure>","\n",
+    paste(readLines(file), collapse="\n"),"\n",
+    "<figcaption>",caption,"</figcaption>",
+    "</figure>"
   )
 }
