@@ -56,7 +56,8 @@ navi <- rbind(navi, data.frame(
 ########################################################################
 
 x <- drugs
-x[,"drug"] <- paste0("<a href='drug_",x[,"drug"],".html'>",x[,"drug"],"</a>")
+x[,"drug"] <- paste0("<a href='drug_",
+  gsub(x[,"drug"],pattern=" ", replacement="%20", fixed=TRUE),".html'>",x[,"drug"],"</a>")
 x <- x[,c("drug", "drugclass", "drugfamily", "ATC_code")]
 names(x) <- c("Drug", "Class", "Sub-class", "ATC code")
 x <- apply(x, 1:2, function(x) if (is.na(x)) "" else x)
