@@ -1,10 +1,11 @@
 # Data from Table 1 of Bengtsson-Palme & Larsson (2016), https://doi.org/10.1016/j.envint.2015.10.015
 # NOTE 1: Only drugs also present in the 2024 EUCAST data set are listed !
-# NOTE 2: Units are in mg/L (unit in original publication was µg/L)
+# NOTE 2: Gatifloxacin and Gemifloxacin added for comparison with 2024 data (all values set to missing)
+# NOTE 3: Units are in mg/L (unit in original publication was µg/L)
 drug	valid.species	lowest.MIC.quantile	lowest.MIC.quantile.extrapol	lowest.MIC.quantile.extrapol.scaled.rounded	PNECR
 Amikacin	28	0.25		0.125	0.016
 Amoxicillin	29	0.004		0.002	0.00025
-Amoxicillin-Clavulanic Acid (fixed)	4	1		0.064	0.008
+Amoxicillin-Clavulanic acid (fixed)	4	1		0.064	0.008
 Ampicillin	64	0.004		0.004	0.00025
 Ampicillin-Sulbactam (fixed)	3	0.5		0.032	0.002
 Ampicillin-Sulbactam (ratio)	23	0.125		0.064	0.004
@@ -40,7 +41,7 @@ Cefotaxime-Clavulanate	2	0.008		0.00025	3.2E-05
 Cefoxitin	26	0.25		0.125	0.008
 Cefpirome	9	0.004		0.0005	6.4E-05
 Cefpodoxime	15	0.008		0.002	0.00025
-Cefpodoxime-Clavulanic Acid	3	0.25		0.016	0.001
+Cefpodoxime-Clavulanic acid	3	0.25		0.016	0.001
 Cefquinome					
 Cefradine					
 Ceftaroline	8	0.004		0.0005	6.4E-05
@@ -82,8 +83,10 @@ Florfenicol	9	0.125		0.016	0.002
 Flucloxacillin					
 Flumequine	3	0.064		0.004	0.00025
 Fosfomycin	13	0.125		0.032	0.002
-Fusidic-Acid	9	0.032		0.004	0.0005
+Fusidic acid	9	0.032		0.004	0.0005
 Gamithromycin					
+Gatifloxacin					
+Gemifloxacin					
 Gentamicin	68	0.016		0.016	0.001
 Imipenem	53	0.002	0.002	0.002	0.000125
 Imipenem-Relebactam					
@@ -101,7 +104,7 @@ Metronidazole	6	0.016		0.002	0.000125
 Minocycline	24	0.032		0.016	0.001
 Moxifloxacin	53	0.002	0.002	0.002	0.000125
 Mupirocin	4	0.032		0.002	0.00025
-Nalidixic-Acid	17	0.5		0.125	0.016
+Nalidixic acid	17	0.5		0.125	0.016
 Narasin	2	0.125		0.004	0.0005
 Neomycin	8	0.125		0.016	0.002
 Netilmicin	14	0.016		0.004	0.0005
@@ -113,7 +116,7 @@ Omadacycline
 Oritavancin (with polysorbate 80)					
 Oxacillin	24	0.032		0.016	0.001
 Oxytetracycline	2	0.125		0.004	0.0005
-Paraaminosalicylic Acid					
+Paraaminosalicylic acid					
 Pefloxacin	1	4		0.064	0.008
 Phenoxymethylpenicillin	8	0.004		0.0005	6.4E-05
 Piperacillin	30	0.008		0.004	0.0005
@@ -141,7 +144,7 @@ Temocillin
 Tetracycline	66	0.016		0.016	0.001
 Tiamulin	1	0.5		0.008	0.001
 Ticarcillin	16	0.25		0.064	0.008
-Ticarcillin-Clavulanic Acid	14	0.064		0.016	0.002
+Ticarcillin-Clavulanic acid	14	0.064		0.016	0.002
 Tigecycline	54	0.016		0.016	0.001
 Tildipirosin					
 Tilmicosin	2	0.25		0.008	0.001

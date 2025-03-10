@@ -21,9 +21,8 @@ costs <- rd("../3_analysis_cost/output/cost_quantiles.tsv", check.names=F)
 names(costs)[grepl(names(costs), pattern="profile")] <- "95% CI <sup>x</sup>"
 names(costs)[grepl(names(costs), pattern="bootstrap")] <- "95% CI <sup>y</sup>"
 
-if (!identical(sort(drugs$drug), sort(lmics$drug))) {
-  stop("mismatch in listed drugs") 
-}
+if (!identical(sort(drugs$drug), sort(lmics$drug))) { stop("mismatch in listed drugs") }
+if (!identical(sort(drugs$drug), sort(bpl16$drug))) { stop("mismatch in listed drugs") }
 
 stopifnot(file.copy(cssfile, odir, overwrite=TRUE))
 cssfile <- basename(cssfile)
