@@ -26,7 +26,7 @@ print(paste("Records remaining:",length(cost)))
 # but there was no significant improvement in the fit
 
 
-svg(paste0(odir,"/cost_fitted.svg"), width=5.5, height=5)
+svg(paste0(odir,"/cost_fitted_CDF.svg"), width=5.5, height=5)
 
 # initialize plot with empirical quantiles; the particular
 #   probability levels can be chosen arbitrarily
@@ -68,7 +68,7 @@ print("fitted parameters:")
 print(coef(fit))
 
 # add fitted mixture distribution and individual components to plot
-cost.line <- seq(-0.5, 1, 0.01)
+cost.line <- seq(-0.5, 1, 0.001)
 lines(cost.line, model(pars=coef(fit), cost=cost.line))
 lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col="blue")
 lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), lty=4, col="red")
@@ -79,6 +79,32 @@ legend("bottomright", bty="n",
   legend=c("Empirical quantiles","Fitted mixture distrib.",
     "Gaussian component","Exponential component")
 )
+graphics.off()
+
+
+svg(paste0(odir,"/cost_fitted_PDF.svg"), width=5.5, height=5)
+col.observed <- function(alpha=0.2) {rgb(.5, .5, .5, alpha=alpha)}
+col.exponential <- function(alpha=0.2) {rgb(.3, .5, .8, alpha=alpha)}
+col.gaussian <- function(alpha=0.1) {rgb(1, 0, 0, alpha=alpha)}
+
+hist(cost, probability=T, breaks=seq(min(cost)*1.5, max(cost)*2, by=0.02),
+  ylim=c(0, 11), main="", col=col.observed(),
+  border="grey", xlab="Cost associated with AMR plasmid",
+  ylab="Density")
+
+gaussian <- coef(fit)["f"] * dnorm(x=cost.line, mean=0, sd=coef(fit)["sd"])
+total <- gaussian + (1 - coef(fit)["f"]) * dexp(x=cost.line, rate=coef(fit)["rate"])
+
+polygon(c(cost.line, rev(cost.line)), c(total, rev(gaussian)),
+  col=col.exponential(), border=NA)
+lines(cost.line, total, col=col.exponential(alpha=1))
+
+polygon(c(cost.line, rev(cost.line)), c(gaussian, rep(0, length(gaussian))),
+  col=col.gaussian(), border=NA)
+lines(cost.line, gaussian, col=col.gaussian(alpha=1))
+
+legend("topright", bty="n", fill=c(col.observed(), col.gaussian(), col.exponential()),
+  border="darkgrey", legend=c("Observations", "Gaussian component", "Exponential component"))
 graphics.off()
 
 # confidence intervals of distribution parameters
