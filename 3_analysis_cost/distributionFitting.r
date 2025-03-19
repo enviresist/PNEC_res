@@ -26,19 +26,6 @@ print(paste("Records remaining:",length(cost)))
 # but there was no significant improvement in the fit
 
 
-svg(paste0(odir,"/cost_fitted_CDF.svg"), width=5.5, height=5)
-
-# initialize plot with empirical quantiles; the particular
-#   probability levels can be chosen arbitrarily
-tmp <- c(0.01, 0.02, 0.05, 0.1, 0.2, 0.33)
-probabilities <- c(tmp, 0.5, 1 - rev(tmp))
-plot(quantile(cost, probs=probabilities), probabilities, pch=20,
-  xlab="Cost associated with AMR plasmid",
-#  ylab=expression(paste("Probability (",X <= x,")"))
-  ylab="Cumulative distribution function"
-)
-rm(tmp, probabilities)
-
 # mixture distribution model: a weighted sum of a normal distribution
 # component and an exponential distribution component.
 # Note: Replacing the exponential component by a beta-distribution
@@ -67,6 +54,18 @@ fit <- bbmle::mle2(minuslogl=objfun, start=guess, data=list(cost=cost))
 print("fitted parameters:")
 print(coef(fit))
 
+# CDF plot
+svg(paste0(odir,"/cost_fitted_CDF.svg"), width=5.5, height=5)
+# initialize plot with empirical quantiles; the particular
+#   probability levels can be chosen arbitrarily
+tmp <- c(0.01, 0.02, 0.05, 0.1, 0.2, 0.33)
+probabilities <- c(tmp, 0.5, 1 - rev(tmp))
+plot(quantile(cost, probs=probabilities), probabilities, pch=20,
+  xlab="Cost associated with AMR plasmid",
+#  ylab=expression(paste("Probability (",X <= x,")"))
+  ylab="Cumulative distribution function"
+)
+rm(tmp, probabilities)
 # add fitted mixture distribution and individual components to plot
 cost.line <- seq(-0.5, 1, 0.001)
 lines(cost.line, model(pars=coef(fit), cost=cost.line))
@@ -81,17 +80,31 @@ legend("bottomright", bty="n",
 )
 graphics.off()
 
+# CDF plot showing the exponential component only with better scaling
+svg(paste0(odir,"/cost_fitted_CDF_expComponentZoom.svg"), width=5.5, height=5)
+plot(c(0.001, 1), c(0.01, 1), type="n", log="xy",
+  xlab="Cost associated with AMR plasmid",
+  ylab="CDF (Exponential component)"
+)
+# add fitted mixture distribution and individual components to plot
+cost.line <- seq(0.001, 1, 0.001)
+#lines(cost.line, model(pars=coef(fit), cost=cost.line))
+#lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col="blue")
+lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), col="red")
+graphics.off()
 
+# PDF plot
 svg(paste0(odir,"/cost_fitted_PDF.svg"), width=5.5, height=5)
 col.observed <- function(alpha=0.2) {rgb(.5, .5, .5, alpha=alpha)}
-col.exponential <- function(alpha=0.2) {rgb(.3, .5, .8, alpha=alpha)}
-col.gaussian <- function(alpha=0.1) {rgb(1, 0, 0, alpha=alpha)}
+col.gaussian <- function(alpha=0.2) {rgb(.3, .5, .8, alpha=alpha)}
+col.exponential <- function(alpha=0.1) {rgb(1, 0, 0, alpha=alpha)}
 
 hist(cost, probability=T, breaks=seq(min(cost)*1.5, max(cost)*2, by=0.02),
   ylim=c(0, 11), main="", col=col.observed(),
   border="grey", xlab="Cost associated with AMR plasmid",
   ylab="Density")
 
+cost.line <- seq(from=-0.5, to=0.5, by=0.001)
 gaussian <- coef(fit)["f"] * dnorm(x=cost.line, mean=0, sd=coef(fit)["sd"])
 total <- gaussian + (1 - coef(fit)["f"]) * dexp(x=cost.line, rate=coef(fit)["rate"])
 
