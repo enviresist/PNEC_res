@@ -1,0 +1,467 @@
+version	name	valid_species
+2024	Achromobacter xylosoxidans	TRUE
+2024	Acinetobacter baumannii	TRUE
+2024	Acinetobacter pittii	TRUE
+2024	Actinobacillus pleuropneumoniae	TRUE
+2024	Actinomyces israelii	TRUE
+2024	Actinomyces spp	FALSE
+2024	Aerococcus sanguinicola	TRUE
+2024	Aerococcus urinae	TRUE
+2024	Aeromonas caviae	TRUE
+2024	Aeromonas hydrophila	TRUE
+2024	Aeromonas veronii	TRUE
+2024	Alcaligenes faecalis	TRUE
+2024	Alcaligenes xylosoxidans	TRUE
+2024	Anaerobic cocci Gram positive	FALSE
+2024	Arcanobacterium pyogenes	TRUE
+2024	Bacillus anthracis	TRUE
+2024	Bacillus cereus	TRUE
+2024	Bacteroides caccae	TRUE
+2024	Bacteroides capillosus	TRUE
+2024	Bacteroides eggerthii	TRUE
+2024	Bacteroides fragilis	TRUE
+2024	Bacteroides fragilis group	FALSE
+2024	Bacteroides ovatus	TRUE
+2024	Bacteroides thetaiotaomicron	TRUE
+2024	Bacteroides uniformis	TRUE
+2024	Bacteroides vulgatus	TRUE
+2024	Bifidobacterium adolescentis	TRUE
+2024	Bifidobacterium animalis	TRUE
+2024	Bifidobacterium bifidum	TRUE
+2024	Bifidobacterium longum	TRUE
+2024	Bifidobacterium pseudolongum	TRUE
+2024	Bifidobacterium thermophilum	TRUE
+2024	Bilophila wadsworthia	TRUE
+2024	Bordetella bronchiseptica	TRUE
+2024	Brucella melitensis	TRUE
+2024	Burkholderia cepacia complex	TRUE
+2024	Burkholderia pseudomallei	TRUE
+2024	Campylobacter coli	TRUE
+2024	Campylobacter jejuni	TRUE
+2024	Campylobacter upsaliensis	TRUE
+2024	Chryseobacterium spp	FALSE
+2024	Citrobacter amalonaticus	TRUE
+2024	Citrobacter braakii	TRUE
+2024	Citrobacter freundii	TRUE
+2024	Citrobacter koseri	TRUE
+2024	Clostridioides difficile	TRUE
+2024	Clostridium innocuum	TRUE
+2024	Clostridium perfringens	TRUE
+2024	Clostridium ramnosum	TRUE
+2024	Corynebacterium amycolatum	TRUE
+2024	Corynebacterium diphtheriae	TRUE
+2024	Corynebacterium glucuronolyticum	TRUE
+2024	Corynebacterium jeikeium	TRUE
+2024	Corynebacterium pseudodiphtheriticum	TRUE
+2024	Corynebacterium striatum	TRUE
+2024	Corynebacterium ulcerans	TRUE
+2024	Cutibacterium acnes	TRUE
+2024	Enterobacter agglomerans	TRUE
+2024	Enterobacter amnigenus	TRUE
+2024	Enterobacter asburiae	TRUE
+2024	Enterobacter cloacae	TRUE
+2024	Enterobacter dissolvens	TRUE
+2024	Enterobacter sakazakii	TRUE
+2024	Enterococcus avium	TRUE
+2024	Enterococcus casseliflavus	TRUE
+2024	Enterococcus cecorum	TRUE
+2024	Enterococcus faecalis	TRUE
+2024	Enterococcus faecalis ATCC 29212	FALSE
+2024	Enterococcus faecium	TRUE
+2024	Enterococcus gallinarum	TRUE
+2024	Enterococcus hirae	TRUE
+2024	Escherichia coli	TRUE
+2024	Escherichia coli ATCC 25922	FALSE
+2024	Escherichia coli ATCC 35218	FALSE
+2024	Escherichia coli NCTC 13846	FALSE
+2024	Eubacterium lentum	TRUE
+2024	Finegoldia magna	TRUE
+2024	Francisella tularensis	TRUE
+2024	Fusobacterium mortiferum	TRUE
+2024	Fusobacterium necrophorum	TRUE
+2024	Fusobacterium nucleatum	TRUE
+2024	Haemophilus influenzae	TRUE
+2024	Haemophilus influenzae ATCC 49247	FALSE
+2024	Haemophilus influenzae ATCC 49766	FALSE
+2024	Haemophilus parainfluenzae	TRUE
+2024	Haemophilus parasuis	TRUE
+2024	Hafnia alvei	TRUE
+2024	Helicobacter pylori	TRUE
+2024	Histophilus somni	TRUE
+2024	Kingella kingae	TRUE
+2024	Klebsiella aerogenes	TRUE
+2024	Klebsiella oxytoca	TRUE
+2024	Klebsiella ozaenae	TRUE
+2024	Klebsiella pneumoniae	TRUE
+2024	Klebsiella pneumoniae ATCC 700603	FALSE
+2024	Klebsiella terrigena	TRUE
+2024	Klebsiella variicola	TRUE
+2024	Kocuria kristinae	TRUE
+2024	Lactobacillus acidophilus	TRUE
+2024	Lactobacillus amylovorus	TRUE
+2024	Lactobacillus crispatus	TRUE
+2024	Lactobacillus delbrueckii	TRUE
+2024	Lactobacillus fermentum	TRUE
+2024	Lactobacillus gallinarum	TRUE
+2024	Lactobacillus gasseri	TRUE
+2024	Lactobacillus helveticus	TRUE
+2024	Lactobacillus johnsonii	TRUE
+2024	Lactobacillus lactis	TRUE
+2024	Lactobacillus paracasei	TRUE
+2024	Lactobacillus plantarum	TRUE
+2024	Lactobacillus reuteri	TRUE
+2024	Lactobacillus rhamnosus	TRUE
+2024	Lactobacillus sakei	TRUE
+2024	Lactococcus lactis	TRUE
+2024	Legionella pneumophila	TRUE
+2024	Listeria monocytogenes	TRUE
+2024	Mannheimia haemolytica	TRUE
+2024	Moraxella catarrhalis	TRUE
+2024	Morganella morganii	TRUE
+2024	Mycobacterium abscessus	TRUE
+2024	Mycobacterium avium	TRUE
+2024	Mycobacterium avium ATCC 700898	FALSE
+2024	Mycobacterium intracellulare	TRUE
+2024	Mycobacterium marinum	TRUE
+2024	Mycobacterium tuberculosis	TRUE
+2024	Mycobacterium tuberculosis 7H10	FALSE
+2024	Mycobacterium tuberculosis 7H11	FALSE
+2024	Mycobacterium tuberculosis 7H9	FALSE
+2024	Mycobacterium tuberculosis MGIT 960	FALSE
+2024	Mycoplasma bovis	TRUE
+2024	Mycoplasma hyopneumoniae	TRUE
+2024	Neisseria gonorrhoeae	TRUE
+2024	Neisseria meningitidis	TRUE
+2024	Nocardia aboflava	TRUE
+2024	Nocardia abscessus	TRUE
+2024	Nocardia cyriacigeorgica	TRUE
+2024	Nocardia nova	TRUE
+2024	Nocardia takedensis	TRUE
+2024	Pantoea agglomerans	TRUE
+2024	Parabacteroides distasonis	TRUE
+2024	Pasteurella multocida	TRUE
+2024	Peptostreptococcus anaerobius	TRUE
+2024	Peptostreptococcus asacchoralyticus	TRUE
+2024	Peptostreptococcus micros	TRUE
+2024	Peptostreptococcus prevotii	TRUE
+2024	Plesiomonas shigelloides	TRUE
+2024	Porphyromonas asaccharolytica	TRUE
+2024	Prevotella bivia	TRUE
+2024	Prevotella buccae	TRUE
+2024	Prevotella intermedia	TRUE
+2024	Prevotella melaninogenica	TRUE
+2024	Prevotella spp beta lactamase neg	FALSE
+2024	Prevotella spp beta lactamase pos	FALSE
+2024	Proteus mirabilis	TRUE
+2024	Proteus penneri	TRUE
+2024	Proteus vulgaris	TRUE
+2024	Providencia rettgeri	TRUE
+2024	Providencia stuartii	TRUE
+2024	Pseudomonas aeruginosa	TRUE
+2024	Pseudomonas aeruginosa ATCC 27853	FALSE
+2024	Pseudomonas fluorescens group	FALSE
+2024	Pseudomonas putida group	FALSE
+2024	Pseudomonas stutzeri group	FALSE
+2024	Rothia aeria	TRUE
+2024	Rothia dentocariosa	TRUE
+2024	Rothia mucilaginosa	TRUE
+2024	Salmonella agona	TRUE
+2024	Salmonella anatum	TRUE
+2024	Salmonella bareilly	TRUE
+2024	Salmonella berta	TRUE
+2024	Salmonella braenderup	TRUE
+2024	Salmonella derby	TRUE
+2024	Salmonella Dublin	TRUE
+2024	Salmonella enterica	TRUE
+2024	Salmonella Enteritidis	TRUE
+2024	Salmonella Group B	FALSE
+2024	Salmonella Group C	FALSE
+2024	Salmonella Group D	FALSE
+2024	Salmonella hadar	TRUE
+2024	Salmonella hartford	TRUE
+2024	Salmonella heidelberg	TRUE
+2024	Salmonella infantis	TRUE
+2024	Salmonella javiana	TRUE
+2024	Salmonella litchfield	TRUE
+2024	Salmonella manhattan	TRUE
+2024	Salmonella mbandaka	TRUE
+2024	Salmonella mississippi	TRUE
+2024	Salmonella montevideo	TRUE
+2024	Salmonella muenchen	TRUE
+2024	Salmonella newport	TRUE
+2024	Salmonella oranienburg	TRUE
+2024	Salmonella panama	TRUE
+2024	Salmonella Paratyphi	TRUE
+2024	Salmonella poona	TRUE
+2024	Salmonella rubislaw	TRUE
+2024	Salmonella saintpaul	TRUE
+2024	Salmonella sandiego	TRUE
+2024	Salmonella schwarzengrund	TRUE
+2024	Salmonella senftenberg	TRUE
+2024	Salmonella stanley	TRUE
+2024	Salmonella thompson	TRUE
+2024	Salmonella Typhi	TRUE
+2024	Salmonella Typhimurium	TRUE
+2024	Salmonella virchow	TRUE
+2024	Serratia liquefaciens	TRUE
+2024	Serratia marcescens	TRUE
+2024	Shigella flexneri	TRUE
+2024	Shigella sonnei	TRUE
+2024	Shigella spp	FALSE
+2024	Staphylococcus aureus	TRUE
+2024	Staphylococcus aureus ATCC 29213	FALSE
+2024	Staphylococcus aureus MRSA	TRUE
+2024	Staphylococcus aureus MSSA	TRUE
+2024	Staphylococcus auricularis	TRUE
+2024	Staphylococcus capitis	TRUE
+2024	Staphylococcus coagulase negative	FALSE
+2024	Staphylococcus cohnii	TRUE
+2024	Staphylococcus epidermidis	TRUE
+2024	Staphylococcus epidermidis MRSE	TRUE
+2024	Staphylococcus epidermidis MSSE	TRUE
+2024	Staphylococcus haemolyticus	TRUE
+2024	Staphylococcus hominis	TRUE
+2024	Staphylococcus hyicus	TRUE
+2024	Staphylococcus intermedius	TRUE
+2024	Staphylococcus lugdunensis	TRUE
+2024	Staphylococcus pseudintermedius	TRUE
+2024	Staphylococcus saprophyticus	TRUE
+2024	Staphylococcus simulans	TRUE
+2024	Staphylococcus warneri	TRUE
+2024	Staphylococcus xylosus	TRUE
+2024	Stenotrophomonas maltophilia	TRUE
+2024	Streptococcus acidominimus	TRUE
+2024	Streptococcus agalactiae	TRUE
+2024	Streptococcus anaerobic	TRUE
+2024	Streptococcus anginosus	TRUE
+2024	Streptococcus anginosus group	FALSE
+2024	Streptococcus bovis	TRUE
+2024	Streptococcus bovis equinus group	FALSE
+2024	Streptococcus canis	TRUE
+2024	Streptococcus constellatus	TRUE
+2024	Streptococcus dysgalactiae	TRUE
+2024	Streptococcus equi subspecies equi	TRUE
+2024	Streptococcus equi subspecies zooepidemicus	TRUE
+2024	Streptococcus equinus	TRUE
+2024	Streptococcus equisimilis	TRUE
+2024	Streptococcus gordonii	TRUE
+2024	Streptococcus group C	FALSE
+2024	Streptococcus group G	FALSE
+2024	Streptococcus intermedius	TRUE
+2024	Streptococcus mitis	TRUE
+2024	Streptococcus mitis group	FALSE
+2024	Streptococcus mutans	TRUE
+2024	Streptococcus oralis	TRUE
+2024	Streptococcus parasanguinis	TRUE
+2024	Streptococcus pneumoniae	TRUE
+2024	Streptococcus pneumoniae ATCC 49619	FALSE
+2024	Streptococcus pyogenes	TRUE
+2024	Streptococcus salivarius	TRUE
+2024	Streptococcus salivarius group	FALSE
+2024	Streptococcus sanguinis	TRUE
+2024	Streptococcus sanguinis group	FALSE
+2024	Streptococcus suis	TRUE
+2024	Streptococcus thermophilus	TRUE
+2024	Streptococcus uberis	TRUE
+2024	Streptococcus vestibularis	TRUE
+2024	Vibrio alginolyticus	TRUE
+2024	Vibrio cholerae	TRUE
+2024	Vibrio fluvialis	TRUE
+2024	Vibrio parahaemolyticus	TRUE
+2024	Vibrio vulnificus	TRUE
+2024	Yersinia enterocolitica	TRUE
+2014	Acinetobacter anitratus	TRUE
+2014	Acinetobacter baumannii	TRUE
+2014	Acinetobacter calcoaceticus	TRUE
+2014	Acinetobacter lwoffii	TRUE
+2014	Acinetobacter spp	FALSE
+2014	Actinomyces israelii	TRUE
+2014	Actinomyces spp	FALSE
+2014	Aeromonas hydrophila	TRUE
+2014	Aeromonas spp	FALSE
+2014	Alcaligenes xylosoxidans	TRUE
+2014	Anaerobic cocci Gram positive	FALSE
+2014	Bacteroides caccae	TRUE
+2014	Bacteroides capillosus	TRUE
+2014	Bacteroides distasonis	TRUE
+2014	Bacteroides fragilis	TRUE
+2014	Bacteroides fragilis group	FALSE
+2014	Bacteroides ovatus	TRUE
+2014	Bacteroides spp	FALSE
+2014	Bacteroides thetaiotaomicron	TRUE
+2014	Bacteroides uniformis	TRUE
+2014	Bacteroides ureolyticus	TRUE
+2014	Bacteroides vulgatus	TRUE
+2014	Bifidobacterium longum	TRUE
+2014	Bifidobacterium pseudolongum	TRUE
+2014	Bifidobacterium spp	FALSE
+2014	Bifidobacterium thermophilum	TRUE
+2014	Burkholderia cepacia	TRUE
+2014	Campylobacter coli	TRUE
+2014	Campylobacter jejuni	TRUE
+2014	Chryseobacterium meningosepticum	TRUE
+2014	Chryseobacterium spp	FALSE
+2014	Citrobacter braakii	TRUE
+2014	Citrobacter freundii	TRUE
+2014	Citrobacter koseri	TRUE
+2014	Citrobacter spp	FALSE
+2014	Clostridium butyricum	TRUE
+2014	Clostridium difficile	TRUE
+2014	Clostridium perfringens	TRUE
+2014	Clostridium ramosum	TRUE
+2014	Clostridium septicum	TRUE
+2014	Clostridium sporogenes	TRUE
+2014	Clostridium spp	FALSE
+2014	Corynebacterium amycolatum	TRUE
+2014	Corynebacterium jeikeium	TRUE
+2014	Corynebacterium pseudodiphtheriticum	TRUE
+2014	Corynebacterium spp	FALSE
+2014	Corynebacterium striatum	TRUE
+2014	Corynebacterium urealyticum	TRUE
+2014	Eikenella corrodens	TRUE
+2014	Enterobacter aerogenes	TRUE
+2014	Enterobacter agglomerans	TRUE
+2014	Enterobacter amnigenus	TRUE
+2014	Enterobacter asburiae	TRUE
+2014	Enterobacter cancerogenus	TRUE
+2014	Enterobacter cloacae	TRUE
+2014	Enterobacter dissolvens	TRUE
+2014	Enterobacter gergoviae	TRUE
+2014	Enterobacter hormaechei	TRUE
+2014	Enterobacter intermedium	TRUE
+2014	Enterobacter sakazakii	TRUE
+2014	Enterobacter spp	FALSE
+2014	Enterobacter taylorae	TRUE
+2014	Enterococcus avium	TRUE
+2014	Enterococcus casseliflavus	TRUE
+2014	Enterococcus durans	TRUE
+2014	Enterococcus faecalis	TRUE
+2014	Enterococcus faecium	TRUE
+2014	Enterococcus gallinarum	TRUE
+2014	Enterococcus hirae	TRUE
+2014	Enterococcus spp	FALSE
+2014	Escherichia coli	TRUE
+2014	Eubacterium lentum	TRUE
+2014	Fusobacterium spp	FALSE
+2014	Haemophilus influenzae	TRUE
+2014	Haemophilus parainfluenzae	TRUE
+2014	Hafnia alvei	TRUE
+2014	Helicobacter pylori	TRUE
+2014	Klebsiella oxytoca	TRUE
+2014	Klebsiella ozaenae	TRUE
+2014	Klebsiella pneumoniae	TRUE
+2014	Klebsiella spp	FALSE
+2014	Klebsiella terrigena	TRUE
+2014	Kluyvera spp	FALSE
+2014	Lactobacillus acidophilus	TRUE
+2014	Lactobacillus amylovorus	TRUE
+2014	Lactobacillus crispatus	TRUE
+2014	Lactobacillus delbrueckii	TRUE
+2014	Lactobacillus fermentum	TRUE
+2014	Lactobacillus gallinarum	TRUE
+2014	Lactobacillus gasseri	TRUE
+2014	Lactobacillus helveticus	TRUE
+2014	Lactobacillus johnsonii	TRUE
+2014	Lactobacillus lactis	TRUE
+2014	Lactobacillus paracasei	TRUE
+2014	Lactobacillus plantarum	TRUE
+2014	Lactobacillus reuteri	TRUE
+2014	Lactobacillus rhamnosus	TRUE
+2014	Lactobacillus sakei	TRUE
+2014	Lactobacillus spp	FALSE
+2014	Lactococcus lactis	TRUE
+2014	Legionella pneumophila	TRUE
+2014	Listeria monocytogenes	TRUE
+2014	Mannheimia haemolytica	TRUE
+2014	Moraxella catarrhalis	TRUE
+2014	Morganella morganii	TRUE
+2014	Mycobacterium marinum	TRUE
+2014	Mycobacterium tuberculosis	TRUE
+2014	Neisseria gonorrhoeae	TRUE
+2014	Neisseria meningitidis	TRUE
+2014	Pasteurella multocida	TRUE
+2014	Pasteurella spp	FALSE
+2014	Peptostreptococcus micros	TRUE
+2014	Peptostreptococcus spp	FALSE
+2014	Plesiomonas shigelloides	TRUE
+2014	Porphyromonas spp	FALSE
+2014	Prevotella spp	FALSE
+2014	Prevotella spp beta lactamase pos	FALSE
+2014	Propionibacterium acnes	TRUE
+2014	Proteus mirabilis	TRUE
+2014	Proteus spp	FALSE
+2014	Proteus vulgaris	TRUE
+2014	Providencia rettgeri	TRUE
+2014	Providencia spp	FALSE
+2014	Providencia stuartii	TRUE
+2014	Pseudomonas aeruginosa	TRUE
+2014	Pseudomonas fluorescens group	FALSE
+2014	Pseudomonas putida group	FALSE
+2014	Pseudomonas stutzeri group	FALSE
+2014	Raoultella spp	FALSE
+2014	Salmonella dublin	TRUE
+2014	Salmonella enteritidis	TRUE
+2014	Salmonella group B	FALSE
+2014	Salmonella group C	FALSE
+2014	Salmonella group D	FALSE
+2014	Salmonella paratyphi	TRUE
+2014	Salmonella spp	FALSE
+2014	Salmonella typhi	TRUE
+2014	Salmonella typhimurium	TRUE
+2014	Serratia liquefaciens	TRUE
+2014	Serratia marcescens	TRUE
+2014	Serratia spp	FALSE
+2014	Shigella boydii	TRUE
+2014	Shigella dysenteriae	TRUE
+2014	Shigella flexneri	TRUE
+2014	Shigella sonnei	TRUE
+2014	Shigella spp	FALSE
+2014	Staphylococcus aureus	TRUE
+2014	Staphylococcus aureus MRSA	TRUE
+2014	Staphylococcus aureus MSSA	TRUE
+2014	Staphylococcus auricularis	TRUE
+2014	Staphylococcus capitis	TRUE
+2014	Staphylococcus coagulase negative	FALSE
+2014	Staphylococcus coagulase negative MRSE	FALSE
+2014	Staphylococcus cohnii	TRUE
+2014	Staphylococcus epidermidis	TRUE
+2014	Staphylococcus epidermidis MRSE	TRUE
+2014	Staphylococcus epidermidis MSSE	TRUE
+2014	Staphylococcus haemolyticus	TRUE
+2014	Staphylococcus hominis	TRUE
+2014	Staphylococcus hyicus	TRUE
+2014	Staphylococcus intermedius	TRUE
+2014	Staphylococcus lugdunensis	TRUE
+2014	Staphylococcus saprophyticus	TRUE
+2014	Staphylococcus sciuri	TRUE
+2014	Staphylococcus simulans	TRUE
+2014	Staphylococcus warneri	TRUE
+2014	Staphylococcus xylosis	TRUE
+2014	Stenotrophomonas maltophilia	TRUE
+2014	Streptococcus acidominimus	TRUE
+2014	Streptococcus agalactiae	TRUE
+2014	Streptococcus anginosus	TRUE
+2014	Streptococcus bovis	TRUE
+2014	Streptococcus constellatus	TRUE
+2014	Streptococcus dysgalactiae	TRUE
+2014	Streptococcus equinus	TRUE
+2014	Streptococcus gordonii	TRUE
+2014	Streptococcus group C	FALSE
+2014	Streptococcus group F	FALSE
+2014	Streptococcus group G	FALSE
+2014	Streptococcus intermedius	TRUE
+2014	Streptococcus milleri	TRUE
+2014	Streptococcus mitis	TRUE
+2014	Streptococcus mutans	TRUE
+2014	Streptococcus oralis	TRUE
+2014	Streptococcus parasanguis	TRUE
+2014	Streptococcus pneumoniae	TRUE
+2014	Streptococcus pyogenes	TRUE
+2014	Streptococcus salivarius	TRUE
+2014	Streptococcus sanguinis	TRUE
+2014	Streptococcus thermophilus	TRUE
+2014	Streptococcus uberis	TRUE
+2014	Streptococcus vestibularis	TRUE
+2014	Streptococcus viridans group	FALSE
+2014	Yersinia enterocolitica	TRUE
+2014	Yersinia spp	FALSE
