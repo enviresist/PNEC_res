@@ -2,6 +2,10 @@ rm(list=ls())
 
 source("generate_functions.r")
 
+version <- "2024"
+
+crit_scaling_factor <- 0.1  # for warnings
+
 odir <- "generatedHTML"
 
 cssfile <- "input_static/styles.css"
@@ -14,9 +18,19 @@ links <- c(
 )
 
 rd <- function(f, ...) { read.table(file=f, sep="\t", header=TRUE, ...=...) }
+
 drugs <- rd("../1_databases/db_drugs.tsv")
+
 bpl16 <- rd("../1_databases/BengtssonPalmeAndLarsson2016.tsv")
+bpl16 <- cbind(bpl16, scaling.factor=sapply(bpl16[,"valid.species"],
+function(n) { if (!is.finite(n)) NA else if (n < 40) signif(n/41,3) else 1 }) )
+
+qmics <- rd("../2_analysis_MIC/output/MIC_quantiles.tsv")
+qmics <- qmics[qmics[,"version"] == version, names(qmics) != "version"]
+
 lmics <- rd("../2_analysis_MIC/output/MIC_lowest.tsv")
+lmics <- lmics[lmics[,"version"] == version, names(lmics) != "version"]
+
 costs <- rd("../3_analysis_cost/output/cost_quantiles.tsv", check.names=F)
 names(costs)[grepl(names(costs), pattern="profile")] <- "95% CI <sup>x</sup>"
 names(costs)[grepl(names(costs), pattern="bootstrap")] <- "95% CI <sup>y</sup>"
@@ -26,7 +40,6 @@ if (!identical(sort(drugs$drug), sort(bpl16$drug))) { stop("mismatch in listed d
 
 stopifnot(file.copy(cssfile, odir, overwrite=TRUE))
 cssfile <- basename(cssfile)
-
 
 ########################################################################
 # start registry of pages accessible from main menu
@@ -104,6 +117,8 @@ x <- x[,names(x) != "drug"]
 
 as.df <- function(x) {data.frame(category=paste0(names(x),":"), value=x)}
 
+tmpfile <- tempfile()
+
 for (d in rownames(x)) {
   
   # drug metadata
@@ -119,44 +134,70 @@ for (d in rownames(x)) {
     x[d,"organisms.tested"], ""))
   info <- rbind(info, list("Organisms with sufficient n for quantile estimation",
     x[d,"organisms.evaluated"], ""))
-  info <- rbind(info, list("Valid species considered for rescaling",
-    x[d,"valid.species.current"], x[d,"valid.species.reference"]))
+
   speclist <- paste0("<span style='font-style:italic'>", gsub(x[d,"most.sensitive"],
     pattern=",", replacement=",<br>", fixed=T),"</span>")
-  info <- rbind(info, list("Most sensitive organism(s)",
+  info <- rbind(info, list(paste("Most sensitive organism(s)",
+      tooltip("Most sensitive organisms tested by EUCAST.")),
     speclist, ""))
-  info <- rbind(info, list("Original MIC quantile <sup>*,1</sup> (mg/L)",
+
+  info <- rbind(info, list(paste("Original MIC quantile (mg/L)",
+    tooltip("1% MIC quantile of the most sensitive species supported by a sufficient number of observations.")),
     x[d,"lowest.MIC.quantile.current"], x[d,"lowest.MIC.quantile.reference"]))
-  info <- rbind(info, list("Extrapolated MIC quantile <sup>*,2</sup> (mg/L)",
+
+  info <- rbind(info, list(paste("Extrapolated MIC quantile (mg/L)",
+    tooltip("Extrapolation is only performed if the original MIC quantile is identical to the lowest tested concentration.")),
     x[d,"lowest.MIC.quantile.extrapol.current"],
     if (is.finite(x[d,"lowest.MIC.quantile.extrapol.reference"]))
       x[d,"lowest.MIC.quantile.extrapol.reference"] else x[d,"lowest.MIC.quantile.reference"]
   ))
-  info <- rbind(info, list("MIC<sub>lowest</sub> <sup>*,3</sup> (mg/L)",
+
+  info <- rbind(info, list(paste("Valid species considered for scaling",
+    tooltip("Represents the number of unique species names. Type strains and organisms
+      with ambiguous species information were left out of considerations. However,
+      Salmonella serovars were counted as independent species.")),
+    x[d,"valid.species.current"], x[d,"valid.species.reference"]))
+
+  warn <- function(x, crit) {
+    if (is.finite(x) && (x <= crit)) "<span style='color:red'>(!)</span>" else ""
+  }
+  info <- rbind(info, list(paste("Scaling factor (-)",
+    tooltip("The scaling factor corrects the MIC quantile to account for the limited number of tested species.
+      The respective factor has been estimated by resampling and the value differs slightly between approaches.
+      Small factors with an attached warning symbol indicate increased uncertainty.")),
+    paste(x[d,"scaling.factor.current"], warn(x[d,"scaling.factor.current"], crit_scaling_factor)),
+    paste(x[d,"scaling.factor.reference"], warn(x[d,"scaling.factor.reference"], crit_scaling_factor))
+  ))  
+
+  info <- rbind(info, list(paste("MIC<sub>lowest</sub> (mg/L)",
+    tooltip("Lower bound estimate of the MIC obtained after scaling and rounding.")),
     x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"],x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.reference"]))
+
   cost_quantile <- costs[costs[,"Probability"] == 0.05, "Cost"]
-  info <- rbind(info, list("Conversion factor (<i>PNEC<sub>R</sub> = f * MIC<sub>lowest</sub></i>) <sup>4</sup>",
+  info <- rbind(info, list(paste("Conversion factor (<i>PNEC<sub>R</sub> = f * MIC<sub>lowest</sub></i>)",
+    tooltip("The value of 0.004 represents the 5% quantile of the cost associated with plasmid-borne resistance.
+      By contrast, the value of 0.1 was originally considered an assessment factor.")),
     cost_quantile, 1/10))
+
   info <- rbind(info, list("PNEC<sub>R</sub> (mg/L)",
     cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
 
   info <- as.data.frame(apply(info,2,unlist))
-  names(info) <- c("", "Proposed (2024) <sup>a</sup>", "Reference (2014) <sup>b</sup>")
+  names(info) <- c("", "Proposed <sup>1</sup>", "Reference <sup>2</sup>") 
 
   footnotes <- rbind(
-    c("a", "<span style='color:red';>TODO: Enter DOI of preprint.</span>"),
-    c("b", "From Table 1 of the <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>Bengtsson-Palme & Larsson (2016)</a> paper.
-      The corresponding MIC data are from 2014."),
-    c("*", "Estimates were computed from data published in the <a href='https://mic.eucast.org/search/' target='_blank'>EUCAST MIC database</a>     using the algorithm proposed by <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>Bengtsson-Palme & Larsson (2016)</a>."),
-    c("1", "1% MIC quantile of the most sensitive species supported by a sufficient number of observations."),
-    c("2", "Extrapolation is only performed if the original MIC quantile is identical to the lowest tested concentration."),
-    c("3", "Estimate obtained after rescaling and rounding. Scaling is only performed if the number of valid species is less than 40."),
-    c("4", "The value of 0.004 represents the 5% quantile of the cost associated with plasmid-borne resistance.
-      The value of 0.1 was originally termed an 'assessment' factor.")
+    c("1", "<span style='color:red';>Based on EUCAST MIC data of 2024. TODO: Enter DOI when available.</span>"),
+    c("2", "From Table 1 of the <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
+      Bengtsson-Palme & Larsson (2016)</a> paper. The corresponding EUCAST MIC data are from 2014.")
   )
   footnotes <- paste0("<div style='font-size:smaller;'>","\n",
     paste("<sup>",footnotes[,1],"</sup> ",footnotes[,2],"<br>", collapse="\n"),"\n",
   "</div>","\n")
+ 
+  svg(tmpfile, width=6, height=4)
+  plot_MIC_quantiles(drug=d, q=qmics[qmics[,"drug"] == d, "MIC.quantile"],
+    e=lmics[lmics[,"drug"] == d, "lowest.MIC.quantile.extrapol.scaled.rounded"])
+  graphics.off()
 
   html <- paste0(
 
@@ -168,15 +209,12 @@ for (d in rownames(x)) {
     
     "<h1>Estimates</h1>","\n",
     table.static(info, colnames=TRUE, class="stripedTable"),"\n\n",
-    expandableSection(
-      footnotes,
-      labelIfClosed="[Show footnotes]", labelIfOpen="[Hide footnotes]"
-    ),"\n\n",
+    footnotes,"\n\n",
 
     "<h1>Details</h1>","\n",
     "<h2>Estimation of MIC<sub>lowest</sub></h2>","\n",
     expandableSection(
-      embedSVG(file=paste0("../2_analysis_MIC/output/visual_rawMinMIC_",d,".svg"),
+      embedSVG(file=tmpfile,
         caption="Distribution of original MIC quantiles of the tested organisms
           in comparison to MIC<sub>lowest</sub>."),
       labelIfClosed="[Show details]", labelIfOpen="[Hide details]"
@@ -192,12 +230,6 @@ for (d in rownames(x)) {
           thus to translate MIC<sub>lowest</sub> into PNEC<sub>R</sub>.
           Superscripts x and y denote parametric and bootstrap confidence
           intervals, respectively."),
-#        embedSVG(file=paste0("../3_analysis_cost/output/cost_fitted.svg"),
-#          caption="Distribution of the cost associated with plasmid-borne
-#            resistance. The mixture distribution model is a weighted sum of a
-#            Gaussian and an exponential component. The proposed MSC /
-#            MIC<sub>lowest</sub> conversion factor represents the 5% quantile
-#            of the exponential component.")
       labelIfClosed="[Show details]", labelIfOpen="[Hide details]"
     ),"\n\n",
     
@@ -205,5 +237,6 @@ for (d in rownames(x)) {
   )
   write(html, paste0(odir,"/drug_",
     gsub(d, pattern=" ", replacement="_", fixed=TRUE),".html"))
-  
 }
+
+file.remove(tmpfile)

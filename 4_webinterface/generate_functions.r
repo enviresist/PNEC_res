@@ -117,6 +117,11 @@ expandableSection <- function(content, labelIfOpen="Collapse", labelIfClosed="Op
   )
 }
 
+tooltip <- function(x) {
+ paste0("<span class='tooltip'> &#128712;",
+  "<span class='tooltiptext'>",x,"</span></span>")  
+}
+
 embedSVG <- function(file, caption) {
   paste0(   
     "<figure>","\n",
@@ -124,4 +129,40 @@ embedSVG <- function(file, caption) {
     "<figcaption>",caption,"</figcaption>",
     "</figure>"
   )
+}
+
+plot_MIC_quantiles <- function(
+  drug,  # drug name
+  q,     # vector of MIC quantiles for tested organisms
+  e      # final estimate of MIC_lowest
+) {
+  q <- round(log2(q[is.finite(q)]))
+  e <- round(log2(e))
+  rng <- range(c(q, e, -9, 9))
+  classes <- min(rng):max(rng)
+  if (length(q) > 0) {
+    stopifnot(all(q %in% classes))
+    x <- sapply(classes, function(x, qtl) { sum(qtl == x) }, qtl=q)
+    layout(matrix(1:2, ncol=1), heights=0.2, 0.8)
+    omar <- par("mar")
+    par(mar=c(1,5,1,1))
+    plot(0, 0, type="n", axes=FALSE, ann=FALSE)
+    legend("topright", bty="n", col="red", lty=1,
+      legend=expression(paste("MIC",{}["lowest"])))
+    par(mar=c(5.5,5,1,1))    
+    z <- barplot(x,
+#      names.arg=as.expression(sapply(classes, function(x) {substitute(2^p, list(p=x))})),
+      names.arg=classes,
+      col="oldlace", border="grey", xaxt="n", yaxt="n",
+      xlab="", ylab="Cases")
+    mtext(side=1, line=4, paste0(drug, " (mg/L)"))
+    axis(side=1, at=z, labels=signif(2^classes,3), line=-0.5, lwd=0, las=2)
+    axis(side=2, at=c(0, 1, 2, 5, 10, 20, 20, 40, 50, 75, 100), las=2)
+    abline(v=z[match(e, classes)], col="red")
+    par(mar=omar)
+    layout(1)
+  } else {
+    plot(0, 0, type="n", axes=FALSE, ann=FALSE)
+    legend("center", legend="no finite data for plotting")
+  }
 }
