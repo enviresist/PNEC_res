@@ -1,3 +1,19 @@
+rm(list=ls())
+
+# output directory
+odir <- "output"
+
+# import databases
+rd <- function(f) { read.table(file=f, sep="\t", header=TRUE) }
+db <- list(
+  mic= rd(paste0("../1_databases/db_mic.tsv")),
+  ecoff= rd(paste0("../1_databases/db_ecoff.tsv")),
+  drugs= rd("../1_databases/db_drugs.tsv")
+)
+
+# general settings adopted from the Bengtsson-Palme & Larsson algorithm
+settings <- list(nCut = 10, pCut = 0.01)
+
 # Returns a data frame with MIC quantiles and possibly extrapolated
 # estimates for all tested organisms.
 # The returned indicators may be NA if the filter criteria were not
@@ -62,3 +78,19 @@ evalMIC_organismLevel <- function(
   rownames(out) <- NULL
   out
 }
+
+append <- FALSE
+for (v in unique(db$mic[,"version"])) {
+  mic <- db$mic[db$mic[,"version"] == v,]
+  ecf <- db$ecoff[db$ecoff[,"version"] == v,]
+  drugs <- unique(mic[,"drug"])
+  for (d in drugs) {
+    x <- evalMIC_organismLevel(drug=d, dbMIC=mic, dbECOFF=ecf,
+      nCut=settings[["nCut"]], pCut=settings[["pCut"]])
+    x <- cbind(version=v, drug=d, x)
+    write.table(x, file=paste0(odir,"/MIC_quantiles.tsv"), sep="\t",
+      col.names=!append, row.names=F, quote=F, append=append)
+    append <- TRUE
+  }
+}
+
