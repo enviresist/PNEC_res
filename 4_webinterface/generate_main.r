@@ -187,18 +187,18 @@ for (d in rownames(x)) {
       understood as an assessment factor.")),
     cost_quantile, 1/10))
 
-  info <- rbind(info, list(paste0("Predicted MSC a.k.a. PMSC (mg/L)",
+  info <- rbind(info, list(paste("Predicted MSC a.k.a. PMSC (mg/L)",
     tooltip("The product of MIC<sub>lowest</sub> and the above conversion factor. The PMSC represents a minimum estimate
       of the MSC for a multi-species and possibly multi-strain community. It does not refer to a particular pair of
       resistant and susceptible competitors.")),  
     cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
 
-  info <- rbind(info, list(paste0("Assessment factor to convert PMSC into PNEC<sub>res</sub> (-)",
+  info <- rbind(info, list(paste("Assessment factor to convert PMSC into PNEC<sub>res</sub> (-)",
     tooltip("The assessment factor of 1 reflects that uncertainties are sufficiently covered by the
       algorithms underlying the calculation of the PMSC.")),
     "1", "not used"))
 
-  info <- rbind(info, list(paste0("PNEC<sub>res</sub> (mg/L)",
+  info <- rbind(info, list(paste("PNEC<sub>res</sub> (mg/L)",
     tooltip("The value is identical to PMSC by intention, given the assessment factor of 1.")),
     cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
 
