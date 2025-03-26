@@ -73,8 +73,8 @@ for (v in unique(mic_quantiles[,"version"])) {
       organisms.evaluated=n.organisms.evaluated,
       valid.species=n.valid.species,
       lowest.MIC.quantile= lowest.MIC.quantile,
-      lowest.MIC.quantile.extrapol= lowest.MIC.quantile.extrapol,    
-      lowest.MIC.quantile.extrapol.scaled= lowest.MIC.quantile.extrapol.scaled,
+      lowest.MIC.quantile.extrapol= signif(lowest.MIC.quantile.extrapol, 3),
+      lowest.MIC.quantile.extrapol.scaled= signif(lowest.MIC.quantile.extrapol.scaled, 3),
       lowest.MIC.quantile.extrapol.scaled.rounded= signif(lowest.MIC.quantile.extrapol.scaled,3),
       scaling.factor= signif(scaling.factor, 3),
       most.sensitive=paste(most.sensitive, collapse=",")
