@@ -15,9 +15,9 @@ data <- read.table(file=paste0(odir,"/MIC_quantiles.tsv"), sep="\t", header=TRUE
 
 plt <- function(x, version) {  
   omar <- par("mar")
-  par(mar=c(4,6,1,1))
+  par(mar=c(4.5,5.5,1,1))
   plot(min_sample/min_true ~ norg, data=x, type="n", log="xy",
-    yaxt="n", xlab="Subsample size (number of species)", ylab="", bty="L")
+    yaxt="n", xlab="Number of organisms in subsample", ylab="", bty="L")
   fn <- function(z) {
     x <- unique(z[,"norg"])
     y <- quantile(z[,"min_sample"] / z[,"min_true"], probs=c(0.95, 0.75, 0.5, 0.25, 0.05))
@@ -51,7 +51,7 @@ plt <- function(x, version) {
     pch=c(1, 20, NA), lty=c(NA, NA, 1), col="grey",
     legend=c("Mean", "Median", "5% - 95% Quantile"))
   legend("right", bty="n", lty=c(2, 4), col=c("blue","red"),
-    legend=c("Legacy model", "Continuous fit"))
+    legend=c("Bengtsson-Palme\n& Larsson (2016)", "Continuous fit"))
   par(mar=omar)
   
   rbind(
