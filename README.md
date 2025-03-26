@@ -1,11 +1,11 @@
-# PNECR
+# PNEC_res
 
 The repository holds R code and data to estimate predicted no-effect
 concentrations of antibiotics in terms of selection for resistance
-(PNECR). The latter are meant to be used for the purpose of
+(PNEC_res). The latter are meant to be used for the purpose of
 environmental regulation.
 
-Consider the [web interface](https://enviresist.github.io/pnecr) to explore
+Consider the [web interface](https://enviresist.github.io/PNEC_res) to explore
 the outcomes. For the standard user, this is way more convenient
 compared to cloning the repository and re-analyzing the data locally.
 
@@ -34,7 +34,7 @@ R code to estimate quantiles of the cost of plasmid-borne resistance.
 
 ## 4_webinterface
 
-R code to derive PNECR values from the estimated
+R code to derive PNEC_res values from the estimated
 lowest MIC and a quantile of the resistance costs. The results are
 compiled into a (pseudo)-dynamic web page. See the top of this README
 file for an instantly accessible instance of that web page.
