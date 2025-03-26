@@ -10,7 +10,7 @@
   <body>
   <div class="pagecontainer">  
     <div class="pagetop">
-      <div class="headline">Predicted no-effect concentrations of antibiotics regarding resistance selection (PNEC<sub>R</sub>)</div>
+      <div class="headline">Predicted no-effect concentrations of antibiotics regarding resistance selection (PNEC<sub>res</sub>)</div>
       <div class="topnav">
         <nav><a href='index.html' class='topnavInactive'>About</a> 
 <a href='select.html' class='topnavInactive'>Select drug</a> 
@@ -35,26 +35,38 @@
     <tr><td></td><td>Proposed <sup>1</sup></td><td>Reference <sup>2</sup></td></tr>
   </thead>
   <tbody>
-<tr><td>Organisms tested in total</td><td>15</td><td></td></tr>
-<tr><td>Organisms with sufficient n for quantile estimation</td><td>15</td><td></td></tr>
-<tr><td>Most sensitive organism(s) <span class='tooltip'> &#128712;<span class='tooltiptext'>Most sensitive organisms tested by EUCAST.</span></span></td><td><span style='font-style:italic'>Enterococcus faecalis,<br>Enterococcus faecium,<br>Streptococcus agalactiae,<br>Streptococcus pneumoniae,<br>Streptococcus pyogenes</span></td><td></td></tr>
-<tr><td>Original MIC quantile (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>1% MIC quantile of the most sensitive species supported by a sufficient number of observations.</span></span></td><td>0.03</td><td>NA</td></tr>
-<tr><td>Extrapolated MIC quantile (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Extrapolation is only performed if the original MIC quantile is identical to the lowest tested concentration.</span></span></td><td>0.03</td><td>NA</td></tr>
-<tr><td>Valid species considered for scaling <span class='tooltip'> &#128712;<span class='tooltiptext'>Represents the number of unique species names. Type strains and organisms
+<tr><td>Distinct organisms tested in total</td><td>15</td><td></td></tr>
+<tr><td>Organisms with sufficient data to estimate a robust minimum MIC</td><td>15</td><td></td></tr>
+<tr><td>Robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the minimum of the smallest MICs observed for individual test organisms.
+      The underlying per-organism estimates are computed as empirical 1% quantiles of the individual
+      MIC distributions. If the 1% quantile is supported by less than 10 records, the smallest MIC
+      supported by at least 10 records is used instead.</span></span></td><td>0.03</td><td>NA</td></tr>
+<tr><td>Most sensitive organism(s) <span class='tooltip'> &#128712;<span class='tooltiptext'>Test organism(s) to which the robust minimum MIC refers. These can be multiple
+        organisms if their sensitivity is very similar.</span></span></td><td><span style='font-style:italic'>Enterococcus faecalis,<br>Enterococcus faecium,<br>Streptococcus agalactiae,<br>Streptococcus pneumoniae,<br>Streptococcus pyogenes</span></td><td></td></tr>
+<tr><td>Extrapolated robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Extrapolation is only performed if the robust minimum MIC is identical
+      to the lowest concentration considered in standard MIC assays (0.002 mg/L).</span></span></td><td>0.03</td><td>NA</td></tr>
+<tr><td>Valid species considered for species coverage adjustment <span class='tooltip'> &#128712;<span class='tooltiptext'>Represents the number of unique species names. Type strains and organisms
       with ambiguous species information were left out of considerations. However,
       Salmonella serovars were counted as independent species.</span></span></td><td>15</td><td>NA</td></tr>
-<tr><td>Scaling factor (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The scaling factor corrects the MIC quantile to account for the limited number of tested species.
+<tr><td>Species coverage adjustment factor (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The factor corrects the (possibly extrapolated) robust minimum MIC to account for the number of tested species.
       The respective factor has been estimated by resampling and the value differs slightly between approaches.
-      Small factors with an attached warning symbol indicate increased uncertainty.</span></span></td><td>0.414 </td><td>NA </td></tr>
-<tr><td>MIC<sub>lowest</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Lower bound estimate of the MIC obtained after scaling and rounding.</span></span></td><td>0.0124</td><td>NA</td></tr>
-<tr><td>Conversion factor (<i>PNEC<sub>R</sub> = f * MIC<sub>lowest</sub></i>) <span class='tooltip'> &#128712;<span class='tooltiptext'>The value of 0.004 represents the 5% quantile of the cost associated with plasmid-borne resistance.
-      By contrast, the value of 0.1 was originally considered an assessment factor.</span></span></td><td>0.004</td><td>0.1</td></tr>
-<tr><td>PNEC<sub>R</sub> (mg/L)</td><td>4.96e-05</td><td>NA</td></tr>
+      Small factors with an attached warning symbol indicate increased uncertainty.</span></span></td><td>0.412 </td><td>NA </td></tr>
+<tr><td>MIC<sub>lowest</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the (possibly extrapolated) robust minimum MIC after adjustment
+      for species coverage. In the reference approach, numbers were subject to rounding.</span></span></td><td>0.0124</td><td>NA</td></tr>
+<tr><td>Conversion factor to turn MIC<sub>lowest</sub> into a predicted MSC (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The value of 0.004 represents the 5% quantile of the cost associated with plasmid-borne resistance.
+      The value of 0.1 employed in the reference approach lacks a direct ecological interpretation and was originally
+      understood as an assessment factor.</span></span></td><td>0.004</td><td>0.1</td></tr>
+<tr><td>Predicted MSC a.k.a. PMSC (mg/L)<span class='tooltip'> &#128712;<span class='tooltiptext'>The product of MIC<sub>lowest</sub> and the above conversion factor. The PMSC represents a minimum estimate
+      of the MSC for a multi-species and possibly multi-strain community. It does not refer to a particular pair of
+      resistant and susceptible competitors.</span></span></td><td>4.96e-05</td><td>NA</td></tr>
+<tr><td>Assessment factor to convert PMSC into PNEC<sub>res</sub> (-)<span class='tooltip'> &#128712;<span class='tooltiptext'>The assessment factor of 1 reflects that uncertainties are sufficiently covered by the
+      algorithms underlying the calculation of the PMSC.</span></span></td><td>1</td><td>not used</td></tr>
+<tr><td>PNEC<sub>res</sub> (mg/L)<span class='tooltip'> &#128712;<span class='tooltiptext'>The value is identical to PMSC by intention, given the assessment factor of 1.</span></span></td><td>4.96e-05</td><td>NA</td></tr>
   </tbody>
 </table>
 
 <div style='font-size:smaller;'>
-<sup> 1 </sup>  <span style='color:red';>Based on EUCAST MIC data of 2024. TODO: Enter DOI when available.</span> <br>
+<sup> 1 </sup>  <span style='color:red';>Based on EUCAST MIC data of 2024. Link to publication to be added here.</span> <br>
 <sup> 2 </sup>  From Table 1 of the <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
       Bengtsson-Palme & Larsson (2016)</a> paper. The corresponding EUCAST MIC data are from 2014. <br>
 </div>
@@ -430,7 +442,7 @@
           [0,1] expressing the loss of fitness upon acquisition of resistance
           in comparison to a susceptible bacterial isolate. The cost corresponding
           to 5% probability is currently employed to convert MIC into MSC and
-          thus to translate MIC<sub>lowest</sub> into PNEC<sub>R</sub>.
+          thus to translate MIC<sub>lowest</sub> into PMSC.
           Superscripts x and y denote parametric and bootstrap confidence
           intervals, respectively.</caption>
   <thead>
