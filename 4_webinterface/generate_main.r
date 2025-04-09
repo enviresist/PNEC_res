@@ -128,87 +128,123 @@ for (d in rownames(x)) {
     `ATC code`=if (is.na(x[d,"ATC_code"])) "not available" else x[d,"ATC_code"]
   )
 
-  # info
-  info <- NULL
-  info <- rbind(info, list("Distinct organisms tested in total",
-    x[d,"organisms.tested"], ""))
-  info <- rbind(info, list("Organisms with sufficient data to estimate a robust minimum MIC",
-    x[d,"organisms.evaluated"], ""))
-
-  info <- rbind(info, list(paste("Robust minimum MIC (mg/L)",
-    tooltip("This is the minimum of the smallest MICs observed for individual test organisms.
-      The underlying per-organism estimates are computed as empirical 1% quantiles of the individual
-      MIC distributions. If the 1% quantile is supported by less than 10 records, the smallest MIC
-      supported by at least 10 records is used instead.")),
-    x[d,"lowest.MIC.quantile.current"], x[d,"lowest.MIC.quantile.reference"]))
-
-  speclist <- paste0("<span style='font-style:italic'>", gsub(x[d,"most.sensitive"],
-    pattern=",", replacement=",<br>", fixed=T),"</span>")
-  info <- rbind(info, list(paste("Most sensitive organism(s)",
-      tooltip("Test organism(s) to which the robust minimum MIC refers. These can be multiple
-        organisms if their sensitivity is very similar.")),
-    speclist, ""))
-
-
-  info <- rbind(info, list(paste("Extrapolated robust minimum MIC (mg/L)",
-    tooltip("Extrapolation is only performed if the robust minimum MIC is identical
-      to the lowest concentration considered in standard MIC assays (0.002 mg/L).")),
-    x[d,"lowest.MIC.quantile.extrapol.current"],
-    if (is.finite(x[d,"lowest.MIC.quantile.extrapol.reference"]))
-      x[d,"lowest.MIC.quantile.extrapol.reference"] else x[d,"lowest.MIC.quantile.reference"]
-  ))
-
-  info <- rbind(info, list(paste("Valid species considered for species coverage adjustment",
-    tooltip("Represents the number of unique species names. Type strains and organisms
-      with ambiguous species information were left out of considerations. However,
-      Salmonella serovars were counted as independent species.")),
-    x[d,"valid.species.current"], x[d,"valid.species.reference"]))
-
-  warn <- function(x, crit) {
+  # info related to mic_lowest and pnec_res
+  
+  formatSpeciesList <- function(x) {
+    paste0("<span style='font-style:italic'>", gsub(x, pattern=",",
+      replacement=",<br>", fixed=T),"</span>")
+  }
+  displayWarning <- function(x, crit) {
     if (is.finite(x) && (x <= crit)) "<span style='color:red'>(!)</span>" else ""
   }
-  info <- rbind(info, list(paste("Species coverage adjustment factor (-)",
-    tooltip("The factor corrects the (possibly extrapolated) robust minimum MIC to account for the number of tested species.
-      The respective factor has been estimated by resampling and the value differs slightly between approaches.
-      Small factors with an attached warning symbol indicate increased uncertainty.")),
-    paste(x[d,"scaling.factor.current"], warn(x[d,"scaling.factor.current"], crit_scaling_factor)),
-    paste(x[d,"scaling.factor.reference"], warn(x[d,"scaling.factor.reference"], crit_scaling_factor))
-  ))  
-
-  info <- rbind(info, list(paste("MIC<sub>lowest</sub> (mg/L)",
-    tooltip("This is the (possibly extrapolated) robust minimum MIC after adjustment
-      for species coverage. In the reference approach, numbers were subject to rounding.")),
-    x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"],x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.reference"]))
-
   cost_quantile <- costs[costs[,"Probability"] == 0.05, "Cost"]
-  info <- rbind(info, list(paste("Conversion factor to turn MIC<sub>lowest</sub> into a predicted MSC (-)",
-    tooltip("The value of 0.004 represents the 5% quantile of the cost associated with plasmid-borne resistance.
-      The value of 0.1 employed in the reference approach lacks a direct ecological interpretation and was originally
-      understood as an assessment factor.")),
-    cost_quantile, 1/10))
+  bold <- function(x) { paste0("<span style='font-weight: bold;'>",x,"</span>") }
+  
+  info <- rbind(
+    data.frame(
+      sbj = "Distinct organisms tested in total",
+      new =  x[d,"organisms.tested"],
+      old =  ""
+    ),
+    data.frame(
+      sbj = "Organisms with sufficient data to estimate a robust minimum MIC",
+      new =  x[d,"organisms.evaluated"],
+      old =  ""
+    ),
+    data.frame(
+      sbj = paste("Robust minimum MIC (mg/L)", tooltip("This is the minimum of
+            the smallest MICs observed for individual test organisms. To
+            compensate for exceptional uncertainty in reported extremes, the
+            underlying per-organism estimates are computed as empirical 1%
+            quantiles of the individual MIC distributions. If the 1% quantile is
+            supported by less than 10 records, the probability level is shifted
+            upwards until the respective quantile is supported by at least 10
+            records.")),
+      new = x[d,"lowest.MIC.quantile.current"],
+      old = x[d,"lowest.MIC.quantile.reference"]
+    ),
+    data.frame(
+      sbj = paste("Most sensitive organism(s)", tooltip("Test organism(s) to
+            which the robust minimum MIC refers. These can be multiple
+            organisms if their sensitivities are very similar.")),
+      new = formatSpeciesList(x[d,"most.sensitive"]),
+      old = ""
+    ),
+    data.frame(
+      sbj = paste("Extrapolated robust minimum MIC (mg/L)",
+            tooltip("Extrapolation is only performed if the robust minimum MIC
+            is identical to the lowest concentration considered in standard MIC
+            assays (0.002 mg/L).")),
+      new = x[d,"lowest.MIC.quantile.extrapol.current"],
+      old = if (is.finite(x[d,"lowest.MIC.quantile.extrapol.reference"]))
+            x[d,"lowest.MIC.quantile.extrapol.reference"] else
+            x[d,"lowest.MIC.quantile.reference"]
+    ),
+    data.frame(
+      sbj = paste("Valid species considered for species coverage adjustment",
+            tooltip("Represents the number of unique species names. Type strains
+            and organisms with ambiguous species information were left out of
+            considerations. However, Salmonella serovars were counted as
+            independent species.")),
+      new = x[d,"valid.species.current"],
+      old = x[d,"valid.species.reference"]
+    ),
+    data.frame(
+      sbj = paste("Species coverage adjustment factor (-)", tooltip(paste0("The
+            factor corrects the (possibly extrapolated) robust minimum MIC to
+            account for the number of tested species. The respective factor has
+            been estimated by resampling and the value differs slightly between
+            approaches. Small factors (<",crit_scaling_factor,") indicate
+            increased uncertainty as highlighted by the attached warning symbol."))),
+      new = paste(x[d,"scaling.factor.current"],
+        displayWarning(x[d,"scaling.factor.current"], crit_scaling_factor)),
+      old = paste(x[d,"scaling.factor.reference"],
+        displayWarning(x[d,"scaling.factor.reference"], crit_scaling_factor))
+    ),  
+    data.frame(
+      sbj = paste("MIC<sub>lowest</sub> (mg/L)", tooltip("This is the (possibly
+            extrapolated) robust minimum MIC after adjustment for species
+            coverage. In the reference approach, numbers were subject to rounding.")),
+      new = bold(x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"]),
+      old = bold(x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.reference"])
+    ),
+    data.frame(
+      sbj = "<span style='color:white'> | <span>",
+      new = "",
+      old = ""
+    ),
+    data.frame(
+      sbj = paste("Conversion factor to turn MIC<sub>lowest</sub> into
+            PNEC<sub>res</sub> (-).", tooltip(" The value of proposed by Kneis et al.
+            represents the 5% quantile of the cost associated with plasmid-borne
+            resistance. The value of 1/10 employed by Bengtsson-Palme & Larsson
+            lacks a direct ecological interpretation and was originally
+            understood as an assessment factor.")),
+      new = cost_quantile,
+      old = 1/10
+    ),
+    data.frame(
+      sbj = paste("PNEC<sub>res</sub> (mg/L)", tooltip("The product of
+            MIC<sub>lowest</sub> and the above conversion factor. The product
+            represents a minimum estimate of the MSC for a multi-species
+            and possibly multi-strain community. It does not refer to a
+            particular pair of resistant and susceptible competitors. Note that
+            PNEC<sub>res</sub> calculated by Kneis et al. is rooted in a closed
+            theory and, therefore, its derivation does not involve a global
+            'assessment factor' (contrary to common ecotoxicological approaches).")),
+      new = bold(signif(cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], 2)),
+      old = bold(x[d,"PNECR"])
+    )
+  )
 
-  info <- rbind(info, list(paste("Predicted MSC a.k.a. PMSC (mg/L)",
-    tooltip("The product of MIC<sub>lowest</sub> and the above conversion factor. The PMSC represents a minimum estimate
-      of the MSC for a multi-species and possibly multi-strain community. It does not refer to a particular pair of
-      resistant and susceptible competitors.")),  
-    cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
-
-  info <- rbind(info, list(paste("Assessment factor to convert PMSC into PNEC<sub>res</sub> (-)",
-    tooltip("The assessment factor of 1 reflects that uncertainties are sufficiently covered by the
-      algorithms underlying the calculation of the PMSC.")),
-    "1", "not used"))
-
-  info <- rbind(info, list(paste("PNEC<sub>res</sub> (mg/L)",
-    tooltip("The value is identical to PMSC by intention, given the assessment factor of 1.")),
-    cost_quantile * x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.current"], x[d,"PNECR"]))
-
-  info <- as.data.frame(apply(info,2,unlist))
-  names(info) <- c("", "Proposed <sup>1</sup>", "Reference <sup>2</sup>") 
-
+  names(info) <- c("Method", "Cost-based approach (2025) <sup>1</sup>",
+    "Bengtsson-Palme & Larsson (2016) <sup>2</sup>")
+  
   footnotes <- rbind(
-    c("1", "<span style='color:red';>Based on EUCAST MIC data of 2024. Link to publication to be added here.</span>"),
-    c("2", "From Table 1 of the <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
-      Bengtsson-Palme & Larsson (2016)</a> paper. The corresponding EUCAST MIC data are from 2014.")
+    c("1", "According to Kneis et al. (2025), <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
+      DOI:10.1101/2025.04.04.647007</a>. The corresponding EUCAST MIC data are from 2024."),
+    c("2", "From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
+      DOI:10.1016/j.envint.2015.10.015</a>. The corresponding EUCAST MIC data are from 2014.")
   )
   footnotes <- paste0("<div style='font-size:smaller;'>","\n",
     paste("<sup>",footnotes[,1],"</sup> ",footnotes[,2],"<br>", collapse="\n"),"\n",
@@ -227,7 +263,7 @@ for (d in rownames(x)) {
     "<h1>Drug meta data</h1>","\n",
     table.static(as.df(meta), colnames=FALSE),"\n\n",
     
-    "<h1>Estimates</h1>","\n",
+    "<h1>Numerical estimates</h1>","\n",
     table.static(info, colnames=TRUE, class="stripedTable"),"\n\n",
     footnotes,"\n\n",
 

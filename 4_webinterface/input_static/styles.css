@@ -47,17 +47,24 @@ p {max-width: 40em; text-align: justify;}
 
 a { color: #415EB5; } 
 
- table {border-collapse: collapse;}
- th, td {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;  
- }
+table {border-collapse: collapse;}
+th, td {
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 5px;
+padding-right: 5px;  
+}
+
 
 .stripedTable {
-  thead {font-weight: bold; background-color: #E5E5E5;}
+  thead {
+    font-weight: bold;
+    background-color: #E5E5E5;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
   tr:nth-child(even) {background-color: #E5E5E5;}  
+  tr:last-child { border-bottom: 1px solid #000;}
 }
 
 div.text { max-width: 600px; }
@@ -125,7 +132,7 @@ details summary::marker {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 250px;
+  width: 300px;
   background-color: black;
   color: #fff;
   text-align: left;

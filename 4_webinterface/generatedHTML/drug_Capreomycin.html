@@ -28,47 +28,65 @@
   </tbody>
 </table>
 
-<h1>Estimates</h1>
+<h1>Numerical estimates</h1>
 <table  class='stripedTable'>
 <caption></caption>
   <thead>
-    <tr><td></td><td>Proposed <sup>1</sup></td><td>Reference <sup>2</sup></td></tr>
+    <tr><td>Method</td><td>Cost-based approach (2025) <sup>1</sup></td><td>Bengtsson-Palme & Larsson (2016) <sup>2</sup></td></tr>
   </thead>
   <tbody>
 <tr><td>Distinct organisms tested in total</td><td>2</td><td></td></tr>
 <tr><td>Organisms with sufficient data to estimate a robust minimum MIC</td><td>2</td><td></td></tr>
-<tr><td>Robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the minimum of the smallest MICs observed for individual test organisms.
-      The underlying per-organism estimates are computed as empirical 1% quantiles of the individual
-      MIC distributions. If the 1% quantile is supported by less than 10 records, the smallest MIC
-      supported by at least 10 records is used instead.</span></span></td><td>0.125</td><td>1</td></tr>
-<tr><td>Most sensitive organism(s) <span class='tooltip'> &#128712;<span class='tooltiptext'>Test organism(s) to which the robust minimum MIC refers. These can be multiple
-        organisms if their sensitivity is very similar.</span></span></td><td><span style='font-style:italic'>Mycobacterium tuberculosis 7H9</span></td><td></td></tr>
-<tr><td>Extrapolated robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Extrapolation is only performed if the robust minimum MIC is identical
-      to the lowest concentration considered in standard MIC assays (0.002 mg/L).</span></span></td><td>0.125</td><td>1</td></tr>
-<tr><td>Valid species considered for species coverage adjustment <span class='tooltip'> &#128712;<span class='tooltiptext'>Represents the number of unique species names. Type strains and organisms
-      with ambiguous species information were left out of considerations. However,
-      Salmonella serovars were counted as independent species.</span></span></td><td>1</td><td>1</td></tr>
-<tr><td>Species coverage adjustment factor (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The factor corrects the (possibly extrapolated) robust minimum MIC to account for the number of tested species.
-      The respective factor has been estimated by resampling and the value differs slightly between approaches.
-      Small factors with an attached warning symbol indicate increased uncertainty.</span></span></td><td>0.0172 <span style='color:red'>(!)</span></td><td>0.0244 <span style='color:red'>(!)</span></td></tr>
-<tr><td>MIC<sub>lowest</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the (possibly extrapolated) robust minimum MIC after adjustment
-      for species coverage. In the reference approach, numbers were subject to rounding.</span></span></td><td>0.00215</td><td>0.016</td></tr>
-<tr><td>Conversion factor to turn MIC<sub>lowest</sub> into a predicted MSC (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The value of 0.004 represents the 5% quantile of the cost associated with plasmid-borne resistance.
-      The value of 0.1 employed in the reference approach lacks a direct ecological interpretation and was originally
-      understood as an assessment factor.</span></span></td><td>0.004</td><td>0.1</td></tr>
-<tr><td>Predicted MSC a.k.a. PMSC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>The product of MIC<sub>lowest</sub> and the above conversion factor. The PMSC represents a minimum estimate
-      of the MSC for a multi-species and possibly multi-strain community. It does not refer to a particular pair of
-      resistant and susceptible competitors.</span></span></td><td>8.6e-06</td><td>0.002</td></tr>
-<tr><td>Assessment factor to convert PMSC into PNEC<sub>res</sub> (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The assessment factor of 1 reflects that uncertainties are sufficiently covered by the
-      algorithms underlying the calculation of the PMSC.</span></span></td><td>1</td><td>not used</td></tr>
-<tr><td>PNEC<sub>res</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>The value is identical to PMSC by intention, given the assessment factor of 1.</span></span></td><td>8.6e-06</td><td>0.002</td></tr>
+<tr><td>Robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the minimum of
+            the smallest MICs observed for individual test organisms. To
+            compensate for exceptional uncertainty in reported extremes, the
+            underlying per-organism estimates are computed as empirical 1%
+            quantiles of the individual MIC distributions. If the 1% quantile is
+            supported by less than 10 records, the probability level is shifted
+            upwards until the respective quantile is supported by at least 10
+            records.</span></span></td><td>0.125</td><td>1</td></tr>
+<tr><td>Most sensitive organism(s) <span class='tooltip'> &#128712;<span class='tooltiptext'>Test organism(s) to
+            which the robust minimum MIC refers. These can be multiple
+            organisms if their sensitivities are very similar.</span></span></td><td><span style='font-style:italic'>Mycobacterium tuberculosis 7H9</span></td><td></td></tr>
+<tr><td>Extrapolated robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Extrapolation is only performed if the robust minimum MIC
+            is identical to the lowest concentration considered in standard MIC
+            assays (0.002 mg/L).</span></span></td><td>0.125</td><td>1</td></tr>
+<tr><td>Valid species considered for species coverage adjustment <span class='tooltip'> &#128712;<span class='tooltiptext'>Represents the number of unique species names. Type strains
+            and organisms with ambiguous species information were left out of
+            considerations. However, Salmonella serovars were counted as
+            independent species.</span></span></td><td>1</td><td>1</td></tr>
+<tr><td>Species coverage adjustment factor (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The
+            factor corrects the (possibly extrapolated) robust minimum MIC to
+            account for the number of tested species. The respective factor has
+            been estimated by resampling and the value differs slightly between
+            approaches. Small factors (<0.1) indicate
+            increased uncertainty as highlighted by the attached warning symbol.</span></span></td><td>0.0172 <span style='color:red'>(!)</span></td><td>0.0244 <span style='color:red'>(!)</span></td></tr>
+<tr><td>MIC<sub>lowest</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the (possibly
+            extrapolated) robust minimum MIC after adjustment for species
+            coverage. In the reference approach, numbers were subject to rounding.</span></span></td><td><span style='font-weight: bold;'>0.00215</span></td><td><span style='font-weight: bold;'>0.016</span></td></tr>
+<tr><td><span style='color:white'> | <span></td><td></td><td></td></tr>
+<tr><td>Conversion factor to turn MIC<sub>lowest</sub> into
+            PNEC<sub>res</sub> (-). <span class='tooltip'> &#128712;<span class='tooltiptext'> The value of proposed by Kneis et al.
+            represents the 5% quantile of the cost associated with plasmid-borne
+            resistance. The value of 1/10 employed by Bengtsson-Palme & Larsson
+            lacks a direct ecological interpretation and was originally
+            understood as an assessment factor.</span></span></td><td>0.004</td><td>0.1</td></tr>
+<tr><td>PNEC<sub>res</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>The product of
+            MIC<sub>lowest</sub> and the above conversion factor. The product
+            represents a minimum estimate of the MSC for a multi-species
+            and possibly multi-strain community. It does not refer to a
+            particular pair of resistant and susceptible competitors. Note that
+            PNEC<sub>res</sub> calculated by Kneis et al. is rooted in a closed
+            theory and, therefore, its derivation does not involve a global
+            'assessment factor' (contrary to common ecotoxicological approaches).</span></span></td><td><span style='font-weight: bold;'>8.6e-06</span></td><td><span style='font-weight: bold;'>0.002</span></td></tr>
   </tbody>
 </table>
 
 <div style='font-size:smaller;'>
-<sup> 1 </sup>  <span style='color:red';>Based on EUCAST MIC data of 2024. Link to publication to be added here.</span> <br>
-<sup> 2 </sup>  From Table 1 of the <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
-      Bengtsson-Palme & Larsson (2016)</a> paper. The corresponding EUCAST MIC data are from 2014. <br>
+<sup> 1 </sup>  According to Kneis et al. (2025), <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
+      DOI:10.1101/2025.04.04.647007</a>. The corresponding EUCAST MIC data are from 2024. <br>
+<sup> 2 </sup>  From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
+      DOI:10.1016/j.envint.2015.10.015</a>. The corresponding EUCAST MIC data are from 2014. <br>
 </div>
 
 
@@ -225,7 +243,7 @@
   <path d="M 91 62.398438 L 93 62.398438 L 93 208.796875 L 91 208.796875 Z M 91 62.398438 "/>
 </clipPath>
 </defs>
-<g id="surface76">
+<g id="surface5396">
 <rect x="0" y="0" width="432" height="288" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 333.800781 28.800781 L 355.398438 28.800781 "/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
