@@ -144,6 +144,16 @@ for (d in rownames(x)) {
   
   info <- rbind(
     data.frame(
+      sbj = "<span style='font-style: italic'><br>Information extracted from <a href='https://mic.eucast.org/'>EUCAST MIC data</a></span>",
+      new =  "",
+      old =  ""
+    ),
+    data.frame(
+      sbj = "Data version (year)",
+      new =  version,
+      old =  "2014"
+    ),
+    data.frame(
       sbj = "Distinct organisms tested in total",
       new =  x[d,"organisms.tested"],
       old =  ""
@@ -213,7 +223,7 @@ for (d in rownames(x)) {
       old = paste(bold(x[d,"lowest.MIC.quantile.extrapol.scaled.rounded.reference"]), warningSuperscript(warn.reference))
     ),
     data.frame(
-      sbj = "<span style='color:white'> | <span>",
+      sbj = "<span style='font-style: italic'><br>Derivation of PNEC<sub>res</sub></span>",
       new = "",
       old = ""
     ),
@@ -243,14 +253,13 @@ for (d in rownames(x)) {
     )
   )
 
-  names(info) <- c("Method", "Kneis et al. (2025) <sup>1</sup>",
-    "Bengtsson-Palme & Larsson (2016) <sup>2</sup>")
+  names(info) <- c("", "Kneis et al. (2025) <sup>1</sup>", "Bengtsson-Palme & Larsson (2016) <sup>2</sup>")
   
   footnotes <- rbind(
     c("1", "Available as preprint, <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
-      DOI:10.1101/2025.04.04.647007</a>. The corresponding EUCAST MIC data are from 2024."),
+      DOI:10.1101/2025.04.04.647007</a>."),
     c("2", "From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
-      DOI:10.1016/j.envint.2015.10.015</a>. The corresponding EUCAST MIC data are from 2014.")
+      DOI:10.1016/j.envint.2015.10.015</a>.")
   )
   if (warn.current || warn.reference) {
     footnotes <- rbind(footnotes,
@@ -259,7 +268,7 @@ for (d in rownames(x)) {
         adjusted for species coverage and subject to increased uncertainty."))
   }
   footnotes <- paste0("<div style='font-size:smaller;'>","\n",
-    paste("<p><sup>",footnotes[,1],"</sup>",footnotes[,2],"</p>", collapse="\n"),"\n",
+    paste("<sup>",footnotes[,1],"</sup>",footnotes[,2], collapse="<br>\n"),"\n",
   "</div>","\n")
  
   svg(tmpfile, width=6, height=4)
@@ -275,7 +284,7 @@ for (d in rownames(x)) {
     "<h1>Drug meta data</h1>","\n",
     table.static(as.df(meta), colnames=FALSE),"\n\n",
     
-    "<h1>Numerical estimates</h1>","\n",
+    "<h1>Data summary</h1>","\n",
     table.static(info, colnames=TRUE, class="stripedTable"),"\n\n",
     footnotes,"\n\n",
 
@@ -287,7 +296,7 @@ for (d in rownames(x)) {
           in comparison to MIC<sub>lowest</sub>."),
       labelIfClosed="[Show details]", labelIfOpen="[Hide details]"
     ),"\n\n",
-    "<h2>Cost-based MSC to MIC conversion factor</h2>","\n",
+    "<h2>Cost-based conversion factors</h2>","\n",
     expandableSection(
         table.static(costs, colnames=TRUE, class="stripedTable",
           caption="Quantiles of the fitness cost attributable to plasmid-borne
@@ -295,7 +304,7 @@ for (d in rownames(x)) {
           [0,1] expressing the loss of fitness upon acquisition of resistance
           in comparison to a susceptible bacterial isolate. In line with common
           precautionary principles, the 5% quantile of the cost is currently
-          employed to convert MIC<sub>lowest</sub> into PMSC.
+          employed to convert MIC<sub>lowest</sub> into PNEC<sub>res</sub>.
           Superscripts x and y denote parametric and bootstrap confidence
           intervals, respectively."),
       labelIfClosed="[Show details]", labelIfOpen="[Hide details]"

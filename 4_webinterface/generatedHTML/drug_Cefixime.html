@@ -28,13 +28,15 @@
   </tbody>
 </table>
 
-<h1>Numerical estimates</h1>
+<h1>Data summary</h1>
 <table  class='stripedTable'>
 <caption></caption>
   <thead>
-    <tr><td>Method</td><td>Kneis et al. (2025) <sup>1</sup></td><td>Bengtsson-Palme & Larsson (2016) <sup>2</sup></td></tr>
+    <tr><td></td><td>Kneis et al. (2025) <sup>1</sup></td><td>Bengtsson-Palme & Larsson (2016) <sup>2</sup></td></tr>
   </thead>
   <tbody>
+<tr><td><span style='font-style: italic'><br>Information extracted from <a href='https://mic.eucast.org/'>EUCAST MIC data</a></span></td><td></td><td></td></tr>
+<tr><td>Data version (year)</td><td>2024</td><td>2014</td></tr>
 <tr><td>Distinct organisms tested in total</td><td>20</td><td></td></tr>
 <tr><td>Organisms with sufficient data to estimate a robust minimum MIC</td><td>20</td><td></td></tr>
 <tr><td>Robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the minimum of
@@ -68,7 +70,7 @@
             extrapolated) robust minimum MIC after adjustment for species
             coverage. In the Bengtsson-Palme & Larsson approach, numbers were
             subject to rounding.</span></span></td><td><span style='font-weight: bold;'>0.00189</span> </td><td><span style='font-weight: bold;'>0.001</span> </td></tr>
-<tr><td><span style='color:white'> | <span></td><td></td><td></td></tr>
+<tr><td><span style='font-style: italic'><br>Derivation of PNEC<sub>res</sub></span></td><td></td><td></td></tr>
 <tr><td>Conversion factor to turn MIC<sub>lowest</sub> into
             PNEC<sub>res</sub> (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The value of 0.004 proposed by Kneis et al. represents the approximate 5% quantile of
             the cost associated with plasmid-borne resistance. The value of 1/10
@@ -88,10 +90,10 @@
 </table>
 
 <div style='font-size:smaller;'>
-<p><sup> 1 </sup> Available as preprint, <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
-      DOI:10.1101/2025.04.04.647007</a>. The corresponding EUCAST MIC data are from 2024. </p>
-<p><sup> 2 </sup> From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
-      DOI:10.1016/j.envint.2015.10.015</a>. The corresponding EUCAST MIC data are from 2014. </p>
+<sup> 1 </sup> Available as preprint, <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
+      DOI:10.1101/2025.04.04.647007</a>.<br>
+<sup> 2 </sup> From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
+      DOI:10.1016/j.envint.2015.10.015</a>.
 </div>
 
 
@@ -239,7 +241,7 @@
   <path d="M 91 62.398438 L 93 62.398438 L 93 208.796875 L 91 208.796875 Z M 91 62.398438 "/>
 </clipPath>
 </defs>
-<g id="surface21436">
+<g id="surface11546">
 <rect x="0" y="0" width="432" height="288" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 333.800781 28.800781 L 355.398438 28.800781 "/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
@@ -435,7 +437,7 @@
 
 
 
-<h2>Cost-based MSC to MIC conversion factor</h2>
+<h2>Cost-based conversion factors</h2>
 <details>
   <summary>
      <span class='clickToHide'>[Hide details]</span>     <span class='clickToShow'>[Show details]</span>  </summary>
@@ -445,7 +447,7 @@
           [0,1] expressing the loss of fitness upon acquisition of resistance
           in comparison to a susceptible bacterial isolate. In line with common
           precautionary principles, the 5% quantile of the cost is currently
-          employed to convert MIC<sub>lowest</sub> into PMSC.
+          employed to convert MIC<sub>lowest</sub> into PNEC<sub>res</sub>.
           Superscripts x and y denote parametric and bootstrap confidence
           intervals, respectively.</caption>
   <thead>
