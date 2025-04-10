@@ -24,7 +24,7 @@
   <tbody>
 <tr><td>Drug name:</td><td>Cefazolin</td></tr>
 <tr><td>Drug class:</td><td>Beta-lactam</td></tr>
-<tr><td>ATC code:</td><td>J01DB04 </td></tr>
+<tr><td>Drug code:</td><td>J01DB04 (ATC)</td></tr>
   </tbody>
 </table>
 
@@ -32,7 +32,7 @@
 <table  class='stripedTable'>
 <caption></caption>
   <thead>
-    <tr><td>Method</td><td>Cost-based approach (2025) <sup>1</sup></td><td>Bengtsson-Palme & Larsson (2016) <sup>2</sup></td></tr>
+    <tr><td>Method</td><td>Kneis et al. (2025) <sup>1</sup></td><td>Bengtsson-Palme & Larsson (2016) <sup>2</sup></td></tr>
   </thead>
   <tbody>
 <tr><td>Distinct organisms tested in total</td><td>15</td><td></td></tr>
@@ -48,29 +48,34 @@
 <tr><td>Most sensitive organism(s) <span class='tooltip'> &#128712;<span class='tooltiptext'>Test organism(s) to
             which the robust minimum MIC refers. These can be multiple
             organisms if their sensitivities are very similar.</span></span></td><td><span style='font-style:italic'>Streptococcus pneumoniae</span></td><td></td></tr>
-<tr><td>Extrapolated robust minimum MIC (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Extrapolation is only performed if the robust minimum MIC
+<tr><td>Robust minimum MIC after extrapolation (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>Extrapolation is only performed if the robust minimum MIC
             is identical to the lowest concentration considered in standard MIC
-            assays (0.002 mg/L).</span></span></td><td>0.03</td><td>0.032</td></tr>
-<tr><td>Valid species considered for species coverage adjustment <span class='tooltip'> &#128712;<span class='tooltiptext'>Represents the number of unique species names. Type strains
-            and organisms with ambiguous species information were left out of
-            considerations. However, Salmonella serovars were counted as
-            independent species.</span></span></td><td>15</td><td>18</td></tr>
+            assays (0.002 mg/L). This is to compensate for a possible positive
+            bias originating from the limitation of the MIC test scale. Only
+            very few antibiotics are currently affected.</span></span></td><td>extrapolation not performed</td><td>extrapolation not performed</td></tr>
+<tr><td>Valid species considered for species coverage adjustment <span class='tooltip'> &#128712;<span class='tooltiptext'>Represents the number of unique species names.
+            Bengtsson-Palme & Larsson looked up valid names in the SILVA database.
+            Kneis et al. accepted all non-ambiguous species names plus the names
+            of Salmonella serovars.</span></span></td><td>15 </td><td>18 </td></tr>
 <tr><td>Species coverage adjustment factor (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The
-            factor corrects the (possibly extrapolated) robust minimum MIC to
+            factor adjusts the (possibly extrapolated) robust minimum MIC to
             account for the number of tested species. The respective factor has
             been estimated by resampling and the value differs slightly between
-            approaches. Small factors (<0.1) indicate
-            increased uncertainty as highlighted by the attached warning symbol.</span></span></td><td>0.412 </td><td>0.439 </td></tr>
+            the approaches of Kneis et al. and Bengtsson-Palme & Larsson.
+            A low number of tested species translates into a small
+            factor and thus results in a more pronounced adjustment.</span></span></td><td>0.412 </td><td>0.439 </td></tr>
 <tr><td>MIC<sub>lowest</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>This is the (possibly
             extrapolated) robust minimum MIC after adjustment for species
-            coverage. In the reference approach, numbers were subject to rounding.</span></span></td><td><span style='font-weight: bold;'>0.0124</span></td><td><span style='font-weight: bold;'>0.008</span></td></tr>
+            coverage. In the Bengtsson-Palme & Larsson approach, numbers were
+            subject to rounding.</span></span></td><td><span style='font-weight: bold;'>0.0124</span> </td><td><span style='font-weight: bold;'>0.008</span> </td></tr>
 <tr><td><span style='color:white'> | <span></td><td></td><td></td></tr>
 <tr><td>Conversion factor to turn MIC<sub>lowest</sub> into
-            PNEC<sub>res</sub> (-). <span class='tooltip'> &#128712;<span class='tooltiptext'> The value of proposed by Kneis et al.
-            represents the 5% quantile of the cost associated with plasmid-borne
-            resistance. The value of 1/10 employed by Bengtsson-Palme & Larsson
-            lacks a direct ecological interpretation and was originally
-            understood as an assessment factor.</span></span></td><td>0.004</td><td>0.1</td></tr>
+            PNEC<sub>res</sub> (-) <span class='tooltip'> &#128712;<span class='tooltiptext'>The value of 0.004 proposed by Kneis et al. represents the approximate 5% quantile of
+            the cost associated with plasmid-borne resistance. The value of 1/10
+            employed by Bengtsson-Palme & Larsson lacks a direct ecological
+            interpretation and was originally understood as an assessment factor.
+            The conversion factors represent constant defaults which apply
+            to all antibiotics.</span></span></td><td>0.004</td><td>0.1</td></tr>
 <tr><td>PNEC<sub>res</sub> (mg/L) <span class='tooltip'> &#128712;<span class='tooltiptext'>The product of
             MIC<sub>lowest</sub> and the above conversion factor. The product
             represents a minimum estimate of the MSC for a multi-species
@@ -78,15 +83,15 @@
             particular pair of resistant and susceptible competitors. Note that
             PNEC<sub>res</sub> calculated by Kneis et al. is rooted in a closed
             theory and, therefore, its derivation does not involve a global
-            'assessment factor' (contrary to common ecotoxicological approaches).</span></span></td><td><span style='font-weight: bold;'>5e-05</span></td><td><span style='font-weight: bold;'>0.001</span></td></tr>
+            'assessment factor' (contrary to common ecotoxicological approaches).</span></span></td><td><span style='font-weight: bold;'>5e-05</span> </td><td><span style='font-weight: bold;'>0.001</span> </td></tr>
   </tbody>
 </table>
 
 <div style='font-size:smaller;'>
-<sup> 1 </sup>  According to Kneis et al. (2025), <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
-      DOI:10.1101/2025.04.04.647007</a>. The corresponding EUCAST MIC data are from 2024. <br>
-<sup> 2 </sup>  From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
-      DOI:10.1016/j.envint.2015.10.015</a>. The corresponding EUCAST MIC data are from 2014. <br>
+<p><sup> 1 </sup> Available as preprint, <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
+      DOI:10.1101/2025.04.04.647007</a>. The corresponding EUCAST MIC data are from 2024. </p>
+<p><sup> 2 </sup> From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
+      DOI:10.1016/j.envint.2015.10.015</a>. The corresponding EUCAST MIC data are from 2014. </p>
 </div>
 
 
@@ -246,7 +251,7 @@
   <path d="M 142 62.398438 L 144 62.398438 L 144 208.796875 L 142 208.796875 Z M 142 62.398438 "/>
 </clipPath>
 </defs>
-<g id="surface5426">
+<g id="surface21396">
 <rect x="0" y="0" width="432" height="288" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 333.800781 28.800781 L 355.398438 28.800781 "/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
