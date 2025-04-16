@@ -71,8 +71,10 @@ x <- drugs
 x[,"drug"] <- paste0("<a href='drug_",
   gsub(x[,"drug"],pattern=" ", replacement="_", fixed=TRUE),".html'>",
   x[,"drug"],"</a>")
-x <- x[,c("drug", "drugclass", "drugfamily", "drugcode")]
-names(x) <- c("Drug", "Class", "Sub-class", "Drug code")
+#x <- x[,c("drug", "drugclass", "drugfamily", "drugcode")]
+#names(x) <- c("Drug", "Class", "Sub-class", "Drug code")
+x <- x[,c("drug", "drugclass", "drugfamily")]
+names(x) <- c("Drug", "Class", "Sub-class")
 x <- apply(x, 1:2, function(x) if (is.na(x)) "" else x)
 
 html <- paste0(
@@ -125,7 +127,11 @@ for (d in rownames(x)) {
   meta <- c(
     `Drug name`= d,
     `Drug class`= if (x[d,"drugclass"] != d) x[d,"drugclass"] else "-",
-    `Drug code`= x[d,"drugcode"]
+    `Drug code`= paste(x[d,"drugcode"], tooltip("The list of codes is
+       not necessarily exhaustive. For drugs with multiple applications,
+       preference was given to the code for systemic use. A complete list
+       of codes can be obtained from the WHO Collaborating Centre For
+       Drug Statistics Methodology (https://atcddd.fhi.no)."))
   )
 
   # info related to mic_lowest and pnec_res
