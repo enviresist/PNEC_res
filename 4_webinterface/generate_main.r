@@ -79,7 +79,7 @@ x <- apply(x, 1:2, function(x) if (is.na(x)) "" else x)
 
 html <- paste0(
     "<p>Use the search field to filter table records. Click on a drug
-    name to show details.</p>",
+    name for details.</p>",
     table.interactive(x, id="drug_selection_table")
 )
 
