@@ -117,8 +117,17 @@ expandableSection <- function(content, labelIfOpen="Collapse", labelIfClosed="Op
   )
 }
 
+qmark <- function() {
+'
+<svg viewBox="0 0 100 100" width="1em", heigth="1em", xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="45" stroke="#415EB5" stroke-width="5" fill="none"/>
+  <text x="50" y="82" font-size="82" text-anchor="middle" stroke="#415EB5" fill="#415EB5">?</text>
+</svg>
+'
+}
+
 tooltip <- function(x) {
- paste0("<span class='tooltip'> &#128712;",
+ paste0("<span class='tooltip'> ",qmark(),
   "<span class='tooltiptext'>",x,"</span></span>")  
 }
 
