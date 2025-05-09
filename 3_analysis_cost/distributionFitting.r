@@ -82,15 +82,20 @@ graphics.off()
 
 # CDF plot showing the exponential component only with better scaling
 svg(paste0(odir,"/cost_fitted_CDF_expComponentZoom.svg"), width=5.5, height=5)
-plot(c(0.001, 1), c(0.01, 1), type="n", log="xy",
-  xlab="Cost associated with AMR plasmid",
-  ylab="CDF (Exponential component)"
-)
+plot(c(0.001, 1), c(0.01, 1), type="n", log="xy", axes=F, ann=F)
+xt <- c(0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5)
+axis(1, xt, las=2)
+yt <- c(0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1)
+axis(2, yt, las=2)
+mtext(side=1, line=3.9, "Cost associated with AMR plasmid")
+mtext(side=2, line=3.1, "CDF (Exponential component)")
 # add fitted mixture distribution and individual components to plot
 cost.line <- seq(0.001, 1, 0.001)
 #lines(cost.line, model(pars=coef(fit), cost=cost.line))
 #lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col="blue")
 lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), col="red")
+abline(h=0.05, lty=3)
+abline(v=qexp(p=0.05, rate=coef(fit)["rate"]), lty=3)
 graphics.off()
 
 # PDF plot
@@ -99,7 +104,7 @@ col.observed <- function(alpha=0.2) {rgb(.5, .5, .5, alpha=alpha)}
 col.gaussian <- function(alpha=0.2) {rgb(.3, .5, .8, alpha=alpha)}
 col.exponential <- function(alpha=0.1) {rgb(1, 0, 0, alpha=alpha)}
 
-hist(cost, probability=T, breaks=seq(min(cost)*1.5, max(cost)*2, by=0.02),
+hist(cost, probability=T, breaks=seq(min(cost)*1.5, max(cost)*2, by=0.05),
   ylim=c(0, 11), main="", col=col.observed(),
   border="grey", xlab="Cost associated with AMR plasmid",
   ylab="Density")
