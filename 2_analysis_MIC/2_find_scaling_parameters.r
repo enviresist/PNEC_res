@@ -38,9 +38,11 @@ plt <- function(x, version) {
   #print(coef(fit)[c("k","b")])
   
   # show model and reference
+  color_red <- rgb(206,31,94,maxColorValue=255)
+  color_blue <- rgb(0,95,133,maxColorValue=255)
   n <- 1:100
-  lines(n, coef(fit)["k"]/(n^coef(fit)["b"])+1, lty=4, col="red")
-  lines(n, ifelse(n > 40, 1, 41/n), lty=2, col="blue")
+  lines(n, coef(fit)["k"]/(n^coef(fit)["b"])+1, lty=4, col=color_red)
+  lines(n, ifelse(n > 40, 1, 41/n), lty=2, col=color_blue)
   
   legend("bottomleft", bty="n", legend=paste0(version," EUCAST data"))
 #  legend("topright", bty="n", pch=c(1, 20, NA, NA, NA),
@@ -50,7 +52,7 @@ plt <- function(x, version) {
   legend("topright", bty="n", title="Variation across drugs",
     pch=c(1, 20, NA), lty=c(NA, NA, 1), col="grey",
     legend=c("Mean", "Median", "5% - 95% Quantile"))
-  legend("right", bty="n", lty=c(2, 4), col=c("blue","red"),
+  legend("right", bty="n", lty=c(2, 4), col=c(color_blue,color_red),
     legend=c("Bengtsson-Palme\n& Larsson (2016)", "Continuous fit"))
   par(mar=omar)
   

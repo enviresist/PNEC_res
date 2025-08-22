@@ -4,6 +4,9 @@ library("bbmle")
 library("boot")
 set.seed(1)
 
+blue2 <- rgb(0,95,133,maxColorValue=255)
+yellow2 <- rgb(215,132,0,maxColorValue=255)
+
 # output directory
 odir <- "output"
 
@@ -65,16 +68,20 @@ plot(quantile(cost, probs=probabilities), probabilities, pch=20,
 #  ylab=expression(paste("Probability (",X <= x,")"))
   ylab="Cumulative distribution function"
 )
+text(quantile(cost, probs=probabilities), probabilities,
+  labels=probabilities, cex=0.8, pos=ifelse(probabilities < 0.9, 3, 1),
+  offset=1.2, srt=90, col="darkgrey"
+)
 rm(tmp, probabilities)
 # add fitted mixture distribution and individual components to plot
 cost.line <- seq(-0.5, 1, 0.001)
 lines(cost.line, model(pars=coef(fit), cost=cost.line))
-lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col="blue")
-lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), lty=4, col="red")
+lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col=blue2)
+lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), lty=4, col=yellow2)
 legend("bottomright", bty="n",
   pch=c(20,NA,NA,NA),
   lty=c(NA,1,3,4),
-  col=c("black","black","blue","red"),
+  col=c("black","black",blue2,yellow2),
   legend=c("Empirical quantiles","Fitted mixture distrib.",
     "Gaussian component","Exponential component")
 )
@@ -88,14 +95,15 @@ axis(1, xt, las=2)
 yt <- c(0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1)
 axis(2, yt, las=2)
 mtext(side=1, line=3.9, "Cost associated with AMR plasmid")
-mtext(side=2, line=3.1, "CDF (Exponential component)")
+mtext(side=2, line=3.1, "Cumulative distribution function")
 # add fitted mixture distribution and individual components to plot
 cost.line <- seq(0.001, 1, 0.001)
 #lines(cost.line, model(pars=coef(fit), cost=cost.line))
-#lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col="blue")
-lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), col="red")
+#lines(cost.line, pnorm(q=cost.line, mean=0, sd=coef(fit)["sd"]), lty=3, col=blue2)
+lines(cost.line, pexp(q=cost.line, rate=coef(fit)["rate"]), col=yellow2)
 abline(h=0.05, lty=3)
 abline(v=qexp(p=0.05, rate=coef(fit)["rate"]), lty=3)
+legend(x=0.01, y=0.03, bty="n", lty=1, col=yellow2, legend="Exponential component of\nthe mixture distribution")
 graphics.off()
 
 # PDF plot
