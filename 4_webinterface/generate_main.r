@@ -262,8 +262,8 @@ for (d in rownames(x)) {
   names(info) <- c("", "Kneis et al. (2025) <sup>1</sup>", "Bengtsson-Palme & Larsson (2016) <sup>2</sup>")
   
   footnotes <- rbind(
-    c("1", "Available as preprint, <a href='https://doi.org/10.1101/2025.04.04.647007' target='_blank'>
-      DOI:10.1101/2025.04.04.647007</a>."),
+    c("1", "Kneis et al. (2025), ISME J, <a href='https://doi.org/10.1093/ismejo/wraf172' target='_blank'>
+      DOI:10.1093/ismejo/wraf172</a>."),
     c("2", "From Table 1 of Bengtsson-Palme & Larsson (2016), <a href='https://doi.org/10.1016/j.envint.2015.10.015' target='_blank'>
       DOI:10.1016/j.envint.2015.10.015</a>.")
   )
